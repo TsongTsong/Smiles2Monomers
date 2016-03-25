@@ -1,0 +1,220 @@
+[{
+	"id" : "16683872",
+	"name" : "bottromycin A2",
+	"smiles" : "COC(=O)CC(NC(=O)C(NC(=O)C(NC1=NCC(=O)N2CCC(C)C2(C(=O)NC(C(C)C)C(=O)NC1C(C)(C)C))C(C)(C)C)C(C)c3ccccc3)c4nccs4"
+},
+{
+	"id" : "16683874",
+	"name" : "malformin A1",
+	"smiles" : "CCC(C)C1NC(=O)C(CC(C)C)NC(=O)C(NC(=O)C2CSSCC(NC1(=O))C(=O)N2)C(C)C"
+},
+{
+	"id" : "16683875",
+	"name" : "malformin A2",
+	"smiles" : "CC(C)CC1NC(=O)C(NC(=O)C2CSSCC(NC(=O)C(NC1(=O))C(C)C)C(=O)N2)C(C)C"
+},
+{
+	"id" : "16683876",
+	"name" : "malformin C",
+	"smiles" : "CC(C)CC1NC(=O)C(CC(C)C)NC(=O)C(NC(=O)C2CSSCC(NC1(=O))C(=O)N2)C(C)C"
+},
+{
+	"id" : "16683877",
+	"name" : "malformin B2",
+	"smiles" : "CC(C)CC1NC(=O)C(NC(=O)C(NC(=O)C2CSSCC(NC1(=O))C(=O)N2)C(C)C)C(C)C"
+},
+{
+	"id" : "16683878",
+	"name" : "malformin B1",
+	"smiles" : "CC(C)CC1NC(=O)C(CC(C)C)NC(=O)C(NC(=O)C2CSSCC(NC1(=O))C(=O)N2)C(C)C"
+},
+{
+	"id" : "16683879",
+	"name" : "malformin B3",
+	"smiles" : "CCC(C)C1NC(=O)C(NC(=O)C2CSSCC(NC(=O)C(CC(C)C)NC1(=O))C(=O)N2)C(C)C"
+},
+{
+	"id" : "16683880",
+	"name" : "malformin B4",
+	"smiles" : "CCC(C)C1NC(=O)C(NC(=O)C(NC(=O)C2CSSCC(NC1(=O))C(=O)N2)C(C)C)C(C)CC"
+},
+{
+	"id" : "16683881",
+	"name" : "malformin B5",
+	"smiles" : "CCC(C)C1NC(=O)C(NC(=O)C(NC(=O)C2CSSCC(NC1(=O))C(=O)N2)C(C)C)C(C)C"
+},
+{
+	"id" : "16683882",
+	"name" : "allomalformin",
+	"smiles" : "CCC(C)C1NC(=O)C2CSSCC(NC(=O)C(NC(=O)C(CC(C)C)NC1(=O))C(C)C)C(=O)N2"
+},
+{
+	"id" : "16683883",
+	"name" : "cepaciachelin",
+	"smiles" : "NCCCCNC(=O)C(CCCCNC(=O)c1cccc(O)c1(O))NC(=O)c2cccc(O)c2(O)"
+},
+{
+	"id" : "16689181",
+	"name" : "Cyclosporin D",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(C(C)C)C(=O)N(C)C(C(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C))SC"
+},
+{
+	"id" : "16689201",
+	"name" : "LEUPEPTIN",
+	"smiles" : "CC(C)CC(NC(C)=O)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(N)=[N+])C(O)O"
+},
+{
+	"id" : "16689253",
+	"name" : "mutant GRAMICIDIN C",
+	"smiles" : "CC(C)CC(NC(=O)C(C)NC(=O)CNC(=O)C(Cc1ccccc1)NC=O)C(=O)NC(C)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(Cc2c[nH]c3ccccc23)C(=O)NC(CC(C)C)C(=O)NC(Cc4ccc(O)cc4)C(=O)NC(CC(C)C)C(=O)NC(Cc5c[nH]c6ccccc56)C(=O)NC(CC(C)C)C(=O)NC(Cc7c[nH]c8ccccc78)C(=O)NCCO"
+},
+{
+	"id" : "16689268",
+	"name" : "Synthetic PYOVERDINE Fe Complex",
+	"smiles" : "[N+]CCCCC1NC(=O)C(CO)NC(=O)C7CCNc8c(cc6cc9O[Fe+3]235(OCN(CCCC(NC(=O)CNC1(=O))C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC4CCCNC(=O)C(CO)NC(=O)C(CCCN(CO2)O3)NC4(=O))O5)(Oc9(cc6[n+]78)))NC(=O)CCC(=O)O"
+},
+{
+	"id" : "16689273",
+	"name" : "SmBz, cyclosporin A derivative",
+	"smiles" : "CC=CCC(C)C(O)C2C(=O)NC(CC)C(=O)N(C)C(Cc1ccc(cc1)C(O)=O)C(O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N2(C)"
+},
+{
+	"id" : "16689278",
+	"name" : "Chymostatin A",
+	"smiles" : "CC(C)CC(NC(=O)C(NC(=O)NC(Cc1ccccc1)C(O)=O)C2CCNC(=N)N2)C(=O)NC(C=O)Cc3ccccc3"
+},
+{
+	"id" : "16689298",
+	"name" : "CYCLOSPORIN A, 8 mutation",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C))C(C)CC"
+},
+{
+	"id" : "16689313",
+	"name" : "EFRAPEPTIN C",
+	"smiles" : "CC(C)CC(CN2CCCN1CCCC12)NC(=O)C(C)(C)NC(=O)C(CC(C)C)NC(=O)CNC(=O)C(C)(C)NC(=O)C5CCCCN5(C(=O)C(C)(C)NC(=O)C(C)(C)NC(=O)CNC(=O)CCNC(=O)C(CC(C)C)NC(=O)C(C)(C)NC(=O)C(C)(C)NC(=O)C4CCCCN4(C(=O)C(C)(C)NC(=O)C3CCCCN3(C(C)=O)))"
+},
+{
+	"id" : "16689323",
+	"name" : "AERUGINOSIN 298-A",
+	"smiles" : "CC(C)CC(NC(=O)C(O)Cc1ccc(O)cc1)C(=O)N2C(CC3CCC(O)CC23)C(=O)NC(CO)CCCNC(N)=N"
+},
+{
+	"id" : "16689348",
+	"name" : "CYCLOSPORIN A, 7 mutation",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(CC)C(=O)N(C)C(CO)C(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C)"
+},
+{
+	"id" : "16689360",
+	"name" : "BACILLOMYCIN L-3",
+	"smiles" : "CC(O)C2NC(=O)C(CO)NC(=O)C(CCC(N)=O)NC(=O)C(CO)NC(=O)C(CC(N)=O)NC(=O)C(Cc1ccc(O)cc1)NC(=O)C(CC(O)=O)NC(=O)CCNC2(=O)"
+},
+{
+	"id" : "16689365",
+	"name" : "CYCLOSPORIN A, 6 mutation",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(CCCO)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C)"
+},
+{
+	"id" : "16689380",
+	"name" : "Cyclosporin C variant (DAL 1 to VAD, MLE 3 to LEU, VAL 9 to LEU)",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)OC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C))C(C)O"
+},
+{
+	"id" : "16689430",
+	"name" : "Quinupristin",
+	"smiles" : "CCC3NC(=O)C(NC(=O)c1ncccc1(O))C(C)OC(=O)C(NC(=O)C5CC(=O)C(CN5(C(=O)C(Cc2ccc(cc2)N(C)C)N(C)C(=O)C4CCCN4(C3(=O))))CSC7CN6CCC7(CC6))c8ccccc8"
+},
+{
+	"id" : "16689437",
+	"name" : "Teicoplanin Aglycone",
+	"smiles" : ""
+},
+{
+	"id" : "16689447",
+	"name" : "Bacitracin A1",
+	"smiles" : "CCC(C)C(N)C1NC(CS1)C(=O)NC(CC(C)C)C(=O)NC(CCC(O)=O)C(=O)NC(C(=O)NC4CCCC[N+]C(=O)C(CC(N)=O)NC(=O)C(CC(O)=O)NC(=O)C(Cc2c[nH]c[n+]2)NC(=O)C(Cc3ccccc3)NC(=O)C(NC(=O)C(CCCN)NC4(=O))C(C)CC)C(C)CC"
+},
+{
+	"id" : "16689529",
+	"name" : "CYCLOSPORIN A, 5 mutation",
+	"smiles" : "CC=CCC(C)(C)C(O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C)"
+},
+{
+	"id" : "16689556",
+	"name" : "uk63052",
+	"smiles" : "CCC(C)SC4C8C(=O)N(C)C1(CC1(C))(C(=O)OCC(NC(=O)c2nc3ccccc3(cc2(O)))C(=O)NC(C)C(=O)N(C)C(CS4)C(=O)N(C)C5(CC5(C))(C(=O)OCC(NC(=O)c6nc7ccccc7(cc6(O)))C(=O)NC(C)C(=O)N8(C)))"
+},
+{
+	"id" : "16689586",
+	"name" : "AERUGINOSIN 98-B",
+	"smiles" : "CCC(C)C(NC(=O)C(O)Cc1ccc(O)cc1)C(=O)N2C(CC3CCC(CC23)OS(O)(=O)=O)C(=O)NCCCCNC(N)=N"
+},
+{
+	"id" : "16689591",
+	"name" : "Mutant GRAMICIDIN A",
+	"smiles" : "CC(C)CC(NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(CC(C)C)NC(=O)C(Cc3c[nH]c4ccccc34)NC(=O)C(CC(C)C)NC(=O)C(Cc5c[nH]c6ccccc56)NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(C)NC(=O)C(CC(C)C)NC(=O)C(C)NC(=O)CNC(=O)C(NC=O)C(C)C)C(C)C)C(C)C)C(C)C)C(=O)NCC(=O)NCCO"
+},
+{
+	"id" : "16689611",
+	"name" : "METHANOBACTIN",
+	"smiles" : "CC(C)CC(=O)C4OC(=O)C5=C7NCC(=O)NC(CO)C(=O)NC2CSSCC(NC(=O)C(CO)NC6=C(C=O)N(C(=O)C3CCCN3(C(=O)C(Cc1ccc(O)cc1)NC2(=O)))[Cu+](N45)(S6)S7)C(=O)NC(CCSC)C(O)=O"
+},
+{
+	"id" : "16689638",
+	"name" : "Chymostatin",
+	"smiles" : "CC(C)CC(NC(=O)C(NC(O)=O)C1CCNC(=N)N1)C(=O)NC(C=O)Cc2ccccc2"
+},
+{
+	"id" : "16689678",
+	"name" : "Cyclosporin D variant, MSA 7 to MAA",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(C(C)C)C(=O)N(C)C(C)C(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C)"
+},
+{
+	"id" : "16689698",
+	"name" : "VANCOMYCIN AGLYCON",
+	"smiles" : "CNC(CC(C)C)C(=O)NC2C(=O)NC(CC(N)=O)C(=O)NC5c3cc(Oc1ccc(cc1Cl)C2(O))c(O)c(c3)Oc4ccc(cc4Cl)C(O)C8NC(=O)C(NC5(=O))c6ccc(O)c(c6)c7c(O)cc(O)cc7C(NC8(=O))C(O)=O"
+},
+{
+	"id" : "16689708",
+	"name" : "Teicoplanin A2-2 beta-D-Glucopyranuronic acid",
+	"smiles" : "CC(C)CCCCCCC(=O)NC%14C(O)C(O)C(CO)OC%14(Oc%13c3cc8cc%13(Oc1ccc(cc1Cl)C(OC2OC(CO)C(O)C(O)C2(NC(C)=O))C%11NC(=O)C(NC(=O)C8(NC(=O)C7NC(=O)C(Cc4ccc(O3)c(c4)Cl)NC(=O)C(N)c5ccc(O)c(c5)Oc6cc(O)cc7(c6)))c9ccc(O)c(c9)c%10c(cc(O)cc%10C(NC%11(=O))C(O)=O)OC%12OC(CO)C(O)C(O)C%12(O)))"
+},
+{
+	"id" : "16689728",
+	"name" : "Mutant CYCLOSPORIN D",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(C(C)C)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C)"
+},
+{
+	"id" : "16689748",
+	"name" : "APSTATIN",
+	"smiles" : "CC(NC(=O)C3CCCN3(C(=O)C2CCCN2(C(=O)C(O)C(N)Cc1ccccc1)))C(N)=O"
+},
+{
+	"id" : "16689845",
+	"name" : "Decaplanin",
+	"smiles" : "CNC(CC(C)C)C(=O)NC%11C(=O)NC(CC(N)=O)C(=O)NC3c9cc(Oc1ccc(cc1)C(OC2CC(C)(N)C(O)C(C)O2)C6NC(=O)C(NC3(=O))c4ccc(O)c(c4)c5c(O)cc(O)cc5C(NC6(=O))C(O)=O)c(OC8OC(CO)C(O)C(O)C8(OC7OC(C)C(O)C(O)C7(O)))c(c9)Oc%10ccc(cc%10Cl)C%11(O)"
+},
+{
+	"id" : "16689860",
+	"name" : "SCYPTOLIN A",
+	"smiles" : "CCCC(O)NC(C)C(=O)NC(C(=O)NC3C(=O)NC(CC(C)C)C(=O)NC1CCC(O)N(C1(=O))C(C(=O)N(C)C(Cc2ccc(O)c(c2)Cl)C(=O)NC(C(C)C)C(=O)OC3(C))C(C)O)C(C)O"
+},
+{
+	"id" : "16689867",
+	"name" : "Pepstatin",
+	"smiles" : "CC(C)CC(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(O)CC(=O)NC(C)C(=O)NC(CC(C)C)C(O)CC(O)=O"
+},
+{
+	"id" : "16689899",
+	"name" : "A40926",
+	"smiles" : "CC(C)CCCCCCC(=O)NC%14C(O)C(O)C(OC%14(Oc%13c3cc8cc%13(Oc1ccc(cc1Cl)C(OC2OC(CO)C(O)C(O)C2(NC(C)=O))C%11NC(=O)C(NC(=O)C8(NC(=O)C7NC(=O)C(Cc4ccc(O3)c(c4)Cl)NC(=O)C(N)c5ccc(O)c(c5)Oc6cc(O)cc7(c6)))c9ccc(O)c(c9)c%10c(cc(O)cc%10C(NC%11(=O))C(O)=O)OC%12OC(CO)C(O)C(O)C%12(O))))C(O)=O"
+},
+{
+	"id" : "16689911",
+	"name" : "Cyclosporin C",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C))C(C)O"
+},
+{
+	"id" : "16689956",
+	"name" : "Cyclosporin A variant, MLE 8 to MNL",
+	"smiles" : "CC=CCC(C)C(O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(CC(C)CC)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1(C)"
+}]

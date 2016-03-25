@@ -1,0 +1,9 @@
+In family search :
+- Pre-calculate atom correspondence between a residue and its direct family links.
+
+In blocs learning :
+- progressive saving of mapped blocs
+
+In mapping :
+- More accurate neighborhood
+- Modify score function to accommodate neighbor to atom

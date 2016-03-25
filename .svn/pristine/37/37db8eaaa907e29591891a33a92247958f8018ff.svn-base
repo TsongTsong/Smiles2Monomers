@@ -1,0 +1,35 @@
+[{
+	"desc":"bU-dAla",
+	"name":"bU-dAla",
+	"smiles":"C(C(O)=O)(\/N)=C\/NC(=O)N"
+},
+{
+	"desc":"bLys",
+	"name":"bLys",
+	"smiles":"C(CC(CC(=O)O)N)CN"
+},
+{
+	"desc":"Dpr",
+	"name":"Dpr",
+	"smiles":"C(C(C(=O)O)N)N"
+},
+{
+	"desc":"Ser",
+	"name":"Ser",
+	"smiles":"C(C(C(=O)O)N)O"
+},
+{
+	"desc":"D-Ser",
+	"name":"D-Ser",
+	"smiles":"C(C(C(=O)O)N)O"
+},
+{
+	"desc":"Arg",
+	"name":"Arg",
+	"smiles":"C(CC(C(=O)O)N)CN=C(N)N"
+},
+{
+	"name":"5OH-Cap",
+	"desc":"5-hydroxy-capreomycidine",
+	"smiles":"C1C(NC(NC1C(C(=O)O)N)=N)O"
+}]

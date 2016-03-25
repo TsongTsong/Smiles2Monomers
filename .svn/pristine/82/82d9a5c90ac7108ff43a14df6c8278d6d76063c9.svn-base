@@ -1,0 +1,2645 @@
+[{
+	"id" : "5OH-Cap",
+	"name" : "5-hydroxy-capreomycidine",
+	"smiles" : "C1C(NC(NC1C(C(=O)O)N)=N)O"
+},
+{
+	"id" : "NFo-Iser",
+	"name" : "N-formyl-isoserine",
+	"smiles" : "C(C(C(=O)O)O)NC=O"
+},
+{
+	"id" : "Cl2-NMe-dhLeu",
+	"name" : "di-chloro-N-methyl-dehydroLeucine",
+	"smiles" : "C(C(O)=O)(NC)=CC(C)C(Cl)Cl"
+},
+{
+	"id" : "3d-NMe-Bmt",
+	"name" : "3-Desoxy-Methyl-4-butenyl-4-methyl threonine",
+	"smiles" : "CC=CCC(C)CC(NC)C(=O)O"
+},
+{
+	"id" : "2OMe-Rha",
+	"name" : "O-methyl-L-rhamnose",
+	"smiles" : "CC1C(C(C(C(O1)O)OC)O)O"
+},
+{
+	"id" : "4oxo-5Me-Pro",
+	"name" : "4-oxo-5-methylproline",
+	"smiles" : "CC1C(=O)CC(N1)C(=O)O"
+},
+{
+	"id" : "Aad",
+	"name" : "2-Aminoadipic acid",
+	"smiles" : "C(CC(C(=O)O)N)CC(=O)O"
+},
+{
+	"id" : "3OH-Leu",
+	"name" : "3-hydroxyleucine",
+	"smiles" : "CC(C)C(C(C(=O)O)N)O"
+},
+{
+	"id" : "4oxo-Hpr",
+	"name" : "4-oxo-homoproline",
+	"smiles" : "O=C1CCNC(C1)C(=O)O"
+},
+{
+	"id" : "4OH-D-Ph-Lac",
+	"name" : "4-hydroxy-D-phenyl-lactate",
+	"smiles" : "C1=CC(=CC=C1CC(C(=O)O)O)O"
+},
+{
+	"id" : "2Dh-Mabu",
+	"name" : "2-methylamino-2-dehydrobutyric acid",
+	"smiles" : "CNC(=CC)C(=O)O"
+},
+{
+	"id" : "4oxo-Pro",
+	"name" : "4-oxo-proline",
+	"smiles" : "C1C(NCC1=O)C(=O)O"
+},
+{
+	"id" : "Abu",
+	"name" : "2-Aminobutyric acid",
+	"smiles" : "CCC(C(=O)O)N"
+},
+{
+	"id" : "aC10:0",
+	"name" : "7-methylnonanoic acid",
+	"smiles" : "CCC(C)CCCCCC(=O)O"
+},
+{
+	"id" : "aC11:0",
+	"name" : "8-methyldecanoic acid",
+	"smiles" : "CCC(C)CCCCCCC(=O)O"
+},
+{
+	"id" : "aC13:0",
+	"name" : "10-methyldodecanoic acid",
+	"smiles" : "CCC(C)CCCCCCCCC(=O)O"
+},
+{
+	"id" : "aC15:0",
+	"name" : "12-methyltetradecanoic acid",
+	"smiles" : "CCC(C)CCCCCCCCCCC(=O)O"
+},
+{
+	"id" : "aC13:0-OH(3)",
+	"name" : "3-hydroxy-10-methyl-dodecanoic acid",
+	"smiles" : "C(CC(CCCCCCC(CC)C)O)(O)=O"
+},
+{
+	"id" : "aC13:1(3)",
+	"name" : "10-methyl-3-dodecenoic acid",
+	"smiles" : "C(CC=CCCCCCC(CC)C)(O)=O"
+},
+{
+	"id" : "aC13:2(2.t4)",
+	"name" : "10-methyl-2,trans4-dodecenoic acid",
+	"smiles" : "C(C=CC=CCCCCC(CC)C)(O)=O"
+},
+{
+	"id" : "aC15:0-NH2(3)",
+	"name" : "3-amino-12-methyl-tetradecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCC(CC)C)N)(O)=O"
+},
+{
+	"id" : "aC15:0-OH(3)",
+	"name" : "3-hydroxy-12-methyl-tetradecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCC(CC)C)O)(O)=O"
+},
+{
+	"id" : "bMe-Phe",
+	"name" : "beta-methyl-phenylalanine",
+	"smiles" : "C1=CC=C(C=C1)C(C)C(C(=O)O)N"
+},
+{
+	"id" : "C16:1(9)-OH(3)",
+	"name" : "3-hydroxy-9-hexadecenoic acid",
+	"smiles" : "C(CC(CCCCCC=CCCCCCC)O)(O)=O"
+},
+{
+	"id" : "C18:1(9)-OH(3)",
+	"name" : "3-hydroxy-9-octadecenoic acid",
+	"smiles" : "C(CC(CCCCCC=CCCCCCCCC)O)(O)=O"
+},
+{
+	"id" : "D-bOH-Val",
+	"name" : "D-beta-hydroxyvaline",
+	"smiles" : "CC(C)(C(C(=O)O)N)O"
+},
+{
+	"id" : "D-bPhe",
+	"name" : "D-beta-phenylalanine",
+	"smiles" : "C1=CC=C(C=C1)C(CC(=O)O)N"
+},
+{
+	"id" : "aC6:0-OH(2.3)",
+	"name" : "2,3-dihydroxy-3-methylpentanoic acid",
+	"smiles" : "CCC(C)(C(C(=O)O)O)O"
+},
+{
+	"id" : "Ac-OH-Orn",
+	"name" : "N-acetyl-HydroxyOrnithine",
+	"smiles" : "CC(=O)N(CCCC(C(=O)O)N)O"
+},
+{
+	"id" : "bAla",
+	"name" : "beta-Alanine",
+	"smiles" : "C(CN)C(=O)O"
+},
+{
+	"id" : "Ara",
+	"name" : "arabinose",
+	"smiles" : "C1C(C(C(C(O1)O)O)O)O"
+},
+{
+	"id" : "Arg",
+	"name" : "Arginine",
+	"smiles" : "C(CC(C(=O)O)N)CN=C(N)N"
+},
+{
+	"id" : "Asp",
+	"name" : "Aspartic Acid",
+	"smiles" : "C(C(C(=O)O)N)C(=O)O"
+},
+{
+	"id" : "aC9:0",
+	"name" : "6-methyloctanoic acid",
+	"smiles" : "CCC(C)CCCCC(=O)O"
+},
+{
+	"id" : "Aco",
+	"name" : "L-acosamine",
+	"smiles" : "CC(C(C(CC=O)N)O)O"
+},
+{
+	"id" : "aC9:0-OH(3)",
+	"name" : "3-hydroxy-6-methyloctanoic acid",
+	"smiles" : "CCC(C)CCC(CC(=O)O)O"
+},
+{
+	"id" : "Amv",
+	"name" : "alpha-amino-methoxyphenyl-valeric acid",
+	"smiles" : "COC1=CC=C(C=C1)CCCC(C(=O)O)N"
+},
+{
+	"id" : "Apv",
+	"name" : "alpha-amino-phenyl-valeric acid",
+	"smiles" : "C1=CC=C(C=C1)CCCC(C(=O)O)N"
+},
+{
+	"id" : "dhCys",
+	"name" : "dehydro-cysteine",
+	"smiles" : "C(C(=O)O)(N)=CS"
+},
+{
+	"id" : "ADMAdda",
+	"name" : "O-Acetyl-O-demethylAdda.",
+	"smiles" : "C(C(C(C=CC(=CC(C(CC1=CC=CC=C1)OC(C)=O)C)C)N)C)(O)=O"
+},
+{
+	"id" : "Ahv",
+	"name" : "alpha-amino-hydroxyphenyl-valeric acid",
+	"smiles" : "C(C(=O)O)(CCCC1=CC=C(C=C1)O)N"
+},
+{
+	"id" : "bbMe2-O-Met",
+	"name" : "beta,beta-dimethyl-Methionine-S-oxide",
+	"smiles" : "C(C(=O)O)(N)C(C[S](C)=O)(C)C"
+},
+{
+	"id" : "C15:0-NH2(3)",
+	"name" : "3-amino-pentadecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCCCC)N)(O)=O"
+},
+{
+	"id" : "C16:1(7)",
+	"name" : "7-hexadecenoic acid",
+	"smiles" : "C(CCCCCC=CCCCCCCCC)(=O)O"
+},
+{
+	"id" : "bMe-Asp",
+	"name" : "beta-methyl-aspartic acid",
+	"smiles" : "CC(C(C(=O)O)N)C(=O)O"
+},
+{
+	"id" : "C10:0",
+	"name" : "decanoic acid",
+	"smiles" : "CCCCCCCCCC(=O)O"
+},
+{
+	"id" : "C12:0",
+	"name" : "dodecanoic acid",
+	"smiles" : "CCCCCCCCCCCC(=O)O"
+},
+{
+	"id" : "D-CysA",
+	"name" : "D-cysteic acid",
+	"smiles" : "C(C(C(=O)O)N)S(=O)(=O)O"
+},
+{
+	"id" : "bOH-NMe-Phe",
+	"name" : "beta-hydroxy-N-Methyl-Phenylalanine",
+	"smiles" : "CNC(C(C1=CC=CC=C1)O)C(=O)O"
+},
+{
+	"id" : "D-Gal",
+	"name" : "D-galactose",
+	"smiles" : "C(C1C(C(C(C(O1)O)O)O)O)O"
+},
+{
+	"id" : "bPhe",
+	"name" : "beta phenylalanine",
+	"smiles" : "C1=CC=C(C=C1)C(CC(=O)O)N"
+},
+{
+	"id" : "bTyr",
+	"name" : "beta-tyrosine",
+	"smiles" : "C1=CC(=CC=C1C(CC(=O)O)N)O"
+},
+{
+	"id" : "C10:0-OH(3)",
+	"name" : "3-hydroxy-decanoic acid",
+	"smiles" : "CCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "bOH-Val",
+	"name" : "beta-hydroxyvaline",
+	"smiles" : "CC(C)(C(C(=O)O)N)O"
+},
+{
+	"id" : "C12:0-OH(3)",
+	"name" : "3-hydroxy-dodecanoic acid",
+	"smiles" : "CCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C14:0",
+	"name" : "tetradecanoic acid",
+	"smiles" : "CCCCCCCCCCCCCC(=O)O"
+},
+{
+	"id" : "C14:0-OH(3)",
+	"name" : "3-hydroxy-tetradecanoic acid",
+	"smiles" : "CCCCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C16:0",
+	"name" : "hexadecanoic acid",
+	"smiles" : "CCCCCCCCCCCCCCCC(=O)O"
+},
+{
+	"id" : "D-NMe-Ser",
+	"name" : "N-Methyl-D-Serine",
+	"smiles" : "CNC(CO)C(=O)O"
+},
+{
+	"id" : "C4:0-Me(2)",
+	"name" : "2-methyl-butanoic acid",
+	"smiles" : "CCC(C)C(=O)O"
+},
+{
+	"id" : "C6:0",
+	"name" : "hexanoic acid",
+	"smiles" : "CCCCCC(=O)O"
+},
+{
+	"id" : "bU-dAla",
+	"name" : "beta-ureido-dehydroAlanine",
+	"smiles" : "C(C(O)=O)(/N)=C/NC(=O)N"
+},
+{
+	"id" : "C18:1(9)",
+	"name" : "9-octadecenoic acid",
+	"smiles" : "CCCCCCCCC=CCCCCCCCC(=O)O"
+},
+{
+	"id" : "D-Fo-OH-Orn",
+	"name" : "D-formyl-hydroxyOrnithine",
+	"smiles" : "C(C(=O)O)(CCCN(C=O)O)N"
+},
+{
+	"id" : "D-OH-Orn",
+	"name" : "D-N5-HydroxyOrnithine",
+	"smiles" : "C(CC(C(=O)O)N)CNO"
+},
+{
+	"id" : "C8:0:1(7)-Me(2)",
+	"name" : "2-methylact-7-ynoic acid",
+	"smiles" : "C(C(CCCCC#C)C)(O)=O"
+},
+{
+	"id" : "C8:2(2.t4)",
+	"name" : "2,trans4-octenoic acid",
+	"smiles" : "C(C=CC=CCCC)(=O)O"
+},
+{
+	"id" : "CFA",
+	"name" : "coronafacic acid",
+	"smiles" : "CCC1CC2C(CCC2=O)C(=C1)C(=O)O"
+},
+{
+	"id" : "D-MeO-Glu",
+	"name" : "D-Glutamic Acid methyl ester",
+	"smiles" : "COC(=O)CCC(C(=O)O)N"
+},
+{
+	"id" : "diOH-Bz",
+	"name" : "2,3-dihydroxybenzoic acid",
+	"smiles" : "C1(=CC=CC(=C1O)O)C(=O)O"
+},
+{
+	"id" : "DMOG",
+	"name" : "DHP-methyloxazolinyl group",
+	"smiles" : "C1(=NC(C(O1)C)C(O)=O)C2=CC=CC(=C2O)O"
+},
+{
+	"id" : "C7:0",
+	"name" : "heptanoic acid",
+	"smiles" : "CCCCCCC(=O)O"
+},
+{
+	"id" : "Cit",
+	"name" : "Citrulline",
+	"smiles" : "C(CC(C(=O)O)N)CNC(=O)N"
+},
+{
+	"id" : "C6:0-OH(3)",
+	"name" : "3-hydroxy-hexanoic acid",
+	"smiles" : "CCCC(CC(=O)O)O"
+},
+{
+	"id" : "C8:0-OH(3)",
+	"name" : "3-hydroxy-octanoic acid",
+	"smiles" : "CCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C9:0",
+	"name" : "nonanoic acid",
+	"smiles" : "CCCCCCCCC(=O)O"
+},
+{
+	"id" : "C10:0-Me(4)-OH(3)",
+	"name" : "3-hydroxy-4-methyl-decanoic acid",
+	"smiles" : "C(CC(C(CCCCCC)C)O)(O)=O"
+},
+{
+	"id" : "ChrD",
+	"name" : "5,6-dihydropyoverdin chromophore",
+	"smiles" : "C1=C(C(=CC2=C1N3C(C(N)C2)NCCC3C(O)=O)O)O"
+},
+{
+	"id" : "ChrI",
+	"name" : "isopyoverdin chromophore",
+	"smiles" : "C1=C(C(=CC2=C1N3C(C(=C2)N)NC(CC3)C(O)=O)O)O"
+},
+{
+	"id" : "ChrP",
+	"name" : "pyoverdin chromophore",
+	"smiles" : "C1=C(C(=CC2=C1N3C(C(=C2)N)NCCC3C(O)=O)O)O"
+},
+{
+	"id" : "ChrA",
+	"name" : "azotobactins chromophore",
+	"smiles" : "C1=C(C(=CC2=C1N4C3C(=C2)NC(N3CCC4C(O)=O)=O)O)O"
+},
+{
+	"id" : "C12:1(5)-OH(3)",
+	"name" : "3-hydroxy-5-dodecenoic acid",
+	"smiles" : "C(CC(CC=CCCCCCC)O)(O)=O"
+},
+{
+	"id" : "Cys",
+	"name" : "Cysteine",
+	"smiles" : "C(C(C(=O)O)N)S"
+},
+{
+	"id" : "CysA",
+	"name" : "cysteic acid",
+	"smiles" : "C(C(C(=O)O)N)S(=O)(=O)O"
+},
+{
+	"id" : "NFo-Pro",
+	"name" : "N-Formyl-Proline",
+	"smiles" : "C1CC(N(C1)C=O)C(=O)O"
+},
+{
+	"id" : "Cl-Tyr",
+	"name" : "chloro-tyrosine",
+	"smiles" : "C1=CC(=C(C=C1CC(C(=O)O)N)Cl)O"
+},
+{
+	"id" : "D-Abu",
+	"name" : "D-2-Aminobutyric acid",
+	"smiles" : "CCC(C(=O)O)N"
+},
+{
+	"id" : "D-3OMe-Ala",
+	"name" : "D-3-methoxyalanine",
+	"smiles" : "CC(C(=O)OC)N"
+},
+{
+	"id" : "D-Ara",
+	"name" : "D-arabinose",
+	"smiles" : "C1C(C(C(C(O1)O)O)O)O"
+},
+{
+	"id" : "D-Cit",
+	"name" : "D-Citrulline",
+	"smiles" : "C(CC(C(=O)O)N)CNC(=O)N"
+},
+{
+	"id" : "D-Dab",
+	"name" : "D-2,4-diaminobutyric acid",
+	"smiles" : "C(CN)C(C(=O)O)N"
+},
+{
+	"id" : "D-OH-dHpg",
+	"name" : "D-N-hydroxy-dehydro-HydroxyPhenylGlycine",
+	"smiles" : "C(/C(=O)O)(C1=CC=C(C=C1)O)=N/O"
+},
+{
+	"id" : "End",
+	"name" : "enduracididine",
+	"smiles" : "C(C(O)=O)(N)CC1CNC(N1)=N"
+},
+{
+	"id" : "Ere",
+	"name" : "L-eremosamine",
+	"smiles" : "CC1C(C(CC(O1)O)(C)N)O"
+},
+{
+	"id" : "D-bMe-Asp",
+	"name" : "D-beta-methyl-aspartic acid",
+	"smiles" : "CC(C(C(=O)O)N)C(=O)O"
+},
+{
+	"id" : "NMe-Tyr",
+	"name" : "N-methyltyrosine",
+	"smiles" : "CNC(CC1=CC=C(C=C1)O)C(=O)O"
+},
+{
+	"id" : "Glc",
+	"name" : "L-glucose",
+	"smiles" : "C(C1C(C(C(C(O1)O)O)O)O)O"
+},
+{
+	"id" : "gOH-NMe-Val",
+	"name" : "gama-hydroxy-N-Methyl-Valine",
+	"smiles" : "CC(CO)C(C(=O)O)NC"
+},
+{
+	"id" : "Hmp",
+	"name" : "2-hydroxy-3-methyl-pentanoic acid",
+	"smiles" : "CCC(C)C(C(=O)O)O"
+},
+{
+	"id" : "Hpa",
+	"name" : "hydroxypicolinic acid",
+	"smiles" : "C1=CC(=C(N=C1)C(=O)O)O"
+},
+{
+	"id" : "Me-AOA",
+	"name" : "methyl-2-aminooctanoic acid",
+	"smiles" : "C(CCC(C(=O)O)N)CCCC"
+},
+{
+	"id" : "iC13:0-OH(3)",
+	"name" : "3-hydroxy-11-methyl-dodecanoic acid",
+	"smiles" : "CC(C)CCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "iC14:0-NH2(3)",
+	"name" : "3-amino-12-methyl-tridecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCC(CC(=O)O)N"
+},
+{
+	"id" : "iC15:0-OH(3)",
+	"name" : "3-hydroxy-13-methyl-tetradecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "Oli",
+	"name" : "L-Olivose",
+	"smiles" : "CC(C(C(CCO)O)O)O"
+},
+{
+	"id" : "D-Glc",
+	"name" : "D-Glucose",
+	"smiles" : "C(C1C(C(C(C(O1)O)O)O)O)O"
+},
+{
+	"id" : "dh-Ala",
+	"name" : "dehydroalanine",
+	"smiles" : "C=C(C(=O)O)N"
+},
+{
+	"id" : "dhAbu",
+	"name" : "2,3-dehydro-2-aminobutyric acid",
+	"smiles" : "CC=C(C(=O)O)N"
+},
+{
+	"id" : "D-Hiv",
+	"name" : "D-2-hydroxyisovalerate",
+	"smiles" : "CC(C)C(C(=O)O)O"
+},
+{
+	"id" : "D-Hmp",
+	"name" : "D-2-hydroxy-3-methylpentanoic acid",
+	"smiles" : "CCC(C)C(C(=O)O)O"
+},
+{
+	"id" : "D-Hpr",
+	"name" : "D-homoproline",
+	"smiles" : "C1CCNC(C1)C(=O)O"
+},
+{
+	"id" : "NFo-Gln",
+	"name" : "N-formyl-Glutamine",
+	"smiles" : "C(CC(=O)N)C(C(=O)O)NC=O"
+},
+{
+	"id" : "D-Hse",
+	"name" : "D-Homoserine",
+	"smiles" : "C(CO)C(C(=O)O)N"
+},
+{
+	"id" : "D-Kyn",
+	"name" : "D-kynurenine",
+	"smiles" : "C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N"
+},
+{
+	"id" : "NMe-Gln",
+	"name" : "N-methylglutamine",
+	"smiles" : "CNC(CCC(=O)N)C(=O)O"
+},
+{
+	"id" : "D-Lac",
+	"name" : "D-lactic acid",
+	"smiles" : "CC(C(=O)O)O"
+},
+{
+	"id" : "C13:0-OH(3)",
+	"name" : "3-hydroxy-tridecanoic acid",
+	"smiles" : "CCCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "D-F-ph-Gly",
+	"name" : "D-4-fluoroPhenylGlycin",
+	"smiles" : "C1=CC(=CC=C1C(C(=O)O)N)F"
+},
+{
+	"id" : "NdMe-Leu",
+	"name" : "N-dimethyl-leucine",
+	"smiles" : "CC(C)CC(C(=O)O)N(C)C"
+},
+{
+	"id" : "C6:2(t2.t4)",
+	"name" : "trans2,trans4-dihexaneic acid",
+	"smiles" : "CC=CC=CC(=O)O"
+},
+{
+	"id" : "C8:0-Me(4)-OH(3)",
+	"name" : "4-methyl-3-hydroxy-octanoic acid",
+	"smiles" : "CCCCC(C)C(CC(=O)O)O"
+},
+{
+	"id" : "C9:0-OH(3)",
+	"name" : "3-hydroxy-nonanoic acid",
+	"smiles" : "CCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C13:0-NH2(3)",
+	"name" : "3-amino-tridecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCC)N)(O)=O"
+},
+{
+	"id" : "Cl2-Hpg",
+	"name" : "3,5-dichloro-4-hydroxyphenylglycine",
+	"smiles" : "C1=C(C=C(C(=C1Cl)O)Cl)C(C(=O)O)N"
+},
+{
+	"id" : "D-bMe-Gln",
+	"name" : "D-beta-methylglutamine",
+	"smiles" : "CC(CC(=O)N)C(C(=O)O)N"
+},
+{
+	"id" : "D-Ph-Lac",
+	"name" : "D-Phenyl-lactate",
+	"smiles" : "C1=CC=C(C=C1)CC(C(=O)O)O"
+},
+{
+	"id" : "D-t-Leu",
+	"name" : "D-tert-Leu",
+	"smiles" : "CC(C)(C)C(C(=O)O)N"
+},
+{
+	"id" : "Hil",
+	"name" : "homoisoleucine",
+	"smiles" : "CCC(C)CC(C(=O)O)N"
+},
+{
+	"id" : "dh-Trp",
+	"name" : "2,3-Dehydro-Tryptophan",
+	"smiles" : "C1=CC=C2C(=C1)C(=CN2)C=C(C(=O)O)N"
+},
+{
+	"id" : "D-N2Me-Asn",
+	"name" : "D-N2-methyl-asparagine",
+	"smiles" : "CNC(=O)CC(C(=O)O)N"
+},
+{
+	"id" : "D-NFo-Ala",
+	"name" : "D-N-formyl-Alanine",
+	"smiles" : "CC(C(=O)O)NC=O"
+},
+{
+	"id" : "D-NMe-Leu",
+	"name" : "D-N-methyl-Leucine",
+	"smiles" : "CC(C)CC(C(=O)O)NC"
+},
+{
+	"id" : "D-NMe-Val",
+	"name" : "D-N-Methylvaline",
+	"smiles" : "CC(C)C(C(=O)O)NC"
+},
+{
+	"id" : "D-Val",
+	"name" : "D-Valine",
+	"smiles" : "CC(C)C(C(=O)O)N"
+},
+{
+	"id" : "Et-Nva",
+	"name" : "alpha-ethylnorvaline",
+	"smiles" : "CCC(CC)C(C(=O)O)N"
+},
+{
+	"id" : "Hty",
+	"name" : "Homotyrosine",
+	"smiles" : "C1=CC(=CC=C1CCC(C(=O)O)N)O"
+},
+{
+	"id" : "iC11:0",
+	"name" : "9-methyldecanoic acid",
+	"smiles" : "CC(C)CCCCCCCC(=O)O"
+},
+{
+	"id" : "iC14:0-OH(3)",
+	"name" : "3-hydroxy-12-methyl-tridecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "Ivalol",
+	"name" : "isovalinol",
+	"smiles" : "CCC(C)(CO)N"
+},
+{
+	"id" : "NFo-Ile",
+	"name" : "N-formyl-Isoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)NC=O"
+},
+{
+	"id" : "Cap",
+	"name" : "capreomycidine",
+	"smiles" : "C1CN=C(NC1C(C(=O)O)N)N"
+},
+{
+	"id" : "Glu",
+	"name" : "Glutamic Acid",
+	"smiles" : "C(CC(=O)O)C(C(=O)O)N"
+},
+{
+	"id" : "NFo-Leu",
+	"name" : "N-formyl-Leucine",
+	"smiles" : "CC(C)CC(C(=O)O)NC=O"
+},
+{
+	"id" : "NMe-bAla",
+	"name" : "N-methyl-beta-alanine",
+	"smiles" : "CNCCC(=O)O"
+},
+{
+	"id" : "NMe-Hpg",
+	"name" : "N-methyl-HydroxyPhenylGlycine",
+	"smiles" : "CNC(C1=CC=C(C=C1)O)C(=O)O"
+},
+{
+	"id" : "NMe-MeA-Phe",
+	"name" : "N-methyl-4-methylamino-phenylalanine",
+	"smiles" : "CNC1=CC=C(C=C1)CC(C(=O)O)NC"
+},
+{
+	"id" : "Hiv",
+	"name" : "2-hydroxyisovalerate",
+	"smiles" : "CC(C)C(C(=O)O)O"
+},
+{
+	"id" : "NMe-Ser",
+	"name" : "N-Methyl-Serine",
+	"smiles" : "CNC(CO)C(=O)O"
+},
+{
+	"id" : "NMe-Thr",
+	"name" : "N-methylthreonine",
+	"smiles" : "CC(C(C(=O)O)NC)O"
+},
+{
+	"id" : "Hpr",
+	"name" : "homoproline",
+	"smiles" : "C1CCNC(C1)C(=O)O"
+},
+{
+	"id" : "Hse",
+	"name" : "Homoserine",
+	"smiles" : "C(CO)C(C(=O)O)N"
+},
+{
+	"id" : "Cl-NMe-Tyr",
+	"name" : "Chloro-N-methyl-tyrosine",
+	"smiles" : "C(C(=O)O)(CC1=CC(=C(C=C1)O)Cl)NC"
+},
+{
+	"id" : "aC15:1(3)",
+	"name" : "12-methyl-3-tetradecenoic acid",
+	"smiles" : "C(CC=CCCCCCCCC(CC)C)(O)=O"
+},
+{
+	"id" : "Kyn",
+	"name" : "kynurenine",
+	"smiles" : "C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N"
+},
+{
+	"id" : "Lac",
+	"name" : "Lactic acid",
+	"smiles" : "CC(C(=O)O)O"
+},
+{
+	"id" : "diMe-aIle",
+	"name" : "N,gamma-alloisoleucine",
+	"smiles" : "CC(C([H])(C([H])(C(=O)O)NC)C)C"
+},
+{
+	"id" : "MeO-D-Glu",
+	"name" : "D-Glutamic Acid methyl ester",
+	"smiles" : "COC(=O)CCC(C(=O)O)N"
+},
+{
+	"id" : "aC17:0-NH2(3)",
+	"name" : "3-amino-14-methyl-hexadecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCCC(CC)C)N)(O)=O"
+},
+{
+	"id" : "Agdha",
+	"name" : "4-amino-7-guanidino-2,3-dihydroxyheptanoic acid",
+	"smiles" : "C(C(C(C(O)=O)O)O)(CCCNC(=N)N)N"
+},
+{
+	"id" : "CMA",
+	"name" : "coronamic acid",
+	"smiles" : "CCC1CC1(C(=O)O)N"
+},
+{
+	"id" : "Me2-Bmt",
+	"name" : "4-butenyl-4-methyl-N,4-methyl threonine",
+	"smiles" : "CC=CCC(C)(C)C(C(C(=O)O)NC)O"
+},
+{
+	"id" : "D-Ac-OH-Orn",
+	"name" : "D-N-acetyl-HydroxyOrnithine",
+	"smiles" : "CC(=O)N(CCCC(C(=O)O)N)O"
+},
+{
+	"id" : "C14:1(7)",
+	"name" : "7-tetradecenoic acid",
+	"smiles" : "C(CCCCCC=CCCCCCC)(O)=O"
+},
+{
+	"id" : "Met",
+	"name" : "Methionine",
+	"smiles" : "CSCCC(C(=O)O)N"
+},
+{
+	"id" : "Ahp",
+	"name" : "3-amino-6-hydroxy-2-piperidone",
+	"smiles" : "C1C(N(C(C(C1)N)=O)C(C(C)O)C(=O)O)O"
+},
+{
+	"id" : "DMAdda",
+	"name" : "O-demethyl-Adda",
+	"smiles" : "C(C(C(C=CC(=CC(C(CC1=CC=CC=C1)O)C)C)N)C)(O)=O"
+},
+{
+	"id" : "D-OH-Asn",
+	"name" : "D-HydroxyAsparagine",
+	"smiles" : "C(C(C(=O)N)O)(C(=O)O)N"
+},
+{
+	"id" : "D-OH-Asp",
+	"name" : "D-Hydroxyaspartic acid",
+	"smiles" : "C(C(C(=O)O)O)(C(=O)O)N"
+},
+{
+	"id" : "D-OH-cOrn",
+	"name" : "D-Hydroxy-cycloOrnithine",
+	"smiles" : "C1CC(C(=O)N(C1)O)N"
+},
+{
+	"id" : "D-PO-Asn",
+	"name" : "D-PhosphateAsparagine",
+	"smiles" : "C(C(C(C(O)=O)N)O[P](O)(=O)O)(=O)N"
+},
+{
+	"id" : "Dpr",
+	"name" : "2,3-Diaminopropionic acid",
+	"smiles" : "C(C(C(=O)O)N)N"
+},
+{
+	"id" : "Dov",
+	"name" : "Dolavaline",
+	"smiles" : "CC(C)C(N(C)C)C(=O)O"
+},
+{
+	"id" : "Eta",
+	"name" : "Ethanolamine",
+	"smiles" : "C(CO)N"
+},
+{
+	"id" : "Gly",
+	"name" : "Glycine",
+	"smiles" : "C(C(=O)O)N"
+},
+{
+	"id" : "D-End",
+	"name" : "D-enduracididine",
+	"smiles" : "C(C(O)=O)(N)CC1CNC(N1)=N"
+},
+{
+	"id" : "C8:0",
+	"name" : "octanoic acid",
+	"smiles" : "CCCCCCCC(=O)O"
+},
+{
+	"id" : "Nva",
+	"name" : "Norvaline",
+	"smiles" : "CCCC(C(=O)O)N"
+},
+{
+	"id" : "O2-Met",
+	"name" : "Methionine sulfone",
+	"smiles" : "CS(=O)(=O)CCC(C(=O)O)N"
+},
+{
+	"id" : "DHPT",
+	"name" : "dihydroxyphenylthiazol group",
+	"smiles" : "C1(=NC(CS1)C(O)=O)C2=C(C(=CC=C2)O)O"
+},
+{
+	"id" : "OH-Orn",
+	"name" : "N5-hydroxy ornithine",
+	"smiles" : "C(CC(C(=O)O)N)CNO"
+},
+{
+	"id" : "O-Met",
+	"name" : "Methionine-S-oxide",
+	"smiles" : "CS(=O)CCC(C(=O)O)N"
+},
+{
+	"id" : "pGlu",
+	"name" : "pyroglutamic acid",
+	"smiles" : "C1CC(=O)NC1C(=O)O"
+},
+{
+	"id" : "Hpoe",
+	"name" : "2-hydroxyphenyl-2-oxo-ethanoic acid",
+	"smiles" : "C1=CC(=CC=C1C(=O)C(=O)O)O"
+},
+{
+	"id" : "Fo-OH-Orn",
+	"name" : "N6-formyl-HydroxyOrnithine",
+	"smiles" : "C(C(=O)O)(CCCN(C=O)O)N"
+},
+{
+	"id" : "HseL",
+	"name" : "homoserine lactone",
+	"smiles" : "C1COC(=O)C1N"
+},
+{
+	"id" : "iC10:0",
+	"name" : "8-methylnonanoic acid",
+	"smiles" : "CC(C)CCCCCCC(=O)O"
+},
+{
+	"id" : "iC11:0-OH(3)",
+	"name" : "3-hydroxy-9-methyl-decanoic acid",
+	"smiles" : "CC(C)CCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "iC12:0",
+	"name" : "10-methylundecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCC(=O)O"
+},
+{
+	"id" : "iC12:0-OH(3)",
+	"name" : "3-hydroxy-10-methyl-undecanoic acid",
+	"smiles" : "CC(C)CCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "iC13:0",
+	"name" : "11-methyldodecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCCC(=O)O"
+},
+{
+	"id" : "iC14:0",
+	"name" : "12-methyl-tridecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCCCC(=O)O"
+},
+{
+	"id" : "Ser",
+	"name" : "Serine",
+	"smiles" : "C(C(C(=O)O)N)O"
+},
+{
+	"id" : "Thr",
+	"name" : "Threonine",
+	"smiles" : "CC(C(C(=O)O)N)O"
+},
+{
+	"id" : "t-Leu",
+	"name" : "tert-Leu",
+	"smiles" : "CC(C)(C)C(C(=O)O)N"
+},
+{
+	"id" : "Trp",
+	"name" : "Tryptophan",
+	"smiles" : "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N"
+},
+{
+	"id" : "ProC",
+	"name" : "proline carboxamid",
+	"smiles" : "C1CC(NC1)C(=O)N"
+},
+{
+	"id" : "D-Dbu",
+	"name" : "(2R,3R)-2,3-diaminobutyric acid",
+	"smiles" : "CC(C(C(=O)O)N)N"
+},
+{
+	"id" : "Tyr",
+	"name" : "Tyrosine",
+	"smiles" : "C1=CC(=CC=C1CC(C(=O)O)N)O"
+},
+{
+	"id" : "iC17:0-OH(3)",
+	"name" : "3-hydroxy-15-methyl-hexadecanoic acid",
+	"smiles" : "CC(C)CCCCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "Dbu",
+	"name" : "(2S)-2,3-diaminobutyric acid",
+	"smiles" : "CC(C(C(=O)O)N)N"
+},
+{
+	"id" : "iC7:0",
+	"name" : "5-methyl-hexanoic acid",
+	"smiles" : "CC(C)CCCC(=O)O"
+},
+{
+	"id" : "iC8:0",
+	"name" : "6-methylheptanoic acid",
+	"smiles" : "CC(C)CCCCC(=O)O"
+},
+{
+	"id" : "iC9:0",
+	"name" : "7-methyloctanoic acid",
+	"smiles" : "CC(C)CCCCCC(=O)O"
+},
+{
+	"id" : "L-Dbu",
+	"name" : "(2S,3S)-2,3-diaminobutyric acid",
+	"smiles" : "CC(C(C(=O)O)N)N"
+},
+{
+	"id" : "OMe-bAla-Thz",
+	"name" : "1-methoxy-beta-alanine-thiazole",
+	"smiles" : "C(N)(CC(=O)OC)C1=NC=CS1"
+},
+{
+	"id" : "Pro",
+	"name" : "Proline",
+	"smiles" : "C1CC(NC1)C(=O)O"
+},
+{
+	"id" : "iC9:0-OH(3)",
+	"name" : "3-hydroxy-7-methyl-octanoic acid",
+	"smiles" : "CC(C)CCCC(CC(=O)O)O"
+},
+{
+	"id" : "Ival",
+	"name" : "isovaline",
+	"smiles" : "CCC(C)(C(=O)O)N"
+},
+{
+	"id" : "NMe-Br-Trp",
+	"name" : "N-methyl-2-Bromo-tryptophan",
+	"smiles" : "C(C(=O)O)(NC)CC1=C([N]C2=C1C=CC=C2)Br"
+},
+{
+	"id" : "3Me-Pro",
+	"name" : "3-methylproline",
+	"smiles" : "CC1CCNC1C(=O)O"
+},
+{
+	"id" : "4OH-Thr",
+	"name" : "4-Hydroxythreonine",
+	"smiles" : "C(C(C(C(=O)O)N)O)O"
+},
+{
+	"id" : "3Me-Phe",
+	"name" : "3-methylphenylalanine",
+	"smiles" : "CC1=CC(=CC=C1)CC(C(=O)O)N"
+},
+{
+	"id" : "Aca",
+	"name" : "Anticapsin",
+	"smiles" : "C1CC(=O)C2C(C1CC(C(=O)O)N)O2"
+},
+{
+	"id" : "3OH-5Me-Pro",
+	"name" : "3-Hydroxy-5-methylproline",
+	"smiles" : "CC1CC(C(N1)C(=O)O)O"
+},
+{
+	"id" : "3OH-Pro",
+	"name" : "3-Hydroxyproline",
+	"smiles" : "C1CNC(C1O)C(=O)O"
+},
+{
+	"id" : "4Cl-Thr",
+	"name" : "4-Chloro-Threonine",
+	"smiles" : "C(C(C(C(=O)O)N)O)Cl"
+},
+{
+	"id" : "4OH-Pro",
+	"name" : "4-Hydroxyproline",
+	"smiles" : "C1C(CNC1C(=O)O)O"
+},
+{
+	"id" : "Ac-Ser",
+	"name" : "O-acetyl-Serine",
+	"smiles" : "CC(=O)OCC(C(=O)O)N"
+},
+{
+	"id" : "NMe-dPhe",
+	"name" : "N-methyl-2,3-dehydrophenylalanine",
+	"smiles" : "C(C(O)=O)(=CC1=CC=CC=C1)NC"
+},
+{
+	"id" : "NMe-Hty",
+	"name" : "N-methyl-homotyrosine",
+	"smiles" : "C1=CC(=CC=C1CCC(C(=O)O)NC)O"
+},
+{
+	"id" : "aIle",
+	"name" : "allo-Isoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)N"
+},
+{
+	"id" : "Ala",
+	"name" : "Alanine",
+	"smiles" : "CC(C(=O)O)N"
+},
+{
+	"id" : "NMe-Lan",
+	"name" : "N-Methyl-Lanthionine",
+	"smiles" : "C(SCC(C(=O)O)N)C(C(O)=O)NO"
+},
+{
+	"id" : "Bmt",
+	"name" : "4-butenyl-4-methyl threonine",
+	"smiles" : "CC=CCC(C)C(C(C(=O)O)N)O"
+},
+{
+	"id" : "Asn",
+	"name" : "Asparagine",
+	"smiles" : "C(C(C(=O)O)N)C(=O)N"
+},
+{
+	"id" : "aThr",
+	"name" : "allo-Threonine",
+	"smiles" : "CC(C(C(=O)O)N)O"
+},
+{
+	"id" : "bD-Gal",
+	"name" : "beta-D-galactose",
+	"smiles" : "C(C1C(C(C(C(O1)O)O)O)O)O"
+},
+{
+	"id" : "U4oxo-Van",
+	"name" : "ureido-4-oxovancosamine",
+	"smiles" : "C1(C2(C(CC(O1)O)(C)NC(N2)=O)O)C"
+},
+{
+	"id" : "Leuol",
+	"name" : "Leucinol",
+	"smiles" : "CC(C)CC(CO)N"
+},
+{
+	"id" : "MeO-Glu",
+	"name" : "Glutamic Acid methyl ester",
+	"smiles" : "COC(=O)CCC(C(=O)O)N"
+},
+{
+	"id" : "Me-Suc",
+	"name" : "methyl-succinimide",
+	"smiles" : "CC1CC(=O)NC1=O"
+},
+{
+	"id" : "iC10:2(2.t4)",
+	"name" : "2,trans4-8-methyl-noneoic acid",
+	"smiles" : "C(C=CC=CCCC(C)C)(O)=O"
+},
+{
+	"id" : "C16:1(9)",
+	"name" : "9-hexadecenoic acid",
+	"smiles" : "CCCCCCC=CCCCCCCCC(=O)O"
+},
+{
+	"id" : "iC12:2(2.t4)",
+	"name" : "10-methyl-2,trans4-undecanoic acid",
+	"smiles" : "C(C=CC=CCCCCC(C)C)(O)=O"
+},
+{
+	"id" : "iC13:1(3)",
+	"name" : "11-methyl-3-dodecenoic acid",
+	"smiles" : "C(CC=CCCCCCCC(C)C)(O)=O"
+},
+{
+	"id" : "iC15:0-NH2(3)",
+	"name" : "3-amino-13-methyl-tetradecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCC(C)C)N)(O)=O"
+},
+{
+	"id" : "iC16:0-NH2(3)",
+	"name" : "3-amino-14-methyl-pentadecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCCC(C)C)N)(O)=O"
+},
+{
+	"id" : "iC14:1(3)",
+	"name" : "12-methyl-3-tridecenoic acid",
+	"smiles" : "C(CC=CCCCCCCCC(C)C)(O)=O"
+},
+{
+	"id" : "NMe-Dha",
+	"name" : "N-Methyl-dehydroalanine",
+	"smiles" : "CNC(=C)C(=O)O"
+},
+{
+	"id" : "NMe-Gly",
+	"name" : "N-Methyl-Glycine",
+	"smiles" : "CNCC(=O)O"
+},
+{
+	"id" : "iC16:0-OH(3)",
+	"name" : "3-hydroxy-14-methyl-pentadecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCCC(C)C)O)(O)=O"
+},
+{
+	"id" : "iC17:0-NH2(3)",
+	"name" : "3-amino-15-methyl-hexadecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCCCC(C)C)N)(O)=O"
+},
+{
+	"id" : "iC9:2(2.t4)",
+	"name" : "2,trans4-7-methyl-octenoic acid",
+	"smiles" : "C(C=CC=CCC(C)C)(=O)O"
+},
+{
+	"id" : "OH-Asp",
+	"name" : "Hydroxyaspartic acid",
+	"smiles" : "C(C(C(=O)O)O)(C(=O)O)N"
+},
+{
+	"id" : "Ac-Ival",
+	"name" : "N-acetyl-isovaline",
+	"smiles" : "CCC(C)(C(=O)O)NC(=O)C"
+},
+{
+	"id" : "NMe-Me2A-Phe",
+	"name" : "N-methyl-4-dimethylamino-phenylalanine",
+	"smiles" : "C(C(=O)O)(NC)CC1=CC=C(C=C1)N(C)C"
+},
+{
+	"id" : "D-N2Me-bOH-Asn",
+	"name" : "D-beta-hydroxy-N2-methyl-asparagine",
+	"smiles" : "C(C(=O)O)(N)C(C(=O)NC)O"
+},
+{
+	"id" : "OH-cOrn",
+	"name" : "Hydroxy-cycloOrnithine",
+	"smiles" : "C1CC(C(=O)N(C1)O)N"
+},
+{
+	"id" : "OH-His",
+	"name" : "Hydroxyhistidine",
+	"smiles" : "C1=C(NC=N1)C(C(C(=O)O)N)O"
+},
+{
+	"id" : "OMe-Asp",
+	"name" : "methoxyaspartic acid",
+	"smiles" : "C(C(C(C(=O)O)N)=[O]/C)(=O)O"
+},
+{
+	"id" : "PT",
+	"name" : "phosphinothricin",
+	"smiles" : "CP(=O)(CCC(C(=O)O)N)O"
+},
+{
+	"id" : "Cl-Hpg",
+	"name" : "3-chloro-4-hydroxyphenylglycine",
+	"smiles" : "C1=CC(=C(C=C1C(C(=O)O)N)Cl)O"
+},
+{
+	"id" : "Put",
+	"name" : "putrescine",
+	"smiles" : "C(CCN)CN"
+},
+{
+	"id" : "Dab",
+	"name" : "2,4-diaminobutyric acid",
+	"smiles" : "C(CN)C(C(=O)O)N"
+},
+{
+	"id" : "D-Ala",
+	"name" : "D-Alanine",
+	"smiles" : "CC(C(=O)O)N"
+},
+{
+	"id" : "D-Arg",
+	"name" : "D-Arginine",
+	"smiles" : "C(CC(C(=O)O)N)CN=C(N)N"
+},
+{
+	"id" : "D-Asn",
+	"name" : "D-Asparagine",
+	"smiles" : "C(C(C(=O)O)N)C(=O)N"
+},
+{
+	"id" : "D-Asp",
+	"name" : "D-Aspartic Acid",
+	"smiles" : "C(C(C(=O)O)N)C(=O)O"
+},
+{
+	"id" : "D-aIle",
+	"name" : "D-allo-Isoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)N"
+},
+{
+	"id" : "Rha",
+	"name" : "L-rhamnose",
+	"smiles" : "CC(C(C(C(C=O)O)O)O)O"
+},
+{
+	"id" : "Valol",
+	"name" : "valinol",
+	"smiles" : "CC(C)C(CO)N"
+},
+{
+	"id" : "ChrAct",
+	"name" : "actinomycin chromophore",
+	"smiles" : "CC1=C2C(=C(C=C1)C(=O)O)N=C3C(=C(C(=O)C(=C3O2)C)N)C(=O)O"
+},
+{
+	"id" : "COOH-Qui",
+	"name" : "2-carboxyquinoxaline",
+	"smiles" : "C1=CC=C2C(=C1)N=CC(=N2)C(=O)O"
+},
+{
+	"id" : "D-Cys",
+	"name" : "D-Cysteine",
+	"smiles" : "C(C(C(=O)O)N)S"
+},
+{
+	"id" : "D-Gln",
+	"name" : "D-Glutamine",
+	"smiles" : "C(CC(=O)N)C(C(=O)O)N"
+},
+{
+	"id" : "D-Glu",
+	"name" : "D-Glutamic Acid",
+	"smiles" : "C(CC(=O)O)C(C(=O)O)N"
+},
+{
+	"id" : "D-aThr",
+	"name" : "D-allo-Threonine",
+	"smiles" : "CC(C(C(=O)O)N)O"
+},
+{
+	"id" : "Aib",
+	"name" : "2-Aminoisobutyric acid",
+	"smiles" : "CC(C)(C(=O)O)N"
+},
+{
+	"id" : "D-Ile",
+	"name" : "D-Isoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)N"
+},
+{
+	"id" : "D-Leu",
+	"name" : "D-Leucine",
+	"smiles" : "CC(C)CC(C(=O)O)N"
+},
+{
+	"id" : "D-Lys",
+	"name" : "D-Lysine",
+	"smiles" : "C(CCN)CC(C(=O)O)N"
+},
+{
+	"id" : "D-Man",
+	"name" : "D-mannose",
+	"smiles" : "C(C1C(C(C(C(O1)O)O)O)O)O"
+},
+{
+	"id" : "C16:0-OH(3)",
+	"name" : "3-hydroxy-hexadecanoic acid",
+	"smiles" : "CCCCCCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "D-Orn",
+	"name" : "D-ornithine",
+	"smiles" : "C(CC(C(=O)O)N)CN"
+},
+{
+	"id" : "iC8:0-Me(2.4)-OH(3)",
+	"name" : "2,4,6-trimethyl-3-hydroxy-heptanoic acid",
+	"smiles" : "C(C(C(C(CC(C)C)C)O)C)(=O)O"
+},
+{
+	"id" : "5Me-Pro",
+	"name" : "5-methylproline",
+	"smiles" : "CC1CCC(N1)C(=O)O"
+},
+{
+	"id" : "3Me-Glu",
+	"name" : "3-Methyl-Glutamic acid",
+	"smiles" : "CC(CC(=O)O)C(C(=O)O)N"
+},
+{
+	"id" : "3Me-Hty",
+	"name" : "3-methyl-homotyrosine",
+	"smiles" : "C1=CC(=CC=C1CC(C(C(=O)O)N)C)O"
+},
+{
+	"id" : "4oxo-Van",
+	"name" : "4-oxovancosamine",
+	"smiles" : "C1(C(C(CC(O1)O)(C)N)=O)C"
+},
+{
+	"id" : "3NO2-Tyr",
+	"name" : "3-nitrotyrosine",
+	"smiles" : "C1=CC(=C(C=C1CC(C(=O)O)N)[N+](=O)[O-])O"
+},
+{
+	"id" : "D-Phe",
+	"name" : "D-Phenylalanine",
+	"smiles" : "C1=CC=C(C=C1)CC(C(=O)O)N"
+},
+{
+	"id" : "D-ph-Gly",
+	"name" : "D-PhenylGlycine",
+	"smiles" : "C1=CC=C(C=C1)C(C(=O)O)N"
+},
+{
+	"id" : "D-Pro",
+	"name" : "D-Proline",
+	"smiles" : "C1CC(NC1)C(=O)O"
+},
+{
+	"id" : "D-Ser",
+	"name" : "D-Serine",
+	"smiles" : "C(C(C(=O)O)N)O"
+},
+{
+	"id" : "D-Thr",
+	"name" : "D-Threonine",
+	"smiles" : "CC(C(C(=O)O)N)O"
+},
+{
+	"id" : "D-Trp",
+	"name" : "D-Tryptophan",
+	"smiles" : "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N"
+},
+{
+	"id" : "D-Tyr",
+	"name" : "D-Tyrosine",
+	"smiles" : "C1=CC(=CC=C1CC(C(=O)O)N)O"
+},
+{
+	"id" : "Har",
+	"name" : "homoarginine",
+	"smiles" : "C(CCN=C(N)N)CC(C(=O)O)N"
+},
+{
+	"id" : "4Me-D-Hva",
+	"name" : "4-Methyl-D-2-hydroxy-valeric acid",
+	"smiles" : "C(CC(C(=O)O)O)(C)C"
+},
+{
+	"id" : "Gln",
+	"name" : "Glutamine",
+	"smiles" : "C(CC(=O)N)C(C(=O)O)N"
+},
+{
+	"id" : "aC17:0-OH(3)",
+	"name" : "3-hydroxy-14-methyl-hexadecanoic acid",
+	"smiles" : "C(CC(CCCCCCCCCCC(CC)C)O)(O)=O"
+},
+{
+	"id" : "His",
+	"name" : "Histidine",
+	"smiles" : "C1=C(NC=N1)CC(C(=O)O)N"
+},
+{
+	"id" : "Hpg",
+	"name" : "HydroxyPhenylGlycine",
+	"smiles" : "C1=CC(=CC=C1C(C(=O)O)N)O"
+},
+{
+	"id" : "Hph",
+	"name" : "Homophenylalanine",
+	"smiles" : "C1=CC=C(C=C1)CCC(C(=O)O)N"
+},
+{
+	"id" : "Act",
+	"name" : "L-actinosamine",
+	"smiles" : "CC1C(C(CC(O1)O)N)OC"
+},
+{
+	"id" : "Ac-Val",
+	"name" : "N-Acetylvaline",
+	"smiles" : "CC(C)C(C(=O)O)NC(=O)C"
+},
+{
+	"id" : "Ile",
+	"name" : "Isoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)N"
+},
+{
+	"id" : "Ileol",
+	"name" : "Isoleucinol",
+	"smiles" : "CCC(C)C(CO)N"
+},
+{
+	"id" : "Leu",
+	"name" : "Leucine",
+	"smiles" : "CC(C)CC(C(=O)O)N"
+},
+{
+	"id" : "Lys",
+	"name" : "Lysine",
+	"smiles" : "C(CCN)CC(C(=O)O)N"
+},
+{
+	"id" : "Adda",
+	"name" : "3-amino-9-methoxy-2,6,8-trimethyl-10-phenyldeca-4,6-dienoic acid",
+	"smiles" : "CC(C=C(C)C=CC(C(C)C(=O)O)N)C(CC1=CC=CC=C1)OC"
+},
+{
+	"id" : "Lyx",
+	"name" : "lyxose",
+	"smiles" : "C(C(C(C(C=O)O)O)O)O"
+},
+{
+	"id" : "NdMe-Ala",
+	"name" : "N-dimethyl-Alanine",
+	"smiles" : "CC(C(=O)O)N(C)C"
+},
+{
+	"id" : "aMe-Cys",
+	"name" : "alpha-methylcysteine",
+	"smiles" : "CC(CS)(C(=O)O)N"
+},
+{
+	"id" : "Ac-Trp",
+	"name" : "N-acetyltryptophan",
+	"smiles" : "CC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)O"
+},
+{
+	"id" : "NMe-Ala",
+	"name" : "N-Methyl-Alanine",
+	"smiles" : "CC(C(=O)O)NC"
+},
+{
+	"id" : "bMe-Asn",
+	"name" : "beta-methyl-asparagine",
+	"smiles" : "CC(C(C(=O)O)N)C(=O)N"
+},
+{
+	"id" : "bMe-Ile",
+	"name" : "beta-methylisoleucine",
+	"smiles" : "CCC(C)(C)C(C(=O)O)N"
+},
+{
+	"id" : "NMe-Bmt",
+	"name" : "N-methyl-4-butenyl-4-methyl threonine",
+	"smiles" : "CC=CCC(C)C(C(C(=O)O)NC)O"
+},
+{
+	"id" : "bOH-Cl-Tyr",
+	"name" : "beta-hydroxy-chloro-tyrosine",
+	"smiles" : "C1=CC(=C(C=C1C(C(C(=O)O)N)O)Cl)O"
+},
+{
+	"id" : "NMe-Ile",
+	"name" : "N-Methyl-Isoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)NC"
+},
+{
+	"id" : "NMe-aIle",
+	"name" : "N-methyl-alloIsoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)NC"
+},
+{
+	"id" : "bOH-Gln",
+	"name" : "beta-hydroxyglutamine",
+	"smiles" : "C(C(C(C(=O)O)N)O)C(=O)N"
+},
+{
+	"id" : "bOH-NMe-Val",
+	"name" : "beta-hydroxy-N-Methyl-Valine",
+	"smiles" : "CC(C)(C(C(=O)O)NC)O"
+},
+{
+	"id" : "bOH-Tyr",
+	"name" : "beta-hydroxy-tyrosine",
+	"smiles" : "C1=CC(=CC=C1C(C(C(=O)O)N)O)O"
+},
+{
+	"id" : "3Me-4Me-Gln",
+	"name" : "3,4-dimethylglutamine",
+	"smiles" : "C(C(O)=O)(N)C(C(C(N)=O)C)C"
+},
+{
+	"id" : "N-OH-Hta",
+	"name" : "N-Hydroxy-histamine",
+	"smiles" : "C1(CNCN1)CCNO"
+},
+{
+	"id" : "NMe-Phe",
+	"name" : "N-Methyl-Phenylalanine",
+	"smiles" : "CNC(CC1=CC=CC=C1)C(=O)O"
+},
+{
+	"id" : "Ph-Gly",
+	"name" : "phenylglycine",
+	"smiles" : "C1=CC=C(C=C1)C(C(=O)O)N"
+},
+{
+	"id" : "Ria",
+	"name" : "L-ristosamine",
+	"smiles" : "CC(C(C(CC=O)N)O)O"
+},
+{
+	"id" : "Van",
+	"name" : "L-vancosamine",
+	"smiles" : "CC(C(C(C)(CC=O)N)O)O"
+},
+{
+	"id" : "C11:0-OH(3)",
+	"name" : "3-hydroxy-undecanoic acid",
+	"smiles" : "CCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C12:1(5)",
+	"name" : "2-methyl-5-dodecenoic acid",
+	"smiles" : "CCCCCCC=CCCCC(=O)O"
+},
+{
+	"id" : "C14:0-NH2(3)",
+	"name" : "3-amino-tetradecanoic acid",
+	"smiles" : "CCCCCCCCCCCC(CC(=O)O)N"
+},
+{
+	"id" : "C14:0-OH(3.4)",
+	"name" : "3,4-dihydroxy-tetradecanoic acid",
+	"smiles" : "CCCCCCCCCCC(C(CC(=O)O)O)O"
+},
+{
+	"id" : "OMe-Thr",
+	"name" : "O-methyl-threonine",
+	"smiles" : "CC(C(C(=O)O)N)OC"
+},
+{
+	"id" : "C15:0-OH(3)",
+	"name" : "3-hydroxy-pentadecanoic acid",
+	"smiles" : "CCCCCCCCCCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C16:0-NH2(3)",
+	"name" : "3-amino-hexadecanoic acid",
+	"smiles" : "CCCCCCCCCCCCCC(CC(=O)O)N"
+},
+{
+	"id" : "C16:0-OH(3.4)",
+	"name" : "3,4-dihydroxy-hexadecanoic acid",
+	"smiles" : "CCCCCCCCCCCCC(C(CC(=O)O)O)O"
+},
+{
+	"id" : "Phe",
+	"name" : "Phenylalanine",
+	"smiles" : "C1=CC=C(C=C1)CC(C(=O)O)N"
+},
+{
+	"id" : "Pheol",
+	"name" : "phenylalaninol",
+	"smiles" : "C1=CC=C(C=C1)CC(CO)N"
+},
+{
+	"id" : "C6:0-Ep(2)",
+	"name" : "2-epoxy-hexanoic acid",
+	"smiles" : "CCCC1C(O1)C(=O)O"
+},
+{
+	"id" : "Val",
+	"name" : "Valine",
+	"smiles" : "CC(C)C(C(=O)O)N"
+},
+{
+	"id" : "diMe-Cys",
+	"name" : "N,S-dimethylcysteine",
+	"smiles" : "CNC(CSC)C(=O)O"
+},
+{
+	"id" : "NMe-Cys",
+	"name" : "N-methylcysteine",
+	"smiles" : "CNC(CS)C(=O)O"
+},
+{
+	"id" : "Dhpg",
+	"name" : "3,5-dihydroxyphenylglycine",
+	"smiles" : "C1=C(C=C(C=C1O)O)C(C(=O)O)N"
+},
+{
+	"id" : "Trpol",
+	"name" : "tryptophanol",
+	"smiles" : "C1=CC=C2C(=C1)C(=CN2)CC(CO)N"
+},
+{
+	"id" : "NMe-Leu",
+	"name" : "N-Methyl-Leucine",
+	"smiles" : "CC(C)CC(C(=O)O)NC"
+},
+{
+	"id" : "NMe-OMe-Tyr",
+	"name" : "N,O-dimethyl-tyrosine",
+	"smiles" : "CNC(CC1=CC=C(C=C1)OC)C(=O)O"
+},
+{
+	"id" : "NMe-Val",
+	"name" : "N-Methyl-Valine",
+	"smiles" : "CC(C)C(C(=O)O)NC"
+},
+{
+	"id" : "OH-Asn",
+	"name" : "Hydroxyasparagine",
+	"smiles" : "C(C(C(=O)N)O)(C(=O)O)N"
+},
+{
+	"id" : "Serol",
+	"name" : "Serinol",
+	"smiles" : "C(C(CO)N)O"
+},
+{
+	"id" : "OAc-Leuol",
+	"name" : "O-acetyl-leucinol",
+	"smiles" : "CC(C)CC(COC(=O)C)N"
+},
+{
+	"id" : "OH-dHpg",
+	"name" : "N-hydroxy-dehydro-HydroxyPhenylGlycine",
+	"smiles" : "C1=CC(=O)C=CC1=C(C(=O)O)NO"
+},
+{
+	"id" : "norCMA",
+	"name" : "norcoronamic acid",
+	"smiles" : "CC1CC1(C(=O)O)N"
+},
+{
+	"id" : "NtMe-Leu",
+	"name" : "N-trimethyl-leucine",
+	"smiles" : "C(C(=O)O)(CC(C)C)[N](C)(C)C"
+},
+{
+	"id" : "OH-bLys",
+	"name" : "hydroxy-beta lysine",
+	"smiles" : "C(NCC(=O)O)(CCN)O"
+},
+{
+	"id" : "OMe-Trp",
+	"name" : "methoxytryptophan",
+	"smiles" : "O(C(=O)[C@@H](N([H])[H])CC1=C[N](C2=CC=CC=C12)OC)[H]"
+},
+{
+	"id" : "D-Hpg",
+	"name" : "D-HydroxyPhenylGlycine",
+	"smiles" : "C1=CC(=CC=C1C(C(=O)O)N)O"
+},
+{
+	"id" : "NFo-Val",
+	"name" : "N-formyl-Valine",
+	"smiles" : "CC(C)C(C(=O)O)NC=O"
+},
+{
+	"id" : "bLys",
+	"name" : "beta lysine",
+	"smiles" : "C(CC(CC(=O)O)N)CN"
+},
+{
+	"id" : "C8:3(t2.t4.t6)",
+	"name" : "trans2,trans4,trans6-trioctaneic acid",
+	"smiles" : "CC=CC=CC=CC(=O)O"
+},
+{
+	"id" : "4Me-Pro",
+	"name" : "4-methylproline",
+	"smiles" : "CC1CC(NC1)C(=O)O"
+},
+{
+	"id" : "Ac-Phe",
+	"name" : "N-acetylphenylalanine",
+	"smiles" : "CC(=O)NC(CC1=CC=CC=C1)C(=O)O"
+},
+{
+	"id" : "Ac-Aib",
+	"name" : "N-Acetyl-2-aminoisobutyric acid",
+	"smiles" : "CC(=O)NC(C)(C)C(=O)O"
+},
+{
+	"id" : "Orn",
+	"name" : "Ornithine",
+	"smiles" : "C(CC(C(=O)O)N)CN"
+},
+{
+	"id" : "bMe-Gln",
+	"name" : "beta-methylglutamine",
+	"smiles" : "CC(CC(=O)N)C(C(=O)O)N"
+},
+{
+	"id" : "D-Dhpg",
+	"name" : "D-3,5-dihydroxyphenylglycine",
+	"smiles" : "C1=C(C=C(C=C1O)O)C(C(=O)O)N"
+},
+{
+	"id" : "NSpd",
+	"name" : "norspermidine",
+	"smiles" : "C(CN)CNCCCN"
+},
+{
+	"id" : "Tig",
+	"name" : "tiglic acid",
+	"smiles" : "CC=C(C)C(=O)O"
+},
+{
+	"id" : "Ac-Pro",
+	"name" : "acetylproline",
+	"smiles" : "CC(=O)N1CCCC1C(=O)O"
+},
+{
+	"id" : "D-Ival",
+	"name" : "D-isovaline",
+	"smiles" : "CCC(C)(C(=O)O)N"
+},
+{
+	"id" : "NFo-D-Abu",
+	"name" : "N-formyl-D-aminobutyric acid",
+	"smiles" : "CCC(C(=O)O)NC=O"
+},
+{
+	"id" : "dDil",
+	"name" : "N-desmethyldolaisoleucine",
+	"smiles" : "C(C(N)C(C)CC)(CC(O)=O)OC"
+},
+{
+	"id" : "1Me-Trp",
+	"name" : "N1-methyl-tryptophan",
+	"smiles" : "CN1C=C(C2=CC=CC=C21)CC(C(=O)O)N"
+},
+{
+	"id" : "C15:2(t4.t6)-OH(2.3)",
+	"name" : "2,3-dihydroxy-trans4,trans6-pentadecenoic acid",
+	"smiles" : "C(C(C(C=CC=CCCCCCCCC)O)O)(O)=O"
+},
+{
+	"id" : "C4:0-OH(2.3)-Cl(4)",
+	"name" : "2,3-dihydroxy-4-chloro-butanoic acid",
+	"smiles" : "C(C(C(CCl)O)O)(=O)O"
+},
+{
+	"id" : "C6:0-Me(2)-NH2(3)",
+	"name" : "2-methyl-3-aminohexadecanoic acid",
+	"smiles" : "C(C(C(CCC)N)C)(=O)O"
+},
+{
+	"id" : "C6:0-OH(3.5)-NH2(4)",
+	"name" : "3.5-hydroxy-4-amino-hexadecanoic acid",
+	"smiles" : "C(CC(C(C(C)O)N)O)(O)=O"
+},
+{
+	"id" : "C7:0-Me(2)-OH(3)",
+	"name" : "3-hydroxy-2-methyl-heptanoic acid",
+	"smiles" : "C(C(C(CCCC)O)C)(O)=O"
+},
+{
+	"id" : "aFo-Gly",
+	"name" : "alpha-formylGlycine",
+	"smiles" : "C(=O)C(C(=O)O)N"
+},
+{
+	"id" : "aC9:0-OH(2)-NH2(3)",
+	"name" : "alpha-hydroxy-6-methyl-3-aminooctanoic acid",
+	"smiles" : "C(C(C(CCC(CC)C)N)O)(=O)O"
+},
+{
+	"id" : "C14:2(t4.t6)-OH(2.3)",
+	"name" : "2,3-dihydroxy-trans4,trans6-tetradecenoic acid",
+	"smiles" : "C(C(C(C=CC=CCCCCCCC)O)O)(O)=O"
+},
+{
+	"id" : "Br-Phe",
+	"name" : "bromophenylalanine",
+	"smiles" : "C1=CC(=CC=C1CC(C(=O)O)N)Br"
+},
+{
+	"id" : "Bz",
+	"name" : "benzoic acid",
+	"smiles" : "C1=CC=C(C=C1)C(=O)O"
+},
+{
+	"id" : "bOMe-Asp",
+	"name" : "beta-methoxy-aspartic acid",
+	"smiles" : "COC(=O)CC(C(=O)O)N"
+},
+{
+	"id" : "C10:0-Me(2.2.4)-OH(3.7)",
+	"name" : "3-hydroxy-2,2,4-trimethyl-7-hydroxydecanoic acid",
+	"smiles" : "C(C(C(C(=O)O)(C)C)O)(CCC(CCC)O)C"
+},
+{
+	"id" : "C10:0-Me(2.2.4)-OH(3)-OMe(7)",
+	"name" : "3-hydroxy-2,2,4-trimethyl-7-methoxydecanoic acid",
+	"smiles" : "C(C(C(C(O)=O)(C)C)O)(CCC(CCC)OC)C"
+},
+{
+	"id" : "C10:0-NH2(2)-oxo(8)",
+	"name" : "2-amino-8-oxo-decanoic acid",
+	"smiles" : "C(C(N)CCCCCC(CC)=O)(=O)O"
+},
+{
+	"id" : "OSu-Hmp",
+	"name" : "O-sulfate-2-hydroxy-3-methylpentanoic acid",
+	"smiles" : "C(C(C(CC)C)O[S](=O)(=O)O)(=O)O"
+},
+{
+	"id" : "PALOA",
+	"name" : "propenoyl-alanyloxazole acid",
+	"smiles" : "C(C=CC1=COC(=N1)C(N)C)(=O)O"
+},
+{
+	"id" : "PAOA",
+	"name" : "propenoyl-2-aminobutanoyloxazole acid",
+	"smiles" : "C(C=CC1=COC(=N1)C(N)CC)(=O)O"
+},
+{
+	"id" : "Phe-Thz",
+	"name" : "thiazolylphenylalanine",
+	"smiles" : "C(N)(CC1=CC=CC=C1)C2=NC(=CS2)C(O)=O"
+},
+{
+	"id" : "PMST",
+	"name" : "propenoyl-O-methylserinylthiazole acid",
+	"smiles" : "C(C=CC1=CSC(=N1)C(N)COC)(=O)O"
+},
+{
+	"id" : "NAc-Leu",
+	"name" : "N-acetyl-Leucine",
+	"smiles" : "CC(C)CC(C(=O)O)NC(=O)C"
+},
+{
+	"id" : "C10:0-OH(8)-NH2(2)",
+	"name" : "8-hydroxy-2-amino-decanoic acid",
+	"smiles" : "C(C(N)CCCCCC(CC)O)(=O)O"
+},
+{
+	"id" : "C10:0-OH(9)-NH2(2)",
+	"name" : "9-hydroxy-2-amino-decanoic acid",
+	"smiles" : "C(C(N)CCCCCCC(C)O)(=O)O"
+},
+{
+	"id" : "C10:0-OH(9)-NH2(2)-oxo(8)",
+	"name" : "9-hydroxy-2-amino-8-oxo-decanoic acid",
+	"smiles" : "C(C(N)CCCCCC(C(C)O)=O)(=O)O"
+},
+{
+	"id" : "C8:0:1(7)-Me(2.2)-OH(3)",
+	"name" : "2,2-dimethyl-3-hydroxy-7-octynoic acid",
+	"smiles" : "C(C(C(CCCC#C)O)(C)C)(O)=O"
+},
+{
+	"id" : "C8:0:1(7)-Me(2)-NH2(3)",
+	"name" : "3-amino-2-methyloct-7-ynoic acid",
+	"smiles" : "C(CCCC#C)(C(C(=O)O)C)N"
+},
+{
+	"id" : "C8:0:1(7)-Me(2)-OH(3)",
+	"name" : "2-methyl-3-hydroxy-7-octynoic acid",
+	"smiles" : "C(C(C(CCCC#C)O)C)(O)=O"
+},
+{
+	"id" : "C8:0-Me(2.2)-OH(3)",
+	"name" : "2,2-dimethyl-3-hydroxy-octanoic acid",
+	"smiles" : "C(C(C(CCCCC)O)(C)C)(O)=O"
+},
+{
+	"id" : "C4:0",
+	"name" : "butanoic acid",
+	"smiles" : "CCCC(=O)O"
+},
+{
+	"id" : "C4:0-OH(3)",
+	"name" : "3-hydroxybutanoic acid",
+	"smiles" : "CC(CC(=O)O)O"
+},
+{
+	"id" : "C4:0-OH(2.3.4)",
+	"name" : "2,3,4-trihydroxy-butanoic acid",
+	"smiles" : "C(C(C(C(=O)O)O)O)O"
+},
+{
+	"id" : "C4:1(3)-OH(2)",
+	"name" : "2-hydroxy-3-butenoic acid",
+	"smiles" : "C=CC(C(=O)O)O"
+},
+{
+	"id" : "C5:0-NH2(3)",
+	"name" : "3-amino-pentanoic acid",
+	"smiles" : "CCC(CC(=O)O)N"
+},
+{
+	"id" : "C6:0-Me(2.2)-OH(3)",
+	"name" : "2,2-dimethyl-3-hydroxyhexanoic acid",
+	"smiles" : "CCCC(C(C(=O)O)(C)C)O"
+},
+{
+	"id" : "C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)",
+	"name" : "3-amino-6-methyl-12-(p-methoxyphenyl)-2,4,5-trihydroxydodec-11-enoic acid",
+	"smiles" : "C(C(C(C(C(C(CCCCC=CC1=CC=C(C=C1)OC)C)O)O)N)O)(O)=O"
+},
+{
+	"id" : "C8:1(7)-Me(2.2)-OH(3)",
+	"name" : "2,2-dimethyl-3-hydroxy-7-octenoic acid",
+	"smiles" : "C(C(C(CCCC=C)O)(C)C)(O)=O"
+},
+{
+	"id" : "Dap",
+	"name" : "Dolaproine",
+	"smiles" : "C1C(CCN1)C(C(C(O)=O)C)OC"
+},
+{
+	"id" : "dDap",
+	"name" : "O-desmethyldolaproine",
+	"smiles" : "C(C1CCCN1)(C(C(=O)O)C)O"
+},
+{
+	"id" : "C8:2(5.7)-Me(6)-OH(4)-NH2(3)-brPh(8)",
+	"name" : "3-amino-4-hydroxy-6-methyl-8-(p-bromophenyl)-5,7-octadienoic acid",
+	"smiles" : "C(CC(C(C=C(C=CC1=CC=C(C=C1)Br)C)O)N)(=O)O"
+},
+{
+	"id" : "C8:2(5.7)-Me(6)-OH(4)-NH2(3)-Ph(8)",
+	"name" : "3-amino-4-hydroxy-6-methyl-8-phenyl-5,7-octadienoic acid",
+	"smiles" : "C(CC(C(C=C(C=CC1=CC=CC=C1)C)O)N)(=O)O"
+},
+{
+	"id" : "C9:1(4)-Me(2.4.6)-OH(8)",
+	"name" : "8-hydroxy-2,4,6-trimethyl-4-nonenoic acid",
+	"smiles" : "C(C(CC(=CC(CC(C)O)C)C)C)(O)=O"
+},
+{
+	"id" : "Cl2-NMe-Leu",
+	"name" : "di-chloro-N-methyl-Leucine",
+	"smiles" : "C(C(O)=O)(NC)CC(C)C(Cl)Cl"
+},
+{
+	"id" : "D-NMe-aIle",
+	"name" : "D-N-methyl-alloisoleucine",
+	"smiles" : "CCC(C)C(C(=O)O)NC"
+},
+{
+	"id" : "diOH-Phe",
+	"name" : "3,4-dihydroxyphenylalanine",
+	"smiles" : "C1=CC(=C(C=C1CC(C(=O)O)N)O)O"
+},
+{
+	"id" : "C8:0:1(7)",
+	"name" : "oct-7-ynoic acid",
+	"smiles" : "C#CCCCCCC(=O)O"
+},
+{
+	"id" : "bbNMe-NMe-Trp",
+	"name" : "beta,beta,N1,N-tetramethyltryptophan",
+	"smiles" : "C1=CC=CC2=C1C(=C[N]2C)C(C(C(O)=O)NC)(C)C"
+},
+{
+	"id" : "bMe-Br-Phe",
+	"name" : "beta-methyl-bromophenylalanine",
+	"smiles" : "C(C(=O)O)(C(C1=CC=C(C=C1)Br)C)N"
+},
+{
+	"id" : "Br-OH-Trp",
+	"name" : "2-bromo-5-hydroxytryptophan",
+	"smiles" : "C(C(=O)O)(N)CC1=C([N]C2=C1C=C(C=C2)O)Br"
+},
+{
+	"id" : "C10:0:1(9)-Me(2.4)",
+	"name" : "2,4-dimethyl-dec-9-ynoic acid",
+	"smiles" : "C(C(CC(CCCCC#C)C)C)(=O)O"
+},
+{
+	"id" : "C10:0-Me(2.4)-oxo(9)",
+	"name" : "9-oxo-2,4-dimethyldecanoic acid",
+	"smiles" : "C(C(CC(CCCCC(C)=O)C)C)(=O)O"
+},
+{
+	"id" : "Azd",
+	"name" : "aziridine dicarboxylic acid",
+	"smiles" : "C1(C(N1)C(=O)O)C(=O)O"
+},
+{
+	"id" : "C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)",
+	"name" : "3-amino-10-(p-ethoxyphenyl)-2,4,5-trihydroxydeca-7,9-dienoic acid",
+	"smiles" : "C(C(C(C(C(CC=CC=CC1=CC=C(C=C1)OCC)O)O)N)O)(O)=O"
+},
+{
+	"id" : "MeOx-Ile",
+	"name" : "methyloxazoline-isoleucine",
+	"smiles" : "C(N)(C(C)CC)C1=NC(C(C1)C)C(=O)O"
+},
+{
+	"id" : "C9:1(Me4)-Me(2.4.6)-OH(8)-Oxo(5)",
+	"name" : "5-oxo-8-hydroxy-2,4,6-trimethyl-4-nonaneic acid",
+	"smiles" : "C(C(CC(C(C(CC(C)O)C)=O)=C)C)(O)=O"
+},
+{
+	"id" : "Choi",
+	"name" : "2-carboxy-6-hydroxyoctahydroindole",
+	"smiles" : "C1C(NC2C1CCC(C2)O)C(=O)O"
+},
+{
+	"id" : "ck-Arg",
+	"name" : "cyclo alpha-ketoarginine",
+	"smiles" : "C12(C(CCCN1C(NC2=O)=N)N)O"
+},
+{
+	"id" : "C11:2(t2.t8)-Me(2.6.8)-OH(5.7)",
+	"name" : "2,6,8-trimethyl-5,7-dihydroxy-trans2,trans8-undecenoic acid",
+	"smiles" : "C(C(=CCC(C(C(C(=CCC)C)O)C)O)C)(O)=O"
+},
+{
+	"id" : "D-4OH-Pro",
+	"name" : "D-hydroxyproline",
+	"smiles" : "C1C(CNC1C(=O)O)O"
+},
+{
+	"id" : "Pro-Thz",
+	"name" : "proline-thiazole",
+	"smiles" : "C1=CSC(=N1)C2CCC(N2)C(=O)O"
+},
+{
+	"id" : "dPyr",
+	"name" : "dehydropyrrolidone",
+	"smiles" : "C1(CC(C(=CC(=O)O)N1)N)=O"
+},
+{
+	"id" : "dv-Tyr",
+	"name" : "dehydro vinylogous tyrosine",
+	"smiles" : "C(C(N)=CC1=CC=C(C=C1)O)=CC(=O)O"
+},
+{
+	"id" : "e-Tyr",
+	"name" : "ethylene inserted tyrosine",
+	"smiles" : "C(C(N)CC1=CC=C(C=C1)O)CC(=O)O"
+},
+{
+	"id" : "gSer",
+	"name" : "alpha-guanidino Serine",
+	"smiles" : "C(C(=O)O)(N)(O)NC(=N)N"
+},
+{
+	"id" : "Hap",
+	"name" : "hydroxyacetyl propionyl",
+	"smiles" : "C(C(C(CO)=O)C)(=O)O"
+},
+{
+	"id" : "GSpd",
+	"name" : "guanylspermidine",
+	"smiles" : "C(CCNCCCN=C(N)N)CN"
+},
+{
+	"id" : "OH-4Abu",
+	"name" : "4-amino-3-hydroxybutyric acid",
+	"smiles" : "C(C(CN)O)C(=O)O"
+},
+{
+	"id" : "hk-Arg",
+	"name" : "hydrated alpha-ketoarginine",
+	"smiles" : "C(C(C(CCCNC(=N)N)N)O)(=O)O"
+},
+{
+	"id" : "Hysp",
+	"name" : "hydroxysecbutyl acetyl propionyl",
+	"smiles" : "C(C(C(C(O)C(CC)C)=O)C)(=O)O"
+},
+{
+	"id" : "Ibu",
+	"name" : "4-amino-2,2-dimethyl-3-oxopentanoic acid",
+	"smiles" : "CC(C(C(C(O)=O)(C)C)=O)N"
+},
+{
+	"id" : "iC5:0-OH(2.4)",
+	"name" : "2,4-dihydroxy-3-methyl-butanoic acid",
+	"smiles" : "C(C(C(CO)C)O)(=O)O"
+},
+{
+	"id" : "k-Arg",
+	"name" : "alpha-ketoarginine",
+	"smiles" : "C(C(C(CCCNC(=N)N)N)=O)(=O)O"
+},
+{
+	"id" : "Map",
+	"name" : "2-methyl-3-aminopentanoic acid",
+	"smiles" : "C(C(C(C(=O)O)C)N)C"
+},
+{
+	"id" : "MdCP",
+	"name" : "N-methyldichloropyrrole-2-carboxylic acid",
+	"smiles" : "C1(=CC(=C([N]1C)Cl)Cl)C(=O)O"
+},
+{
+	"id" : "D-Har",
+	"name" : "D-homoarginine",
+	"smiles" : "C(CCN(C#N)N=O)CC(C(=O)N)O"
+},
+{
+	"id" : "C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)",
+	"name" : "3-amino-8-phenyl-2.4.5-trihydroxyoct-7-enoic acid",
+	"smiles" : "C(C(C(C(C(CC=CC1=CC=CC=C1)O)O)N)O)(O)=O"
+},
+{
+	"id" : "D-Nva",
+	"name" : "D-Norvaline",
+	"smiles" : "CCCC(C(=O)O)N"
+},
+{
+	"id" : "NMe-Gly-Thz",
+	"name" : "N-Methyl-Glycine-thiazole",
+	"smiles" : "CNCC1=NC=CS1"
+},
+{
+	"id" : "2Me-3Me-pGlu",
+	"name" : "2,3-dimethylpyroglutamic acid",
+	"smiles" : "C1(C(C(C(N1)=O)C)C)C(=O)O"
+},
+{
+	"id" : "Br-Tyr",
+	"name" : "bromotyrosine",
+	"smiles" : "C1=CC(=C(C=C1CC(C(=O)O)N)Br)O"
+},
+{
+	"id" : "C7:0-OH(3)",
+	"name" : "3-hydroxy-heptanoic acid",
+	"smiles" : "CCCCC(CC(=O)O)O"
+},
+{
+	"id" : "C9:0-Me(2)-OH(3)",
+	"name" : "3-hydroxy-2-methyl-nonanoic acid",
+	"smiles" : "CCCCCCC(C(C)C(=O)O)O"
+},
+{
+	"id" : "C9:1(8)-Me(2)",
+	"name" : "2-methyl-8-noneic acid",
+	"smiles" : "CC(CCCCCC=C)C(=O)O"
+},
+{
+	"id" : "Cl2-Pro",
+	"name" : "3,4-dichloro-proline",
+	"smiles" : "C1C(C(C(N1)C(=O)O)Cl)Cl"
+},
+{
+	"id" : "Daz",
+	"name" : "2,6-diamino-7-hydroxyazelaic acid",
+	"smiles" : "C(CC(C(CC(=O)O)O)N)CC(C(=O)O)N"
+},
+{
+	"id" : "Cl3-2OH-NMe-Leu",
+	"name" : "tri-chloro-2-hydroxy-N-methyl-Leucine",
+	"smiles" : "C(C(O)=O)(NC)(CC(C)C(Cl)(Cl)Cl)O"
+},
+{
+	"id" : "Cl3-5OH-NMe-Leu",
+	"name" : "tri-chloro-5-hydroxy-N-methyl-Leucine",
+	"smiles" : "C(C(O)=O)(NC)CC(CO)C(Cl)(Cl)Cl"
+},
+{
+	"id" : "D-NMe-Nva",
+	"name" : "D-N-methyl-norvaline",
+	"smiles" : "CCCC(C(=O)O)NC"
+},
+{
+	"id" : "D-NMe-OMe-Tyr",
+	"name" : "D-N,O-dimethyl-tyrosine",
+	"smiles" : "CNC(CC1=CC=C(C=C1)OC)C(=O)O"
+},
+{
+	"id" : "Doe",
+	"name" : "Dolaphenine",
+	"smiles" : "C1=CC=C(C=C1)CC(C2=NC=CS2)N"
+},
+{
+	"id" : "Dpy",
+	"name" : "Dolapyrrolidone",
+	"smiles" : "COC1=CC(=O)NC1CC2=CC=CC=C2"
+},
+{
+	"id" : "MCP",
+	"name" : "N-methylchloropyrrole",
+	"smiles" : "CN1C=C(C=C1C(=O)O)Cl"
+},
+{
+	"id" : "NFo-Ala",
+	"name" : "N-formyl-Alanine",
+	"smiles" : "CC(C(=O)O)NC=O"
+},
+{
+	"id" : "NMe-Asn",
+	"name" : "N-methylasparagine",
+	"smiles" : "CNC(CC(=O)N)C(=O)O"
+},
+{
+	"id" : "NMe-bMe-Leu",
+	"name" : "N,beta-dimethylLeucine",
+	"smiles" : "CC(C)C(C)C(C(=O)O)NC"
+},
+{
+	"id" : "NMe-OMe-TyrC",
+	"name" : "N,O-dimethyl-tyrosinecarboxamid",
+	"smiles" : "CNC(CC1=CC=C(C=C1)OC)C(=O)N"
+},
+{
+	"id" : "Cl3-NMe-dhLeu",
+	"name" : "tri-chloro-N-methyl-dehydroLeucine",
+	"smiles" : "C(C(O)=O)(NC)=CC(C)C(Cl)(Cl)Cl"
+},
+{
+	"id" : "Cl3-NMe-Leu",
+	"name" : "tri-chloro-N-methyl-Leucine",
+	"smiles" : "C(C(O)=O)(NC)CC(C)C(Cl)(Cl)Cl"
+},
+{
+	"id" : "Cl-Ile",
+	"name" : "Chloro-Isoleucine",
+	"smiles" : "C(C(O)=O)(N)C(C(C)Cl)C"
+},
+{
+	"id" : "CO",
+	"name" : "oxo group",
+	"smiles" : "C=O"
+},
+{
+	"id" : "D-Br-NMe-Tyr",
+	"name" : "D-3-bromo-N-methyl-Tyrosine",
+	"smiles" : "C(C(=O)O)(NC)CC1=CC(=C(C=C1)O)Br"
+},
+{
+	"id" : "D-Cl-CONH2-Trp",
+	"name" : "D-6-chloro-N2-formamidotryptophan",
+	"smiles" : "C(C(O)=O)(N)CC1=C[N](C2=C1C=CC(=C2)Cl)C(=O)N"
+},
+{
+	"id" : "DHMDA",
+	"name" : "8,10-Dimethyl-9-hydroxy-7-methoxytridecadienoic acid",
+	"smiles" : "C(C(C(CCC)C)O)(C(C=CC=CCC(=O)O)OC)C"
+},
+{
+	"id" : "D-Cl-NMe-Tyr",
+	"name" : "D-3-chloro-N-methyl-Tyrosine",
+	"smiles" : "C(C(=O)O)(NC)CC1=CC(=C(C=C1)O)Cl"
+},
+{
+	"id" : "D-Cl-Trp",
+	"name" : "D-6’-chloro-tryptophan",
+	"smiles" : "C(C(=O)O)(N)CC1=NC2=C(C1)C=CC(=C2)Cl"
+},
+{
+	"id" : "Dil",
+	"name" : "Dolaisoleucine",
+	"smiles" : "C(CC(O)=O)(OC)C(C(C)CC)NC"
+},
+{
+	"id" : "NFo-Dpr",
+	"name" : "N1-formyl-2,3-Diaminopropionic acid",
+	"smiles" : "C(C(CN)NC=O)(=O)O"
+},
+{
+	"id" : "Iser",
+	"name" : "isoserine",
+	"smiles" : "C(C(C(=O)O)O)N"
+},
+{
+	"id" : "bbMe-NMe-Trp",
+	"name" : "beta,beta,N-trimethyltryptophan",
+	"smiles" : "C1=CC=CC2=C1C(=C[N]2)C(C(C(O)=O)NC)(C)C"
+},
+{
+	"id" : "C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)",
+	"name" : "3-amino-6,10-dimethyl-12-phenyl-2,4,5-trihydroxydodeca-7,9,11-trienoic acid",
+	"smiles" : "C(C(C(C(C(C(C=CC=C(C=CC1=CC=CC=C1)C)C)O)O)N)O)(O)=O"
+},
+{
+	"id" : "C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)",
+	"name" : "3-amino-6-methyl-12-phenyl-2,4,5-trihydroxydodeca-7,9,11-trienoic acid",
+	"smiles" : "C(C(C(C(C(C(C=CC=CC=CC1=CC=CC=C1)C)O)O)N)O)(O)=O"
+},
+{
+	"id" : "C13:2(t4.t6)-OH(2.3)",
+	"name" : "2,3-dihydroxy-trans4,trans6-tridecenoic acid",
+	"smiles" : "C(C(C(C=CC=CCCCCCC)O)O)(O)=O"
+},
+{
+	"id" : "D-COOH-Trp",
+	"name" : "D-2-carboxy-tryptophan",
+	"smiles" : "C(C(O)=O)(N)CC1=C([N]C2=C1C=CC=C2)C(=O)O"
+},
+{
+	"id" : "D-I-NMe-Tyr",
+	"name" : "D-3-iodo-N-methyl-Tyrosine",
+	"smiles" : "C(C(=O)O)(NC)CC1=CC(=C(C=C1)O)I"
+},
+{
+	"id" : "diOH-Arg",
+	"name" : "3,4-dihydroxyArginine",
+	"smiles" : "C(C(C(C(O)=O)N)O)(CN=C(N)N)O"
+},
+{
+	"id" : "OH-Pyr",
+	"name" : "hydroxy pyrrolidone",
+	"smiles" : "C1C(CNC1=O)O"
+},
+{
+	"id" : "N1-COOH-bhTrp",
+	"name" : "N1-carboxy-bichomotryptophan",
+	"smiles" : "C(CC1=C[N](C2=C1C=CC=C2)C(=O)O)CC(C(=O)O)N"
+},
+{
+	"id" : "NAc-Dpr",
+	"name" : "N1-acetyl-2,3-Diaminopropionic acid",
+	"smiles" : "C(C(CN)NC(C)=O)(=O)O"
+},
+{
+	"id" : "NAc-Fo-OH-Orn",
+	"name" : "N-acetyl-N6-formyl-N6-hydroxyOrnithine",
+	"smiles" : "C(C(=O)O)(NC(C)=O)CCCN(O)C=O"
+},
+{
+	"id" : "Ph-Ser",
+	"name" : "phenylserine",
+	"smiles" : "C1=CC=C(C=C1)C(C(C(=O)O)N)O"
+},
+{
+	"id" : "iC5:0-OH(2.3)",
+	"name" : "2,3-dihydroxy-3-methyl-butanoic acid",
+	"smiles" : "CC(C)(C(C(=O)O)O)O"
+},
+{
+	"id" : "Me-Vaa",
+	"name" : "3-methylvaleric acid",
+	"smiles" : "CCC(C)CC(=O)O"
+},
+{
+	"id" : "iC5:0-OH(2)-CA(4)",
+	"name" : "2-hydroxy-3-methyl-butanedioic acid",
+	"smiles" : "CC(C(C(=O)O)O)C(=O)O"
+},
+{
+	"id" : "NMe-Cl-OH-Trp",
+	"name" : "N-methyl-6-chloro-5-hydroxytryptophan",
+	"smiles" : "C(C(=O)O)(NC)CC1=C[N]C2=C1C=C(C(=C2)Cl)O"
+},
+{
+	"id" : "NMe-Cl-Trp",
+	"name" : "N-methyl-6-chloro-tryptophan",
+	"smiles" : "C(C(=O)O)(NC)CC1=C[N]C2=C1C=CC(=C2)Cl"
+},
+{
+	"id" : "NMe-hv-Val",
+	"name" : "N-methyl homo vinylogous Valine",
+	"smiles" : "C(C(NC)C(C)C)=C(C(O)=O)C"
+},
+{
+	"id" : "NMe-OH-Ile",
+	"name" : "N-methyl-hydroxyisoleucine",
+	"smiles" : "C(C(O)=O)(NC)C(C)CCO"
+},
+{
+	"id" : "NMe-OH-Trp",
+	"name" : "N-methyl-5-hydroxytryptophan",
+	"smiles" : "C(C(=O)O)(NC)CC1=C[N]C2=C1C=C(C=C2)O"
+},
+{
+	"id" : "NMe-OMe-Ile",
+	"name" : "N,O-dimethyl-isoleucine",
+	"smiles" : "C(C(=O)OC)(NC)C(CC)C"
+},
+{
+	"id" : "PTTA",
+	"name" : "4-propenoyl-2-tyrosylthiazole acid",
+	"smiles" : "C(O)(=O)C=CC1=CSC(=N1)C(N)CC2=CC=C(C=C2)O"
+},
+{
+	"id" : "Mab",
+	"name" : "2-methyl-3-aminobutanoic acid",
+	"smiles" : "CC(C(C)N)C(=O)O"
+},
+{
+	"id" : "k-Leu",
+	"name" : "keto-Leucine",
+	"smiles" : "CC(C)CC(=O)C(=O)O"
+},
+{
+	"id" : "v-Arg",
+	"name" : "vinylogous arginine",
+	"smiles" : "C(C(N)CCCNC(=N)N)=CC(=O)O"
+},
+{
+	"id" : "v-OH-Tyr",
+	"name" : "vinylogous hydroxy tyrosine",
+	"smiles" : "C(C(N)CC1=CC(=C(C=C1)O)O)=CC(=O)O"
+},
+{
+	"id" : "v-Tyr",
+	"name" : "vinylogous tyrosine",
+	"smiles" : "C(C(N)CC1=CC=C(C=C1)O)=CC(=O)O"
+},
+{
+	"id" : "Nst",
+	"name" : "norstatine",
+	"smiles" : "CC(C)CC(C(C(=O)O)O)N"
+},
+{
+	"id" : "OH-Trp",
+	"name" : "5-hydroxytryptophan",
+	"smiles" : "C1=CC2=C(C=C1O)C(=CN2)CC(C(=O)O)N"
+},
+{
+	"id" : "Ph-Lac",
+	"name" : "Phenyl-lactate",
+	"smiles" : "C1=CC=C(C=C1)CC(C(=O)O)O"
+},
+{
+	"id" : "Pda",
+	"name" : "pentanedioic acid",
+	"smiles" : "C(CC(=O)O)CC(=O)O"
+},
+{
+	"id" : "Pha",
+	"name" : "phenylacetic acid",
+	"smiles" : "C1=CC=C(C=C1)CC(=O)O"
+},
+{
+	"id" : "pOH-Bz",
+	"name" : "para-hydroxy-benzoic acid",
+	"smiles" : "C1=CC(=CC=C1C(=O)O)O"
+},
+{
+	"id" : "Pya",
+	"name" : "pyruvate",
+	"smiles" : "CC(=O)C(=O)O"
+},
+{
+	"id" : "Pyr",
+	"name" : "pyrrolidone",
+	"smiles" : "C1CC(=O)NC1"
+},
+{
+	"id" : "Spd",
+	"name" : "spermidine",
+	"smiles" : "C(CCNCCCN)CN"
+},
+{
+	"id" : "aC11:2(4.6)-Me(2.6)-OH(2.3)",
+	"name" : "2,3-dihydroxy-2,6,8-trimethyldeca-(4Z,6E)-dienoic acid",
+	"smiles" : "C(C(C(C=CC(=CC(CC)C)C)O)(O)C)(O)=O"
+},
+{
+	"id" : "Ahad",
+	"name" : "alpha-amino-hydroxyadipic acid",
+	"smiles" : "C(C(CC(=O)O)O)C(C(=O)O)N"
+},
+{
+	"id" : "Ala-Thz",
+	"name" : "Alanine-thiazole",
+	"smiles" : "CC(C1=NC(=CS1)C(=O)O)N"
+},
+{
+	"id" : "bOH-Br-Phe",
+	"name" : "beta-hydroxy-bromophenylalanine",
+	"smiles" : "C1=CC(=CC=C1C(C(C(=O)O)N)O)Br"
+},
+{
+	"id" : "bOMe-Tyr",
+	"name" : "beta-methoxy-tyrosine",
+	"smiles" : "COC(C1=CC=C(C=C1)O)C(C(=O)O)N"
+},
+{
+	"id" : "Br-Trp",
+	"name" : "5-bromo-tryptophan",
+	"smiles" : "C1=CC2=C(C=C1Br)C(=CN2)CC(C(=O)O)N"
+},
+{
+	"id" : "C10:0-Me(2)-OH(3)",
+	"name" : "3-hydroxy-2-methyl-decanoic acid",
+	"smiles" : "CCCCCCCC(C(C)C(=O)O)O"
+},
+{
+	"id" : "C10:0-NH2(2)-Ep(9)-oxo(8)",
+	"name" : "2-amino-9,10-epoxi-8-oxodecanoic acid",
+	"smiles" : "C1C(O1)C(=O)CCCCCC(C(=O)O)N"
+},
+{
+	"id" : "C11:0-Me(2)-OH(3)",
+	"name" : "3-hydroxy-2-methyl-undecanoic acid",
+	"smiles" : "CCCCCCCCC(C(C)C(=O)O)O"
+},
+{
+	"id" : "C4:0-OH(2.3)",
+	"name" : "2,3-dihydroxy-butanoic acid",
+	"smiles" : "CC(C(C(=O)O)O)O"
+},
+{
+	"id" : "C4:0-OH(2)-Ep(3)",
+	"name" : "2-hydroxy-3-epoxy-butanoic acid",
+	"smiles" : "C1C(O1)C(C(=O)O)O"
+},
+{
+	"id" : "C6:0-Me(5.5)-oxo(2)",
+	"name" : "5,5-dimethyl-2-oxo-hexanoic acid",
+	"smiles" : "CC(C)(C)CCC(=O)C(=O)O"
+},
+{
+	"id" : "C6:0-OMe(3)",
+	"name" : "3-methoxy-hexanoic acid",
+	"smiles" : "CCCC(CC(=O)O)OC"
+},
+{
+	"id" : "D-NMe-Phe",
+	"name" : "D-N-Methyl-Phenylalanine",
+	"smiles" : "CNC(CC1=CC=CC=C1)C(=O)O"
+},
+{
+	"id" : "Argal",
+	"name" : "arginal",
+	"smiles" : "C(CC(C=O)N)CN=C(N)N"
+},
+{
+	"id" : "Hip",
+	"name" : "hydroxyisovalerylpropionyl",
+	"smiles" : "CC(C)C(C(=O)C(C)C(=O)O)O"
+},
+{
+	"id" : "Ist",
+	"name" : "isostatine",
+	"smiles" : "CCC(C)C(C(CC(=O)O)O)N"
+},
+{
+	"id" : "NMe-Ph-Gly",
+	"name" : "N-methyl-phenylglycine",
+	"smiles" : "CNC(C1=CC=CC=C1)C(=O)O"
+},
+{
+	"id" : "Sta",
+	"name" : "statine",
+	"smiles" : "CC(C)CC(C(CC(=O)O)O)N"
+},
+{
+	"id" : "NOMe-Ac-D-Phe",
+	"name" : "N-methoxyacetyl-D-phenylalanine",
+	"smiles" : "COCC(=O)NC(CC1=CC=CC=C1)C(=O)O"
+},
+{
+	"id" : "NOMe-Ac-Val",
+	"name" : "N-methoxyacetyl-valine",
+	"smiles" : "CC(C)C(C(=O)O)NC(=O)COC"
+},
+{
+	"id" : "pTrp",
+	"name" : "phototryptophan",
+	"smiles" : "C1C(NC2C1(C3=CC=CC=C3N2)O)C(=O)O"
+}]

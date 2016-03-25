@@ -1,0 +1,64 @@
+[{
+	"name" : "suf",
+	"formula" : "CS[H]",
+	"transformations" : ["CS."],
+	"exclusion" : [],
+	"weights" : [5],
+	"alone" : false
+},
+{
+	"name" : "aro5",
+	"formula" : "c1c([H])ncn1",
+	"transformations" : ["c1c(.)ncn1"],
+	"exclusion" : [],
+	"weights" : [1],
+	"alone" : false
+},
+{
+	"name" : "pepCNC",
+	"formula" : "CN([H])C",
+	"transformations" : ["CN(.)C"],
+	"exclusion" : [],
+	"weights" : [5],
+	"alone" : true
+},
+{
+	"name" : "pepN",
+	"formula" : "N([H])[H]",
+	"transformations" : ["N(.)H"],
+	"exclusion" : [],
+	"weights" : [5],
+	"alone" : true
+},
+{
+	"name" : "aro6",
+	"formula" : "c1c([H])c(O)ccc1",
+	"transformations" : ["c1c(.)c(O)ccc1"],
+	"exclusion" : [],
+	"weights" : [1],
+	"alone" : false
+},
+{
+	"name" : "pepOH",
+	"formula" : "C(=O)O[H]",
+	"transformations" : ["C(=O).x"],
+	"exclusion" : [],
+	"weights" : [5],
+	"alone" : true
+},
+{
+	"weights":[2],
+	"exclusion":["C(=O)O[H]","COC(O[H])C"],
+	"name":"hydroxyl",
+	"transformations":["CO."],
+	"alone":true,
+	"formula":"CO[H]"
+},
+{
+	"weights":[1],
+	"exclusion":[],
+	"name":"ose",
+	"transformations":["COC(.X)C"],
+	"alone":true,
+	"formula":"COC(O[H])C"
+}]

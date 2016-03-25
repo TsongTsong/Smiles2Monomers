@@ -1,0 +1,50 @@
+[{
+	"name" : "1Me-Trp",
+	"desc" : "N1-methyl-tryptophan",
+	"smiles" : "CN1C=C(C2=CC=CC=C21)CC(C(=O)O)N"
+},
+{
+	"name" : "2Dh-Mabu",
+	"desc" : "2-methylamino-2-dehydrobutyric acid",
+	"smiles" : "CNC(=CC)C(=O)O"
+},
+{
+	"name" : "2Me-3Me-pGlu",
+	"desc" : "2,3-dimethylpyroglutamic acid",
+	"smiles" : "C1(C(C(C(N1)=O)C)C)C(=O)O"
+},
+{
+	"name" : "2OMe-Rha",
+	"desc" : "O-methyl-L-rhamnose",
+	"smiles" : "CC1C(C(C(C(O1)O)OC)O)O"
+},
+{
+	"desc":"4OH-Thr",
+	"name":"4OH-Thr",
+	"smiles":"C(C(C(C(=O)O)N)O)O"
+},
+{
+	"desc":"bU-dAla",
+	"name":"bU-dAla",
+	"smiles":"C(C(O)=O)(\/N)=C\/NC(=O)N"
+},
+{
+	"desc":"bLys",
+	"name":"bLys",
+	"smiles":"C(CC(CC(=O)O)N)CN"
+},
+{
+	"desc":"Dpr",
+	"name":"Dpr",
+	"smiles":"C(C(C(=O)O)N)N"
+},
+{
+	"desc":"D-Ser",
+	"name":"D-Ser",
+	"smiles":"C(C(C(=O)O)N)O"
+},
+{
+	"name":"5OH-Cap",
+	"desc":"5-hydroxy-capreomycidine",
+	"smiles":"C1C(NC(NC1C(C(=O)O)N)=N)O"
+}]

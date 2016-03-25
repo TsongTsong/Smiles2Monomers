@@ -1,0 +1,3218 @@
+D-NMe-aIle,NMe-Ile,NMe-aIle
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-aIle
+Num of residues : 3
+Root residues (with max links) :
+	NMe-aIle_pepCNC_pepOH : 2
+
+iC14:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC14:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC14:0-OH(3)_acidOH_pepOH : 2
+	iC14:0-OH(3)_acidOH_pepOH : 2
+
+D-bMe-Gln
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-bMe-Gln
+Num of residues : 7
+Root residues (with max links) :
+	D-bMe-Gln_pepN_pepN_pepOH : 3
+
+C18:1(9)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C18:1(9)
+Num of residues : 1
+Root residues (with max links) :
+	C18:1(9)_pepOH : 1
+
+C6:0-Me(5.5)-oxo(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-Me(5.5)-oxo(2)
+Num of residues : 1
+Root residues (with max links) :
+	C6:0-Me(5.5)-oxo(2)_pepOH : 1
+
+HseL
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=HseL
+Num of residues : 1
+Root residues (with max links) :
+	HseL_pepN : 1
+
+Aad
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Aad
+Num of residues : 7
+Root residues (with max links) :
+	Aad_pepN_pepOH_pepOH : 3
+
+diOH-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=diOH-Phe
+Num of residues : 135
+Root residues (with max links) :
+	diOH-Phe_acidOH_acidOH_pepN_pepOH : 4
+	diOH-Phe_acidOH_acidOH_aro6_pepN_pepOH : 5
+	diOH-Phe_acidOH_acidOH_aro6_pepN_pepOH : 5
+	diOH-Phe_acidOH_acidOH_aro6_pepN_pepOH : 5
+	diOH-Phe_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	diOH-Phe_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	diOH-Phe_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	diOH-Phe_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	diOH-Phe_acidOH_acidOH_aro6_pepN_pepOH : 5
+
+OMe-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OMe-Trp
+Num of residues : 3
+Root residues (with max links) :
+	OMe-Trp_pepN_pepOH : 2
+
+bOH-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOH-Tyr
+Num of residues : 103
+Root residues (with max links) :
+	bOH-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	bOH-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	bOH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	bOH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	bOH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	bOH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	bOH-Tyr_acidOH_acidOH_pepN_pepOH : 4
+	bOH-Tyr_acidOH_acidOH_pepN_pepOH : 4
+
+C13:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C13:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C13:0-NH2(3)_pepN_pepOH : 2
+
+C8:0:1(7)-Me(2)-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0:1(7)-Me(2)-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C8:0:1(7)-Me(2)-NH2(3)_pepN_pepOH : 2
+
+D-Trp,Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Trp
+Num of residues : 3
+Root residues (with max links) :
+	D-Trp_pepN_pepOH : 2
+
+D-Har
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Har
+Num of residues : 5
+Root residues (with max links) :
+	D-Har_acidOH_pepN : 2
+	D-Har_acidOH_pepN : 2
+
+4OH-Pro,D-4OH-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4OH-Pro
+Num of residues : 11
+Root residues (with max links) :
+	4OH-Pro_acidOH_pepCNC_pepOH : 3
+	4OH-Pro_acidOH_pepCNC_pepOH : 3
+
+C4:0-Ep(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0-Ep(3)
+Num of residues : 1
+Root residues (with max links) :
+	C4:0-Ep(3)_pepOH : 1
+
+NMe-bAla
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-bAla
+Num of residues : 3
+Root residues (with max links) :
+	NMe-bAla_pepCNC_pepOH : 2
+
+C4:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C4:0-OH(3)_acidOH_pepOH : 2
+	C4:0-OH(3)_acidOH_pepOH : 2
+
+C10:0:1(9)-Me(2.4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0:1(9)-Me(2.4)
+Num of residues : 1
+Root residues (with max links) :
+	C10:0:1(9)-Me(2.4)_pepOH : 1
+
+C6:0-Ep(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-Ep(2)
+Num of residues : 1
+Root residues (with max links) :
+	C6:0-Ep(2)_pepOH : 1
+
+Hty
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hty
+Num of residues : 31
+Root residues (with max links) :
+	Hty_acidOH_aro6_pepN_pepOH : 4
+	Hty_acidOH_pepN_pepOH : 3
+	Hty_acidOH_aro6_aro6_pepN_pepOH : 5
+	Hty_acidOH_aro6_aro6_pepN_pepOH : 5
+
+NMe-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Tyr
+Num of residues : 31
+Root residues (with max links) :
+	NMe-Tyr_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-Tyr_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+	NMe-Tyr_acidOH_pepCNC_pepOH : 3
+
+Asn,D-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Asn
+Num of residues : 7
+Root residues (with max links) :
+	Asn_pepN_pepN_pepOH : 3
+
+C4:0-OH(2.3.4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0-OH(2.3.4)
+Num of residues : 53
+Root residues (with max links) :
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+	C4:0-OH(2.3.4)_acidOH_acidOH_acidOH_pepOH : 4
+
+OAc-Leuol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OAc-Leuol
+Num of residues : 1
+Root residues (with max links) :
+	OAc-Leuol_pepN : 1
+
+new5
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=new5
+Num of residues : 3
+Root residues (with max links) :
+	new5_pepN_pepOH : 2
+
+bOH-Gln
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOH-Gln
+Num of residues : 23
+Root residues (with max links) :
+	bOH-Gln_acidOH_pepN_pepN_pepOH : 4
+	bOH-Gln_acidOH_pepN_pepN_pepOH : 4
+
+diOH-Arg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=diOH-Arg
+Num of residues : 107
+Root residues (with max links) :
+	diOH-Arg_acidOH_acidOH_pepN_pepN_pepN_pepOH : 6
+	diOH-Arg_acidOH_acidOH_pepN_pepN_pepN_pepOH : 6
+	diOH-Arg_acidOH_acidOH_pepN_pepN_pepN_pepOH : 6
+	diOH-Arg_acidOH_acidOH_pepN_pepN_pepN_pepOH : 6
+
+3Me-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3Me-Pro
+Num of residues : 3
+Root residues (with max links) :
+	3Me-Pro_pepCNC_pepOH : 2
+
+C8:0-Me(2.2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0-Me(2.2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C8:0-Me(2.2)-OH(3)_acidOH_pepOH : 2
+	C8:0-Me(2.2)-OH(3)_acidOH_pepOH : 2
+
+iC12:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC12:0
+Num of residues : 1
+Root residues (with max links) :
+	iC12:0_pepOH : 1
+
+D-Val,Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Val
+Num of residues : 3
+Root residues (with max links) :
+	Val_pepN_pepOH : 2
+
+C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)
+Num of residues : 107
+Root residues (with max links) :
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+
+4Me-D-Hva
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4Me-D-Hva
+Num of residues : 5
+Root residues (with max links) :
+	4Me-D-Hva_acidOH_pepOH : 2
+	4Me-D-Hva_acidOH_pepOH : 2
+
+D-Fo-OH-Orn,Fo-OH-Orn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Fo-OH-Orn
+Num of residues : 3
+Root residues (with max links) :
+	D-Fo-OH-Orn_pepN_pepOH : 2
+
+D-Ph-Lac,Ph-Lac
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Ph-Lac
+Num of residues : 5
+Root residues (with max links) :
+	Ph-Lac_acidOH_pepOH : 2
+	Ph-Lac_acidOH_pepOH : 2
+
+D-OH-Orn,OH-Orn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-OH-Orn
+Num of residues : 3
+Root residues (with max links) :
+	D-OH-Orn_pepN_pepOH : 2
+
+C12:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C12:0-OH(3)_acidOH_pepOH : 2
+	C12:0-OH(3)_acidOH_pepOH : 2
+
+Phe-Thz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Phe-Thz
+Num of residues : 3
+Root residues (with max links) :
+	Phe-Thz_pepN_pepOH : 2
+
+C8:0:1(7)-Me(2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0:1(7)-Me(2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C8:0:1(7)-Me(2)-OH(3)_acidOH_pepOH : 2
+	C8:0:1(7)-Me(2)-OH(3)_acidOH_pepOH : 2
+
+C10:0-Me(4)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-Me(4)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C10:0-Me(4)-OH(3)_acidOH_pepOH : 2
+	C10:0-Me(4)-OH(3)_acidOH_pepOH : 2
+
+3OH-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3OH-Pro
+Num of residues : 11
+Root residues (with max links) :
+	3OH-Pro_acidOH_pepCNC_pepOH : 3
+	3OH-Pro_acidOH_pepCNC_pepOH : 3
+
+e-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=e-Tyr
+Num of residues : 31
+Root residues (with max links) :
+	e-Tyr_acidOH_aro6_pepN_pepOH : 4
+	e-Tyr_acidOH_pepN_pepOH : 3
+	e-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	e-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+
+Hysp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hysp
+Num of residues : 5
+Root residues (with max links) :
+	Hysp_acidOH_pepOH : 2
+	Hysp_acidOH_pepOH : 2
+
+Hpa
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hpa
+Num of residues : 5
+Root residues (with max links) :
+	Hpa_acidOH_pepOH : 2
+	Hpa_acidOH_pepOH : 2
+
+C4:0-Me(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0-Me(2)
+Num of residues : 1
+Root residues (with max links) :
+	C4:0-Me(2)_pepOH : 1
+
+C6:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C6:0-OH(3)_acidOH_pepOH : 2
+	C6:0-OH(3)_acidOH_pepOH : 2
+
+Serol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Serol
+Num of residues : 11
+Root residues (with max links) :
+	Serol_acidOH_acidOH_pepN : 3
+	Serol_acidOH_acidOH_pepN : 3
+	Serol_acidOH_acidOH_pepN : 3
+
+Ileol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ileol
+Num of residues : 5
+Root residues (with max links) :
+	Ileol_acidOH_pepN : 2
+	Ileol_acidOH_pepN : 2
+
+Cap
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cap
+Num of residues : 15
+Root residues (with max links) :
+	Cap_pepCNC_pepN_pepN_pepOH : 4
+
+C10:0-Me(2.2.4)-OH(3.7)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-Me(2.2.4)-OH(3.7)
+Num of residues : 17
+Root residues (with max links) :
+	C10:0-Me(2.2.4)-OH(3.7)_acidOH_acidOH_pepOH : 3
+	C10:0-Me(2.2.4)-OH(3.7)_acidOH_acidOH_pepOH : 3
+	C10:0-Me(2.2.4)-OH(3.7)_acidOH_acidOH_pepOH : 3
+	C10:0-Me(2.2.4)-OH(3.7)_acidOH_acidOH_pepOH : 3
+
+D-NMe-Ser,NMe-Ser
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-Ser
+Num of residues : 11
+Root residues (with max links) :
+	NMe-Ser_acidOH_pepCNC_pepOH : 3
+	NMe-Ser_acidOH_pepCNC_pepOH : 3
+
+D-NMe-OMe-Tyr,NMe-OMe-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-OMe-Tyr
+Num of residues : 9
+Root residues (with max links) :
+	NMe-OMe-Tyr_aro6_aro6_pepCNC_pepOH : 4
+
+ck-Arg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ck-Arg
+Num of residues : 11
+Root residues (with max links) :
+	ck-Arg_acidOH_pepCNC_pepN : 3
+	ck-Arg_acidOH_pepCNC_pepN : 3
+
+norCMA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=norCMA
+Num of residues : 3
+Root residues (with max links) :
+	norCMA_pepN_pepOH : 2
+
+iC13:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC13:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC13:0-OH(3)_acidOH_pepOH : 2
+	iC13:0-OH(3)_acidOH_pepOH : 2
+
+OH-Pyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OH-Pyr
+Num of residues : 5
+Root residues (with max links) :
+	OH-Pyr_acidOH_pepCNC : 2
+	OH-Pyr_acidOH_pepCNC : 2
+
+Har
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Har
+Num of residues : 11
+Root residues (with max links) :
+	Har_pepN_pepN_pepN_pepOH : 4
+
+bOMe-Asp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOMe-Asp
+Num of residues : 3
+Root residues (with max links) :
+	bOMe-Asp_pepN_pepOH : 2
+
+bU-dAla
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bU-dAla
+Num of residues : 15
+Root residues (with max links) :
+	bU-dAla_pepCNC_pepN_pepN_pepOH : 4
+
+C10:0-Me(2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-Me(2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C10:0-Me(2)-OH(3)_acidOH_pepOH : 2
+	C10:0-Me(2)-OH(3)_acidOH_pepOH : 2
+
+OH-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OH-Trp
+Num of residues : 41
+Root residues (with max links) :
+	OH-Trp_acidOH_aro6_pepN_pepOH : 4
+	OH-Trp_acidOH_aro6_aro6_pepN_pepOH : 5
+	OH-Trp_acidOH_aro6_aro6_pepN_pepOH : 5
+	OH-Trp_acidOH_aro6_pepN_pepOH : 4
+	OH-Trp_acidOH_pepN_pepOH : 3
+
+D-Hse,Hse
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Hse
+Num of residues : 11
+Root residues (with max links) :
+	D-Hse_acidOH_pepN_pepOH : 3
+	D-Hse_acidOH_pepN_pepOH : 3
+
+D-Hmp,Hmp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Hmp
+Num of residues : 5
+Root residues (with max links) :
+	Hmp_acidOH_pepOH : 2
+	Hmp_acidOH_pepOH : 2
+
+k-Arg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=k-Arg
+Num of residues : 15
+Root residues (with max links) :
+	k-Arg_pepCNC_pepN_pepN_pepOH : 4
+
+Met
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Met
+Num of residues : 3
+Root residues (with max links) :
+	Met_pepN_pepOH : 2
+
+Dov
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Dov
+Num of residues : 1
+Root residues (with max links) :
+	Dov_pepOH : 1
+
+PALOA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=PALOA
+Num of residues : 3
+Root residues (with max links) :
+	PALOA_pepN_pepOH : 2
+
+C12:1(5)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:1(5)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C12:1(5)-OH(3)_acidOH_pepOH : 2
+	C12:1(5)-OH(3)_acidOH_pepOH : 2
+
+D-Dab,Dab
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Dab
+Num of residues : 7
+Root residues (with max links) :
+	D-Dab_pepN_pepN_pepOH : 3
+
+C16:1(9)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:1(9)
+Num of residues : 1
+Root residues (with max links) :
+	C16:1(9)_pepOH : 1
+
+C10:0-OH(9)-NH2(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-OH(9)-NH2(2)
+Num of residues : 11
+Root residues (with max links) :
+	C10:0-OH(9)-NH2(2)_acidOH_pepN_pepOH : 3
+	C10:0-OH(9)-NH2(2)_acidOH_pepN_pepOH : 3
+
+iC10:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC10:0
+Num of residues : 1
+Root residues (with max links) :
+	iC10:0_pepOH : 1
+
+Leuol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Leuol
+Num of residues : 5
+Root residues (with max links) :
+	Leuol_acidOH_pepN : 2
+	Leuol_acidOH_pepN : 2
+
+Aca
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Aca
+Num of residues : 3
+Root residues (with max links) :
+	Aca_pepN_pepOH : 2
+
+hk-Arg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=hk-Arg
+Num of residues : 47
+Root residues (with max links) :
+	hk-Arg_acidOH_pepCNC_pepN_pepN_pepOH : 5
+	hk-Arg_acidOH_pepCNC_pepN_pepN_pepOH : 5
+
+C15:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C15:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C15:0-OH(3)_acidOH_pepOH : 2
+	C15:0-OH(3)_acidOH_pepOH : 2
+
+iC9:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC9:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC9:0-OH(3)_acidOH_pepOH : 2
+	iC9:0-OH(3)_acidOH_pepOH : 2
+
+OSu-Hmp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OSu-Hmp
+Num of residues : 1
+Root residues (with max links) :
+	OSu-Hmp_pepOH : 1
+
+Agdha
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Agdha
+Num of residues : 143
+Root residues (with max links) :
+	Agdha_acidOH_acidOH_pepCNC_pepN_pepN_pepOH : 6
+	Agdha_acidOH_acidOH_pepCNC_pepN_pepN_pepOH : 6
+	Agdha_acidOH_acidOH_pepCNC_pepN_pepN_pepOH : 6
+	Agdha_acidOH_acidOH_pepCNC_pepN_pepN_pepOH : 6
+
+ChrP
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ChrP
+Num of residues : 279
+Root residues (with max links) :
+	ChrP_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrP_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrP_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrP_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrP_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrP_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrP_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrP_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrP_acidOH_acidOH_pepCNC_pepN_pepOH : 5
+
+Cl3-NMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl3-NMe-Leu
+Num of residues : 3
+Root residues (with max links) :
+	Cl3-NMe-Leu_pepCNC_pepOH : 2
+
+C9:1(Me4)-Me(2.4.6)-OH(8)-Oxo(5)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C9:1(Me4)-Me(2.4.6)-OH(8)-Oxo(5)
+Num of residues : 5
+Root residues (with max links) :
+	C9:1(Me4)-Me(2.4.6)-OH(8)-Oxo(5)_acidOH_pepOH : 2
+	C9:1(Me4)-Me(2.4.6)-OH(8)-Oxo(5)_acidOH_pepOH : 2
+
+MCP
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=MCP
+Num of residues : 1
+Root residues (with max links) :
+	MCP_pepOH : 1
+
+Ac-Ser
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-Ser
+Num of residues : 3
+Root residues (with max links) :
+	Ac-Ser_pepN_pepOH : 2
+
+D-Dhpg,Dhpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Dhpg
+Num of residues : 156
+Root residues (with max links) :
+	Dhpg_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	Dhpg_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	Dhpg_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	Dhpg_acidOH_acidOH_aro6_aro6_aro6_pepN_pepOH : 7
+	Dhpg_acidOH_acidOH_aro6_aro6_aro6_pepN_pepOH : 7
+	Dhpg_acidOH_acidOH_aro6_aro6_aro6_pepN_pepOH : 7
+	Dhpg_acidOH_acidOH_aro6_pepN_pepOH : 5
+	Dhpg_acidOH_acidOH_pepN_pepOH : 4
+	Dhpg_acidOH_acidOH_aro6_pepN_pepOH : 5
+
+dDap
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dDap
+Num of residues : 11
+Root residues (with max links) :
+	dDap_acidOH_pepCNC_pepOH : 3
+	dDap_acidOH_pepCNC_pepOH : 3
+
+NdMe-Ala
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NdMe-Ala
+Num of residues : 1
+Root residues (with max links) :
+	NdMe-Ala_pepOH : 1
+
+Ahp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ahp
+Num of residues : 35
+Root residues (with max links) :
+	Ahp_acidOH_acidOH_pepN_pepOH : 4
+	Ahp_acidOH_acidOH_pepN_pepOH : 4
+	Ahp_acidOH_acidOH_pepN_pepOH : 4
+	Ahp_acidOH_acidOH_pepN_pepOH : 4
+
+3Me-Glu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3Me-Glu
+Num of residues : 7
+Root residues (with max links) :
+	3Me-Glu_pepN_pepOH_pepOH : 3
+
+NMe-Gly-Thz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Gly-Thz
+Num of residues : 1
+Root residues (with max links) :
+	NMe-Gly-Thz_pepCNC : 1
+
+D-N2Me-Asn,N2Me-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-N2Me-Asn
+Num of residues : 7
+Root residues (with max links) :
+	N2Me-Asn_pepCNC_pepN_pepOH : 3
+
+C6:0-OMe(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-OMe(3)
+Num of residues : 1
+Root residues (with max links) :
+	C6:0-OMe(3)_pepOH : 1
+
+dPyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dPyr
+Num of residues : 7
+Root residues (with max links) :
+	dPyr_pepCNC_pepN_pepOH : 3
+
+gSer
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=gSer
+Num of residues : 47
+Root residues (with max links) :
+	gSer_acidOH_pepCNC_pepN_pepN_pepOH : 5
+	gSer_acidOH_pepCNC_pepN_pepN_pepOH : 5
+
+C18:1(9)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C18:1(9)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C18:1(9)-OH(3)_acidOH_pepOH : 2
+	C18:1(9)-OH(3)_acidOH_pepOH : 2
+
+Iser
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Iser
+Num of residues : 11
+Root residues (with max links) :
+	Iser_acidOH_pepN_pepOH : 3
+	Iser_acidOH_pepN_pepOH : 3
+
+5OH-Cap
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=5OH-Cap
+Num of residues : 47
+Root residues (with max links) :
+	5OH-Cap_acidOH_pepCNC_pepCNC_pepN_pepOH : 5
+	5OH-Cap_acidOH_pepCNC_pepCNC_pepN_pepOH : 5
+
+Ara,D-Ara,Lyx
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ara
+Num of residues : 80
+Root residues (with max links) :
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+	Ara_acidOH_acidOH_acidOH_acidOH : 4
+
+3NO2-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3NO2-Tyr
+Num of residues : 21
+Root residues (with max links) :
+	3NO2-Tyr_acidOH_aro6_pepN_pepOH : 4
+	3NO2-Tyr_acidOH_aro6_pepN_pepOH : 4
+	3NO2-Tyr_acidOH_pepN_pepOH : 3
+
+OH-His
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OH-His
+Num of residues : 22
+Root residues (with max links) :
+	OH-His_acidOH_aro5_pepN_pepOH : 4
+	OH-His_acidOH_aro5_pepN_pepOH : 4
+
+bOH-NMe-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOH-NMe-Val
+Num of residues : 11
+Root residues (with max links) :
+	bOH-NMe-Val_acidOH_pepCNC_pepOH : 3
+	bOH-NMe-Val_acidOH_pepCNC_pepOH : 3
+
+bbMe-NMe-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bbMe-NMe-Trp
+Num of residues : 3
+Root residues (with max links) :
+	bbMe-NMe-Trp_pepCNC_pepOH : 2
+
+aC13:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC13:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	aC13:0-OH(3)_acidOH_pepOH : 2
+	aC13:0-OH(3)_acidOH_pepOH : 2
+
+aC15:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC15:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	aC15:0-NH2(3)_pepN_pepOH : 2
+
+Dap
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Dap
+Num of residues : 3
+Root residues (with max links) :
+	Dap_pepCNC_pepOH : 2
+
+Map
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Map
+Num of residues : 3
+Root residues (with max links) :
+	Map_pepN_pepOH : 2
+
+3Me-4Me-Gln
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3Me-4Me-Gln
+Num of residues : 7
+Root residues (with max links) :
+	3Me-4Me-Gln_pepN_pepN_pepOH : 3
+
+NFo-Ile
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Ile
+Num of residues : 3
+Root residues (with max links) :
+	NFo-Ile_pepCNC_pepOH : 2
+
+D-t-Leu,t-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-t-Leu
+Num of residues : 3
+Root residues (with max links) :
+	t-Leu_pepN_pepOH : 2
+
+D-MeO-Glu,MeO-D-Glu,MeO-Glu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-MeO-Glu
+Num of residues : 3
+Root residues (with max links) :
+	MeO-D-Glu_pepN_pepOH : 2
+
+aC6:0-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC6:0-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	aC6:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	aC6:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	aC6:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	aC6:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+N1-COOH-bhTrp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=N1-COOH-bhTrp
+Num of residues : 7
+Root residues (with max links) :
+	N1-COOH-bhTrp_pepN_pepOH_pepOH : 3
+
+v-OH-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=v-OH-Tyr
+Num of residues : 135
+Root residues (with max links) :
+	v-OH-Tyr_acidOH_acidOH_pepN_pepOH : 4
+	v-OH-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	v-OH-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	v-OH-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	v-OH-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	v-OH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	v-OH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	v-OH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+	v-OH-Tyr_acidOH_acidOH_aro6_aro6_pepN_pepOH : 6
+
+C9:1(4)-Me(2.4.6)-OH(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C9:1(4)-Me(2.4.6)-OH(8)
+Num of residues : 5
+Root residues (with max links) :
+	C9:1(4)-Me(2.4.6)-OH(8)_acidOH_pepOH : 2
+	C9:1(4)-Me(2.4.6)-OH(8)_acidOH_pepOH : 2
+
+bbMe2-O-Met
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bbMe2-O-Met
+Num of residues : 3
+Root residues (with max links) :
+	bbMe2-O-Met_pepN_pepOH : 2
+
+dDil
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dDil
+Num of residues : 3
+Root residues (with max links) :
+	dDil_pepN_pepOH : 2
+
+2Me-3Me-pGlu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=2Me-3Me-pGlu
+Num of residues : 3
+Root residues (with max links) :
+	2Me-3Me-pGlu_pepCNC_pepOH : 2
+
+NMe-Dha
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Dha
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Dha_pepCNC_pepOH : 2
+
+aC17:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC17:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	aC17:0-NH2(3)_pepN_pepOH : 2
+
+Apv
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Apv
+Num of residues : 3
+Root residues (with max links) :
+	Apv_pepN_pepOH : 2
+
+bLys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bLys
+Num of residues : 7
+Root residues (with max links) :
+	bLys_pepN_pepN_pepOH : 3
+
+Cl3-5OH-NMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl3-5OH-NMe-Leu
+Num of residues : 11
+Root residues (with max links) :
+	Cl3-5OH-NMe-Leu_acidOH_pepCNC_pepOH : 3
+	Cl3-5OH-NMe-Leu_acidOH_pepCNC_pepOH : 3
+
+NMe-Gln
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Gln
+Num of residues : 7
+Root residues (with max links) :
+	NMe-Gln_pepCNC_pepN_pepOH : 3
+
+MeOx-Ile
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=MeOx-Ile
+Num of residues : 3
+Root residues (with max links) :
+	MeOx-Ile_pepN_pepOH : 2
+
+D-Ser,Ser
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Ser
+Num of residues : 11
+Root residues (with max links) :
+	D-Ser_acidOH_pepN_pepOH : 3
+	D-Ser_acidOH_pepN_pepOH : 3
+
+C14:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C14:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C14:0-NH2(3)_pepN_pepOH : 2
+
+D-bMe-Asp,bMe-Asp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-bMe-Asp
+Num of residues : 7
+Root residues (with max links) :
+	bMe-Asp_pepN_pepOH_pepOH : 3
+
+Cl2-NMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl2-NMe-Leu
+Num of residues : 3
+Root residues (with max links) :
+	Cl2-NMe-Leu_pepCNC_pepOH : 2
+
+NdMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NdMe-Leu
+Num of residues : 1
+Root residues (with max links) :
+	NdMe-Leu_pepOH : 1
+
+D-NFo-Ala,NFo-Ala
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NFo-Ala
+Num of residues : 3
+Root residues (with max links) :
+	D-NFo-Ala_pepCNC_pepOH : 2
+
+Aco
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Aco
+Num of residues : 17
+Root residues (with max links) :
+	Aco_acidOH_acidOH_pepN : 3
+	Aco_acidOH_acidOH_pepN : 3
+	Aco_acidOH_acidOH_pepN : 3
+	Aco_acidOH_acidOH_pepN : 3
+
+C11:2(t2.t8)-Me(2.6.8)-OH(5.7)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C11:2(t2.t8)-Me(2.6.8)-OH(5.7)
+Num of residues : 17
+Root residues (with max links) :
+	C11:2(t2.t8)-Me(2.6.8)-OH(5.7)_acidOH_acidOH_pepOH : 3
+	C11:2(t2.t8)-Me(2.6.8)-OH(5.7)_acidOH_acidOH_pepOH : 3
+	C11:2(t2.t8)-Me(2.6.8)-OH(5.7)_acidOH_acidOH_pepOH : 3
+	C11:2(t2.t8)-Me(2.6.8)-OH(5.7)_acidOH_acidOH_pepOH : 3
+
+C7:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C7:0
+Num of residues : 1
+Root residues (with max links) :
+	C7:0_pepOH : 1
+
+C7:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C7:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C7:0-OH(3)_acidOH_pepOH : 2
+	C7:0-OH(3)_acidOH_pepOH : 2
+
+D-NMe-Leu,NMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-Leu
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Leu_pepCNC_pepOH : 2
+
+PTTA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=PTTA
+Num of residues : 31
+Root residues (with max links) :
+	PTTA_acidOH_aro6_pepN_pepOH : 4
+	PTTA_acidOH_pepN_pepOH : 3
+	PTTA_acidOH_aro6_aro6_pepN_pepOH : 5
+	PTTA_acidOH_aro6_aro6_pepN_pepOH : 5
+
+NFo-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Pro
+Num of residues : 1
+Root residues (with max links) :
+	NFo-Pro_pepOH : 1
+
+NMe-Gly
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Gly
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Gly_pepCNC_pepOH : 2
+
+Me-Suc
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Me-Suc
+Num of residues : 1
+Root residues (with max links) :
+	Me-Suc_pepCNC : 1
+
+C4:0-OH(2.3)-Cl(4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0-OH(2.3)-Cl(4)
+Num of residues : 17
+Root residues (with max links) :
+	C4:0-OH(2.3)-Cl(4)_acidOH_acidOH_pepOH : 3
+	C4:0-OH(2.3)-Cl(4)_acidOH_acidOH_pepOH : 3
+	C4:0-OH(2.3)-Cl(4)_acidOH_acidOH_pepOH : 3
+	C4:0-OH(2.3)-Cl(4)_acidOH_acidOH_pepOH : 3
+
+DMOG
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=DMOG
+Num of residues : 33
+Root residues (with max links) :
+	DMOG_acidOH_acidOH_aro6_pepOH : 4
+	DMOG_acidOH_acidOH_aro6_pepOH : 4
+	DMOG_acidOH_acidOH_aro6_pepOH : 4
+	DMOG_acidOH_acidOH_aro6_pepOH : 4
+	DMOG_acidOH_acidOH_pepOH : 3
+	DMOG_acidOH_acidOH_pepOH : 3
+
+Bmt
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Bmt
+Num of residues : 11
+Root residues (with max links) :
+	Bmt_acidOH_pepN_pepOH : 3
+	Bmt_acidOH_pepN_pepOH : 3
+
+aFo-Gly
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aFo-Gly
+Num of residues : 3
+Root residues (with max links) :
+	aFo-Gly_pepN_pepOH : 2
+
+Hap
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hap
+Num of residues : 5
+Root residues (with max links) :
+	Hap_acidOH_pepOH : 2
+	Hap_acidOH_pepOH : 2
+
+Pya
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Pya
+Num of residues : 1
+Root residues (with max links) :
+	Pya_pepOH : 1
+
+4OH-Thr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4OH-Thr
+Num of residues : 35
+Root residues (with max links) :
+	4OH-Thr_acidOH_acidOH_pepN_pepOH : 4
+	4OH-Thr_acidOH_acidOH_pepN_pepOH : 4
+	4OH-Thr_acidOH_acidOH_pepN_pepOH : 4
+	4OH-Thr_acidOH_acidOH_pepN_pepOH : 4
+
+D-Pro,Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Pro
+Num of residues : 3
+Root residues (with max links) :
+	D-Pro_pepCNC_pepOH : 2
+
+NMe-Hty
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Hty
+Num of residues : 31
+Root residues (with max links) :
+	NMe-Hty_acidOH_aro6_pepCNC_pepOH : 4
+	NMe-Hty_acidOH_pepCNC_pepOH : 3
+	NMe-Hty_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-Hty_acidOH_aro6_aro6_pepCNC_pepOH : 5
+
+dhCys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dhCys
+Num of residues : 6
+Root residues (with max links) :
+	dhCys_pepN_pepOH_suf : 3
+
+CFA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=CFA
+Num of residues : 1
+Root residues (with max links) :
+	CFA_pepOH : 1
+
+NMe-bMe-Leu,diMe-aIle
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-bMe-Leu
+Num of residues : 3
+Root residues (with max links) :
+	NMe-bMe-Leu_pepCNC_pepOH : 2
+
+iC12:2(2.t4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC12:2(2.t4)
+Num of residues : 1
+Root residues (with max links) :
+	iC12:2(2.t4)_pepOH : 1
+
+Aib
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Aib
+Num of residues : 3
+Root residues (with max links) :
+	Aib_pepN_pepOH : 2
+
+D-ph-Gly,Ph-Gly
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-ph-Gly
+Num of residues : 3
+Root residues (with max links) :
+	Ph-Gly_pepN_pepOH : 2
+
+NMe-Me2A-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Me2A-Phe
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Me2A-Phe_pepCNC_pepOH : 2
+
+dv-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dv-Tyr
+Num of residues : 31
+Root residues (with max links) :
+	dv-Tyr_acidOH_pepN_pepOH : 3
+	dv-Tyr_acidOH_aro6_pepN_pepOH : 4
+	dv-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	dv-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+
+D-NMe-Nva
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-Nva
+Num of residues : 3
+Root residues (with max links) :
+	D-NMe-Nva_pepCNC_pepOH : 2
+
+bMe-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bMe-Asn
+Num of residues : 7
+Root residues (with max links) :
+	bMe-Asn_pepN_pepN_pepOH : 3
+
+Azd
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Azd
+Num of residues : 5
+Root residues (with max links) :
+	Azd_pepCNC_pepOH_pepOH : 3
+
+Cl2-Hpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl2-Hpg
+Num of residues : 11
+Root residues (with max links) :
+	Cl2-Hpg_acidOH_pepN_pepOH : 3
+	Cl2-Hpg_acidOH_pepN_pepOH : 3
+
+aC17:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC17:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	aC17:0-OH(3)_acidOH_pepOH : 2
+	aC17:0-OH(3)_acidOH_pepOH : 2
+
+C10:0-Me(2.4)-oxo(9)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-Me(2.4)-oxo(9)
+Num of residues : 1
+Root residues (with max links) :
+	C10:0-Me(2.4)-oxo(9)_pepOH : 1
+
+D-NMe-Phe,NMe-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-Phe
+Num of residues : 3
+Root residues (with max links) :
+	D-NMe-Phe_pepCNC_pepOH : 2
+
+NMe-Bmt
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Bmt
+Num of residues : 11
+Root residues (with max links) :
+	NMe-Bmt_acidOH_pepCNC_pepOH : 3
+	NMe-Bmt_acidOH_pepCNC_pepOH : 3
+
+NMe-MeA-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-MeA-Phe
+Num of residues : 7
+Root residues (with max links) :
+	NMe-MeA-Phe_pepCNC_pepCNC_pepOH : 3
+
+Ahad
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ahad
+Num of residues : 23
+Root residues (with max links) :
+	Ahad_acidOH_pepN_pepOH_pepOH : 4
+	Ahad_acidOH_pepN_pepOH_pepOH : 4
+
+D-Nva,Nva
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Nva
+Num of residues : 3
+Root residues (with max links) :
+	D-Nva_pepN_pepOH : 2
+
+C9:1(8)-Me(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C9:1(8)-Me(2)
+Num of residues : 1
+Root residues (with max links) :
+	C9:1(8)-Me(2)_pepOH : 1
+
+diMe-Cys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=diMe-Cys
+Num of residues : 3
+Root residues (with max links) :
+	diMe-Cys_pepCNC_pepOH : 2
+
+NtMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NtMe-Leu
+Num of residues : 1
+Root residues (with max links) :
+	NtMe-Leu_pepOH : 1
+
+C12:1(5)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:1(5)
+Num of residues : 1
+Root residues (with max links) :
+	C12:1(5)_pepOH : 1
+
+aC13:2(2.t4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC13:2(2.t4)
+Num of residues : 1
+Root residues (with max links) :
+	aC13:2(2.t4)_pepOH : 1
+
+NOMe-Ac-D-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NOMe-Ac-D-Phe
+Num of residues : 3
+Root residues (with max links) :
+	NOMe-Ac-D-Phe_pepCNC_pepOH : 2
+
+Gly
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Gly
+Num of residues : 3
+Root residues (with max links) :
+	Gly_pepN_pepOH : 2
+
+Sta
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Sta
+Num of residues : 11
+Root residues (with max links) :
+	Sta_acidOH_pepN_pepOH : 3
+	Sta_acidOH_pepN_pepOH : 3
+
+iC10:2(2.t4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC10:2(2.t4)
+Num of residues : 1
+Root residues (with max links) :
+	iC10:2(2.t4)_pepOH : 1
+
+C8:0:1(7)-Me(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0:1(7)-Me(2)
+Num of residues : 1
+Root residues (with max links) :
+	C8:0:1(7)-Me(2)_pepOH : 1
+
+D-Ile,D-aIle,Ile,aIle
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Ile
+Num of residues : 3
+Root residues (with max links) :
+	Ile_pepN_pepOH : 2
+
+C16:1(7)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:1(7)
+Num of residues : 1
+Root residues (with max links) :
+	C16:1(7)_pepOH : 1
+
+C7:0-Me(2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C7:0-Me(2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C7:0-Me(2)-OH(3)_acidOH_pepOH : 2
+	C7:0-Me(2)-OH(3)_acidOH_pepOH : 2
+
+Act
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Act
+Num of residues : 5
+Root residues (with max links) :
+	Act_acidOH_pepN : 2
+	Act_acidOH_pepN : 2
+
+Ac-Aib
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-Aib
+Num of residues : 3
+Root residues (with max links) :
+	Ac-Aib_pepCNC_pepOH : 2
+
+Pyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Pyr
+Num of residues : 1
+Root residues (with max links) :
+	Pyr_pepCNC : 1
+
+Ac-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-Phe
+Num of residues : 3
+Root residues (with max links) :
+	Ac-Phe_pepCNC_pepOH : 2
+
+iC5:0-OH(2)-CA(4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC5:0-OH(2)-CA(4)
+Num of residues : 11
+Root residues (with max links) :
+	iC5:0-OH(2)-CA(4)_acidOH_pepOH_pepOH : 3
+	iC5:0-OH(2)-CA(4)_acidOH_pepOH_pepOH : 3
+
+C8:0-Me(4)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0-Me(4)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C8:0-Me(4)-OH(3)_acidOH_pepOH : 2
+	C8:0-Me(4)-OH(3)_acidOH_pepOH : 2
+
+Br-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Br-Phe
+Num of residues : 3
+Root residues (with max links) :
+	Br-Phe_pepN_pepOH : 2
+
+D-Gal,D-Glc,D-Man,Glc,bD-Gal
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Gal
+Num of residues : 242
+Root residues (with max links) :
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+	bD-Gal_acidOH_acidOH_acidOH_acidOH_acidOH : 5
+
+aC13:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC13:0
+Num of residues : 1
+Root residues (with max links) :
+	aC13:0_pepOH : 1
+
+C8:2(5.7)-Me(6)-OH(4)-NH2(3)-brPh(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:2(5.7)-Me(6)-OH(4)-NH2(3)-brPh(8)
+Num of residues : 11
+Root residues (with max links) :
+	C8:2(5.7)-Me(6)-OH(4)-NH2(3)-brPh(8)_acidOH_pepN_pepOH : 3
+	C8:2(5.7)-Me(6)-OH(4)-NH2(3)-brPh(8)_acidOH_pepN_pepOH : 3
+
+dhAbu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dhAbu
+Num of residues : 3
+Root residues (with max links) :
+	dhAbu_pepN_pepOH : 2
+
+D-Lac,Lac
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Lac
+Num of residues : 5
+Root residues (with max links) :
+	D-Lac_acidOH_pepOH : 2
+	D-Lac_acidOH_pepOH : 2
+
+ChrI
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ChrI
+Num of residues : 279
+Root residues (with max links) :
+	ChrI_acidOH_acidOH_pepCNC_pepN_pepOH : 5
+	ChrI_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrI_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrI_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrI_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrI_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrI_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrI_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrI_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+
+Adda
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Adda
+Num of residues : 3
+Root residues (with max links) :
+	Adda_pepN_pepOH : 2
+
+C14:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C14:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C14:0-OH(3)_acidOH_pepOH : 2
+	C14:0-OH(3)_acidOH_pepOH : 2
+
+3OH-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3OH-Leu
+Num of residues : 11
+Root residues (with max links) :
+	3OH-Leu_acidOH_pepN_pepOH : 3
+	3OH-Leu_acidOH_pepN_pepOH : 3
+
+C14:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C14:0
+Num of residues : 1
+Root residues (with max links) :
+	C14:0_pepOH : 1
+
+OMe-Thr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OMe-Thr
+Num of residues : 3
+Root residues (with max links) :
+	OMe-Thr_pepN_pepOH : 2
+
+D-I-NMe-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-I-NMe-Tyr
+Num of residues : 21
+Root residues (with max links) :
+	D-I-NMe-Tyr_acidOH_pepCNC_pepOH : 3
+	D-I-NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+	D-I-NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+
+4oxo-Van
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4oxo-Van
+Num of residues : 5
+Root residues (with max links) :
+	4oxo-Van_acidOH_pepN : 2
+	4oxo-Van_acidOH_pepN : 2
+
+Rha
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Rha
+Num of residues : 80
+Root residues (with max links) :
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+	Rha_acidOH_acidOH_acidOH_acidOH : 4
+
+iC17:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC17:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	iC17:0-NH2(3)_pepN_pepOH : 2
+
+N-OH-Hta
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=N-OH-Hta
+Num of residues : 1
+Root residues (with max links) :
+	N-OH-Hta_pepCNC : 1
+
+O2-Met
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=O2-Met
+Num of residues : 3
+Root residues (with max links) :
+	O2-Met_pepN_pepOH : 2
+
+NMe-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Asn
+Num of residues : 7
+Root residues (with max links) :
+	NMe-Asn_pepCNC_pepN_pepOH : 3
+
+C16:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C16:0-NH2(3)_pepN_pepOH : 2
+
+NFo-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Val
+Num of residues : 3
+Root residues (with max links) :
+	NFo-Val_pepCNC_pepOH : 2
+
+iC14:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC14:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	iC14:0-NH2(3)_pepN_pepOH : 2
+
+C8:1(7)-Me(2.2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:1(7)-Me(2.2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C8:1(7)-Me(2.2)-OH(3)_acidOH_pepOH : 2
+	C8:1(7)-Me(2.2)-OH(3)_acidOH_pepOH : 2
+
+OH-bLys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OH-bLys
+Num of residues : 23
+Root residues (with max links) :
+	OH-bLys_acidOH_pepCNC_pepN_pepOH : 4
+	OH-bLys_acidOH_pepCNC_pepN_pepOH : 4
+
+C9:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C9:0
+Num of residues : 1
+Root residues (with max links) :
+	C9:0_pepOH : 1
+
+pGlu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=pGlu
+Num of residues : 3
+Root residues (with max links) :
+	pGlu_pepCNC_pepOH : 2
+
+aMe-Cys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aMe-Cys
+Num of residues : 6
+Root residues (with max links) :
+	aMe-Cys_pepN_pepOH_suf : 3
+
+D-Tyr,Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Tyr
+Num of residues : 31
+Root residues (with max links) :
+	Tyr_acidOH_pepN_pepOH : 3
+	Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	Tyr_acidOH_aro6_pepN_pepOH : 4
+
+Eta
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Eta
+Num of residues : 5
+Root residues (with max links) :
+	Eta_acidOH_pepN : 2
+	Eta_acidOH_pepN : 2
+
+bMe-Ile
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bMe-Ile
+Num of residues : 3
+Root residues (with max links) :
+	bMe-Ile_pepN_pepOH : 2
+
+Ahv
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ahv
+Num of residues : 31
+Root residues (with max links) :
+	Ahv_acidOH_aro6_aro6_pepN_pepOH : 5
+	Ahv_acidOH_aro6_aro6_pepN_pepOH : 5
+	Ahv_acidOH_aro6_pepN_pepOH : 4
+	Ahv_acidOH_pepN_pepOH : 3
+
+Pheol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Pheol
+Num of residues : 5
+Root residues (with max links) :
+	Pheol_acidOH_pepN : 2
+	Pheol_acidOH_pepN : 2
+
+D-Ival,Ival
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Ival
+Num of residues : 3
+Root residues (with max links) :
+	D-Ival_pepN_pepOH : 2
+
+iC5:0-OH(2.4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC5:0-OH(2.4)
+Num of residues : 17
+Root residues (with max links) :
+	iC5:0-OH(2.4)_acidOH_acidOH_pepOH : 3
+	iC5:0-OH(2.4)_acidOH_acidOH_pepOH : 3
+	iC5:0-OH(2.4)_acidOH_acidOH_pepOH : 3
+	iC5:0-OH(2.4)_acidOH_acidOH_pepOH : 3
+
+CMA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=CMA
+Num of residues : 3
+Root residues (with max links) :
+	CMA_pepN_pepOH : 2
+
+D-OH-Asp,OH-Asp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-OH-Asp
+Num of residues : 23
+Root residues (with max links) :
+	OH-Asp_acidOH_pepN_pepOH_pepOH : 4
+	OH-Asp_acidOH_pepN_pepOH_pepOH : 4
+
+D-Br-NMe-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Br-NMe-Tyr
+Num of residues : 21
+Root residues (with max links) :
+	D-Br-NMe-Tyr_acidOH_pepCNC_pepOH : 3
+	D-Br-NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+	D-Br-NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+
+NMe-Lan
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Lan
+Num of residues : 7
+Root residues (with max links) :
+	NMe-Lan_pepN_pepOH_pepOH : 3
+
+iC8:0-Me(2.4)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC8:0-Me(2.4)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC8:0-Me(2.4)-OH(3)_acidOH_pepOH : 2
+	iC8:0-Me(2.4)-OH(3)_acidOH_pepOH : 2
+
+C6:0-Me(2.2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-Me(2.2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C6:0-Me(2.2)-OH(3)_acidOH_pepOH : 2
+	C6:0-Me(2.2)-OH(3)_acidOH_pepOH : 2
+
+Ph-Ser
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ph-Ser
+Num of residues : 11
+Root residues (with max links) :
+	Ph-Ser_acidOH_pepN_pepOH : 3
+	Ph-Ser_acidOH_pepN_pepOH : 3
+
+C4:1(3)-OH(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:1(3)-OH(2)
+Num of residues : 5
+Root residues (with max links) :
+	C4:1(3)-OH(2)_acidOH_pepOH : 2
+	C4:1(3)-OH(2)_acidOH_pepOH : 2
+
+Cl-NMe-Tyr,D-Cl-NMe-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl-NMe-Tyr
+Num of residues : 21
+Root residues (with max links) :
+	Cl-NMe-Tyr_acidOH_pepCNC_pepOH : 3
+	Cl-NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+	Cl-NMe-Tyr_acidOH_aro6_pepCNC_pepOH : 4
+
+D-Hiv,Hiv
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Hiv
+Num of residues : 5
+Root residues (with max links) :
+	Hiv_acidOH_pepOH : 2
+	Hiv_acidOH_pepOH : 2
+
+k-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=k-Leu
+Num of residues : 1
+Root residues (with max links) :
+	k-Leu_pepOH : 1
+
+NAc-Fo-OH-Orn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NAc-Fo-OH-Orn
+Num of residues : 3
+Root residues (with max links) :
+	NAc-Fo-OH-Orn_pepCNC_pepOH : 2
+
+new3
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=new3
+Num of residues : 1
+Root residues (with max links) :
+	new3_pepCNC : 1
+
+4oxo-Hpr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4oxo-Hpr
+Num of residues : 3
+Root residues (with max links) :
+	4oxo-Hpr_pepCNC_pepOH : 2
+
+D-bPhe,bPhe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-bPhe
+Num of residues : 3
+Root residues (with max links) :
+	D-bPhe_pepN_pepOH : 2
+
+C13:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C13:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C13:0-OH(3)_acidOH_pepOH : 2
+	C13:0-OH(3)_acidOH_pepOH : 2
+
+D-Orn,Orn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Orn
+Num of residues : 7
+Root residues (with max links) :
+	D-Orn_pepN_pepN_pepOH : 3
+
+Cl2-NMe-dhLeu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl2-NMe-dhLeu
+Num of residues : 3
+Root residues (with max links) :
+	Cl2-NMe-dhLeu_pepCNC_pepOH : 2
+
+Asp,D-Asp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Asp
+Num of residues : 7
+Root residues (with max links) :
+	Asp_pepN_pepOH_pepOH : 3
+
+D-bOH-Val,bOH-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-bOH-Val
+Num of residues : 11
+Root residues (with max links) :
+	bOH-Val_acidOH_pepN_pepOH : 3
+	bOH-Val_acidOH_pepN_pepOH : 3
+
+C12:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:0
+Num of residues : 1
+Root residues (with max links) :
+	C12:0_pepOH : 1
+
+Ac-OH-Orn,D-Ac-OH-Orn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-OH-Orn
+Num of residues : 3
+Root residues (with max links) :
+	D-Ac-OH-Orn_pepN_pepOH : 2
+
+Hpoe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hpoe
+Num of residues : 13
+Root residues (with max links) :
+	Hpoe_acidOH_pepOH : 2
+	Hpoe_acidOH_aro6_pepOH : 3
+	Hpoe_acidOH_aro6_aro6_pepOH : 4
+	Hpoe_acidOH_aro6_aro6_pepOH : 4
+
+C5:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C5:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C5:0-NH2(3)_pepN_pepOH : 2
+
+O-Met
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=O-Met
+Num of residues : 3
+Root residues (with max links) :
+	O-Met_pepN_pepOH : 2
+
+Me2-Bmt
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Me2-Bmt
+Num of residues : 11
+Root residues (with max links) :
+	Me2-Bmt_acidOH_pepCNC_pepOH : 3
+	Me2-Bmt_acidOH_pepCNC_pepOH : 3
+
+4OH-D-Ph-Lac
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4OH-D-Ph-Lac
+Num of residues : 49
+Root residues (with max links) :
+	4OH-D-Ph-Lac_acidOH_acidOH_aro6_pepOH : 4
+	4OH-D-Ph-Lac_acidOH_acidOH_pepOH : 3
+	4OH-D-Ph-Lac_acidOH_acidOH_aro6_aro6_pepOH : 5
+	4OH-D-Ph-Lac_acidOH_acidOH_aro6_aro6_pepOH : 5
+	4OH-D-Ph-Lac_acidOH_acidOH_aro6_pepOH : 4
+	4OH-D-Ph-Lac_acidOH_acidOH_aro6_aro6_pepOH : 5
+	4OH-D-Ph-Lac_acidOH_acidOH_aro6_aro6_pepOH : 5
+	4OH-D-Ph-Lac_acidOH_acidOH_pepOH : 3
+
+C10:0-NH2(2)-Ep(9)-oxo(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-NH2(2)-Ep(9)-oxo(8)
+Num of residues : 3
+Root residues (with max links) :
+	C10:0-NH2(2)-Ep(9)-oxo(8)_pepN_pepOH : 2
+
+Put
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Put
+Num of residues : 2
+Root residues (with max links) :
+	Put_pepN_pepN : 2
+
+NMe-Hpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Hpg
+Num of residues : 31
+Root residues (with max links) :
+	NMe-Hpg_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-Hpg_acidOH_pepCNC_pepOH : 3
+	NMe-Hpg_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-Hpg_acidOH_aro6_pepCNC_pepOH : 4
+
+Cys,D-Cys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cys
+Num of residues : 6
+Root residues (with max links) :
+	Cys_pepN_pepOH_suf : 3
+
+Ac-Ival
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-Ival
+Num of residues : 3
+Root residues (with max links) :
+	Ac-Ival_pepCNC_pepOH : 2
+
+NAc-Dpr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NAc-Dpr
+Num of residues : 7
+Root residues (with max links) :
+	NAc-Dpr_pepCNC_pepN_pepOH : 3
+
+Cl-Hpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl-Hpg
+Num of residues : 21
+Root residues (with max links) :
+	Cl-Hpg_acidOH_pepN_pepOH : 3
+	Cl-Hpg_acidOH_aro6_pepN_pepOH : 4
+	Cl-Hpg_acidOH_aro6_pepN_pepOH : 4
+
+OMe-bAla-Thz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OMe-bAla-Thz
+Num of residues : 1
+Root residues (with max links) :
+	OMe-bAla-Thz_pepN : 1
+
+aC10:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC10:0
+Num of residues : 1
+Root residues (with max links) :
+	aC10:0_pepOH : 1
+
+iC14:1(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC14:1(3)
+Num of residues : 1
+Root residues (with max links) :
+	iC14:1(3)_pepOH : 1
+
+5Me-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=5Me-Pro
+Num of residues : 3
+Root residues (with max links) :
+	5Me-Pro_pepCNC_pepOH : 2
+
+ChrD
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ChrD
+Num of residues : 279
+Root residues (with max links) :
+	ChrD_acidOH_acidOH_pepCNC_pepN_pepOH : 5
+	ChrD_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrD_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrD_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrD_acidOH_acidOH_aro6_aro6_pepCNC_pepN_pepOH : 7
+	ChrD_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrD_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrD_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+	ChrD_acidOH_acidOH_aro6_pepCNC_pepN_pepOH : 6
+
+D-Lys,Lys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Lys
+Num of residues : 7
+Root residues (with max links) :
+	Lys_pepN_pepN_pepOH : 3
+
+NMe-OMe-TyrC
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-OMe-TyrC
+Num of residues : 9
+Root residues (with max links) :
+	NMe-OMe-TyrC_aro6_aro6_pepCNC_pepN : 4
+
+OMe-Asp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OMe-Asp
+Num of residues : 7
+Root residues (with max links) :
+	OMe-Asp_pepN_pepOH_pepOH : 3
+
+NMe-Ph-Gly
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Ph-Gly
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Ph-Gly_pepCNC_pepOH : 2
+
+C8:0:1(7)-Me(2.2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0:1(7)-Me(2.2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C8:0:1(7)-Me(2.2)-OH(3)_acidOH_pepOH : 2
+	C8:0:1(7)-Me(2.2)-OH(3)_acidOH_pepOH : 2
+
+v-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=v-Tyr
+Num of residues : 31
+Root residues (with max links) :
+	v-Tyr_acidOH_pepN_pepOH : 3
+	v-Tyr_acidOH_aro6_pepN_pepOH : 4
+	v-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	v-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+
+NMe-OH-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-OH-Trp
+Num of residues : 41
+Root residues (with max links) :
+	NMe-OH-Trp_acidOH_aro6_pepCNC_pepOH : 4
+	NMe-OH-Trp_acidOH_aro6_pepCNC_pepOH : 4
+	NMe-OH-Trp_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-OH-Trp_acidOH_aro6_aro6_pepCNC_pepOH : 5
+	NMe-OH-Trp_acidOH_pepCNC_pepOH : 3
+
+iC9:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC9:0
+Num of residues : 1
+Root residues (with max links) :
+	iC9:0_pepOH : 1
+
+NMe-dPhe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-dPhe
+Num of residues : 3
+Root residues (with max links) :
+	NMe-dPhe_pepCNC_pepOH : 2
+
+iC16:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC16:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	iC16:0-NH2(3)_pepN_pepOH : 2
+
+Ala,D-Ala
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ala
+Num of residues : 3
+Root residues (with max links) :
+	D-Ala_pepN_pepOH : 2
+
+DHPT
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=DHPT
+Num of residues : 33
+Root residues (with max links) :
+	DHPT_acidOH_acidOH_pepOH : 3
+	DHPT_acidOH_acidOH_aro6_pepOH : 4
+	DHPT_acidOH_acidOH_aro6_pepOH : 4
+	DHPT_acidOH_acidOH_pepOH : 3
+	DHPT_acidOH_acidOH_aro6_pepOH : 4
+	DHPT_acidOH_acidOH_aro6_pepOH : 4
+
+NMe-OH-Ile
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-OH-Ile
+Num of residues : 11
+Root residues (with max links) :
+	NMe-OH-Ile_acidOH_pepCNC_pepOH : 3
+	NMe-OH-Ile_acidOH_pepCNC_pepOH : 3
+
+C10:0-OH(9)-NH2(2)-oxo(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-OH(9)-NH2(2)-oxo(8)
+Num of residues : 11
+Root residues (with max links) :
+	C10:0-OH(9)-NH2(2)-oxo(8)_acidOH_pepN_pepOH : 3
+	C10:0-OH(9)-NH2(2)-oxo(8)_acidOH_pepN_pepOH : 3
+
+1Me-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=1Me-Trp
+Num of residues : 3
+Root residues (with max links) :
+	1Me-Trp_pepN_pepOH : 2
+
+iC14:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC14:0
+Num of residues : 1
+Root residues (with max links) :
+	iC14:0_pepOH : 1
+
+NMe-OMe-Ile
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-OMe-Ile
+Num of residues : 1
+Root residues (with max links) :
+	NMe-OMe-Ile_pepCNC : 1
+
+C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)
+Num of residues : 107
+Root residues (with max links) :
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C8:1(7)-OH(2.4.5)-NH2(3)-Ph(8)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+
+C10:0-Me(2.2.4)-OH(3)-OMe(7)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-Me(2.2.4)-OH(3)-OMe(7)
+Num of residues : 5
+Root residues (with max links) :
+	C10:0-Me(2.2.4)-OH(3)-OMe(7)_acidOH_pepOH : 2
+	C10:0-Me(2.2.4)-OH(3)-OMe(7)_acidOH_pepOH : 2
+
+aC11:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC11:0
+Num of residues : 1
+Root residues (with max links) :
+	aC11:0_pepOH : 1
+
+iC15:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC15:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC15:0-OH(3)_acidOH_pepOH : 2
+	iC15:0-OH(3)_acidOH_pepOH : 2
+
+U4oxo-Van
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=U4oxo-Van
+Num of residues : 35
+Root residues (with max links) :
+	U4oxo-Van_acidOH_acidOH_pepCNC_pepCNC : 4
+	U4oxo-Van_acidOH_acidOH_pepCNC_pepCNC : 4
+	U4oxo-Van_acidOH_acidOH_pepCNC_pepCNC : 4
+	U4oxo-Van_acidOH_acidOH_pepCNC_pepCNC : 4
+
+iC12:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC12:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC12:0-OH(3)_acidOH_pepOH : 2
+	iC12:0-OH(3)_acidOH_pepOH : 2
+
+pOH-Bz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=pOH-Bz
+Num of residues : 13
+Root residues (with max links) :
+	pOH-Bz_acidOH_pepOH : 2
+	pOH-Bz_acidOH_aro6_pepOH : 3
+	pOH-Bz_acidOH_aro6_aro6_pepOH : 4
+	pOH-Bz_acidOH_aro6_aro6_pepOH : 4
+
+Ac-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-Val
+Num of residues : 3
+Root residues (with max links) :
+	Ac-Val_pepCNC_pepOH : 2
+
+NMe-Ala
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Ala
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Ala_pepCNC_pepOH : 2
+
+C16:1(9)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:1(9)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C16:1(9)-OH(3)_acidOH_pepOH : 2
+	C16:1(9)-OH(3)_acidOH_pepOH : 2
+
+D-Cl-CONH2-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Cl-CONH2-Trp
+Num of residues : 7
+Root residues (with max links) :
+	D-Cl-CONH2-Trp_pepN_pepN_pepOH : 3
+
+bOH-Br-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOH-Br-Phe
+Num of residues : 11
+Root residues (with max links) :
+	bOH-Br-Phe_acidOH_pepN_pepOH : 3
+	bOH-Br-Phe_acidOH_pepN_pepOH : 3
+
+D-COOH-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-COOH-Trp
+Num of residues : 7
+Root residues (with max links) :
+	D-COOH-Trp_pepN_pepOH_pepOH : 3
+
+Cl3-NMe-dhLeu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl3-NMe-dhLeu
+Num of residues : 3
+Root residues (with max links) :
+	Cl3-NMe-dhLeu_pepCNC_pepOH : 2
+
+C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)
+Num of residues : 107
+Root residues (with max links) :
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+	C12:3(7.9.11)-Me(6)-OH(2.4.5)-NH2(3)-Ph(12)_acidOH_acidOH_acidOH_pepN_pepOH : 5
+
+gOH-NMe-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=gOH-NMe-Val
+Num of residues : 11
+Root residues (with max links) :
+	gOH-NMe-Val_acidOH_pepCNC_pepOH : 3
+	gOH-NMe-Val_acidOH_pepCNC_pepOH : 3
+
+C6:0-Me(2)-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-Me(2)-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C6:0-Me(2)-NH2(3)_pepN_pepOH : 2
+
+Arg,D-Arg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Arg
+Num of residues : 11
+Root residues (with max links) :
+	Arg_pepN_pepN_pepN_pepOH : 4
+
+iC16:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC16:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC16:0-OH(3)_acidOH_pepOH : 2
+	iC16:0-OH(3)_acidOH_pepOH : 2
+
+D-Gln,Gln
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Gln
+Num of residues : 7
+Root residues (with max links) :
+	D-Gln_pepN_pepN_pepOH : 3
+
+Daz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Daz
+Num of residues : 47
+Root residues (with max links) :
+	Daz_acidOH_pepN_pepN_pepOH_pepOH : 5
+	Daz_acidOH_pepN_pepN_pepOH_pepOH : 5
+
+GSpd
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=GSpd
+Num of residues : 11
+Root residues (with max links) :
+	GSpd_pepCNC_pepN_pepN_pepN : 4
+
+iC7:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC7:0
+Num of residues : 1
+Root residues (with max links) :
+	iC7:0_pepOH : 1
+
+3d-NMe-Bmt
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3d-NMe-Bmt
+Num of residues : 3
+Root residues (with max links) :
+	3d-NMe-Bmt_pepCNC_pepOH : 2
+
+v-Arg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=v-Arg
+Num of residues : 15
+Root residues (with max links) :
+	v-Arg_pepCNC_pepN_pepN_pepOH : 4
+
+NMe-Cys
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Cys
+Num of residues : 6
+Root residues (with max links) :
+	NMe-Cys_pepCNC_pepOH_suf : 3
+
+Pda
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Pda
+Num of residues : 2
+Root residues (with max links) :
+	Pda_pepOH_pepOH : 2
+
+4Cl-Thr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4Cl-Thr
+Num of residues : 11
+Root residues (with max links) :
+	4Cl-Thr_acidOH_pepN_pepOH : 3
+	4Cl-Thr_acidOH_pepN_pepOH : 3
+
+Abu,D-Abu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Abu
+Num of residues : 3
+Root residues (with max links) :
+	D-Abu_pepN_pepOH : 2
+
+iC5:0-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC5:0-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	iC5:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	iC5:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	iC5:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	iC5:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+Br-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Br-Tyr
+Num of residues : 21
+Root residues (with max links) :
+	Br-Tyr_acidOH_aro6_pepN_pepOH : 4
+	Br-Tyr_acidOH_aro6_pepN_pepOH : 4
+	Br-Tyr_acidOH_pepN_pepOH : 3
+
+NMe-Cl-OH-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Cl-OH-Trp
+Num of residues : 21
+Root residues (with max links) :
+	NMe-Cl-OH-Trp_acidOH_aro6_pepCNC_pepOH : 4
+	NMe-Cl-OH-Trp_acidOH_aro6_pepCNC_pepOH : 4
+	NMe-Cl-OH-Trp_acidOH_pepCNC_pepOH : 3
+
+C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)
+Num of residues : 321
+Root residues (with max links) :
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C12:1(11)-Me(6)-OH(2.4.5)-NH2(3)-mPhe(11)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+
+Ria
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ria
+Num of residues : 17
+Root residues (with max links) :
+	Ria_acidOH_acidOH_pepN : 3
+	Ria_acidOH_acidOH_pepN : 3
+	Ria_acidOH_acidOH_pepN : 3
+	Ria_acidOH_acidOH_pepN : 3
+
+COOH-Qui
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=COOH-Qui
+Num of residues : 1
+Root residues (with max links) :
+	COOH-Qui_pepOH : 1
+
+iC13:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC13:0
+Num of residues : 1
+Root residues (with max links) :
+	iC13:0_pepOH : 1
+
+C6:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0
+Num of residues : 1
+Root residues (with max links) :
+	C6:0_pepOH : 1
+
+new4
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=new4
+Num of residues : 1
+Root residues (with max links) :
+	new4_pepOH : 1
+
+D-F-ph-Gly
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-F-ph-Gly
+Num of residues : 3
+Root residues (with max links) :
+	D-F-ph-Gly_pepN_pepOH : 2
+
+ChrAct
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ChrAct
+Num of residues : 7
+Root residues (with max links) :
+	ChrAct_pepN_pepOH_pepOH : 3
+
+C15:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C15:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	C15:0-NH2(3)_pepN_pepOH : 2
+
+D-OH-Asn,OH-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-OH-Asn
+Num of residues : 23
+Root residues (with max links) :
+	OH-Asn_acidOH_pepN_pepN_pepOH : 4
+	OH-Asn_acidOH_pepN_pepN_pepOH : 4
+
+DHMDA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=DHMDA
+Num of residues : 5
+Root residues (with max links) :
+	DHMDA_acidOH_pepOH : 2
+	DHMDA_acidOH_pepOH : 2
+
+C14:0-OH(3.4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C14:0-OH(3.4)
+Num of residues : 17
+Root residues (with max links) :
+	C14:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+	C14:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+	C14:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+	C14:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+
+bbNMe-NMe-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bbNMe-NMe-Trp
+Num of residues : 3
+Root residues (with max links) :
+	bbNMe-NMe-Trp_pepCNC_pepOH : 2
+
+Ivalol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ivalol
+Num of residues : 5
+Root residues (with max links) :
+	Ivalol_acidOH_pepN : 2
+	Ivalol_acidOH_pepN : 2
+
+bOMe-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOMe-Tyr
+Num of residues : 31
+Root residues (with max links) :
+	bOMe-Tyr_acidOH_pepN_pepOH : 3
+	bOMe-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	bOMe-Tyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	bOMe-Tyr_acidOH_aro6_pepN_pepOH : 4
+
+3Me-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3Me-Phe
+Num of residues : 3
+Root residues (with max links) :
+	3Me-Phe_pepN_pepOH : 2
+
+D-Hpg,Hpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Hpg
+Num of residues : 31
+Root residues (with max links) :
+	D-Hpg_acidOH_aro6_aro6_pepN_pepOH : 5
+	D-Hpg_acidOH_aro6_aro6_pepN_pepOH : 5
+	D-Hpg_acidOH_pepN_pepOH : 3
+	D-Hpg_acidOH_aro6_pepN_pepOH : 4
+
+C11:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C11:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C11:0-OH(3)_acidOH_pepOH : 2
+	C11:0-OH(3)_acidOH_pepOH : 2
+
+Doe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Doe
+Num of residues : 1
+Root residues (with max links) :
+	Doe_pepN : 1
+
+NSPD
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NSPD
+Num of residues : 5
+Root residues (with max links) :
+	NSPD_pepCNC_pepN_pepN : 3
+
+Br-OH-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Br-OH-Trp
+Num of residues : 41
+Root residues (with max links) :
+	Br-OH-Trp_acidOH_aro6_pepN_pepOH : 4
+	Br-OH-Trp_acidOH_aro6_pepN_pepOH : 4
+	Br-OH-Trp_acidOH_aro6_aro6_pepN_pepOH : 5
+	Br-OH-Trp_acidOH_aro6_aro6_pepN_pepOH : 5
+	Br-OH-Trp_acidOH_pepN_pepOH : 3
+
+new2
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=new2
+Num of residues : 11
+Root residues (with max links) :
+	new2_pepCNC_pepN_pepN_pepN : 4
+
+iC8:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC8:0
+Num of residues : 1
+Root residues (with max links) :
+	iC8:0_pepOH : 1
+
+C10:0-OH(8)-NH2(2)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-OH(8)-NH2(2)
+Num of residues : 11
+Root residues (with max links) :
+	C10:0-OH(8)-NH2(2)_acidOH_pepN_pepOH : 3
+	C10:0-OH(8)-NH2(2)_acidOH_pepN_pepOH : 3
+
+aC15:1(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC15:1(3)
+Num of residues : 1
+Root residues (with max links) :
+	aC15:1(3)_pepOH : 1
+
+Cit,D-Cit
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cit
+Num of residues : 15
+Root residues (with max links) :
+	D-Cit_pepCNC_pepN_pepN_pepOH : 4
+
+C8:3(t2.t4.t6)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:3(t2.t4.t6)
+Num of residues : 1
+Root residues (with max links) :
+	C8:3(t2.t4.t6)_pepOH : 1
+
+iC9:2(2.t4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC9:2(2.t4)
+Num of residues : 1
+Root residues (with max links) :
+	iC9:2(2.t4)_pepOH : 1
+
+Hip
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hip
+Num of residues : 5
+Root residues (with max links) :
+	Hip_acidOH_pepOH : 2
+	Hip_acidOH_pepOH : 2
+
+C15:2(t4.t6)-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C15:2(t4.t6)-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	C15:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C15:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C15:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C15:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+NFo-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Leu
+Num of residues : 3
+Root residues (with max links) :
+	NFo-Leu_pepCNC_pepOH : 2
+
+C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)
+Num of residues : 321
+Root residues (with max links) :
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+	C10:2(7.9)-OH(2.4.5)-NH2(3)-ePh(10)_acidOH_acidOH_acidOH_aro6_aro6_pepN_pepOH : 7
+
+aC13:1(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC13:1(3)
+Num of residues : 1
+Root residues (with max links) :
+	aC13:1(3)_pepOH : 1
+
+D-3OMe-Ala
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-3OMe-Ala
+Num of residues : 1
+Root residues (with max links) :
+	D-3OMe-Ala_pepN : 1
+
+C10:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C10:0-OH(3)_acidOH_pepOH : 2
+	C10:0-OH(3)_acidOH_pepOH : 2
+
+dh-Ala
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dh-Ala
+Num of residues : 3
+Root residues (with max links) :
+	dh-Ala_pepN_pepOH : 2
+
+C16:0-OH(3.4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:0-OH(3.4)
+Num of residues : 17
+Root residues (with max links) :
+	C16:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+	C16:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+	C16:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+	C16:0-OH(3.4)_acidOH_acidOH_pepOH : 3
+
+4oxo-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4oxo-Pro
+Num of residues : 3
+Root residues (with max links) :
+	4oxo-Pro_pepCNC_pepOH : 2
+
+C16:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:0
+Num of residues : 1
+Root residues (with max links) :
+	C16:0_pepOH : 1
+
+Dil
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Dil
+Num of residues : 3
+Root residues (with max links) :
+	Dil_pepCNC_pepOH : 2
+
+pTrp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=pTrp
+Num of residues : 23
+Root residues (with max links) :
+	pTrp_acidOH_pepCNC_pepCNC_pepOH : 4
+	pTrp_acidOH_pepCNC_pepCNC_pepOH : 4
+
+OH-4Abu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OH-4Abu
+Num of residues : 11
+Root residues (with max links) :
+	OH-4Abu_acidOH_pepN_pepOH : 3
+	OH-4Abu_acidOH_pepN_pepOH : 3
+
+CysA,D-CysA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=CysA
+Num of residues : 3
+Root residues (with max links) :
+	D-CysA_pepN_pepOH : 2
+
+C4:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0
+Num of residues : 1
+Root residues (with max links) :
+	C4:0_pepOH : 1
+
+Amv
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Amv
+Num of residues : 9
+Root residues (with max links) :
+	Amv_aro6_aro6_pepN_pepOH : 4
+
+NMe-Br-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Br-Trp
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Br-Trp_pepCNC_pepOH : 2
+
+NMe-hv-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-hv-Val
+Num of residues : 3
+Root residues (with max links) :
+	NMe-hv-Val_pepCNC_pepOH : 2
+
+Ala-Thz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ala-Thz
+Num of residues : 3
+Root residues (with max links) :
+	Ala-Thz_pepN_pepOH : 2
+
+C8:2(5.7)-Me(6)-OH(4)-NH2(3)-Ph(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:2(5.7)-Me(6)-OH(4)-NH2(3)-Ph(8)
+Num of residues : 11
+Root residues (with max links) :
+	C8:2(5.7)-Me(6)-OH(4)-NH2(3)-Ph(8)_acidOH_pepN_pepOH : 3
+	C8:2(5.7)-Me(6)-OH(4)-NH2(3)-Ph(8)_acidOH_pepN_pepOH : 3
+
+ProC
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ProC
+Num of residues : 3
+Root residues (with max links) :
+	ProC_pepCNC_pepN : 2
+
+Et-Nva
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Et-Nva
+Num of residues : 3
+Root residues (with max links) :
+	Et-Nva_pepN_pepOH : 2
+
+C14:2(t4.t6)-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C14:2(t4.t6)-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	C14:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C14:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C14:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C14:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+Ere,Van
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ere
+Num of residues : 17
+Root residues (with max links) :
+	Van_acidOH_acidOH_pepN : 3
+	Van_acidOH_acidOH_pepN : 3
+	Van_acidOH_acidOH_pepN : 3
+	Van_acidOH_acidOH_pepN : 3
+
+D-PO-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-PO-Asn
+Num of residues : 7
+Root residues (with max links) :
+	D-PO-Asn_pepN_pepN_pepOH : 3
+
+Cl3-2OH-NMe-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl3-2OH-NMe-Leu
+Num of residues : 11
+Root residues (with max links) :
+	Cl3-2OH-NMe-Leu_acidOH_pepCNC_pepOH : 3
+	Cl3-2OH-NMe-Leu_acidOH_pepCNC_pepOH : 3
+
+NOMe-Ac-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NOMe-Ac-Val
+Num of residues : 3
+Root residues (with max links) :
+	NOMe-Ac-Val_pepCNC_pepOH : 2
+
+PMST
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=PMST
+Num of residues : 3
+Root residues (with max links) :
+	PMST_pepN_pepOH : 2
+
+iC17:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC17:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC17:0-OH(3)_acidOH_pepOH : 2
+	iC17:0-OH(3)_acidOH_pepOH : 2
+
+Nst
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Nst
+Num of residues : 11
+Root residues (with max links) :
+	Nst_acidOH_pepN_pepOH : 3
+	Nst_acidOH_pepN_pepOH : 3
+
+Pro-Thz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Pro-Thz
+Num of residues : 3
+Root residues (with max links) :
+	Pro-Thz_pepCNC_pepOH : 2
+
+Dpr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Dpr
+Num of residues : 7
+Root residues (with max links) :
+	Dpr_pepN_pepN_pepOH : 3
+
+3Me-Hty
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3Me-Hty
+Num of residues : 31
+Root residues (with max links) :
+	3Me-Hty_acidOH_aro6_aro6_pepN_pepOH : 5
+	3Me-Hty_acidOH_aro6_aro6_pepN_pepOH : 5
+	3Me-Hty_acidOH_aro6_pepN_pepOH : 4
+	3Me-Hty_acidOH_pepN_pepOH : 3
+
+Me-AOA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Me-AOA
+Num of residues : 3
+Root residues (with max links) :
+	Me-AOA_pepN_pepOH : 2
+
+diOH-Bz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=diOH-Bz
+Num of residues : 33
+Root residues (with max links) :
+	diOH-Bz_acidOH_acidOH_aro6_pepOH : 4
+	diOH-Bz_acidOH_acidOH_aro6_pepOH : 4
+	diOH-Bz_acidOH_acidOH_aro6_pepOH : 4
+	diOH-Bz_acidOH_acidOH_aro6_pepOH : 4
+	diOH-Bz_acidOH_acidOH_pepOH : 3
+	diOH-Bz_acidOH_acidOH_pepOH : 3
+
+3OH-5Me-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=3OH-5Me-Pro
+Num of residues : 11
+Root residues (with max links) :
+	3OH-5Me-Pro_acidOH_pepCNC_pepOH : 3
+	3OH-5Me-Pro_acidOH_pepCNC_pepOH : 3
+
+D-Leu,Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Leu
+Num of residues : 3
+Root residues (with max links) :
+	D-Leu_pepN_pepOH : 2
+
+D-Cl-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Cl-Trp
+Num of residues : 3
+Root residues (with max links) :
+	D-Cl-Trp_pepN_pepOH : 2
+
+PAOA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=PAOA
+Num of residues : 3
+Root residues (with max links) :
+	PAOA_pepN_pepOH : 2
+
+Pha
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Pha
+Num of residues : 1
+Root residues (with max links) :
+	Pha_pepOH : 1
+
+C4:0-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C4:0-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	C4:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C4:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C4:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C4:0-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+C9:0-Me(2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C9:0-Me(2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C9:0-Me(2)-OH(3)_acidOH_pepOH : 2
+	C9:0-Me(2)-OH(3)_acidOH_pepOH : 2
+
+Hph
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hph
+Num of residues : 3
+Root residues (with max links) :
+	Hph_pepN_pepOH : 2
+
+C8:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0
+Num of residues : 1
+Root residues (with max links) :
+	C8:0_pepOH : 1
+
+aC11:2(4.6)-Me(2.6)-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC11:2(4.6)-Me(2.6)-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	aC11:2(4.6)-Me(2.6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	aC11:2(4.6)-Me(2.6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	aC11:2(4.6)-Me(2.6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	aC11:2(4.6)-Me(2.6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+bOH-NMe-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOH-NMe-Phe
+Num of residues : 11
+Root residues (with max links) :
+	bOH-NMe-Phe_acidOH_pepCNC_pepOH : 3
+	bOH-NMe-Phe_acidOH_pepCNC_pepOH : 3
+
+Choi
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Choi
+Num of residues : 11
+Root residues (with max links) :
+	Choi_acidOH_pepCNC_pepOH : 3
+	Choi_acidOH_pepCNC_pepOH : 3
+
+4oxo-5Me-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4oxo-5Me-Pro
+Num of residues : 3
+Root residues (with max links) :
+	4oxo-5Me-Pro_pepCNC_pepOH : 2
+
+Oli
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Oli
+Num of residues : 26
+Root residues (with max links) :
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+	Oli_acidOH_acidOH_acidOH : 3
+
+4Me-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=4Me-Pro
+Num of residues : 3
+Root residues (with max links) :
+	4Me-Pro_pepCNC_pepOH : 2
+
+D-Kyn,Kyn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Kyn
+Num of residues : 7
+Root residues (with max links) :
+	Kyn_pepN_pepN_pepOH : 3
+
+C11:0-Me(2)-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C11:0-Me(2)-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C11:0-Me(2)-OH(3)_acidOH_pepOH : 2
+	C11:0-Me(2)-OH(3)_acidOH_pepOH : 2
+
+D-OH-dHpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-OH-dHpg
+Num of residues : 13
+Root residues (with max links) :
+	D-OH-dHpg_acidOH_pepOH : 2
+	D-OH-dHpg_acidOH_aro6_pepOH : 3
+	D-OH-dHpg_acidOH_aro6_aro6_pepOH : 4
+	D-OH-dHpg_acidOH_aro6_aro6_pepOH : 4
+
+2Dh-Mabu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=2Dh-Mabu
+Num of residues : 3
+Root residues (with max links) :
+	2Dh-Mabu_pepCNC_pepOH : 2
+
+MdCP
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=MdCP
+Num of residues : 1
+Root residues (with max links) :
+	MdCP_pepOH : 1
+
+PT
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=PT
+Num of residues : 3
+Root residues (with max links) :
+	PT_pepN_pepOH : 2
+
+Valol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Valol
+Num of residues : 5
+Root residues (with max links) :
+	Valol_acidOH_pepN : 2
+	Valol_acidOH_pepN : 2
+
+NMe-Cl-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Cl-Trp
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Cl-Trp_pepCNC_pepOH : 2
+
+C8:2(2.t4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:2(2.t4)
+Num of residues : 1
+Root residues (with max links) :
+	C8:2(2.t4)_pepOH : 1
+
+aC9:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC9:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	aC9:0-OH(3)_acidOH_pepOH : 2
+	aC9:0-OH(3)_acidOH_pepOH : 2
+
+C9:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C9:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C9:0-OH(3)_acidOH_pepOH : 2
+	C9:0-OH(3)_acidOH_pepOH : 2
+
+C14:1(7)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C14:1(7)
+Num of residues : 1
+Root residues (with max links) :
+	C14:1(7)_pepOH : 1
+
+Ibu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ibu
+Num of residues : 3
+Root residues (with max links) :
+	Ibu_pepN_pepOH : 2
+
+iC11:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC11:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	iC11:0-OH(3)_acidOH_pepOH : 2
+	iC11:0-OH(3)_acidOH_pepOH : 2
+
+C10:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0
+Num of residues : 1
+Root residues (with max links) :
+	C10:0_pepOH : 1
+
+new1
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=new1
+Num of residues : 3
+Root residues (with max links) :
+	new1_pepN_pepN : 2
+
+C13:2(t4.t6)-OH(2.3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C13:2(t4.t6)-OH(2.3)
+Num of residues : 17
+Root residues (with max links) :
+	C13:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C13:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C13:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+	C13:2(t4.t6)-OH(2.3)_acidOH_acidOH_pepOH : 3
+
+iC11:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC11:0
+Num of residues : 1
+Root residues (with max links) :
+	iC11:0_pepOH : 1
+
+Argal
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Argal
+Num of residues : 5
+Root residues (with max links) :
+	Argal_pepN_pepN_pepN : 3
+
+aC15:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC15:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	aC15:0-OH(3)_acidOH_pepOH : 2
+	aC15:0-OH(3)_acidOH_pepOH : 2
+
+bAla
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bAla
+Num of residues : 3
+Root residues (with max links) :
+	bAla_pepN_pepOH : 2
+
+Br-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Br-Trp
+Num of residues : 3
+Root residues (with max links) :
+	Br-Trp_pepN_pepOH : 2
+
+C6:2(t2.t4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:2(t2.t4)
+Num of residues : 1
+Root residues (with max links) :
+	C6:2(t2.t4)_pepOH : 1
+
+dh-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=dh-Trp
+Num of residues : 3
+Root residues (with max links) :
+	dh-Trp_pepN_pepOH : 2
+
+Ac-Trp
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ac-Trp
+Num of residues : 3
+Root residues (with max links) :
+	Ac-Trp_pepCNC_pepOH : 2
+
+C6:0-OH(3.5)-NH2(4)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C6:0-OH(3.5)-NH2(4)
+Num of residues : 35
+Root residues (with max links) :
+	C6:0-OH(3.5)-NH2(4)_acidOH_acidOH_pepN_pepOH : 4
+	C6:0-OH(3.5)-NH2(4)_acidOH_acidOH_pepN_pepOH : 4
+	C6:0-OH(3.5)-NH2(4)_acidOH_acidOH_pepN_pepOH : 4
+	C6:0-OH(3.5)-NH2(4)_acidOH_acidOH_pepN_pepOH : 4
+
+D-OH-cOrn,OH-cOrn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-OH-cOrn
+Num of residues : 1
+Root residues (with max links) :
+	D-OH-cOrn_pepN : 1
+
+OH-dHpg
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=OH-dHpg
+Num of residues : 1
+Root residues (with max links) :
+	OH-dHpg_pepOH : 1
+
+Spd
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Spd
+Num of residues : 7
+Root residues (with max links) :
+	Spd_pepCNC_pepN_pepN : 3
+
+Cl-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl-Tyr
+Num of residues : 21
+Root residues (with max links) :
+	Cl-Tyr_acidOH_aro6_pepN_pepOH : 4
+	Cl-Tyr_acidOH_aro6_pepN_pepOH : 4
+	Cl-Tyr_acidOH_pepN_pepOH : 3
+
+iC13:1(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC13:1(3)
+Num of residues : 1
+Root residues (with max links) :
+	iC13:1(3)_pepOH : 1
+
+N2Me-bOH-Asn
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=N2Me-bOH-Asn
+Num of residues : 23
+Root residues (with max links) :
+	N2Me-bOH-Asn_acidOH_pepCNC_pepN_pepOH : 4
+	N2Me-bOH-Asn_acidOH_pepCNC_pepN_pepOH : 4
+
+ADMAdda
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ADMAdda
+Num of residues : 3
+Root residues (with max links) :
+	ADMAdda_pepN_pepOH : 2
+
+Mab
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Mab
+Num of residues : 3
+Root residues (with max links) :
+	Mab_pepN_pepOH : 2
+
+NAc-Leu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NAc-Leu
+Num of residues : 3
+Root residues (with max links) :
+	NAc-Leu_pepCNC_pepOH : 2
+
+D-Hpr,Hpr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Hpr
+Num of residues : 3
+Root residues (with max links) :
+	D-Hpr_pepCNC_pepOH : 2
+
+D-End,End
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-End
+Num of residues : 15
+Root residues (with max links) :
+	D-End_pepCNC_pepCNC_pepN_pepOH : 4
+
+bOH-Cl-Tyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bOH-Cl-Tyr
+Num of residues : 69
+Root residues (with max links) :
+	bOH-Cl-Tyr_acidOH_acidOH_pepN_pepOH : 4
+	bOH-Cl-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	bOH-Cl-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	bOH-Cl-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	bOH-Cl-Tyr_acidOH_acidOH_aro6_pepN_pepOH : 5
+	bOH-Cl-Tyr_acidOH_acidOH_pepN_pepOH : 4
+
+D-Phe,Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Phe
+Num of residues : 3
+Root residues (with max links) :
+	Phe_pepN_pepOH : 2
+
+NFo-Gln
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Gln
+Num of residues : 7
+Root residues (with max links) :
+	NFo-Gln_pepCNC_pepN_pepOH : 3
+
+D-Thr,D-aThr,Thr,aThr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Thr
+Num of residues : 11
+Root residues (with max links) :
+	D-Thr_acidOH_pepN_pepOH : 3
+	D-Thr_acidOH_pepN_pepOH : 3
+
+NFo-Dpr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Dpr
+Num of residues : 7
+Root residues (with max links) :
+	NFo-Dpr_pepCNC_pepN_pepOH : 3
+
+His
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=His
+Num of residues : 6
+Root residues (with max links) :
+	His_aro5_pepN_pepOH : 3
+
+Cl-Ile
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl-Ile
+Num of residues : 3
+Root residues (with max links) :
+	Cl-Ile_pepN_pepOH : 2
+
+Trpol
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Trpol
+Num of residues : 5
+Root residues (with max links) :
+	Trpol_acidOH_pepN : 2
+	Trpol_acidOH_pepN : 2
+
+Ist
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Ist
+Num of residues : 11
+Root residues (with max links) :
+	Ist_acidOH_pepN_pepOH : 3
+	Ist_acidOH_pepN_pepOH : 3
+
+2OMe-Rha
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=2OMe-Rha
+Num of residues : 26
+Root residues (with max links) :
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+	2OMe-Rha_acidOH_acidOH_acidOH : 3
+
+C8:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C8:0-OH(3)_acidOH_pepOH : 2
+	C8:0-OH(3)_acidOH_pepOH : 2
+
+ChrA
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=ChrA
+Num of residues : 135
+Root residues (with max links) :
+	ChrA_acidOH_acidOH_pepCNC_pepOH : 4
+	ChrA_acidOH_acidOH_aro6_pepCNC_pepOH : 5
+	ChrA_acidOH_acidOH_aro6_pepCNC_pepOH : 5
+	ChrA_acidOH_acidOH_aro6_pepCNC_pepOH : 5
+	ChrA_acidOH_acidOH_aro6_pepCNC_pepOH : 5
+	ChrA_acidOH_acidOH_aro6_aro6_pepCNC_pepOH : 6
+	ChrA_acidOH_acidOH_aro6_aro6_pepCNC_pepOH : 6
+	ChrA_acidOH_acidOH_aro6_aro6_pepCNC_pepOH : 6
+	ChrA_acidOH_acidOH_aro6_aro6_pepCNC_pepOH : 6
+
+bMe-Br-Phe
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bMe-Br-Phe
+Num of residues : 3
+Root residues (with max links) :
+	bMe-Br-Phe_pepN_pepOH : 2
+
+Cl2-Pro
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Cl2-Pro
+Num of residues : 3
+Root residues (with max links) :
+	Cl2-Pro_pepCNC_pepOH : 2
+
+D-NMe-Val,NMe-Val
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-NMe-Val
+Num of residues : 3
+Root residues (with max links) :
+	NMe-Val_pepCNC_pepOH : 2
+
+Dpy
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Dpy
+Num of residues : 1
+Root residues (with max links) :
+	Dpy_pepCNC : 1
+
+aC15:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC15:0
+Num of residues : 1
+Root residues (with max links) :
+	aC15:0_pepOH : 1
+
+Me-Vaa
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Me-Vaa
+Num of residues : 1
+Root residues (with max links) :
+	Me-Vaa_pepOH : 1
+
+NFo-D-Abu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-D-Abu
+Num of residues : 3
+Root residues (with max links) :
+	NFo-D-Abu_pepCNC_pepOH : 2
+
+D-Dbu,Dbu,L-Dbu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Dbu
+Num of residues : 7
+Root residues (with max links) :
+	D-Dbu_pepN_pepN_pepOH : 3
+
+D-Glu,Glu
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=D-Glu
+Num of residues : 7
+Root residues (with max links) :
+	D-Glu_pepN_pepOH_pepOH : 3
+
+Bz
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Bz
+Num of residues : 1
+Root residues (with max links) :
+	Bz_pepOH : 1
+
+NMe-Thr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NMe-Thr
+Num of residues : 11
+Root residues (with max links) :
+	NMe-Thr_acidOH_pepCNC_pepOH : 3
+	NMe-Thr_acidOH_pepCNC_pepOH : 3
+
+C8:0:1(7)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C8:0:1(7)
+Num of residues : 1
+Root residues (with max links) :
+	C8:0:1(7)_pepOH : 1
+
+aC9:0
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC9:0
+Num of residues : 1
+Root residues (with max links) :
+	aC9:0_pepOH : 1
+
+C16:0-OH(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C16:0-OH(3)
+Num of residues : 5
+Root residues (with max links) :
+	C16:0-OH(3)_acidOH_pepOH : 2
+	C16:0-OH(3)_acidOH_pepOH : 2
+
+Hil
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=Hil
+Num of residues : 3
+Root residues (with max links) :
+	Hil_pepN_pepOH : 2
+
+iC15:0-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=iC15:0-NH2(3)
+Num of residues : 3
+Root residues (with max links) :
+	iC15:0-NH2(3)_pepN_pepOH : 2
+
+bTyr
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=bTyr
+Num of residues : 31
+Root residues (with max links) :
+	bTyr_acidOH_aro6_aro6_pepN_pepOH : 5
+	bTyr_acidOH_aro6_pepN_pepOH : 4
+	bTyr_acidOH_pepN_pepOH : 3
+	bTyr_acidOH_aro6_aro6_pepN_pepOH : 5
+
+NFo-Iser
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=NFo-Iser
+Num of residues : 11
+Root residues (with max links) :
+	NFo-Iser_acidOH_pepCNC_pepOH : 3
+	NFo-Iser_acidOH_pepCNC_pepOH : 3
+
+aC9:0-OH(2)-NH2(3)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=aC9:0-OH(2)-NH2(3)
+Num of residues : 11
+Root residues (with max links) :
+	aC9:0-OH(2)-NH2(3)_acidOH_pepN_pepOH : 3
+	aC9:0-OH(2)-NH2(3)_acidOH_pepN_pepOH : 3
+
+C10:0-NH2(2)-oxo(8)
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=C10:0-NH2(2)-oxo(8)
+Num of residues : 3
+Root residues (with max links) :
+	C10:0-NH2(2)-oxo(8)_pepN_pepOH : 2
+
+DMAdda
+Norine link : http://bioinfo.lifl.fr/norine/res_amino.jsp?code=DMAdda
+Num of residues : 11
+Root residues (with max links) :
+	DMAdda_acidOH_pepN_pepOH : 3
+	DMAdda_acidOH_pepN_pepOH : 3
+
