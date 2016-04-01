@@ -25,7 +25,7 @@ public class PeptidesExecutionTimesJsonLoader extends AbstractJsonLoader<Peptide
 		obj.put("PeptideID", pet.getId());
 		obj.put("PepNumAtoms", pet.getNumAtoms());
 		obj.put("PeptideName", pet.getPeptideName());
-		obj.put("PepCoverageRatio", pet.getCoverRatio());
+		//obj.put("PepCoverageRatio", pet.getCoverRatio());
 		obj.put("PepExecutionCompleteTime", pet.getCompleteTime());
 		obj.put("PepExecIsomorphismTime", pet.getIsomorphismTime());
 		obj.put("PepExecIsomorStrictMatchTime", pet.getIsomorStrictMatchingTime());
@@ -45,7 +45,7 @@ public class PeptidesExecutionTimesJsonLoader extends AbstractJsonLoader<Peptide
 		
 		pet.setId((String)obj.get("PeptideID"));
 		pet.setNumAtoms((long) (obj.get("PepNumAtoms")));
-		pet.setCoverRatio((double)obj.get("PepCoverageRatio"));
+		//pet.setCoverRatio((double)obj.get("PepCoverageRatio"));
 		pet.setCompleteTime((long)obj.get("PepExecutionCompleteTime"));
 		pet.setIsomorphismTime((long)obj.get("PepExecIsomorphismTime"));
 		pet.setIsomorStrictMatchingTime((long)obj.get("PepExecIsomorStrictMatchTime"));

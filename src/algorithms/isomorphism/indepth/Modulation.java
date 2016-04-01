@@ -20,7 +20,10 @@ public class Modulation {
 
 	private int maxDepth;
 	
-	private Coverage best;
+	//private Coverage best;
+	
+	private List<Coverage> pepCoveragesList;//new add 2
+	private double coverRatio;//new add 2, which should be defined as a parameter by user
 
 	private Map<Integer, Set<Match>> index;
 	private Map<Integer, Set<Match>> usedIndex;
@@ -28,11 +31,47 @@ public class Modulation {
 	private long startTime;
 	public static long maxTime = 5;
 
-	public Modulation(int maxDepth) {
+	/*public Modulation(int maxDepth) {
 		this.maxDepth = maxDepth;
+	}*/
+	
+	//new add 2
+	public Modulation(int maxDepth, double coverRatio) {
+		this.maxDepth = maxDepth;
+		this.coverRatio = coverRatio;
 	}
 	
-	public Coverage modulate (Coverage cov) {
+	//new add 2
+	public List<Coverage> modulate (Coverage cov) {
+		//System.out.println("Start Modulation....");
+		pepCoveragesList = new ArrayList<Coverage>();
+		//this.best = cov.clone();
+		this.indexCoverage(cov);
+		
+		int penality = 0;
+		do {
+			this.startTime = System.currentTimeMillis();
+			this.recursiveModulation (cov, new HashSet<Match>(), new HashSet<Integer>(), this.maxDepth-penality);
+			penality++;
+			//System.out.println("penality : "+penality);
+		} while ((System.currentTimeMillis() - this.startTime) / 1000
+				> maxTime);
+		
+		//test
+		//System.out.println("Size : "+pepCoveragesList.size());
+		if(this.pepCoveragesList.size() == 0){
+			this.pepCoveragesList.add(cov.clone());
+		}
+		/*System.out.println("Size 2 : "+pepCoveragesList.size());
+				for(Coverage c : this.pepCoveragesList){
+					System.out.println(c.getId()+"  (())  "+c.getCoverageRatio());
+				}*/
+		
+		return pepCoveragesList;
+		//return this.best;
+	}
+	
+	/*public Coverage modulate (Coverage cov) {
 		this.best = cov.clone();
 		this.indexCoverage(cov);
 		
@@ -45,13 +84,19 @@ public class Modulation {
 				> maxTime);
 		
 		return this.best;
-	}
+	}*/
 
 	private boolean recursiveModulation(Coverage cov, HashSet<Match> banned, HashSet<Integer> unmovable, int depth) {
+		//System.out.println("Start recursiveModulation....");
+		
 		if (depth == 0 || (System.currentTimeMillis() - this.startTime) / 1000 > maxTime)
 			return false;
 		
 		List<Match> matchsOnUncoveredAtoms = this.getMatchOnUncoveredAtoms(cov, banned, unmovable);
+		if(matchsOnUncoveredAtoms.size() == 0){
+			return false;
+		}
+		
 		int idx=0;
 		for (Match match : matchsOnUncoveredAtoms) {
 			if (idx++>=50)
@@ -64,15 +109,21 @@ public class Modulation {
 			}
 			
 			if (cov.getCoverageRatio() == 1.0) {
-				this.best = cov;
+				//this.best = cov;
+				pepCoveragesList.add(cov.clone());
+				//System.out.println("333333 "+ cov.clone().getCoverageRatio());
 				return true;
 			}
 			
 			if (this.recursiveModulation(cov, banned, unmovable, depth-1))
 				return true;
 			else {
-				if (best.getCoverageRatio() < cov.getCoverageRatio())
-					this.best = cov.clone();
+				//if (best.getCoverageRatio() < cov.getCoverageRatio))
+				//	this.best = cov.clone();
+				//System.out.println("444444 "+ cov.getCoverageRatio());
+				if(cov.getCoverageRatio() >= this.coverRatio){
+					pepCoveragesList.add(cov.clone());
+				}
 				
 				for (int atomIdx : match.getAtoms())
 					unmovable.remove(atomIdx);

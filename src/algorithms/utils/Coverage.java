@@ -342,6 +342,22 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		return cov;
 	}
 
+	public ResiduesDB getResidues() {
+		return residues;
+	}
+
+	public boolean equals(Coverage cov){
+		if(this.alreadyCalculate==cov.alreadyCalculate && this.matches==cov.getMatches() && this.usedMatches==cov.getUsedMatches() &&
+				this.monoGraph==cov.monoGraph && this.residues ==cov.getResidues()
+				&& this.getCoverageRatio()==cov.getCoverageRatio()){
+			return true;
+		}
+		else
+			return false;
+		
+		
+	}
+	
 	public void setId(String string) {
 		this.id = string;
 	}

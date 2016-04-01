@@ -23,14 +23,24 @@ import model.Family;
 import model.OtherChemicalObject;
 import model.Polymer;
 import model.graph.ContractedGraph;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MonomericSpliting {
 
 	public static boolean verbose = false;
 	
 	private Coverage coverage;
-	private FamilyDB families;
+	private Map<String, ArrayList<Coverage>> pepsCoveragesList;//new add 2
+	private List<Coverage> pepCoveragesList_1;//new add 2, modulation after strict matching
+	private List<Coverage> pepCoveragesList_2;//new add 2, modulation after light  matching
+	private Map<String, ArrayList<PeptideExecutionTimes>> pepsExecutionTimes;//new add 2
+	private double coverRatio = 0.9;//new add 2, which should be defined as a parameter by user
 	
+	private FamilyDB families;
 	private boolean allowLightMatchs;
 	
 	private FamilyMatcher matcher;
@@ -52,26 +62,75 @@ public class MonomericSpliting {
 		this.families = families;
 		this.matcher = new ChainsFamilyMatching(chains);
 		this.remover = new RemoveByDistance(removeDistance);
-		this.modulation = new Modulation(modulationDepth);
+		this.modulation = new Modulation(modulationDepth, this.coverRatio);//new add 2
 		this.retry = retryCount;
 		
-		
+		pepsCoveragesList  = new HashMap<String, ArrayList<Coverage>>();//new add 2
+		pepsExecutionTimes = new HashMap<String, ArrayList<PeptideExecutionTimes>>();//new add 2
 	}
 	
 	public Coverage[] computeCoverages (PolymersDB polDB) {
-		Coverage[] covs = new Coverage[polDB.size()];
-		peps_times=new PeptideExecutionTimes[polDB.size()];//new add
-		int idx=0;
+		//Coverage[] covs = new Coverage[polDB.size()];
+		//peps_times=new PeptideExecutionTimes[polDB.size()];//new add
+		//int idx=0;
 		for (Polymer pol : polDB.getObjects()) {
+			pepsCoveragesList.put(pol.getName(), new ArrayList<Coverage>());
+			pepsExecutionTimes.put(pol.getName(), new ArrayList<PeptideExecutionTimes>());
+			pepCoveragesList_1 = new ArrayList<Coverage>();//new add 2
 			this.computeCoverage(pol);
-			covs[idx] = this.getCoverage();
-			idx += 1;	
+			//covs[idx] = this.getCoverage();
+			//idx += 1;	
 		}
 		
-		//System.out.println("****"+idx);;
+		//System.out.println("****"+idx);
 		System.out.println("====Number of peptides : "+count);//new add
 		PeptidesExecutionTimesJsonLoader petjl=new PeptidesExecutionTimesJsonLoader();//new add
+
+		int size = 0;
+		for(ArrayList<PeptideExecutionTimes> pt: pepsExecutionTimes.values()){
+			size += pt.size();
+		}
+		peps_times = new PeptideExecutionTimes[size];
+		int count = 0;
+		for(ArrayList<PeptideExecutionTimes> pt: pepsExecutionTimes.values()){
+			for(PeptideExecutionTimes p : pt){
+				peps_times[count]=p;
+				count++;
+			}
+		}
 		petjl.saveFile(peps_times, timesFile);//new add
+		
+		for(Entry<String, ArrayList<Coverage>>  entry: pepsCoveragesList.entrySet()){
+			ArrayList<Coverage> ac = entry.getValue();
+			for(int i=0; i<= ac.size()-2; i++){
+				for(int j=i+1; j<=ac.size()-1; j++){
+					if(ac.get(i).equals(ac.get(j))){
+						pepsCoveragesList.get(entry.getKey()).remove(j);
+					}
+				}
+			}
+		}
+		
+		size = 0;
+		for(ArrayList<Coverage> cs: pepsCoveragesList.values()){
+			size += cs.size();
+		}
+		Coverage[] covs = new Coverage[size];
+		count = 0;
+		for(ArrayList<Coverage> cs: pepsCoveragesList.values()){
+			for(Coverage c : cs){
+				covs[count]=c;
+				count++;
+			}
+		}
+		
+		System.out.println("Results\\\\\\\\\\\\\\\\\\\"");
+		for(Entry<String, ArrayList<Coverage>> c: pepsCoveragesList.entrySet()){
+			for(int i=0; i<c.getValue().size();i++){
+				System.out.println(c.getKey()+"  "+c.getValue().get(i).getCoverageRatio());
+			}
+			
+		}
 		
 		return covs;
 	}
@@ -85,7 +144,7 @@ public class MonomericSpliting {
 		PeptideExecutionTimes pepTimes=new PeptideExecutionTimes(pep.getName());//new add
 		pepTimes.setId(pep.getId());//new add
 		pepTimes.setNumAtoms(pep.getMolecule().getAtomCount());//new add ; ???
-		
+
 		this.coverage = new Coverage(pep);
 		this.matcher.setChemicalObject(pep);
 		Isomorphism.setMappingStorage(true);
@@ -109,7 +168,12 @@ public class MonomericSpliting {
 			long interval3 = this.calculateTimeInterval("strict", "modulate");//new add
 			pepTimes.setTilingTime(interval3);//new add
 		}
-		Coverage save = this.coverage.clone();
+		
+		//test
+		/*for(Coverage c : this.pepCoveragesList_1){
+			System.out.println(c.getChemicalObject().getName()+"  ||||  "+c.getCoverageRatio());
+		}*/
+		//Coverage save = this.coverage.clone();
 		
 		// conditions to go to light matching
 		if (!this.allowLightMatchs || ratio == 1.0) {
@@ -117,18 +181,28 @@ public class MonomericSpliting {
 			
 			pepTimes.setIsomorphismTime();//new add
 			pepTimes.setCompleteTime();//new add
+			pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
 			
-			peps_times[count]=pepTimes;//new add
-			count++;//new add
+			//System.out.println("1111 Peptide NAME : "+pep.getName());
+			List<Coverage> lc =new ArrayList<>();
+			lc.add(this.coverage);
+			pepsCoveragesList.get(pep.getName()).addAll(lc);
 			
-			if(ratio == 1.0){
-				numFullCoverage++;//new add
-			}
-			pepTimes.setCoverRatio(ratio);//new add
+			//peps_times[count]=pepTimes;//new add
+			//count++;//new add
+			
+			//if(ratio == 1.0){
+			//	numFullCoverage++;//new add
+			//}
+			//pepTimes.setCoverRatio(ratio);//new add
+			
+			//test
+				//System.out.println(this.coverage.getId()+"  ||||  "+this.coverage.getCoverageRatio());
 			
 			return;
 		}
 			
+		long savedTilingTime = pepTimes.getTilingTime();
 		
 		// Step 2 : Light matching
 		// Initialization
@@ -139,61 +213,82 @@ public class MonomericSpliting {
 			this.condition.init();
 		
 		this.remover.init();
-		// Successive matchings
-		int depth = 0;
-		while (this.coverage.getCoverageRatio() < 1.0 &&
-				this.condition.toContinue(this.coverage)) {
-			depth++;
-			// Contract the atomic graph to monomeric graph
-			ContractedGraph contracted = new ContractedGraph(this.coverage);
-			// Remove monomers from the current solution to try with other matching strategy
-			this.remover.remove(this.coverage, contracted);
+		
+		//new add 2
+		/*if(this.pepCoveragesList_1 == null){
+			this.pepCoveragesList_1.add(this.coverage);
+		}*/
+		for(Coverage cover: this.pepCoveragesList_1){
+			this.coverage = cover;
+			pepCoveragesList_2 = new ArrayList<Coverage>();//new add 2
 			
-			// Create a masked molecule to only search on free polymer areas
-			Molecule mol = DeepenMatcher.mask (this.coverage);
-			this.coverage.setCurrentMaskedMol(mol);
-			OtherChemicalObject tmp = new OtherChemicalObject(mol);
-			this.matcher.setChemicalObject(tmp);
-			
-			if (verbose) {
-				System.out.println("+Light matching, depth " + depth);
-				System.out.println("++Search residues");
-			}
-			
-			// Compute for all families with light matching
-			long interval4 = this.calculateTimeInterval("light", "matchAllFamilies.LIGHT");//new add
-			pepTimes.setIsomorLightMatchingTime(interval4);//new add
-			
-			// Re-compute coverage
-			long interval5 = this.calculateTimeInterval("light", "calculateGreedyCoverage");//new add
-			pepTimes.setTilingTime(interval5);//new add
-			
-			if (this.coverage.getCoverageRatio() < 1.0) {
-				if (verbose)
-					System.out.println("++Modulation");
+			// Successive matchings
+			int depth = 0;
+			while (this.coverage.getCoverageRatio() < 1.0 &&
+					this.condition.toContinue(this.coverage)) {
+				depth++;
+				// Contract the atomic graph to monomeric graph
+				ContractedGraph contracted = new ContractedGraph(this.coverage);
+				// Remove monomers from the current solution to try with other matching strategy
+				this.remover.remove(this.coverage, contracted);
 				
-				long interval6 = this.calculateTimeInterval("light", "modulate");//new add
-				pepTimes.setTilingTime(interval6);//new add
+				// Create a masked molecule to only search on free polymer areas
+				Molecule mol = DeepenMatcher.mask (this.coverage);
+				this.coverage.setCurrentMaskedMol(mol);
+				OtherChemicalObject tmp = new OtherChemicalObject(mol);
+				this.matcher.setChemicalObject(tmp);
+				
+				if (verbose) {
+					System.out.println("+Light matching, depth " + depth);
+					System.out.println("++Search residues");
+				}
+				
+				// Compute for all families with light matching
+				long interval4 = this.calculateTimeInterval("light", "matchAllFamilies.LIGHT");//new add
+				pepTimes.setIsomorLightMatchingTime(interval4);//new add
+				
+				// Re-compute coverage
+				long interval5 = this.calculateTimeInterval("light", "calculateGreedyCoverage");//new add
+				pepTimes.setTilingTime(interval5);//new add
+				
+				if (this.coverage.getCoverageRatio() < 1.0) {
+					if (verbose)
+						System.out.println("++Modulation");
+					
+					long interval6 = this.calculateTimeInterval("light", "modulate");//new add
+					pepTimes.setTilingTime(interval6);//new add
+				}
+				
+				pepTimes.setIsomorphismTime();//new add
+				pepTimes.setCompleteTime();//new add
+				//pepTimes.setCoverRatio(ratio);//new add
+				pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
+				
+				pepTimes.resetTilingTime(savedTilingTime);
+				
+				//if (this.coverage.getCoverageRatio() > save.getCoverageRatio())
+				//	save = this.coverage.clone();
+				
+				this.remover.nextLevel();
 			}
-			
-			
-			if (this.coverage.getCoverageRatio() > save.getCoverageRatio())
-				save = this.coverage.clone();
-			
-			this.remover.nextLevel();
+			//System.out.println("finish .... ");
 		}
+		
+		//System.out.println("2222 Peptide NAME : "+pep.getName());
+		pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList_2);
+		
 		Isomorphism.setMappingStorage(false);
 		
-		if (save.getCoverageRatio() > this.coverage.getCoverageRatio())
-			this.coverage = save;
+		//if (save.getCoverageRatio() > this.coverage.getCoverageRatio())
+		//	this.coverage = save;
 		
-		pepTimes.setIsomorphismTime();//new add
-		pepTimes.setCompleteTime();//new add
+		//pepTimes.setIsomorphismTime();//new add
+		//pepTimes.setCompleteTime();//new add
 		
-		peps_times[count]=pepTimes;//new add
-		count++;//new add
+		//peps_times[count]=pepTimes;//new add
+		//count++;//new add
 		
-		this.ratio = this.coverage.getCoverageRatio();
+		/*this.ratio = this.coverage.getCoverageRatio();
 		if(ratio < 0.8){
 			numPartCoverage_2++;
 		}
@@ -202,8 +297,8 @@ public class MonomericSpliting {
 		}
 		else{
 			numPartCoverage_1++;
-		}
-		pepTimes.setCoverRatio(ratio);//new add
+		}*/
+		//pepTimes.setCoverRatio(ratio);//new add
 
 	}
 	
@@ -288,7 +383,7 @@ public class MonomericSpliting {
 			}
 			else if(detail.equals("modulate")){
 				long startTime = System.currentTimeMillis();
-				this.coverage = this.modulation.modulate(this.coverage);
+				pepCoveragesList_1 = this.modulation.modulate(this.coverage.clone());//return ArrayList<Coverage> 
 				long endTime = System.currentTimeMillis();
 				interval = (endTime-startTime);
 			}
@@ -308,7 +403,10 @@ public class MonomericSpliting {
 			}
 			else if(detail.equals("modulate")){
 				long startTime = System.currentTimeMillis();
-				this.coverage = this.modulation.modulate(this.coverage);
+				for(Coverage cov : this.modulation.modulate(this.coverage.clone())){
+					pepCoveragesList_2.add(cov);
+				}
+				//pepsCoveragesList.get(this.coverage.getId()).addAll(pepCoveragesList_2);
 				long endTime = System.currentTimeMillis();
 				interval = (endTime-startTime);
 			}

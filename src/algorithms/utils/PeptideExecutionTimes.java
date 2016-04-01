@@ -3,11 +3,11 @@ package algorithms.utils;
 /**
  *	new add 
  */
-public class PeptideExecutionTimes {
+public class PeptideExecutionTimes implements Cloneable{
 	private String id;
 	private String peptideName;
 	private long numAtoms;
-	private double coverRatio;
+	//private double coverRatio;
 	
 	private long completeTime;
 	  private long isomorphismTime;
@@ -64,7 +64,7 @@ public class PeptideExecutionTimes {
 
 
 
-	public double getCoverRatio() {
+	/*public double getCoverRatio() {
 		return coverRatio;
 	}
 
@@ -72,7 +72,7 @@ public class PeptideExecutionTimes {
 
 	public void setCoverRatio(double coverRatio) {
 		this.coverRatio = coverRatio;
-	}
+	}*/
 
 
 
@@ -153,7 +153,10 @@ public class PeptideExecutionTimes {
 	}
 
 
-
+	public void resetTilingTime(long tilingTime){
+		this.tilingTime = tilingTime;
+	}
+	
 	public void setTilingTime(long tilingTime) {
 		long preTilingTime = this.getTilingTime();
 		this.tilingTime = tilingTime + preTilingTime;
@@ -168,6 +171,14 @@ public class PeptideExecutionTimes {
 		return this.getId()+", "+this.getPeptideName()+", "+this.getNumAtoms()+", "+this.getCompleteTime()+"{ "+
 				this.getIsomorphismTime()+"[ "+this.getIsomorStrictMatchingTime()+", "+this.getIsomorLightMatchingTime() +" ], "+
 					this.getTilingTime()+" }";
+	}
+
+	public Object clone(){  
+	    try{  
+	        return super.clone();  
+	    }catch(Exception e){ 
+	        return null; 
+	    }
 	}
 
 
