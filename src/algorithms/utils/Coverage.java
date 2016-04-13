@@ -346,16 +346,30 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		return residues;
 	}
 
-	public boolean equals(Coverage cov){
-		if(this.alreadyCalculate==cov.alreadyCalculate && this.matches==cov.getMatches() && this.usedMatches==cov.getUsedMatches() &&
-				this.monoGraph==cov.monoGraph && this.residues ==cov.getResidues()
-				&& this.getCoverageRatio()==cov.getCoverageRatio()){
+	public boolean equals(Object obj){
+		
+		if(this == obj){
 			return true;
 		}
-		else
-			return false;
 		
-		
+		if(obj!=null && obj.getClass() == Coverage.class){
+			int count=0;
+			if(this.usedMatches.size() == ((Coverage)obj).getUsedMatches().size()){
+				for(Object o : this.usedMatches.toArray()){
+					for(Object o2 : ((Coverage)obj).getUsedMatches().toArray()){
+						if(((Match)o).getAtoms().equals(((Match)o2).getAtoms())){
+							count++;
+						}
+					}
+				}
+				if(count == this.usedMatches.size()){
+					return true;
+				}
+				else 
+					return false;
+			}
+		}
+		return false;
 	}
 	
 	public void setId(String string) {

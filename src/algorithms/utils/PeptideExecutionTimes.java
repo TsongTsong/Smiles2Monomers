@@ -156,6 +156,12 @@ public class PeptideExecutionTimes implements Cloneable{
 	public void resetTilingTime(long tilingTime){
 		this.tilingTime = tilingTime;
 	}
+	public void resetIsomorLightMatchingTime(long isomorLightMatchingTime){
+		this.isomorLightMatchingTime = isomorLightMatchingTime;
+	}
+	public void resetCompleteTime(long completeTime){
+		this.completeTime = completeTime;
+	}
 	
 	public void setTilingTime(long tilingTime) {
 		long preTilingTime = this.getTilingTime();
@@ -163,10 +169,10 @@ public class PeptideExecutionTimes implements Cloneable{
 	}
 	
 	public String toString(){
-		System.out.printf("%10s, %20s, %10s, %30s", "***"+this.getId(), this.getPeptideName(), this.getNumAtoms(), this.getCompleteTime()+"{ "+
+		/*System.out.printf("%10s, %20s, %10s, %30s", "***"+this.getId(), this.getPeptideName(), this.getNumAtoms(), this.getCompleteTime()+"{ "+
 				this.getIsomorphismTime()+"[ "+this.getIsomorStrictMatchingTime()+", "+this.getIsomorLightMatchingTime() +" ], "+
 				this.getTilingTime()+" }");
-		System.out.println();
+		System.out.println();*/
 		
 		return this.getId()+", "+this.getPeptideName()+", "+this.getNumAtoms()+", "+this.getCompleteTime()+"{ "+
 				this.getIsomorphismTime()+"[ "+this.getIsomorStrictMatchingTime()+", "+this.getIsomorLightMatchingTime() +" ], "+
