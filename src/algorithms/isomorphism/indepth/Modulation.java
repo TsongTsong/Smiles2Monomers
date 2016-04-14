@@ -53,6 +53,14 @@ public class Modulation {
 			this.pepCoveragesList.add(cov);
 		}
 		
+		for(Coverage ce : (ArrayList<Coverage>) ((ArrayList<Coverage>) pepCoveragesList).clone()){
+			if(ce.getCoverageRatio() == 1.0){
+				List<Coverage> exemple = new ArrayList<>();
+				exemple.add(ce);
+				pepCoveragesList.retainAll(exemple);
+			}
+		}
+		
 		return pepCoveragesList;
 	}
 	

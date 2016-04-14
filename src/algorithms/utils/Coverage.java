@@ -1,6 +1,7 @@
 package algorithms.utils;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -40,6 +41,8 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 	private IMolecule currentMaskedMol;
 	private boolean alreadyCalculate;
 	private FamilyDB families;
+	private int limit;
+	
 	
 	public Coverage(ChemicalObject co) {
 		this.co = co;
@@ -50,6 +53,7 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		this.alreadyCalculate = false;
 		
 		this.coverage = new Residue[this.co.getSize()];
+		this.limit = 1;
 	}
 	
 	public void addMatch (Match match) {
@@ -357,7 +361,8 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 			if(this.usedMatches.size() == ((Coverage)obj).getUsedMatches().size()){
 				for(Object o : this.usedMatches.toArray()){
 					for(Object o2 : ((Coverage)obj).getUsedMatches().toArray()){
-						if(((Match)o).getAtoms().equals(((Match)o2).getAtoms())){
+						if(((Match)o).getAtoms().equals(((Match)o2).getAtoms()) 
+								|| (getDifferentAtomsNumber((Match)o, (Match)o2) == this.limit)){
 							count++;
 						}
 					}
@@ -370,6 +375,17 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 			}
 		}
 		return false;
+	}
+	
+	private int getDifferentAtomsNumber(Match o, Match o2){
+		if(!(o.getAtoms().size() == o2.getAtoms().size())){
+			return -1;
+		}
+		Set<Integer> set = new HashSet<Integer>();
+		set.clear();
+		set.addAll(o.getAtoms());
+		set.removeAll(o2.getAtoms());
+		return set.size();
 	}
 	
 	public void setId(String string) {

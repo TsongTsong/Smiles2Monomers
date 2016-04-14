@@ -1,6 +1,9 @@
 package algorithms;
 
 import org.openscience.cdk.Molecule;
+
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections;
+
 import algorithms.isomorphism.ChainsFamilyMatching;
 import algorithms.isomorphism.FamilyMatcher;
 import algorithms.isomorphism.Isomorphism;
@@ -35,6 +38,8 @@ public class MonomericSpliting {
 	public static boolean verbose = false;
 	private Coverage coverage;// Current coverage
 	private Map<String, ArrayList<Coverage>> pepsCoveragesList;
+	private Map<Coverage, ArrayList<Integer>> covSearchedDepth;// Save searched Depths of a coverage
+	private Map<Coverage, ArrayList<Coverage>> covToListCovs;// Save coverage list searched from a coverage
 	private List<Coverage> pepCoveragesList_1;// Modulation after strict matching
 	private List<Coverage> pepCoveragesList_n;// Modulation after each light matching
 	private Map<String, ArrayList<PeptideExecutionTimes>> pepsExecutionTimes;
@@ -57,6 +62,7 @@ public class MonomericSpliting {
 	private PeptideExecutionTimes pepTimes;
 	private Polymer pep;
 	private long savedTilingTime;
+	private boolean continueLoop;
 	
 	
 	public MonomericSpliting(FamilyDB families, ChainsDB chains, int removeDistance, int retryCount, int modulationDepth) {
@@ -68,6 +74,8 @@ public class MonomericSpliting {
 		
 		pepsCoveragesList  = new HashMap<String, ArrayList<Coverage>>();
 		pepsExecutionTimes = new HashMap<String, ArrayList<PeptideExecutionTimes>>();
+		covSearchedDepth = new HashMap<Coverage, ArrayList<Integer>>();
+		covToListCovs = new HashMap<Coverage, ArrayList<Coverage>>();
 	}
 	
 	public Coverage[] computeCoverages (PolymersDB polDB) {
@@ -76,6 +84,7 @@ public class MonomericSpliting {
 			pepsExecutionTimes.put(pol.getName(), new ArrayList<PeptideExecutionTimes>());
 			pepCoveragesList_1 = new ArrayList<Coverage>();
 			this.pep=pol;
+			continueLoop = true;
 			this.computeCoverage(pol);
 			countPeps++;
 		}
@@ -188,7 +197,8 @@ public class MonomericSpliting {
 			pepTimes.setTilingTime(interval3);
 		}
 		
-		if (!this.allowLightMatchs || ratio == 1.0) {
+		if (!this.allowLightMatchs || 
+				(pepCoveragesList_1.size()==1 && pepCoveragesList_1.get(0).getCoverageRatio() == 1.0)) {
 			Isomorphism.setMappingStorage(false);
 			
 			pepTimes.setIsomorphismTime();
@@ -213,9 +223,6 @@ public class MonomericSpliting {
 			this.condition.init();
 		*/
 		
-		System.out.println("************************pepCoveragesList_1 : ( "+pep.getName()+" )******************************");//test
-		showElements(this.pepCoveragesList_1);//test
-		
 		LightMatching(this.pepCoveragesList_1, this.retry);
 		
 		Isomorphism.setMappingStorage(false);
@@ -231,11 +238,60 @@ public class MonomericSpliting {
 			return;
 		}
 		
+		label:
 		for(Coverage cover: pepCoveragesList){
+			
+			//boolean continueLoop = true;
+			for(Coverage ce: pepCoveragesList){
+				if(ce.getCoverageRatio() == 1.0){
+					List<Coverage> exemple = new ArrayList<>();
+					exemple.add(ce);
+					pepCoveragesList.retainAll(exemple);
+					pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList);
+					pepsCoveragesList.get(pep.getName()).retainAll(exemple);
+					continueLoop = false;
+					return;
+				}
+			}
+			
 			int retry_saved = retry;
 			System.out.println("**********************one depth search start : "+ cover.getCoverageRatio()+ " ************************");//test
 			this.coverage = cover;
 			pepCoveragesList_n = new ArrayList<Coverage>();
+			
+			if(covSearchedDepth.keySet().size() != 0){
+				boolean tag = false;
+				for(Coverage cov : covSearchedDepth.keySet()){
+					if(cover.equals(cov)){
+						System.out.println("##################################################### two coverages are equal");
+						tag=true;
+						if(!covSearchedDepth.get(cov).contains(retry)){
+							System.out.println("##################################################### add new depth 1");
+							covSearchedDepth.get(cov).add(retry);
+							pepCoveragesList_n = covToListCovs.get(cov);
+							System.out.println("****************************reuse a calculated result start************************");//test
+							LightMatching(pepCoveragesList_n, retry-1);
+							retry = retry_saved;
+							System.out.println("****************************reuse a calculated result stop************************");//test
+							continue label;
+						}
+						else{
+							System.out.println("##################################################### calculer another coverage directly");
+							continue label;
+						}
+					}
+				}
+				if(tag == false){
+					covSearchedDepth.put(cover, new ArrayList<Integer>());
+					covSearchedDepth.get(cover).add(retry);
+					System.out.println("##################################################### add new depth 2");
+				}
+			}
+			else{
+				covSearchedDepth.put(cover, new ArrayList<Integer>());
+				covSearchedDepth.get(cover).add(retry);
+				System.out.println("##################################################### add new depth 3");
+			}
 			
 			// Successive matchings
 			this.remover.init();
@@ -272,6 +328,7 @@ public class MonomericSpliting {
 				pepTimes.setTilingTime(interval6);
 					
 				pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList_n);
+				covToListCovs.put(cover, (ArrayList<Coverage>) pepCoveragesList_n);// Save coverage list  
 					
 				System.out.println("************************pepCoveragesList_n : (results list of one depth search) ******************************");//test
 				showElements(pepCoveragesList_n);
@@ -290,6 +347,10 @@ public class MonomericSpliting {
 				
 			LightMatching(pepCoveragesList_n, retry-1);
 			retry = retry_saved;
+			
+			if(continueLoop == false){
+				break label;
+			}
 		}
 		System.out.println("****************************one light matching stop************************");//test
 	}
