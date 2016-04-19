@@ -30,9 +30,13 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 
+
+////to remove stopOnceFullCoverGot ???
+//// 0.8 show too, to modify
 public class MonomericSpliting {
 
 	public static boolean verbose = false;
@@ -43,7 +47,7 @@ public class MonomericSpliting {
 	private List<Coverage> pepCoveragesList_1;// Modulation after strict matching
 	private List<Coverage> pepCoveragesList_n;// Modulation after each light matching
 	private Map<String, ArrayList<PeptideExecutionTimes>> pepsExecutionTimes;
-	private double coverRatio = 0.9;// Which should be defined as a parameter by user
+	private double coverRatio;// Which should be defined as a parameter by user
 	private FamilyDB families;
 	private boolean allowLightMatchs;
 	private FamilyMatcher matcher;
@@ -52,7 +56,7 @@ public class MonomericSpliting {
 	private Modulation modulation;
 	private String timesFile="results/peptidesExecutionTimes.json";
 	private PeptideExecutionTimes[] peps_times;
-	public static int countPeps;// = Number of peptides
+	public static int countPeps;// Number of peptides
 	private double ratio;
 	public static int numFullCoverage;// = 100%
 	public static int numPartCoverage_1;// 80% <= numPartCoverage_1 < 100%
@@ -62,34 +66,78 @@ public class MonomericSpliting {
 	private PeptideExecutionTimes pepTimes;
 	private Polymer pep;
 	private long savedTilingTime;
-	private boolean continueLoop;
+	private List<Polymer> findNoCoverPols;
+	private double decrease;
+	private boolean continueSearch;
+	private int diffAtomsNumToleration;// Number of different covered atoms between two coverage
+	private boolean useDiffAtomsNumToleration;
+	private boolean stopOnceFullCoverGot; // False : can get other possibilities of full coverages and part coverages
 	
 	
 	public MonomericSpliting(FamilyDB families, ChainsDB chains, int removeDistance, int retryCount, int modulationDepth) {
 		this.families = families;
 		this.matcher = new ChainsFamilyMatching(chains);
 		this.remover = new RemoveByDistance(removeDistance);
+		this.coverRatio = 0.9;// 0.8 show too, to modify
 		this.modulation = new Modulation(modulationDepth, this.coverRatio);
 		this.retry = retryCount;
-		
+
 		pepsCoveragesList  = new HashMap<String, ArrayList<Coverage>>();
 		pepsExecutionTimes = new HashMap<String, ArrayList<PeptideExecutionTimes>>();
+		findNoCoverPols = new ArrayList<>();
+		decrease = 0.1;
 		covSearchedDepth = new HashMap<Coverage, ArrayList<Integer>>();
 		covToListCovs = new HashMap<Coverage, ArrayList<Coverage>>();
+		
+		diffAtomsNumToleration = 1;
+		useDiffAtomsNumToleration = true;
+		stopOnceFullCoverGot = true;
+
 	}
 	
+	@SuppressWarnings("unchecked")
 	public Coverage[] computeCoverages (PolymersDB polDB) {
 		for (Polymer pol : polDB.getObjects()) {
 			pepsCoveragesList.put(pol.getName(), new ArrayList<Coverage>());
 			pepsExecutionTimes.put(pol.getName(), new ArrayList<PeptideExecutionTimes>());
 			pepCoveragesList_1 = new ArrayList<Coverage>();
 			this.pep=pol;
-			continueLoop = true;
+			
+			continueSearch = true;			
 			this.computeCoverage(pol);
+			
+			if(pepsCoveragesList.get(pol.getName()).size() == 0){
+				findNoCoverPols.add(pol);
+				System.out.println("find one polymer having no coverage");
+			}
 			countPeps++;
 		}
+		int co=0;
+		while(findNoCoverPols.size() != 0){
+			
+			System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++ search for polymers who havn't coverages finded"+co++);
+			System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++ "+findNoCoverPols.size());
+			System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++ search for polymers who havn't coverages finded");
+			this.coverRatio = this.coverRatio - this.decrease;
+			System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& "+ this.coverRatio);
+			if(this.coverRatio <= 0){
+				for(Polymer p : findNoCoverPols){
+					System.out.println("############################ "+ p.getName());
+				}
+				break;
+			}
+			
+			for(int i=0; i<findNoCoverPols.size(); i++){
+				Polymer pol = findNoCoverPols.get(i);
+				continueSearch = true;
+				this.computeCoverage(pol);
+				if(pepsCoveragesList.get(pol.getName()).size() != 0){
+					findNoCoverPols.remove(pol);
+				}
+			}
+		}
 		
-		System.out.println("= = = = = =Number of peptides : " + countPeps);
+		System.out.println("= = = = = =Number of peptides : " + countPeps+ " Peptides having no coverage: "+findNoCoverPols.size());
 		PeptidesExecutionTimesJsonLoader petjl=new PeptidesExecutionTimesJsonLoader();
 
 		int size = 0;
@@ -128,6 +176,15 @@ public class MonomericSpliting {
 			
 		}
 		
+		if(stopOnceFullCoverGot){
+			for(ArrayList<Coverage> cs: pepsCoveragesList.values()){
+				for(Coverage c : (ArrayList<Coverage>)cs.clone()){
+					if(c.getCoverageRatio()==1.0){
+						onlyRetain_1(cs);
+					}
+				}
+			}
+		}
 		size = 0;
 		for(ArrayList<Coverage> cs: pepsCoveragesList.values()){
 			size += cs.size();
@@ -167,6 +224,7 @@ public class MonomericSpliting {
 	 * Calculate an object Coverage with all matches from families. 
 	 * @param pep Peptide to match
 	 */
+	@SuppressWarnings("unchecked")
 	public void computeCoverage(Polymer pep) {
 
 		pepTimes=new PeptideExecutionTimes(pep.getName());
@@ -196,18 +254,25 @@ public class MonomericSpliting {
 			long interval3 = this.calculateTimeInterval("strict", "modulate");
 			pepTimes.setTilingTime(interval3);
 		}
+		else if(ratio == 1.0){
+			pepCoveragesList_1 = new ArrayList<Coverage>();
+			pepCoveragesList_1.add(this.coverage);
+			
+			pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList_1);
+			covToListCovs.put(this.coverage, (ArrayList<Coverage>) pepCoveragesList_1);// Save coverage list
+		}
 		
+		// To add case for 'stopOnceFullCoverGot==false': pepCoveragesList_1.size()>1 && pepCoveragesList_1.get(i).getCoverageRatio() != 1.0
 		if (!this.allowLightMatchs || 
 				(pepCoveragesList_1.size()==1 && pepCoveragesList_1.get(0).getCoverageRatio() == 1.0)) {
+			
 			Isomorphism.setMappingStorage(false);
 			
 			pepTimes.setIsomorphismTime();
 			pepTimes.setCompleteTime();
 			pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
 			
-			List<Coverage> lc =new ArrayList<>();
-			lc.add(this.coverage);
-			pepsCoveragesList.get(pep.getName()).addAll(lc);
+			pepsCoveragesList.get(pep.getName()).addAll((ArrayList<Coverage>) ((ArrayList<Coverage>) pepCoveragesList_1).clone());
 			
 			return;
 		}
@@ -229,46 +294,40 @@ public class MonomericSpliting {
 
 	}
 	
+	@SuppressWarnings("unchecked")
 	private void LightMatching(List<Coverage> pepCoveragesList, int retry){
 		
 		System.out.println("*********************one light matching start, depth : "+ retry +"************************");//test
 
+		//to remove stopOnceFullCoverGot ???
+		if(stopOnceFullCoverGot == true && pepCoveragesList.size()==1 && pepCoveragesList.get(0).getCoverageRatio()==1.0){
+			continueSearch = false;
+			return;
+		}
+		
 		if(retry<=0){
-			System.out.println("****************************one depth search stop************************");//test
+			System.out.println("****************************one search stop************************");//test
 			return;
 		}
 		
 		label:
 		for(Coverage cover: pepCoveragesList){
 			
-			//boolean continueLoop = true;
-			for(Coverage ce: pepCoveragesList){
-				if(ce.getCoverageRatio() == 1.0){
-					List<Coverage> exemple = new ArrayList<>();
-					exemple.add(ce);
-					pepCoveragesList.retainAll(exemple);
-					pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList);
-					pepsCoveragesList.get(pep.getName()).retainAll(exemple);
-					continueLoop = false;
-					return;
-				}
-			}
-			
 			int retry_saved = retry;
-			System.out.println("**********************one depth search start : "+ cover.getCoverageRatio()+ " ************************");//test
-			this.coverage = cover;
+			System.out.println("**********************one search start : "+ cover.getCoverageRatio()+ " ************************");//test
+			this.coverage = cover;// Current running coverage 
 			pepCoveragesList_n = new ArrayList<Coverage>();
 			
 			if(covSearchedDepth.keySet().size() != 0){
-				boolean tag = false;
 				for(Coverage cov : covSearchedDepth.keySet()){
 					if(cover.equals(cov)){
 						System.out.println("##################################################### two coverages are equal");
-						tag=true;
 						if(!covSearchedDepth.get(cov).contains(retry)){
-							System.out.println("##################################################### add new depth 1");
-							covSearchedDepth.get(cov).add(retry);
+													
 							pepCoveragesList_n = covToListCovs.get(cov);
+							covSearchedDepth.get(cov).add(retry);
+							System.out.println("##################################################### add new seached depth for a coverage 2");	
+							
 							System.out.println("****************************reuse a calculated result start************************");//test
 							LightMatching(pepCoveragesList_n, retry-1);
 							retry = retry_saved;
@@ -281,19 +340,8 @@ public class MonomericSpliting {
 						}
 					}
 				}
-				if(tag == false){
-					covSearchedDepth.put(cover, new ArrayList<Integer>());
-					covSearchedDepth.get(cover).add(retry);
-					System.out.println("##################################################### add new depth 2");
-				}
-			}
-			else{
-				covSearchedDepth.put(cover, new ArrayList<Integer>());
-				covSearchedDepth.get(cover).add(retry);
-				System.out.println("##################################################### add new depth 3");
 			}
 			
-			// Successive matchings
 			this.remover.init();
 			int depth = 0;
 			depth++;
@@ -313,7 +361,6 @@ public class MonomericSpliting {
 				System.out.println("++Search residues");
 			}
 				
-			// Compute for all families with light matching
 			long interval4 = this.calculateTimeInterval("light", "matchAllFamilies.LIGHT");
 			pepTimes.setIsomorLightMatchingTime(interval4);
 				
@@ -327,11 +374,25 @@ public class MonomericSpliting {
 				long interval6 = this.calculateTimeInterval("light", "modulate");
 				pepTimes.setTilingTime(interval6);
 					
-				pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList_n);
+				pepsCoveragesList.get(pep.getName()).addAll((ArrayList<Coverage>) ((ArrayList<Coverage>) pepCoveragesList_n).clone());
 				covToListCovs.put(cover, (ArrayList<Coverage>) pepCoveragesList_n);// Save coverage list  
 					
+				covSearchedDepth.put(cover, new ArrayList<Integer>());
+				covSearchedDepth.get(cover).add(retry);
+				System.out.println("##################################################### add new seached depth for a coverage 1");
+				
 				System.out.println("************************pepCoveragesList_n : (results list of one depth search) ******************************");//test
 				showElements(pepCoveragesList_n);
+			}
+			else if (this.coverage.getCoverageRatio() == 1.0){
+				pepCoveragesList_n = new ArrayList<Coverage>();
+				pepCoveragesList_n.add(this.coverage);
+				
+				pepsCoveragesList.get(pep.getName()).addAll(pepCoveragesList_n);
+				covToListCovs.put(cover, (ArrayList<Coverage>) pepCoveragesList_n);// Save coverage list
+				
+				covSearchedDepth.put(cover, new ArrayList<Integer>());
+				covSearchedDepth.get(cover).add(retry);
 			}
 				
 			pepTimes.setIsomorphismTime();
@@ -347,9 +408,9 @@ public class MonomericSpliting {
 				
 			LightMatching(pepCoveragesList_n, retry-1);
 			retry = retry_saved;
-			
-			if(continueLoop == false){
-				break label;
+			if(stopOnceFullCoverGot == true && continueSearch == false){
+				System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Search process terminated");
+				return;
 			}
 		}
 		System.out.println("****************************one light matching stop************************");//test
@@ -409,7 +470,6 @@ public class MonomericSpliting {
 		MonomericSpliting.verbose = verbose;
 	}
 	
-	@SuppressWarnings("unchecked")
 	private long calculateTimeInterval(String matchingType, String detail){
 		long interval=2;
 
@@ -434,13 +494,10 @@ public class MonomericSpliting {
 				interval = (endTime-startTime);
 				removeRepetition(pepCoveragesList_1);
 				
-				//test
-				/*if(pepCoveragesList_1.size()>=3){
-					pepCoveragesList_1 = new ArrayList<Coverage>(pepCoveragesList_1.subList(0, 3));
+				if(stopOnceFullCoverGot == true){
+					onlyRetain_1(pepCoveragesList_1);
 				}
-				else
-					pepCoveragesList_1 = new ArrayList<Coverage>(pepCoveragesList_1.subList(0, 1));
-				*/
+
 			}
 			break;
 		case "light":
@@ -465,13 +522,9 @@ public class MonomericSpliting {
 				interval = (endTime-startTime);
 				removeRepetition(pepCoveragesList_n);
 				
-				//test
-				/*if(pepCoveragesList_n.size()>=3){
-					pepCoveragesList_n = new ArrayList<Coverage>(pepCoveragesList_n.subList(0, 3));
-				}
-				else
-					pepCoveragesList_n = new ArrayList<Coverage>(pepCoveragesList_n.subList(0, 1));
-				*/
+				if(stopOnceFullCoverGot == true){
+					onlyRetain_1(pepCoveragesList_n);
+				}				
 			}
 			break;
 		}
@@ -486,8 +539,17 @@ public class MonomericSpliting {
 		
 			for(int i=0; i<= lcov_clone.size()-2; i++){
 				for(int j=i+1; j<=lcov_clone.size()-1; j++){
+					
 					if(lcov_clone.get(i).equals(lcov_clone.get(j))){
 						lcov.set(j, null);
+					}
+					
+					if(useDiffAtomsNumToleration){
+						if( (getDifferentAtomsNumber(lcov_clone.get(i), lcov_clone.get(j)) > 0) && 
+								(getDifferentAtomsNumber(lcov_clone.get(i), lcov_clone.get(j)) <= this.diffAtomsNumToleration)){
+							
+							lcov.set(j, null);
+						}
 					}
 				}
 			}
@@ -495,16 +557,31 @@ public class MonomericSpliting {
 			nullList.add(null);
 			lcov.removeAll(nullList);
 			
-			
-			/*for(Coverage cov : lcov){
-				System.out.println(cov.getChemicalObject().getName()+"****"+cov.getCoverageRatio());
-			HashSet<Match> hm = (cov).getUsedMatches();
-			System.out.println("------------------new start-----------------------------");
-			for(Object m : hm.toArray()){
-				System.out.println(((Match)m).toString());
+	}
+	
+	private int getDifferentAtomsNumber(Coverage cov, Coverage cov2){
+		Set<Integer> set = new HashSet<Integer>();
+		
+		for(Object o : cov.getUsedMatches().toArray()){
+			set.addAll(((Match) o).getAtoms());			
+		}
+		for(Object o2 : cov2.getUsedMatches().toArray()){
+			set.removeAll(((Match) o2).getAtoms());					
+		}
+		
+		return set.size();
+	
+	}
+	
+	@SuppressWarnings("unchecked")
+	private void onlyRetain_1(List<Coverage> pepCoveragesList){
+		for(Coverage ce : (ArrayList<Coverage>) ((ArrayList<Coverage>) pepCoveragesList).clone()){
+			if(ce.getCoverageRatio() == 1.0){
+				List<Coverage> exemple = new ArrayList<>();
+				exemple.add(ce);
+				pepCoveragesList.retainAll(exemple);
 			}
-			System.out.println("--------------------new end---------------------------");}*/
-			
+		}
 	}
 	
 	private void showElements(List<Coverage> lcov){

@@ -6,6 +6,7 @@ import java.util.Map;
 public abstract class HTMLAbstractVue implements HTMLVue {
 
 	protected String html;
+	protected String js;
 	protected Map<String, Map<String, String>> css;
 
 	public HTMLAbstractVue() {
@@ -19,6 +20,10 @@ public abstract class HTMLAbstractVue implements HTMLVue {
 	@Override
 	public String getHTML() {
 		return this.html;
+	}
+	
+	public String getJS(){
+		return this.js;
 	}
 	
 	@Override

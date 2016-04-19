@@ -11,8 +11,8 @@ public class HTMLVueWriter {
 
 	private HTMLVueWriter () {};
 	
-	public static void writeFiles (File hTMLfile, File cSSFile, String title, HTMLVue vue) {
-		HTMLVueWriter.writeHTML (hTMLfile, cSSFile, title, vue);
+	public static void writeFiles (File hTMLfile, File cSSFile, File jSFile, String title, HTMLVue vue) {
+		HTMLVueWriter.writeHTML (hTMLfile, cSSFile, jSFile, title, vue);
 		HTMLVueWriter.writeCSS (cSSFile, vue);
 	}
 
@@ -45,7 +45,7 @@ public class HTMLVueWriter {
 		}
 	}
 
-	private static void writeHTML(File hTMLfile, File cSSFile, String title, HTMLVue vue) {
+	private static void writeHTML(File hTMLfile, File cSSFile, File jSFile, String title, HTMLVue vue) {
 		BufferedWriter bw = null;
 		try {
 			bw = new BufferedWriter(new FileWriter(hTMLfile));
@@ -60,11 +60,15 @@ public class HTMLVueWriter {
 			bw.write("		<meta charset=\"utf-8\">\n");
 			bw.write("		<title>" + title + "</title>");
 			bw.write("		<link rel='stylesheet' type='text/css' href='" + cSSFile.getName() + "' media='screen' />");
+			
+			bw.write("      <script type='text/javascript' src='"+ jSFile.getName() +"'></script>");
+			
 			bw.write("	</head>");
 			bw.write("	<body>");
 			bw.write(vue.getHTML());
 			bw.write("	</body>");
-			bw.write("<script></script>");
+		    bw.write("<script></script>");
+			//bw.write(vue.getJS());
 			bw.write("</html>");
 		} catch (IOException e1) {
 			e1.printStackTrace();

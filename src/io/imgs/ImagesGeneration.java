@@ -53,10 +53,23 @@ public class ImagesGeneration {
 				
 		Map<Coverage, ColorsMap> covsColors = new HashMap<>();
 		
+		int num=0;
+		String nameSaved="no name to save";
 		for (Coverage cov : coverages) {
 //			File png = new File(coverageDir.getPath() + "/" + cov.getChemicalObject().getId() + ".png");
 			String name = cov.getChemicalObject().getName().replaceAll("\\s", "_");
-			File png = new File(coverageDir.getPath() + "/" + cov.getChemicalObject().getId() + "_" + name + ".png");
+			if(!name.equals(nameSaved)){
+				num = 0;
+			}
+			
+			File png = new File(coverageDir.getPath() + "/" + cov.getChemicalObject().getId() + "_" + name+ "0" + ".png");
+			
+			if(png.exists()){
+				png = new File(coverageDir.getPath() + "/" + cov.getChemicalObject().getId() + "_" + name + num++ + ".png");
+			}
+			
+			nameSaved = name;
+			
 			ColorsMap colors = pg.createPNG(cov, png);
 			covsColors.put(cov, colors);
 		}
@@ -66,21 +79,35 @@ public class ImagesGeneration {
 
 	public Map<Coverage, ColorsMap> generatePeptidesImages(File imgsFolder, Coverage[] covs) {
 		// Coverage images directory
-		File coverageDir = new File(imgsFolder.getPath() + "/peptides");
-		if (!coverageDir.exists())
-			coverageDir.mkdir();
-		for (File f : coverageDir.listFiles())
-			f.delete();
+				File coverageDir = new File(imgsFolder.getPath() + "/peptides");
+				if (!coverageDir.exists())
+					coverageDir.mkdir();
+				for (File f : coverageDir.listFiles())
+					f.delete();
+						
+				Map<Coverage, ColorsMap> covsColors = new HashMap<>();
 				
-		Map<Coverage, ColorsMap> covsColors = new HashMap<>();
-		
-		for (Coverage cov : covs) {
+				int num=0;
+				String nameSaved="no name to save";
+				//for (Coverage cov : coverages) {
+				for(int i=0; i<covs.length; i++){
 //					File png = new File(coverageDir.getPath() + "/" + cov.getChemicalObject().getId() + ".png");
-			String name = cov.getChemicalObject().getName().replaceAll("\\s", "_");
-			File png = new File(coverageDir.getPath() + "/" + cov.getChemicalObject().getId() + "_" + name + ".png");
-			ColorsMap colors = pg.createPNG(cov, png);
-			covsColors.put(cov, colors);
-		}
+					String name = covs[i].getChemicalObject().getName().replaceAll("\\s", "_");
+					if(!name.equals(nameSaved)){
+						num = 0;
+					}
+					
+					File png = new File(coverageDir.getPath() + "/" + covs[i].getChemicalObject().getId() + "_" + name+ "0" + ".png");
+					
+					if(png.exists()){
+						png = new File(coverageDir.getPath() + "/" + covs[i].getChemicalObject().getId() + "_" + name + num++ + ".png");
+					}
+					
+					nameSaved = name;
+					
+					ColorsMap colors = pg.createPNG(covs[i], png);
+					covsColors.put(covs[i], colors);
+				}
 	
 		return covsColors;
 	}

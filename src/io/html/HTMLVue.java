@@ -8,5 +8,6 @@ public interface HTMLVue extends Vue {
 
 	public String getHTML ();
 	public Map<String, Map<String, String>> getCSSProperties ();
+	public String getJS();
 	
 }

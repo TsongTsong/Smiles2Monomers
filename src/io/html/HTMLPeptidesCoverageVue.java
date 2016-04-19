@@ -22,22 +22,28 @@ public class HTMLPeptidesCoverageVue extends HTMLAbstractVue {
 		}
 		Collections.sort(coverages);
 		
-		for (Coverage cov : coverages) {
+		List<ArrayList<Coverage>> lac = splitCoveragesList(coverages);
+		
+		for(ArrayList<Coverage> ac : lac){
 			
-			ColorsMap cm = allColors.get(cov);
-			HTMLColoredCoverageVue ccv = new HTMLColoredCoverageVue(cov, cm, monoDB, coverageDir, families);
-			
-			// HTML
-			this.html += "<div class='coverage'>";
-			this.html += ccv.getHTML();
-			this.html += "</div>";
-			
-			// CSS
-			this.css.putAll(ccv.css);
-			this.addToCSS(".coverage", "border", "black solid 1px");
-			this.addToCSS(".coverage", "padding", "10px");
-			this.addToCSS(".coverage", "margin-bottom", "20px");
+			//for (Coverage cov : ac) {
+				
+				//ColorsMap cm = allColors.get(cov);
+				//HTMLColoredCoverageVue ccv = new HTMLColoredCoverageVue(cov, cm, monoDB, coverageDir, families);
+				HTMLColoredCoverageVue ccv = new HTMLColoredCoverageVue(ac, allColors, monoDB, coverageDir, families);
+				// HTML
+				this.html += "<div class='coverage'>";
+				this.html += ccv.getHTML();
+				this.html += "</div>";
+				
+				// CSS
+				this.css.putAll(ccv.css);
+				this.addToCSS(".coverage", "border", "black solid 1px");
+				this.addToCSS(".coverage", "padding", "10px");
+				this.addToCSS(".coverage", "margin-bottom", "20px");
+			//}
 		}
+		
 	}
 
 	// Split List<Coverage> to List<ArrayList<Coverage>>
