@@ -8,9 +8,12 @@ function ShowImage(page, tag, size)
 	    document.getElementById(tag + (i + size)).style.display = 'block';
 	}
             
-        else{
+        else if(i != (size+1)){
 	    el.style.display = 'none';
 	    document.getElementById(tag + (i + size)).style.display = 'none';
+	}
+        else{
+	    break;
 	}
             
         i++;

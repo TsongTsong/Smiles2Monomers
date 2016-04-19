@@ -205,7 +205,22 @@ public class MonomericSpliting {
 				continue;
 			}
 			
-			for(int i=0; i<c.getValue().size();i++){
+			if(c.getKey().equals("edeine D")){
+				System.out.println("******************************* size: "+c.getValue().size());
+				for(int i=0; i<c.getValue().size();i++){
+					System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+					System.out.println(c.getKey()+"  "+c.getValue().get(i).getCoverageRatio());
+					HashSet<Match> hm = c.getValue().get(i).getUsedMatches();
+					for(Object m : hm.toArray()){
+						System.out.println(((Match)m).toString());
+					}
+					System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+					System.out.println();
+				}
+				
+			}
+			
+			/*for(int i=0; i<c.getValue().size();i++){
 				System.out.println(c.getKey()+"  "+c.getValue().get(i).getCoverageRatio());
 				HashSet<Match> hm = c.getValue().get(i).getUsedMatches();
 				System.out.println("-----------------------------------------------");
@@ -214,9 +229,23 @@ public class MonomericSpliting {
 				}
 				System.out.println("-----------------------------------------------");
 				System.out.println();
-			}
+			}*/
 			
 		}
+		int t=0;
+		for(int i=0; i<covs.length; i++){
+			if(covs[i].getChemicalObject().getName().equals("edeine D")){
+				t++;
+				System.out.println("-----------------------------------------------");
+				System.out.println(covs[i].getChemicalObject().getName()+"  "+covs[i].getCoverageRatio());
+				HashSet<Match> hm = covs[i].getUsedMatches();
+				for(Object m : hm.toArray()){
+					System.out.println(((Match)m).toString());
+				}
+				System.out.println("-----------------------------------------------");
+			}
+		}
+		System.out.println("******************************* size: "+t);
 		return covs;
 	}
 

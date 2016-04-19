@@ -63,12 +63,12 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 			for(int i=0; i<ac.size(); i++){
 				if(i==0){
 					String option0 = "<option selected='selected' value='" +(i+1) +"'>Coverage "+ (i+1) 
-													+"   Ratio: "+ac.get(i).getCoverageRatio()+"</option>";
+													+"     Ratio: "+ac.get(i).getCoverageRatio()+"</option>";
 					this.html = this.html+option0;
 				}
 				else{
 					this.html += "<option value='" +(i+1) +"'>Coverage "+ (i+1) 
-													+"   Ratio: "+ac.get(i).getCoverageRatio() +"</option>";
+													+"     Ratio: "+ac.get(i).getCoverageRatio() +"</option>";
 				}		
 			}
 

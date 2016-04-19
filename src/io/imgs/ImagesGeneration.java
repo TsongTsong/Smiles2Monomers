@@ -100,7 +100,7 @@ public class ImagesGeneration {
 					File png = new File(coverageDir.getPath() + "/" + covs[i].getChemicalObject().getId() + "_" + name+ "0" + ".png");
 					
 					if(png.exists()){
-						png = new File(coverageDir.getPath() + "/" + covs[i].getChemicalObject().getId() + "_" + name + num++ + ".png");
+						png = new File(coverageDir.getPath() + "/" + covs[i].getChemicalObject().getId() + "_" + name + (++num) + ".png");
 					}
 					
 					nameSaved = name;
