@@ -71,8 +71,8 @@ public class MonomericSpliting {
 	private boolean continueSearch;
 	private int diffAtomsNumToleration;// Number of different covered atoms between two coverage
 	private boolean useDiffAtomsNumToleration;
-	private boolean stopOnceFullCoverGot; // False : can get other possibilities of full coverages and part coverages
-	
+	private boolean stopOnceFullCoverGot;// False : can get other possibilities of full coverages and part coverages
+	private int num;// Number of light
 	
 	public MonomericSpliting(FamilyDB families, ChainsDB chains, int removeDistance, int retryCount, int modulationDepth) {
 		this.families = families;
@@ -91,8 +91,8 @@ public class MonomericSpliting {
 		
 		diffAtomsNumToleration = 1;
 		useDiffAtomsNumToleration = true;
-		stopOnceFullCoverGot = true;
-
+		stopOnceFullCoverGot = true;	
+		this.num = 0;
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -103,7 +103,8 @@ public class MonomericSpliting {
 			pepCoveragesList_1 = new ArrayList<Coverage>();
 			this.pep=pol;
 			
-			continueSearch = true;			
+			this.continueSearch = true;	
+			this.num = 0;
 			this.computeCoverage(pol);
 			
 			if(pepsCoveragesList.get(pol.getName()).size() == 0){
@@ -205,7 +206,7 @@ public class MonomericSpliting {
 				continue;
 			}
 			
-			if(c.getKey().equals("edeine D")){
+			/*if(c.getKey().equals("edeine D")){
 				System.out.println("******************************* size: "+c.getValue().size());
 				for(int i=0; i<c.getValue().size();i++){
 					System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
@@ -218,9 +219,9 @@ public class MonomericSpliting {
 					System.out.println();
 				}
 				
-			}
+			}*/
 			
-			/*for(int i=0; i<c.getValue().size();i++){
+			for(int i=0; i<c.getValue().size();i++){
 				System.out.println(c.getKey()+"  "+c.getValue().get(i).getCoverageRatio());
 				HashSet<Match> hm = c.getValue().get(i).getUsedMatches();
 				System.out.println("-----------------------------------------------");
@@ -229,10 +230,11 @@ public class MonomericSpliting {
 				}
 				System.out.println("-----------------------------------------------");
 				System.out.println();
-			}*/
+			}
 			
 		}
-		int t=0;
+		
+		/*int t=0;
 		for(int i=0; i<covs.length; i++){
 			if(covs[i].getChemicalObject().getName().equals("edeine D")){
 				t++;
@@ -245,7 +247,8 @@ public class MonomericSpliting {
 				System.out.println("-----------------------------------------------");
 			}
 		}
-		System.out.println("******************************* size: "+t);
+		System.out.println("******************************* size: "+t);*/
+		
 		return covs;
 	}
 
@@ -273,7 +276,8 @@ public class MonomericSpliting {
 		long interval1 = this.calculateTimeInterval("strict", "matchAllFamilies.STRONG");
 		pepTimes.setIsomorStrictMatchingTime(interval1);
 		
-		long interval2 = this.calculateTimeInterval("strict", "getCoverageRatio");
+		//long interval2 = this.calculateTimeInterval("strict", "getCoverageRatio");
+		long interval2 = this.calculateTimeInterval("strict", "calculateGreedyCoverage");		
 		pepTimes.setTilingTime(interval2);
 		
 		if (ratio < 1.0) {
@@ -297,8 +301,9 @@ public class MonomericSpliting {
 			
 			Isomorphism.setMappingStorage(false);
 			
-			pepTimes.setIsomorphismTime();
-			pepTimes.setCompleteTime();
+			pepTimes.setIsomorphismTime(pepTimes.getIsomorStrictMatchingTime());
+			pepTimes.setCompleteTime(pepTimes.getIsomorphismTime()+pepTimes.getTilingTime());
+			
 			pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
 			
 			pepsCoveragesList.get(pep.getName()).addAll((ArrayList<Coverage>) ((ArrayList<Coverage>) pepCoveragesList_1).clone());
@@ -307,7 +312,8 @@ public class MonomericSpliting {
 		}
 			
 		savedTilingTime = pepTimes.getTilingTime();
-		
+		pepTimes.setTilingTime(0);
+		pepTimes.setCompleteTime(0);
 		
 		// Step 2 : Light matching
 		
@@ -319,6 +325,13 @@ public class MonomericSpliting {
 		
 		LightMatching(this.pepCoveragesList_1, this.retry);
 		
+		System.out.println("//////////////////////////////////////////////////////////////////////// : "+num);
+		pepTimes.setIsomorLightMatchingTime(pepTimes.getIsomorLightMatchingTime()/num);
+		pepTimes.setIsomorphismTime(pepTimes.getIsomorLightMatchingTime()+pepTimes.getIsomorStrictMatchingTime());
+		pepTimes.setTilingTime(pepTimes.getTilingTime()/num + savedTilingTime);
+		pepTimes.setCompleteTime(pepTimes.getIsomorphismTime()+pepTimes.getTilingTime());
+		pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
+		
 		Isomorphism.setMappingStorage(false);
 
 	}
@@ -327,7 +340,12 @@ public class MonomericSpliting {
 	private void LightMatching(List<Coverage> pepCoveragesList, int retry){
 		
 		System.out.println("*********************one light matching start, depth : "+ retry +"************************");//test
-
+		System.out.println("******** pepCoveragesList.size: "+pepCoveragesList.size());
+		
+		if(retry == 1){
+			num += pepCoveragesList.size();
+		}
+		
 		//to remove stopOnceFullCoverGot ???
 		if(stopOnceFullCoverGot == true && pepCoveragesList.size()==1 && pepCoveragesList.get(0).getCoverageRatio()==1.0){
 			continueSearch = false;
@@ -335,7 +353,7 @@ public class MonomericSpliting {
 		}
 		
 		if(retry<=0){
-			System.out.println("****************************one search stop************************");//test
+			System.out.println("****************************one light matching stop 2************************");//test
 			return;
 		}
 		
@@ -351,8 +369,7 @@ public class MonomericSpliting {
 				for(Coverage cov : covSearchedDepth.keySet()){
 					if(cover.equals(cov)){
 						System.out.println("##################################################### two coverages are equal");
-						if(!covSearchedDepth.get(cov).contains(retry)){
-													
+						if(!covSearchedDepth.get(cov).contains(retry)){										
 							pepCoveragesList_n = covToListCovs.get(cov);
 							covSearchedDepth.get(cov).add(retry);
 							System.out.println("##################################################### add new seached depth for a coverage 2");	
@@ -365,6 +382,9 @@ public class MonomericSpliting {
 						}
 						else{
 							System.out.println("##################################################### calculer another coverage directly");
+							if(retry - 1 >=1){
+								num++;
+							}
 							continue label;
 						}
 					}
@@ -391,17 +411,17 @@ public class MonomericSpliting {
 			}
 				
 			long interval4 = this.calculateTimeInterval("light", "matchAllFamilies.LIGHT");
-			pepTimes.setIsomorLightMatchingTime(interval4);
+			pepTimes.setIsomorLightMatchingTime(pepTimes.getIsomorLightMatchingTime()+interval4);
 				
 			long interval5 = this.calculateTimeInterval("light", "calculateGreedyCoverage");
-			pepTimes.setTilingTime(interval5);
+			pepTimes.setTilingTime(pepTimes.getTilingTime()+interval5);
 				
 			if (this.coverage.getCoverageRatio() < 1.0) {
 				if (verbose)
 					System.out.println("++Modulation");
 					
 				long interval6 = this.calculateTimeInterval("light", "modulate");
-				pepTimes.setTilingTime(interval6);
+				pepTimes.setTilingTime(pepTimes.getTilingTime()+interval6);
 					
 				pepsCoveragesList.get(pep.getName()).addAll((ArrayList<Coverage>) ((ArrayList<Coverage>) pepCoveragesList_n).clone());
 				covToListCovs.put(cover, (ArrayList<Coverage>) pepCoveragesList_n);// Save coverage list  
@@ -424,15 +444,6 @@ public class MonomericSpliting {
 				covSearchedDepth.get(cover).add(retry);
 			}
 				
-			pepTimes.setIsomorphismTime();
-			pepTimes.setCompleteTime();
-			pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
-				
-			pepTimes.resetTilingTime(savedTilingTime);
-			pepTimes.resetIsomorLightMatchingTime(0);
-			pepTimes.setIsomorphismTime(0);// Reset
-			pepTimes.resetCompleteTime(0);
-				
 			this.remover.nextLevel();
 				
 			LightMatching(pepCoveragesList_n, retry-1);
@@ -442,7 +453,7 @@ public class MonomericSpliting {
 				return;
 			}
 		}
-		System.out.println("****************************one light matching stop************************");//test
+		System.out.println("****************************one light matching stop 1************************");//test
 	}
 	
 	/**
@@ -510,10 +521,12 @@ public class MonomericSpliting {
 				long endTime = System.currentTimeMillis();
 				interval = (endTime-startTime);
 			}
-			else if(detail.equals("getCoverageRatio")){
+			//else if(detail.equals("getCoverageRatio")){
+			else if(detail.equals("calculateGreedyCoverage")){
 				long startTime = System.currentTimeMillis();
-				this.ratio = this.coverage.getCoverageRatio();
+				this.coverage.calculateGreedyCoverage();//new add
 				long endTime = System.currentTimeMillis();
+				this.ratio = this.coverage.getCoverageRatio();
 				interval = (endTime-startTime);
 			}
 			else if(detail.equals("modulate")){

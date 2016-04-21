@@ -2,6 +2,7 @@ package io.html;
 
 import java.awt.Color;
 import java.io.File;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -43,6 +44,8 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 		this.allColors=allColors;
 		//this.js="<script type='text/javascript' src='/JS/ShowImage.js'></script>";
 		
+		DecimalFormat df = new DecimalFormat("0.000");
+		
 		if(ac.size()==0 || ac.size()==1){
 			this.html 
 	        = "<div>" 
@@ -62,13 +65,13 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 	
 			for(int i=0; i<ac.size(); i++){
 				if(i==0){
-					String option0 = "<option selected='selected' value='" +(i+1) +"'>Coverage "+ (i+1) 
-													+"     Ratio: "+ac.get(i).getCoverageRatio()+"</option>";
+					String option0 = "<option selected='selected' value='" +(i+1) +"'>Coverage "+ (i+1) + "<pre>      </pre>"
+													+"Ratio: "+df.format(ac.get(i).getCoverageRatio()) +"</option>";
 					this.html = this.html+option0;
 				}
 				else{
-					this.html += "<option value='" +(i+1) +"'>Coverage "+ (i+1) 
-													+"     Ratio: "+ac.get(i).getCoverageRatio() +"</option>";
+					this.html += "<option value='" +(i+1) +"'>Coverage "+ (i+1) + "<pre>      </pre>"
+													+"Ratio: "+df.format(ac.get(i).getCoverageRatio()) +"</option>";
 				}		
 			}
 

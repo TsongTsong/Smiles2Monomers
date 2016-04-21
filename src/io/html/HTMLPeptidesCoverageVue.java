@@ -56,7 +56,7 @@ public class HTMLPeptidesCoverageVue extends HTMLAbstractVue {
 			ArrayList<Coverage> covsSmallGroup = new ArrayList<>();
 			covsSmallGroup.add(coverages.get(i));
 			
-			if(coverages.get(i).getChemicalObject().getName().equals("edeine D")){
+			/*if(coverages.get(i).getChemicalObject().getName().equals("edeine D")){
 				System.out.println("===========================================================1");
 				System.out.println(coverages.get(i).getChemicalObject().getName()+"  "+ coverages.get(i).getCoverageRatio());
 				HashSet<Match> hm = coverages.get(i).getUsedMatches();
@@ -64,7 +64,7 @@ public class HTMLPeptidesCoverageVue extends HTMLAbstractVue {
 					System.out.println(((Match)m).toString());
 				}
 				System.out.println("===========================================================1");
-			}
+			}*/
 			
 			for(int j=i+1; j<coverages.size(); j++){
 				
@@ -74,7 +74,7 @@ public class HTMLPeptidesCoverageVue extends HTMLAbstractVue {
 					break;
 				}
 				
-				if(coverages.get(j).getChemicalObject().getName().equals("edeine D")){
+				/*if(coverages.get(j).getChemicalObject().getName().equals("edeine D")){
 					System.out.println("===========================================================n");
 					System.out.println(coverages.get(j).getChemicalObject().getName()+"  "+ coverages.get(j).getCoverageRatio());
 					HashSet<Match> hm = coverages.get(j).getUsedMatches();
@@ -82,7 +82,7 @@ public class HTMLPeptidesCoverageVue extends HTMLAbstractVue {
 						System.out.println(((Match)m).toString());
 					}
 					System.out.println("===========================================================n");
-				}
+				}*/
 				
 				covsSmallGroup.add(coverages.get(j));
 			}

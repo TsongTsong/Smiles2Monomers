@@ -23,7 +23,7 @@ public class Modulation {
 	
 	//private Coverage best;
 	
-	private List<Coverage> pepCoveragesList;
+	private List<Coverage> pepCoveragesList; //coverage.ratio >= coverRatio, which is defined as a parameter by user
 	private double coverRatio;//Which should be defined as a parameter by user
 
 	private Map<Integer, Set<Match>> index;
@@ -81,13 +81,12 @@ public class Modulation {
 
 	private boolean recursiveModulation(Coverage cov, HashSet<Match> banned, HashSet<Integer> unmovable, int depth) {
 		
-		if (depth == 0 || (System.currentTimeMillis() - this.startTime) / 1000 > maxTime)
+		if (depth == 0 || (System.currentTimeMillis() - this.startTime) / 1000 > maxTime){
+			
 			return false;
+		}
 		
 		List<Match> matchsOnUncoveredAtoms = this.getMatchOnUncoveredAtoms(cov, banned, unmovable);
-		/*if(matchsOnUncoveredAtoms.size() == 0){
-			return false;
-		}*/
 		
 		int idx=0;
 		for (Match match : matchsOnUncoveredAtoms) {

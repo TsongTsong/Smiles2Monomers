@@ -1,13 +1,9 @@
 package algorithms.utils;
 
-/**
- *	new add 
- */
 public class PeptideExecutionTimes implements Cloneable{
 	private String id;
 	private String peptideName;
 	private long numAtoms;
-	//private double coverRatio;
 	
 	private long completeTime;
 	  private long isomorphismTime;
@@ -26,12 +22,9 @@ public class PeptideExecutionTimes implements Cloneable{
 		  this.tilingTime = 0;
 	}
 	
-	
-	
 	public String getId() {
 		return id;
 	}
-
 
 
 	public void setId(String id) {
@@ -39,17 +32,14 @@ public class PeptideExecutionTimes implements Cloneable{
 	}
 
 
-
 	public String getPeptideName() {
 		return peptideName;
 	}
-	
-	
-	
+
+
 	public void setPeptideName(String peptideName) {
 		this.peptideName = peptideName;
 	}
-
 
 
 	public long getNumAtoms() {
@@ -57,82 +47,39 @@ public class PeptideExecutionTimes implements Cloneable{
 	}
 
 
-
 	public void setNumAtoms(long numAtoms) {
 		this.numAtoms = numAtoms;
 	}
 
 
-
-	/*public double getCoverRatio() {
-		return coverRatio;
-	}
-
-
-
-	public void setCoverRatio(double coverRatio) {
-		this.coverRatio = coverRatio;
-	}*/
-
-
-
 	public long getCompleteTime() {
-		return this.completeTime;
+		return completeTime;
 	}
 
 
-
-	public void setCompleteTime() {		
-		this.completeTime = this.getIsomorphismTime() + this.getTilingTime();
-	}
-
-	
-	public void setCompleteTime(long isomorphismTime, long tilingTime){
-		this.completeTime = isomorphismTime + tilingTime;
-	}
-	
-	
-	public void setCompleteTime(long completeTime){
+	public void setCompleteTime(long completeTime) {
 		this.completeTime = completeTime;
 	}
 
 
 	public long getIsomorphismTime() {
-		return this.isomorphismTime;
+		return isomorphismTime;
 	}
 
 
-
-	public void setIsomorphismTime() {
-		long preIsomorphismTime = this.getIsomorphismTime();
-		this.isomorphismTime = this.getIsomorStrictMatchingTime() + this.getIsomorLightMatchingTime() + preIsomorphismTime;
-	}
-
-	
-
-	public void setIsomorphismTime(long isomorStrictMatchingTime, long isomorLightMatchingTime) {
-		long preIsomorphismTime = this.getIsomorphismTime();
-		this.isomorphismTime = isomorStrictMatchingTime + isomorLightMatchingTime + preIsomorphismTime;
-	}
-	
-	
-	public void setIsomorphismTime(long isomorphismTime){
+	public void setIsomorphismTime(long isomorphismTime) {
 		this.isomorphismTime = isomorphismTime;
 	}
-	
-	
+
 
 	public long getIsomorStrictMatchingTime() {
 		return isomorStrictMatchingTime;
 	}
 
 
-
 	public void setIsomorStrictMatchingTime(long isomorStrictMatchingTime) {
-		long preIsomorStrictMatchingTime = this.getIsomorStrictMatchingTime();
-		this.isomorStrictMatchingTime = isomorStrictMatchingTime + preIsomorStrictMatchingTime;
+		this.isomorStrictMatchingTime = isomorStrictMatchingTime;
 	}
-
 
 
 	public long getIsomorLightMatchingTime() {
@@ -140,12 +87,9 @@ public class PeptideExecutionTimes implements Cloneable{
 	}
 
 
-
 	public void setIsomorLightMatchingTime(long isomorLightMatchingTime) {
-		long preIsomorLightMatchingTime = this.getIsomorLightMatchingTime();
-		this.isomorLightMatchingTime = isomorLightMatchingTime + preIsomorLightMatchingTime;
+		this.isomorLightMatchingTime = isomorLightMatchingTime;
 	}
-
 
 
 	public long getTilingTime() {
@@ -153,21 +97,11 @@ public class PeptideExecutionTimes implements Cloneable{
 	}
 
 
-	public void resetTilingTime(long tilingTime){
+	public void setTilingTime(long tilingTime) {
 		this.tilingTime = tilingTime;
 	}
-	public void resetIsomorLightMatchingTime(long isomorLightMatchingTime){
-		this.isomorLightMatchingTime = isomorLightMatchingTime;
-	}
-	public void resetCompleteTime(long completeTime){
-		this.completeTime = completeTime;
-	}
-	
-	public void setTilingTime(long tilingTime) {
-		long preTilingTime = this.getTilingTime();
-		this.tilingTime = tilingTime + preTilingTime;
-	}
-	
+
+
 	public String toString(){
 		/*System.out.printf("%10s, %20s, %10s, %30s", "***"+this.getId(), this.getPeptideName(), this.getNumAtoms(), this.getCompleteTime()+"{ "+
 				this.getIsomorphismTime()+"[ "+this.getIsomorStrictMatchingTime()+", "+this.getIsomorLightMatchingTime() +" ], "+
