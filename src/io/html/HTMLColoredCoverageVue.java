@@ -49,40 +49,79 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 		if(ac.size()==0 || ac.size()==1){
 			this.html 
 	        = "<div>" 
-	        + "<p>" 
+	        + "<p><b>" 
 			+ this.coverList.get(0).getChemicalObject().getName() 
+			+"</b><br/><br/>"
+			+ac.size()+" coverages found"
 			+  "</p>"
 	        +  "</div>";
+			
+			this.html += this.createPeptideInfos();
+			this.html += this.createMonomerLists();
 		}
 		else{
 			this.html 
 	        = "<div>" 
-	        + "<p>" 
+	        + "<p><b>" 
 			+ this.coverList.get(0).getChemicalObject().getName()
-			+"		"
-			+ "<select name='"+ this.coverList.get(0).getChemicalObject().getName() 
-							+"' onchange='ShowImage(parseInt(this.value), name, "+ ac.size() +")'>";
+			+"</b><br/><br/>"
+			+ac.size()+" coverages found."
+			+"&nbsp;&nbsp;&nbsp;&nbsp;"
+			+"To show the best "
+			+"<select id='countSelector_"+ this.coverList.get(0).getChemicalObject().getName() +"' "
+					+ " onchange='changeCoveragesCount(parseInt(this.value), \""+this.coverList.get(0).getChemicalObject().getName()+"\");'>";
+			
+			for(int i=0; i<ac.size(); i++){
+				if(i==ac.size()-1){
+					String option = "<option selected='selected' value='" +(i+1) +"'>"+ (i+1)+"</option>";
+					this.html = this.html+option;
+				}
+				else{
+					this.html += "<option value='" +(i+1) +"'>"+ (i+1) +"</option>";
+				}		
+			}
+			
+			
+			this.html 
+			+= "</select>"
+			+" coverages,"
+			+"&nbsp;&nbsp;"
+			+ "<select id='covsToShowList_"+this.coverList.get(0).getChemicalObject().getName()
+					+ "' onchange='changeCoverage(parseInt(this.value), \""+this.coverList.get(0).getChemicalObject().getName()+"\");'>";
 	
 			for(int i=0; i<ac.size(); i++){
 				if(i==0){
-					String option0 = "<option selected='selected' value='" +(i+1) +"'>Coverage "+ (i+1) + "<pre>      </pre>"
-													+"Ratio: "+df.format(ac.get(i).getCoverageRatio()) +"</option>";
+					String option0 = "<option selected='selected' value='" +(i+1) +"'>Coverage "+ (i+1)
+													+"  Ratio: "+df.format(ac.get(i).getCoverageRatio()) +"</option>";
 					this.html = this.html+option0;
 				}
 				else{
-					this.html += "<option value='" +(i+1) +"'>Coverage "+ (i+1) + "<pre>      </pre>"
-													+"Ratio: "+df.format(ac.get(i).getCoverageRatio()) +"</option>";
+					this.html += "<option value='" +(i+1) +"'>Coverage "+ (i+1)
+													+"  Ratio: "+df.format(ac.get(i).getCoverageRatio()) +"</option>";
 				}		
 			}
 
-	this.html
-            += "</select>"
-	        +  "</p>"
-	        +  "</div>";
+			this.html
+					+= "</select>"
+					+  "</p>"
+					+  "</div>"
+					+  "<div class = 'covsContainer_"+this.coverList.get(0).getChemicalObject().getName()+"' style='position:relative;'>";
+			
+			this.html += "<div id='leftArrow_"+this.coverList.get(0).getChemicalObject().getName()+
+					"' style='width:50px; height:50px; position:absolute; top:80px; border:1px solid blue; cursor:pointer; "
+					+ "background:url(left.png); background-size:50px 50px; background-repeat:no-repeat; left:0px; right:20px;' "
+					+ " onclick='getPreCoverage(\""+this.coverList.get(0).getChemicalObject().getName()+"\");'>"+"</div>";
+			
+			this.html += this.createPeptideInfos();
+			this.html += this.createMonomerLists();
+			
+			this.html += "<div id='rightArrow_"+this.coverList.get(0).getChemicalObject().getName()+
+					"' style='width:50px; height:50px; position:absolute; top:80px; border:1px solid blue; cursor:pointer; "
+					+ "background:url(right.png); background-size:50px 50px; background-repeat:no-repeat;right:0px;' "
+					+ " onclick='getNextCoverage(\""+this.coverList.get(0).getChemicalObject().getName()+"\");'>"+"</div>";
+			this.html += "</div>";
 		}		
 		
-		this.html += this.createPeptideInfos();
-		this.html += this.createMonomerLists();
 	}
 	
 	private String createPeptideInfos() {
@@ -113,7 +152,7 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 			}
 						
 			String name = this.coverage.getChemicalObject().getName().replaceAll("\\s", "_");
-			pepHTML += "	<image src='" + path + "/" + this.coverage.getChemicalObject().getId()+"_"+ name + i + ".png'"
+			pepHTML += "<img src='" + path + "/" + this.coverage.getChemicalObject().getId()+"_"+ name + i + ".png'"
 					+ " class='covImage' />\n";
 			double coverageRatio = Math.floor(this.coverage.getCoverageRatio()*1000.0)/1000.0;
 			double correctness = Math.floor(this.coverage.getCorrectness(this.families)*1000.0)/1000.0;
@@ -130,8 +169,7 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 			this.addToCSS(".peptide>*", "display", "inline-block");
 			this.addToCSS(".peptide>*", "vertical-align", "middle");
 		}
-		
-		
+				
 		return pepHTML;
 	}
 

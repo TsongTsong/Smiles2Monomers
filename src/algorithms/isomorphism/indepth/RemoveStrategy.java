@@ -8,6 +8,10 @@ public interface RemoveStrategy {
 	public void remove (Coverage cov, ContractedGraph cg);
 	
 	public void nextLevel();
+	
+	public void preLevel();// Add previous level
+	
+	public int getCurrentDistance();
 
 	public void init();
 	

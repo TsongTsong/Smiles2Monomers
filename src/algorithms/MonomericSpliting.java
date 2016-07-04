@@ -1,6 +1,7 @@
 package algorithms;
 
 import org.openscience.cdk.Molecule;
+import org.openscience.cdk.interfaces.IAtom;
 
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections;
 
@@ -12,7 +13,7 @@ import algorithms.isomorphism.chains.ChainsDB;
 import algorithms.isomorphism.conditions.ConditionToExtend;
 import algorithms.isomorphism.conditions.ExtendsNTimes;
 import algorithms.isomorphism.indepth.DeepenMatcher;
-import algorithms.isomorphism.indepth.Modulation;
+import algorithms.isomorphism.indepth.Modulation_2;
 import algorithms.isomorphism.indepth.RemoveByDistance;
 import algorithms.isomorphism.indepth.RemoveStrategy;
 import algorithms.utils.Coverage;
@@ -29,14 +30,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 
-
-////to remove stopOnceFullCoverGot ???
-//// 0.8 show too, to modify
 public class MonomericSpliting {
 
 	public static boolean verbose = false;
@@ -53,7 +59,7 @@ public class MonomericSpliting {
 	private FamilyMatcher matcher;
 	private ConditionToExtend condition;
 	private RemoveStrategy remover;
-	private Modulation modulation;
+	private Modulation_2 modulation;
 	private String timesFile="results/peptidesExecutionTimes.json";
 	private PeptideExecutionTimes[] peps_times;
 	public static int countPeps;// Number of peptides
@@ -74,12 +80,275 @@ public class MonomericSpliting {
 	private boolean stopOnceFullCoverGot;// False : can get other possibilities of full coverages and part coverages
 	private int num;// Number of light
 	
+	// Variables for using GLPK
+	private ArrayList<Integer> atomsOfPol;
+	private ArrayList<Match> matchesOfPol;
+	private ArrayList<Integer> sizeOfMatches;
+	
+	private int[] selected;
+	private ArrayList<Match> matchesToUse;
+	
+	private String atomsSet;
+	private String matchesSet;
+	private String matchSize;
+	private String atomsOwners;
+	
+	private String modelDirAbsPath;
+	private String modelFileAbsPath;
+	
+	private void clearVaribles(){
+		this.atomsOfPol.clear();
+		this.matchesOfPol.clear();
+		this.sizeOfMatches.clear();
+		
+		this.matchesToUse.clear();
+		
+		this.atomsSet="";
+		this.matchesSet="";
+		this.matchSize="";
+		this.atomsOwners="";
+		
+	}
+	
+	/*
+	 * Use of GLPK for coverages
+	 */
+	public MonomericSpliting(FamilyDB families, ChainsDB chains){
+		this.families = families;
+		this.matcher = new ChainsFamilyMatching(chains);
+		atomsOfPol = new ArrayList<>();
+		matchesOfPol = new ArrayList<>();
+		sizeOfMatches = new ArrayList<>();
+		matchesToUse = new ArrayList<>();
+	}
+	
+	public Coverage[] computeCoverages2(PolymersDB polDB){
+		Coverage[] covs = new Coverage[polDB.size()];// One polymer one best coverage 
+		
+		for (Polymer pol : polDB.getObjects()){
+			System.out.println("###### "+pol.getName() +  "  "+pol.getMolecule().getAtomCount());
+			this.computeCoverage2(pol);
+			break;//test
+		}
+		
+		return covs;
+	}
+	
+	public void computeCoverage2(Polymer pep){
+		this.coverage = new Coverage(pep);
+		this.matcher.setChemicalObject(pep);
+		Isomorphism.setMappingStorage(true);
+		
+		this.prepareData(pep, "strong");
+		this.useTemplateGLPK(pep);
+		
+		//for test (linux), to add for windows
+		Runtime rt = Runtime.getRuntime();
+		try {
+			String str = "glpsol -m "+ this.modelFileAbsPath + " -o " + this.modelDirAbsPath + "/ResultGLPK_" + pep.getName().replace(' ', '_') +".sol";
+			System.out.println(str);
+			Process pr = rt.exec(str);
+			pr.waitFor();
+			//BufferedReader br = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+			//String line = null;
+			//while ((line = br.readLine()) != null)
+				//System.out.println(line);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		this.getResults(pep);
+		
+		System.out.println("length :"+this.selected.length);
+		for(int i : this.selected){
+			System.out.print(i + " ");
+		}
+		
+		for(int i=0; i<this.selected.length; i++){
+			if(this.selected[i]==1){
+				this.matchesToUse.add(this.matchesOfPol.get(i));
+				//System.out.println("++++++ : "+ this.matchesOfPol.get(i).getAtoms().toString());//test
+			}
+		}
+		this.coverage.calculateMIPCoverage(this.matchesToUse);
+		/*for(Match m : this.coverage.getUsedMatches()){
+			System.out.println("------ : " + m.getAtoms().toString());
+		}*/
+		
+		//System.out.println("xxxxxxxxxxxxxx"+this.coverage.getCoverageRatio());
+		
+		while(this.coverage.getCoverageRatio() < 1.0){
+			
+			
+		}
+		
+		Isomorphism.setMappingStorage(false);
+	}
+	
+	// Prepare data of "atomSet, matchesSet, matchSize, atomsOwners" 
+	// and change their format to string for using useTemplateGLPK function
+	private void prepareData(Polymer pep, String matchingType){
+		for(IAtom a : pep.getMolecule().atoms()){
+			System.out.println("****** "+pep.getMolecule().getAtomNumber(a));
+			this.atomsOfPol.add(pep.getMolecule().getAtomNumber(a));
+		}
+		this.atomsSet = toSet4GLPK('a', this.atomsOfPol);
+		
+		if(matchingType.equals("strong")){
+			this.matchAllFamilies(MatchingType.STRONG);// Yi kai shi jiu mei you strict matching de case
+		}
+		else if(matchingType.equals("light")){
+			this.matchAllFamilies(MatchingType.LIGHT);
+		}
+		
+	    outer:
+		for(Match m : this.coverage.getMatches()){
+			for(Match m2 : this.matchesOfPol){
+				if(m.toString().equals(m2.toString())){
+					continue outer;
+				}
+			}
+			this.matchesOfPol.add(m);
+			System.out.println("====== "+m.toString());
+		}
+		this.matchesSet = toSet4GLPK('m', this.matchesOfPol);
+		
+		for(Match m : this.matchesOfPol){
+			this.sizeOfMatches.add(m.size());
+		}
+		this.matchSize = toParam4GLPK(this.matchesOfPol);
+		
+		this.atomsOwners = toMatrix4GLPK();
+		
+		this.selected = new int[this.matchesOfPol.size()];
+	}
+	
+	private void getResults(Polymer pep){
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("TemplateModelResult_GLPK/ResultGLPK_" + pep.getName().replace(' ', '_') +".sol"));
+			while(!br.readLine().equals("   No. Column name       Activity     Lower bound   Upper bound")){
+				br.readLine();
+			}
+			br.readLine();
+			
+			String line = "";
+			int k = 0;
+			for(int i=0; i<this.matchesOfPol.size(); i++){
+				line = this.remove(br.readLine(), ' ');
+				//System.out.println("line+++++: "+line);
+				this.selected[k++] = Integer.valueOf(line.substring(line.length()-3, line.length()-2));
+			}
+			br.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private String remove(String resource, char ch){  
+        StringBuffer buffer=new StringBuffer();      
+        int position=0;      
+        char currentChar;       
+
+        while(position<resource.length()){               
+              currentChar=resource.charAt(position++);        
+              if(currentChar!=ch) buffer.append(currentChar); 
+        }
+        return buffer.toString();       
+	}    
+	
+	private int atomInMatch(int numOfAtom, Match match){
+		Object[] atomsInMatch = match.getAtoms().toArray();
+		for(int i=0; i<atomsInMatch.length; i++){
+			if(numOfAtom == (int)(atomsInMatch[i])){
+				return 1;
+			}
+		}
+		return 0;
+	}
+	
+	private String toSet4GLPK(char a_m, ArrayList<?> al){
+		String set = "";
+		for(int i=0; i<al.size(); i++){
+			//set += " " + a_m + al.get(i);
+			set += " " + a_m + i;
+		}
+		set += '\n';
+		return set;
+	}
+	
+	private String toParam4GLPK(ArrayList<Match> al){
+		String set = "";
+		for(int i=0; i<al.size(); i++){
+			//set += " m" + al.get(i) + " " + al.get(i).size() + '\n';
+			set += " m" + i + " " + al.get(i).getAtoms().size() + '\n';
+		}
+		return set;
+	}
+	
+	private String toMatrix4GLPK(){
+		String atomsOwners = "  "+this.matchesSet.substring(0, this.matchesSet.length()-1) + " :=\n";
+		for(int i=0; i<this.atomsOfPol.size(); i++){
+			int numAtom = this.atomsOfPol.get(i);
+			atomsOwners += " a"+numAtom;
+			for(int j=0; j<this.matchesOfPol.size();j++){
+				atomsOwners += " "+atomInMatch(numAtom, this.matchesOfPol.get(j));
+			}
+			atomsOwners += '\n';
+		}
+		return atomsOwners;
+	}
+	
+	private void useTemplateGLPK(Polymer pep){	
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("TemplateModelResult_GLPK/TemplateGLPK.mod"));
+			File outModelFile = new File("TemplateModelResult_GLPK/ModelGLPK_"+ pep.getName().replace(' ', '_') +".mod");
+			BufferedWriter bw = new BufferedWriter(new FileWriter(outModelFile));
+			
+			this.modelFileAbsPath = outModelFile.getAbsolutePath();
+			this.modelDirAbsPath = new File("TemplateModelResult_GLPK").getAbsolutePath();
+		
+			String line;
+			int count = 0;
+			while(!((line=br.readLine()).equals("#end of template file"))){
+				switch(count){
+					case 17:
+						bw.write(this.atomsSet);
+						break;
+					case 20:
+						bw.write(this.matchesSet);
+						break;
+					case 24:
+						bw.write(this.matchSize);
+						break;
+					case 27:
+						bw.write(this.atomsOwners);
+						break;
+					default:
+						bw.write(line+'\n');
+						break;
+				}
+			
+				count++;
+			}
+			bw.close();
+			br.close();
+			
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+	}
+	
+	
+	/*
+	 * Use of Tiling & Modulation for coverages
+	 */
 	public MonomericSpliting(FamilyDB families, ChainsDB chains, int removeDistance, int retryCount, int modulationDepth) {
 		this.families = families;
 		this.matcher = new ChainsFamilyMatching(chains);
 		this.remover = new RemoveByDistance(removeDistance);
-		this.coverRatio = 0.9;// 0.8 show too, to modify
-		this.modulation = new Modulation(modulationDepth, this.coverRatio);
+		this.coverRatio = 0.9;
+		//this.modulation = new Modulation_2(modulationDepth, this.coverRatio);
 		this.retry = retryCount;
 
 		pepsCoveragesList  = new HashMap<String, ArrayList<Coverage>>();
@@ -158,7 +427,6 @@ public class MonomericSpliting {
 		Set<Entry<String, ArrayList<Coverage>>> set = pepsCoveragesList.entrySet();
 		for(Entry<String, ArrayList<Coverage>>  entry: set){
 			String key = entry.getKey();
-			@SuppressWarnings("unchecked")
 			ArrayList<Coverage> ac = (ArrayList<Coverage>) entry.getValue().clone();
 			if(ac.size()==0 || ac.size()==1){
 				continue;
@@ -205,22 +473,7 @@ public class MonomericSpliting {
 				System.out.println(c.getKey());
 				continue;
 			}
-			
-			/*if(c.getKey().equals("edeine D")){
-				System.out.println("******************************* size: "+c.getValue().size());
-				for(int i=0; i<c.getValue().size();i++){
-					System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-					System.out.println(c.getKey()+"  "+c.getValue().get(i).getCoverageRatio());
-					HashSet<Match> hm = c.getValue().get(i).getUsedMatches();
-					for(Object m : hm.toArray()){
-						System.out.println(((Match)m).toString());
-					}
-					System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-					System.out.println();
-				}
-				
-			}*/
-			
+
 			for(int i=0; i<c.getValue().size();i++){
 				System.out.println(c.getKey()+"  "+c.getValue().get(i).getCoverageRatio());
 				HashSet<Match> hm = c.getValue().get(i).getUsedMatches();
@@ -233,21 +486,6 @@ public class MonomericSpliting {
 			}
 			
 		}
-		
-		/*int t=0;
-		for(int i=0; i<covs.length; i++){
-			if(covs[i].getChemicalObject().getName().equals("edeine D")){
-				t++;
-				System.out.println("-----------------------------------------------");
-				System.out.println(covs[i].getChemicalObject().getName()+"  "+covs[i].getCoverageRatio());
-				HashSet<Match> hm = covs[i].getUsedMatches();
-				for(Object m : hm.toArray()){
-					System.out.println(((Match)m).toString());
-				}
-				System.out.println("-----------------------------------------------");
-			}
-		}
-		System.out.println("******************************* size: "+t);*/
 		
 		return covs;
 	}
@@ -333,7 +571,6 @@ public class MonomericSpliting {
 		pepsExecutionTimes.get(pep.getName()).add((PeptideExecutionTimes) pepTimes.clone());
 		
 		Isomorphism.setMappingStorage(false);
-
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -358,7 +595,7 @@ public class MonomericSpliting {
 		}
 		
 		label:
-		for(Coverage cover: pepCoveragesList){
+		for(Coverage cover: pepCoveragesList){    
 			
 			int retry_saved = retry;
 			System.out.println("**********************one search start : "+ cover.getCoverageRatio()+ " ************************");//test
@@ -575,6 +812,7 @@ public class MonomericSpliting {
 			
 	}
 	
+	// Class Coverage has been changed too
 	private void removeRepetition(List<Coverage> lcov){
 		@SuppressWarnings("unchecked")
 		List<Coverage> lcov_clone = (ArrayList<Coverage>) ((ArrayList<Coverage>) lcov).clone();

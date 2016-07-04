@@ -62,4 +62,16 @@ public class RemoveMostNeighboorsMatchs implements RemoveStrategy {
 		
 	}
 
+	@Override
+	public void preLevel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getCurrentDistance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

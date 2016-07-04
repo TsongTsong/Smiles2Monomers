@@ -4,8 +4,13 @@ import java.io.File;
 import java.util.Map;
 
 import algorithms.MonomericSpliting;
+import algorithms.MonomericSpliting_2;
 import algorithms.isomorphism.chains.ChainsDB;
 import algorithms.utils.Coverage;
+import coverageCalculator.Calculator;
+import coverageCalculator.CalculatorMIP;
+import coverageCalculator.CalculatorMIP_TM;
+import coverageCalculator.CalculatorTM;
 import db.FamilyDB;
 import db.MonomersDB;
 import db.PolymersDB;
@@ -16,6 +21,7 @@ import io.imgs.PictureCoverageGenerator.ColorsMap;
 import io.loaders.json.CoveragesJsonLoader;
 import io.loaders.json.FamilyChainIO;
 import io.loaders.json.MonomersJsonLoader;
+import io.loaders.json.PeptidesExecutionTimesJsonLoader;
 import io.loaders.json.PolymersJsonLoader;
 import io.loaders.json.ResidueJsonLoader;
 import io.loaders.json.RulesJsonLoader;
@@ -32,19 +38,23 @@ public class ProcessPolymers {
 		String residuesDBname = "data/residues.json";
 		String chainsDBFile = "data/chains.json";
 		
-		String timesFileName="results/peptidesExecutionTimes.json";//new add
+		String timesFileName="results/peptidesExecutionTimes.json";
 		String outfile = "results/coverages.json";
 		String outfolderName = "results/";
 		String imgsFoldername = "images/";
 		boolean html = false;
+		boolean stats = false;
 		boolean zip = false;
+		boolean tm = false;
+		boolean mip = false;
+		boolean mip_tm = false;
 		
 		String serialFolder = "data/serials/";
 		
 		boolean lightMatch = true;
 		boolean verbose = false;
 		int removeDistance = 2;
-		int retryCount = 2;
+		int retryCount = 1;
 		int modulationDepth = 2;
 		
 		// Parsing
@@ -79,8 +89,6 @@ public class ProcessPolymers {
 				case "-imgs":
 					imgsFoldername = args[idx+1];
 					break;
-				case "-stats"://new add
-					timesFileName = args[idx+1];//new add
 				case "-strict":
 					lightMatch = false;
 					continue loop;
@@ -90,8 +98,20 @@ public class ProcessPolymers {
 				case "-html":
 					html = true;
 					continue loop;
+				case "-stats":
+					stats = true;
+					continue loop;
 				case "-zip":
 					zip = true;
+					continue loop;
+				case "-tm":
+					tm = true;
+					continue loop;
+				case "-mip":
+					mip = true;
+					continue loop;
+				case "-mip_tm":
+					mip_tm = true;
 					continue loop;
 
 				default:
@@ -132,15 +152,29 @@ public class ProcessPolymers {
 		System.out.println("Loading time : " + (loadingTime/1000) + "s");
 		
 		
-		
 		//------------------- Spliting ------------------------
 		System.out.println("--- Monomers search ---");
+		
 		long searchTime = System.currentTimeMillis();
-
-		MonomericSpliting.setVerbose(verbose);
-		MonomericSpliting split = new MonomericSpliting(families, chains, removeDistance, retryCount, modulationDepth);
+		MonomericSpliting_2.setVerbose(verbose);
+		Coverage[] covs = null;
+		MonomericSpliting_2 split = null;
+		Calculator cal = null;
+		
+		if(tm){
+			cal = new CalculatorTM(modulationDepth);
+		}
+		else if(mip){
+			cal = new CalculatorMIP();
+		}
+		else if(mip_tm){
+			cal = new CalculatorMIP_TM(modulationDepth);
+		}
+		
+		split = new MonomericSpliting_2(families, chains, removeDistance, retryCount, cal);
+		
 		split.setAllowLightMatchs(lightMatch);
-		Coverage[] covs = split.computeCoverages(polDB);
+		covs = split.computeCoverages(polDB);
 		
 		searchTime = System.currentTimeMillis() - searchTime;
 		System.out.println("Search time : " + (searchTime/1000) + "s");
@@ -158,8 +192,8 @@ public class ProcessPolymers {
 		CoveragesJsonLoader cjl = new CoveragesJsonLoader(polDB, families);
 		cjl.saveFile(covs, outfile);
 		
-		// Images generation
-		if (html || zip) {
+		// Images and Statistics generation
+		if (html || stats || zip) {
 			File imgsFolder = new File(imgsFoldername);
 			if (!imgsFolder.exists())
 				imgsFolder.mkdir();
@@ -176,6 +210,11 @@ public class ProcessPolymers {
 				c2h.createResults(htmlFile, imgsFolder, colors);
 			}
 			
+			if(stats) {
+				PeptidesExecutionTimesJsonLoader petjl = new PeptidesExecutionTimesJsonLoader();
+				petjl.saveFile(MonomericSpliting_2.pepsExecutionTimes, timesFileName);
+			}
+			
 			if (zip) {
 				// Zip File
 				OutputZiper oz = new OutputZiper(outfolderName + "/s2m.zip");
@@ -188,6 +227,7 @@ public class ProcessPolymers {
 		outputTime = System.currentTimeMillis() - outputTime;
 		System.out.println("Ouputing time : " + (outputTime/1000) + "s");
 		System.out.println("--- Ended ---");
+		
 	}
 
 }

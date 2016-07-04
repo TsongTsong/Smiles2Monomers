@@ -74,17 +74,17 @@ public class HTMLPeptidesCoverageVue extends HTMLAbstractVue {
 					break;
 				}
 				
-				/*if(coverages.get(j).getChemicalObject().getName().equals("edeine D")){
-					System.out.println("===========================================================n");
-					System.out.println(coverages.get(j).getChemicalObject().getName()+"  "+ coverages.get(j).getCoverageRatio());
-					HashSet<Match> hm = coverages.get(j).getUsedMatches();
-					for(Object m : hm.toArray()){
-						System.out.println(((Match)m).toString());
-					}
-					System.out.println("===========================================================n");
-				}*/
-				
 				covsSmallGroup.add(coverages.get(j));
+			}
+			
+			for(int m=covsSmallGroup.size()-1; m>=1; m--){
+				for(int n=covsSmallGroup.size()-1; n>=covsSmallGroup.size()-m; n--){
+					if(covsSmallGroup.get(n).getCoverageRatio()>covsSmallGroup.get(n-1).getCoverageRatio()){
+						Coverage tmp = covsSmallGroup.get(n);
+						covsSmallGroup.set(n, covsSmallGroup.get(n-1));
+						covsSmallGroup.set(n-1, tmp);
+					}
+				}
 			}
 			covsLargeGroup.add(covsSmallGroup);
 		}

@@ -5,9 +5,7 @@ import org.json.simple.JSONObject;
 
 import algorithms.utils.PeptideExecutionTimes;
 import db.PeptidesExecutionTimesDB;
-/**
- * new add
- */
+
 public class PeptidesExecutionTimesJsonLoader extends AbstractJsonLoader<PeptidesExecutionTimesDB, PeptideExecutionTimes>{
 	
 	@Override
@@ -20,8 +18,6 @@ public class PeptidesExecutionTimesJsonLoader extends AbstractJsonLoader<Peptide
 		JSONArray array = new JSONArray();
 		JSONObject obj = new JSONObject();
 
-		//System.out.println("*** "+pet);//test
-		pet.toString();//test
 		obj.put("PeptideID", pet.getId());
 		obj.put("PepNumAtoms", pet.getNumAtoms());
 		obj.put("PeptideName", pet.getPeptideName());

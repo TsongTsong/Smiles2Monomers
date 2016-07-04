@@ -53,8 +53,18 @@ public class RemoveByDistance implements RemoveStrategy {
 	}
 
 	@Override
+	public void preLevel() {
+		if (this.distance > 1)
+			this.distance -= 1;
+	}
+	
+	@Override
 	public void init() {
 		this.distance = 1;
+	}
+	
+	public int getCurrentDistance(){
+		return this.distance;
 	}
 
 }

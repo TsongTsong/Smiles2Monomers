@@ -23,7 +23,7 @@ public class PeptideExecutionTimes implements Cloneable{
 	}
 	
 	public String getId() {
-		return id;
+		return this.id;
 	}
 
 
@@ -33,7 +33,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public String getPeptideName() {
-		return peptideName;
+		return this.peptideName;
 	}
 
 
@@ -43,7 +43,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public long getNumAtoms() {
-		return numAtoms;
+		return this.numAtoms;
 	}
 
 
@@ -53,7 +53,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public long getCompleteTime() {
-		return completeTime;
+		return this.completeTime;
 	}
 
 
@@ -63,7 +63,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public long getIsomorphismTime() {
-		return isomorphismTime;
+		return this.isomorphismTime;
 	}
 
 
@@ -73,7 +73,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public long getIsomorStrictMatchingTime() {
-		return isomorStrictMatchingTime;
+		return this.isomorStrictMatchingTime;
 	}
 
 
@@ -83,7 +83,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public long getIsomorLightMatchingTime() {
-		return isomorLightMatchingTime;
+		return this.isomorLightMatchingTime;
 	}
 
 
@@ -93,7 +93,7 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public long getTilingTime() {
-		return tilingTime;
+		return this.tilingTime;
 	}
 
 

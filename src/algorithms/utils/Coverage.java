@@ -52,6 +52,7 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		this.alreadyCalculate = false;
 		
 		this.coverage = new Residue[this.co.getSize()];
+		//System.out.println("################## : "+ this.co.getSize());
 	}
 	
 	public void addMatch (Match match) {
@@ -82,8 +83,43 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		return this.co;
 	}
 	
-	public void calculateGreedyCoverage () {
+	// To put matches calculated by MIP in "this.usedMatches"
+	public void calculateMIPCoverage(List<Match> matchesToUse){
 		
+		this.alreadyCalculate = true;
+		
+		// Clear coverage
+		this.coverage = new Residue[this.coverage.length];
+		for (Match match : this.usedMatches) {
+			for (int idx : match.getAtoms())
+				if (this.coverage[idx] == null)
+					this.coverage[idx] = match.getResidue();
+				else {
+					System.err.println("Impossible coverage");
+				}
+		}
+		
+		for (Match match : matchesToUse) {
+			boolean possible = true;
+			
+			for (int i : match.getAtoms()) {
+				if (this.coverage[i] != null) {
+					possible = false;
+					break;
+				}
+			}
+			
+			if (possible) {
+				this.usedMatches.add(match);
+				
+				for (int i : match.getAtoms())
+					this.coverage[i] = match.getResidue();
+			}
+		}
+		
+	}
+	
+	public void calculateGreedyCoverage () {
 		
 		this.alreadyCalculate = true;
 		Collections.sort(this.matches);
@@ -348,8 +384,7 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		return residues;
 	}
 
-	public boolean equals(Object obj){
-		
+	public boolean equals(Object obj){		
 		if(this == obj){
 			return true;
 		}

@@ -49,7 +49,7 @@ public class Coverages2HTML {
 //		File HTMLfile = new File(resultFile.getPath() + "/test.html");
 		File HTMLfile = resultFile;
 		File CSSFile = new File(resultDir + "/mainStyle.css");
-		File JSFile = new File(resultDir + "/ShowImage.js");
+		File JSFile = new File(resultDir + "/CoveragesController.js");
 		HTMLVueWriter.writeFiles(HTMLfile, CSSFile, JSFile, resultFile.getName(), hpcv);
 	}
 
