@@ -103,11 +103,6 @@ public class PeptideExecutionTimes implements Cloneable{
 
 
 	public String toString(){
-		/*System.out.printf("%10s, %20s, %10s, %30s", "***"+this.getId(), this.getPeptideName(), this.getNumAtoms(), this.getCompleteTime()+"{ "+
-				this.getIsomorphismTime()+"[ "+this.getIsomorStrictMatchingTime()+", "+this.getIsomorLightMatchingTime() +" ], "+
-				this.getTilingTime()+" }");
-		System.out.println();*/
-		
 		return this.getId()+", "+this.getPeptideName()+", "+this.getNumAtoms()+", "+this.getCompleteTime()+"{ "+
 				this.getIsomorphismTime()+"[ "+this.getIsomorStrictMatchingTime()+", "+this.getIsomorLightMatchingTime() +" ], "+
 					this.getTilingTime()+" }";

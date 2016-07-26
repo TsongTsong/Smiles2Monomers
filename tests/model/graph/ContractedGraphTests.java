@@ -41,13 +41,13 @@ public class ContractedGraphTests {
 		cl.learn(families);
 		ChainsDB chains = cl.getDb();
 		
-		MonomericSpliting ms = new MonomericSpliting(families, chains, 2, 2, 3);
+		/*MonomericSpliting ms = new MonomericSpliting(families, chains, 2, 2, 3);
 		Polymer pol = peps.getObject("633");
 		ms.computeCoverage(pol);
 		this.coverage = ms.getCoverage();
 		this.coverage.calculateGreedyCoverage();
 		
-		this.contractedGraph = new ContractedGraph(coverage);
+		this.contractedGraph = new ContractedGraph(coverage);*/
 	}
 	
 	@Test

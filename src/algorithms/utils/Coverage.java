@@ -52,7 +52,6 @@ public class Coverage implements Comparable<Coverage>, Cloneable {
 		this.alreadyCalculate = false;
 		
 		this.coverage = new Residue[this.co.getSize()];
-		//System.out.println("################## : "+ this.co.getSize());
 	}
 	
 	public void addMatch (Match match) {

@@ -2,9 +2,6 @@ package db;
 
 import algorithms.utils.PeptideExecutionTimes;
 
-/**
- *	new add 
- */
 public class PeptidesExecutionTimesDB extends DB<PeptideExecutionTimes>{
 	public PeptidesExecutionTimesDB() {
 		super();

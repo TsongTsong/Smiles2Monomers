@@ -26,13 +26,4 @@ public class ExtendsNTimes implements ConditionToExtend {
 		this.n = this.maxVal;
 	}
 
-	// Add get and set
-	public int getN() {
-		return n;
-	}
-
-	public void setN(int n) {
-		this.n = n;
-	}
-
 }

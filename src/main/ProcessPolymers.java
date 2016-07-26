@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.Map;
 
 import algorithms.MonomericSpliting;
-import algorithms.MonomericSpliting_2;
 import algorithms.isomorphism.chains.ChainsDB;
 import algorithms.utils.Coverage;
 import coverageCalculator.Calculator;
@@ -21,6 +20,7 @@ import io.imgs.PictureCoverageGenerator.ColorsMap;
 import io.loaders.json.CoveragesJsonLoader;
 import io.loaders.json.FamilyChainIO;
 import io.loaders.json.MonomersJsonLoader;
+import io.loaders.json.PeptidesCovRatioCorrJsonLoader;
 import io.loaders.json.PeptidesExecutionTimesJsonLoader;
 import io.loaders.json.PolymersJsonLoader;
 import io.loaders.json.ResidueJsonLoader;
@@ -39,11 +39,15 @@ public class ProcessPolymers {
 		String chainsDBFile = "data/chains.json";
 		
 		String timesFileName="results/peptidesExecutionTimes.json";
+		String covRatioCorr_TM_FileName="results/pepsCovRatioCorr_TM.json";
+		String covRatioCorr_MIP_FileName="results/pepsCovRatioCorr_MIP.json";
+		
 		String outfile = "results/coverages.json";
 		String outfolderName = "results/";
 		String imgsFoldername = "images/";
 		boolean html = false;
 		boolean stats = false;
+		boolean merge = false;
 		boolean zip = false;
 		boolean tm = false;
 		boolean mip = false;
@@ -54,7 +58,7 @@ public class ProcessPolymers {
 		boolean lightMatch = true;
 		boolean verbose = false;
 		int removeDistance = 2;
-		int retryCount = 1;
+		int retryCount = 2;
 		int modulationDepth = 2;
 		
 		// Parsing
@@ -101,6 +105,9 @@ public class ProcessPolymers {
 				case "-stats":
 					stats = true;
 					continue loop;
+				case "-merge":
+					merge = true;
+					continue loop;
 				case "-zip":
 					zip = true;
 					continue loop;
@@ -127,6 +134,11 @@ public class ProcessPolymers {
 			}
 		}
 		
+		// Merge coverage's ratio and correctness from TM and from MIP
+		if(merge){
+			RatioCorrMerger.merge(covRatioCorr_TM_FileName, covRatioCorr_MIP_FileName);
+			return;
+		}		
 		
 		//------------------- Loadings ------------------------
 		System.out.println("--- Loading ---");
@@ -156,9 +168,9 @@ public class ProcessPolymers {
 		System.out.println("--- Monomers search ---");
 		
 		long searchTime = System.currentTimeMillis();
-		MonomericSpliting_2.setVerbose(verbose);
+		MonomericSpliting.setVerbose(verbose);
 		Coverage[] covs = null;
-		MonomericSpliting_2 split = null;
+		MonomericSpliting split = null;
 		Calculator cal = null;
 		
 		if(tm){
@@ -171,7 +183,7 @@ public class ProcessPolymers {
 			cal = new CalculatorMIP_TM(modulationDepth);
 		}
 		
-		split = new MonomericSpliting_2(families, chains, removeDistance, retryCount, cal);
+		split = new MonomericSpliting(families, chains, removeDistance, retryCount, cal);
 		
 		split.setAllowLightMatchs(lightMatch);
 		covs = split.computeCoverages(polDB);
@@ -193,7 +205,7 @@ public class ProcessPolymers {
 		cjl.saveFile(covs, outfile);
 		
 		// Images and Statistics generation
-		if (html || stats || zip) {
+		if (html || stats || merge || zip) {
 			File imgsFolder = new File(imgsFoldername);
 			if (!imgsFolder.exists())
 				imgsFolder.mkdir();
@@ -211,18 +223,25 @@ public class ProcessPolymers {
 			}
 			
 			if(stats) {
-				PeptidesExecutionTimesJsonLoader petjl = new PeptidesExecutionTimesJsonLoader();
-				petjl.saveFile(MonomericSpliting_2.pepsExecutionTimes, timesFileName);
+				//PeptidesExecutionTimesJsonLoader petjl = new PeptidesExecutionTimesJsonLoader();
+				//petjl.saveFile(MonomericSpliting.pepsExecutionTimes, timesFileName);
+				
+				PeptidesCovRatioCorrJsonLoader pcrcjl = new PeptidesCovRatioCorrJsonLoader();
+				
+				if(cal instanceof CalculatorTM){
+					pcrcjl.saveFile(MonomericSpliting.pepCovRatioCorrArray, covRatioCorr_TM_FileName);
+
+				}else if(cal instanceof CalculatorMIP){
+					pcrcjl.saveFile(MonomericSpliting.pepCovRatioCorrArray, covRatioCorr_MIP_FileName);			
+				}				
 			}
 			
 			if (zip) {
 				// Zip File
 				OutputZiper oz = new OutputZiper(outfolderName + "/s2m.zip");
-				//oz.createZip(imgsFolder.getPath(), outfile, pepDBname, monoDBname, residuesDBname, colors);
 				oz.createZip(imgsFolder.getPath(), outfile, pepDBname, monoDBname, residuesDBname, timesFileName, colors);
 			}
-		}
-			
+		}			
 		
 		outputTime = System.currentTimeMillis() - outputTime;
 		System.out.println("Ouputing time : " + (outputTime/1000) + "s");

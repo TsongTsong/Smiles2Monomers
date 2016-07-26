@@ -3,7 +3,7 @@ package coverageCalculator;
 import java.util.ArrayList;
 import java.util.List;
 
-import algorithms.isomorphism.indepth.Modulation_2;
+import algorithms.isomorphism.indepth.Modulation;
 import algorithms.utils.Coverage;
 import model.Polymer;
 
@@ -13,10 +13,10 @@ import model.Polymer;
 public class CalculatorTM implements Calculator{
 	
 	private static boolean verbose = false;
-	private Modulation_2 modulation;
+	private Modulation modulation;
 	
 	public CalculatorTM(int modulationDepth){
-		this.modulation = new Modulation_2(modulationDepth);
+		this.modulation = new Modulation(modulationDepth);
 	}
 
 	@Override

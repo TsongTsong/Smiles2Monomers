@@ -27,22 +27,18 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 	private File coverageDir;
 	private FamilyDB families;
 	
-	//private ColorsMap colors;
 	private ColorsMap cm;
 	private Map<Coverage, ColorsMap> allColors;
 
 	public HTMLColoredCoverageVue(ArrayList<Coverage> ac, Map<Coverage, ColorsMap> allColors, MonomersDB monoDB, File coverageDir, FamilyDB families) {
 		super();
-		//this.coverage = cov;
 		this.coverList=ac;
 		
 		this.monosDB = monoDB;
 		this.coverageDir = coverageDir;
 		this.families = families;
 		
-		//this.colors = colors;
 		this.allColors=allColors;
-		//this.js="<script type='text/javascript' src='/JS/ShowImage.js'></script>";
 		
 		DecimalFormat df = new DecimalFormat("0.000");
 		
@@ -157,7 +153,6 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 			double coverageRatio = Math.floor(this.coverage.getCoverageRatio()*1000.0)/1000.0;
 			double correctness = Math.floor(this.coverage.getCorrectness(this.families)*1000.0)/1000.0;
 			pepHTML += "<div>"
-					//+ "	<p>" + this.coverage.getChemicalObject().getName() + "</p>"
 					+ "	<p>Atomic coverage : " + coverageRatio + "</p>";
 			if (((Polymer)this.coverage.getChemicalObject()).getMonomeres().length != 0)
 				pepHTML += "	<p>Correctness : " + correctness + "</p>";
@@ -194,7 +189,6 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 				Map<String, List<Color>> incorrectColors = this.calculateColorsof(incorrectMonomers.keySet());
 				Map<String, Integer> notfoundMonomers = this.coverage.getNotFoundMonomers(this.families);
 				
-				//monosHTML += "<p>'"+ i +"'</p>";
 				// Correct
 				monosHTML += "<p>Correct monomers</p>";
 				monosHTML += this.createColoredList("correct", correctMonomers, correctColors);
@@ -208,10 +202,7 @@ public class HTMLColoredCoverageVue extends HTMLAbstractVue {
 				monosHTML += this.createColoredList("notFound", notfoundMonomers);
 			} else {
 				monosHTML += "<p>Monomers</p>";
-				Map<String, Integer> monos = this.coverage.getIncorrectMonomers(this.families);
-				
-				//this.cm = allColors.get(this.coverage);
-				
+				Map<String, Integer> monos = this.coverage.getIncorrectMonomers(this.families);				
 				Map<String, List<Color>> colors = this.calculateColorsof(monos.keySet());
 				monosHTML += this.createColoredList("correct", monos, colors);
 				
