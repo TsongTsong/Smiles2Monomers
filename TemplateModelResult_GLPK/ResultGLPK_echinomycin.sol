@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_echinomycin
 Rows:       78
-Columns:    65 (65 integer, 65 binary)
-Non-zeros:  463
+Columns:    61 (61 integer, 61 binary)
+Non-zeros:  447
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 77 (MAXimum)
 
@@ -225,12 +225,8 @@ Objective:  number_of_installed_atoms = 77 (MAXimum)
     57 install[m56] *              0             0             1 
     58 install[m57] *              0             0             1 
     59 install[m58] *              0             0             1 
-    60 install[m59] *              0             0             1 
+    60 install[m59] *              1             0             1 
     61 install[m60] *              0             0             1 
-    62 install[m61] *              0             0             1 
-    63 install[m62] *              0             0             1 
-    64 install[m63] *              1             0             1 
-    65 install[m64] *              0             0             1 
 
 Integer feasibility conditions:
 

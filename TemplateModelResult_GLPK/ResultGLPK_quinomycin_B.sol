@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_quinomycin_B
 Rows:       80
-Columns:    73 (73 integer, 73 binary)
-Non-zeros:  538
+Columns:    70 (70 integer, 70 binary)
+Non-zeros:  534
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 79 (MAXimum)
 
@@ -236,13 +236,10 @@ Objective:  number_of_installed_atoms = 79 (MAXimum)
     64 install[m63] *              0             0             1 
     65 install[m64] *              0             0             1 
     66 install[m65] *              0             0             1 
-    67 install[m66] *              0             0             1 
+    67 install[m66] *              1             0             1 
     68 install[m67] *              0             0             1 
     69 install[m68] *              0             0             1 
-    70 install[m69] *              1             0             1 
-    71 install[m70] *              0             0             1 
-    72 install[m71] *              0             0             1 
-    73 install[m72] *              0             0             1 
+    70 install[m69] *              0             0             1 
 
 Integer feasibility conditions:
 

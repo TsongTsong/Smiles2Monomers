@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_vibriobactin
 Rows:       52
-Columns:    128 (128 integer, 128 binary)
-Non-zeros:  859
+Columns:    114 (114 integer, 114 binary)
+Non-zeros:  809
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 51 (MAXimum)
 
@@ -231,9 +231,9 @@ Objective:  number_of_installed_atoms = 51 (MAXimum)
    108 install[m107]
                     *              0             0             1 
    109 install[m108]
-                    *              0             0             1 
+                    *              1             0             1 
    110 install[m109]
-                    *              0             0             1 
+                    *              1             0             1 
    111 install[m110]
                     *              0             0             1 
    112 install[m111]
@@ -241,34 +241,6 @@ Objective:  number_of_installed_atoms = 51 (MAXimum)
    113 install[m112]
                     *              0             0             1 
    114 install[m113]
-                    *              0             0             1 
-   115 install[m114]
-                    *              0             0             1 
-   116 install[m115]
-                    *              0             0             1 
-   117 install[m116]
-                    *              0             0             1 
-   118 install[m117]
-                    *              0             0             1 
-   119 install[m118]
-                    *              0             0             1 
-   120 install[m119]
-                    *              0             0             1 
-   121 install[m120]
-                    *              0             0             1 
-   122 install[m121]
-                    *              0             0             1 
-   123 install[m122]
-                    *              1             0             1 
-   124 install[m123]
-                    *              1             0             1 
-   125 install[m124]
-                    *              0             0             1 
-   126 install[m125]
-                    *              0             0             1 
-   127 install[m126]
-                    *              0             0             1 
-   128 install[m127]
                     *              0             0             1 
 
 Integer feasibility conditions:

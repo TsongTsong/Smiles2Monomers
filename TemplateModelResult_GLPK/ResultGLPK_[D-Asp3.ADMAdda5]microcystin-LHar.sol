@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_
 Rows:       74
-Columns:    13 (13 integer, 13 binary)
-Non-zeros:  143
+Columns:    12 (12 integer, 12 binary)
+Non-zeros:  139
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 73 (MAXimum)
 
@@ -161,16 +161,15 @@ Objective:  number_of_installed_atoms = 73 (MAXimum)
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              0             0             1 
      3 install[m2]  *              0             0             1 
-     4 install[m3]  *              0             0             1 
+     4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              1             0             1 
-     8 install[m7]  *              0             0             1 
-     9 install[m8]  *              1             0             1 
-    10 install[m9]  *              0             0             1 
-    11 install[m10] *              1             0             1 
-    12 install[m11] *              0             0             1 
-    13 install[m12] *              1             0             1 
+     7 install[m6]  *              0             0             1 
+     8 install[m7]  *              1             0             1 
+     9 install[m8]  *              0             0             1 
+    10 install[m9]  *              1             0             1 
+    11 install[m10] *              0             0             1 
+    12 install[m11] *              1             0             1 
 
 Integer feasibility conditions:
 

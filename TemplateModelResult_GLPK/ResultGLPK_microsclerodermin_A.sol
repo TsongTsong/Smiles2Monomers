@@ -1,9 +1,9 @@
 Problem:    ModelGLPK_microsclerodermin_A
 Rows:       72
-Columns:    279 (279 integer, 279 binary)
-Non-zeros:  2742
+Columns:    425 (425 integer, 425 binary)
+Non-zeros:  4127
 Status:     INTEGER OPTIMAL
-Objective:  number_of_installed_atoms = 71 (MAXimum)
+Objective:  number_of_installed_atoms = 70 (MAXimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -122,7 +122,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     57 Atom_Owner[a56]
                                    1                           1 
     58 Atom_Owner[a57]
-                                   1                           1 
+                                   0                           1 
     59 Atom_Owner[a58]
                                    1                           1 
     60 Atom_Owner[a59]
@@ -150,15 +150,15 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     71 Atom_Owner[a70]
                                    1                           1 
     72 number_of_installed_atoms
-                                  71                             
+                                  70                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
-     2 install[m1]  *              1             0             1 
-     3 install[m2]  *              1             0             1 
+     2 install[m1]  *              0             0             1 
+     3 install[m2]  *              0             0             1 
      4 install[m3]  *              0             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              0             0             1 
      8 install[m7]  *              0             0             1 
@@ -214,7 +214,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     58 install[m57] *              0             0             1 
     59 install[m58] *              0             0             1 
     60 install[m59] *              0             0             1 
-    61 install[m60] *              1             0             1 
+    61 install[m60] *              0             0             1 
     62 install[m61] *              0             0             1 
     63 install[m62] *              0             0             1 
     64 install[m63] *              0             0             1 
@@ -242,7 +242,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     86 install[m85] *              0             0             1 
     87 install[m86] *              0             0             1 
     88 install[m87] *              0             0             1 
-    89 install[m88] *              0             0             1 
+    89 install[m88] *              1             0             1 
     90 install[m89] *              0             0             1 
     91 install[m90] *              0             0             1 
     92 install[m91] *              0             0             1 
@@ -267,7 +267,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    106 install[m105]
                     *              0             0             1 
    107 install[m106]
-                    *              1             0             1 
+                    *              0             0             1 
    108 install[m107]
                     *              0             0             1 
    109 install[m108]
@@ -323,7 +323,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    134 install[m133]
                     *              0             0             1 
    135 install[m134]
-                    *              0             0             1 
+                    *              1             0             1 
    136 install[m135]
                     *              0             0             1 
    137 install[m136]
@@ -419,7 +419,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    182 install[m181]
                     *              0             0             1 
    183 install[m182]
-                    *              0             0             1 
+                    *              1             0             1 
    184 install[m183]
                     *              0             0             1 
    185 install[m184]
@@ -471,7 +471,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    208 install[m207]
                     *              0             0             1 
    209 install[m208]
-                    *              0             0             1 
+                    *              1             0             1 
    210 install[m209]
                     *              0             0             1 
    211 install[m210]
@@ -505,7 +505,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    225 install[m224]
                     *              0             0             1 
    226 install[m225]
-                    *              0             0             1 
+                    *              1             0             1 
    227 install[m226]
                     *              0             0             1 
    228 install[m227]
@@ -611,6 +611,298 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    278 install[m277]
                     *              0             0             1 
    279 install[m278]
+                    *              0             0             1 
+   280 install[m279]
+                    *              0             0             1 
+   281 install[m280]
+                    *              0             0             1 
+   282 install[m281]
+                    *              0             0             1 
+   283 install[m282]
+                    *              0             0             1 
+   284 install[m283]
+                    *              0             0             1 
+   285 install[m284]
+                    *              0             0             1 
+   286 install[m285]
+                    *              0             0             1 
+   287 install[m286]
+                    *              0             0             1 
+   288 install[m287]
+                    *              0             0             1 
+   289 install[m288]
+                    *              0             0             1 
+   290 install[m289]
+                    *              0             0             1 
+   291 install[m290]
+                    *              0             0             1 
+   292 install[m291]
+                    *              0             0             1 
+   293 install[m292]
+                    *              0             0             1 
+   294 install[m293]
+                    *              0             0             1 
+   295 install[m294]
+                    *              0             0             1 
+   296 install[m295]
+                    *              0             0             1 
+   297 install[m296]
+                    *              0             0             1 
+   298 install[m297]
+                    *              0             0             1 
+   299 install[m298]
+                    *              0             0             1 
+   300 install[m299]
+                    *              0             0             1 
+   301 install[m300]
+                    *              0             0             1 
+   302 install[m301]
+                    *              0             0             1 
+   303 install[m302]
+                    *              0             0             1 
+   304 install[m303]
+                    *              0             0             1 
+   305 install[m304]
+                    *              0             0             1 
+   306 install[m305]
+                    *              0             0             1 
+   307 install[m306]
+                    *              0             0             1 
+   308 install[m307]
+                    *              0             0             1 
+   309 install[m308]
+                    *              0             0             1 
+   310 install[m309]
+                    *              0             0             1 
+   311 install[m310]
+                    *              0             0             1 
+   312 install[m311]
+                    *              0             0             1 
+   313 install[m312]
+                    *              0             0             1 
+   314 install[m313]
+                    *              0             0             1 
+   315 install[m314]
+                    *              0             0             1 
+   316 install[m315]
+                    *              0             0             1 
+   317 install[m316]
+                    *              0             0             1 
+   318 install[m317]
+                    *              0             0             1 
+   319 install[m318]
+                    *              0             0             1 
+   320 install[m319]
+                    *              0             0             1 
+   321 install[m320]
+                    *              0             0             1 
+   322 install[m321]
+                    *              0             0             1 
+   323 install[m322]
+                    *              0             0             1 
+   324 install[m323]
+                    *              0             0             1 
+   325 install[m324]
+                    *              0             0             1 
+   326 install[m325]
+                    *              0             0             1 
+   327 install[m326]
+                    *              0             0             1 
+   328 install[m327]
+                    *              0             0             1 
+   329 install[m328]
+                    *              0             0             1 
+   330 install[m329]
+                    *              0             0             1 
+   331 install[m330]
+                    *              0             0             1 
+   332 install[m331]
+                    *              0             0             1 
+   333 install[m332]
+                    *              0             0             1 
+   334 install[m333]
+                    *              0             0             1 
+   335 install[m334]
+                    *              0             0             1 
+   336 install[m335]
+                    *              0             0             1 
+   337 install[m336]
+                    *              0             0             1 
+   338 install[m337]
+                    *              0             0             1 
+   339 install[m338]
+                    *              0             0             1 
+   340 install[m339]
+                    *              0             0             1 
+   341 install[m340]
+                    *              0             0             1 
+   342 install[m341]
+                    *              0             0             1 
+   343 install[m342]
+                    *              0             0             1 
+   344 install[m343]
+                    *              0             0             1 
+   345 install[m344]
+                    *              0             0             1 
+   346 install[m345]
+                    *              0             0             1 
+   347 install[m346]
+                    *              0             0             1 
+   348 install[m347]
+                    *              0             0             1 
+   349 install[m348]
+                    *              0             0             1 
+   350 install[m349]
+                    *              0             0             1 
+   351 install[m350]
+                    *              0             0             1 
+   352 install[m351]
+                    *              0             0             1 
+   353 install[m352]
+                    *              0             0             1 
+   354 install[m353]
+                    *              0             0             1 
+   355 install[m354]
+                    *              0             0             1 
+   356 install[m355]
+                    *              0             0             1 
+   357 install[m356]
+                    *              0             0             1 
+   358 install[m357]
+                    *              0             0             1 
+   359 install[m358]
+                    *              0             0             1 
+   360 install[m359]
+                    *              0             0             1 
+   361 install[m360]
+                    *              0             0             1 
+   362 install[m361]
+                    *              0             0             1 
+   363 install[m362]
+                    *              0             0             1 
+   364 install[m363]
+                    *              0             0             1 
+   365 install[m364]
+                    *              0             0             1 
+   366 install[m365]
+                    *              0             0             1 
+   367 install[m366]
+                    *              0             0             1 
+   368 install[m367]
+                    *              0             0             1 
+   369 install[m368]
+                    *              0             0             1 
+   370 install[m369]
+                    *              0             0             1 
+   371 install[m370]
+                    *              0             0             1 
+   372 install[m371]
+                    *              0             0             1 
+   373 install[m372]
+                    *              0             0             1 
+   374 install[m373]
+                    *              0             0             1 
+   375 install[m374]
+                    *              0             0             1 
+   376 install[m375]
+                    *              0             0             1 
+   377 install[m376]
+                    *              0             0             1 
+   378 install[m377]
+                    *              0             0             1 
+   379 install[m378]
+                    *              0             0             1 
+   380 install[m379]
+                    *              0             0             1 
+   381 install[m380]
+                    *              0             0             1 
+   382 install[m381]
+                    *              0             0             1 
+   383 install[m382]
+                    *              0             0             1 
+   384 install[m383]
+                    *              0             0             1 
+   385 install[m384]
+                    *              0             0             1 
+   386 install[m385]
+                    *              0             0             1 
+   387 install[m386]
+                    *              0             0             1 
+   388 install[m387]
+                    *              0             0             1 
+   389 install[m388]
+                    *              0             0             1 
+   390 install[m389]
+                    *              0             0             1 
+   391 install[m390]
+                    *              0             0             1 
+   392 install[m391]
+                    *              0             0             1 
+   393 install[m392]
+                    *              0             0             1 
+   394 install[m393]
+                    *              0             0             1 
+   395 install[m394]
+                    *              0             0             1 
+   396 install[m395]
+                    *              0             0             1 
+   397 install[m396]
+                    *              0             0             1 
+   398 install[m397]
+                    *              0             0             1 
+   399 install[m398]
+                    *              0             0             1 
+   400 install[m399]
+                    *              0             0             1 
+   401 install[m400]
+                    *              0             0             1 
+   402 install[m401]
+                    *              0             0             1 
+   403 install[m402]
+                    *              0             0             1 
+   404 install[m403]
+                    *              0             0             1 
+   405 install[m404]
+                    *              0             0             1 
+   406 install[m405]
+                    *              0             0             1 
+   407 install[m406]
+                    *              0             0             1 
+   408 install[m407]
+                    *              0             0             1 
+   409 install[m408]
+                    *              0             0             1 
+   410 install[m409]
+                    *              0             0             1 
+   411 install[m410]
+                    *              0             0             1 
+   412 install[m411]
+                    *              0             0             1 
+   413 install[m412]
+                    *              0             0             1 
+   414 install[m413]
+                    *              0             0             1 
+   415 install[m414]
+                    *              0             0             1 
+   416 install[m415]
+                    *              0             0             1 
+   417 install[m416]
+                    *              0             0             1 
+   418 install[m417]
+                    *              0             0             1 
+   419 install[m418]
+                    *              0             0             1 
+   420 install[m419]
+                    *              0             0             1 
+   421 install[m420]
+                    *              0             0             1 
+   422 install[m421]
+                    *              0             0             1 
+   423 install[m422]
+                    *              0             0             1 
+   424 install[m423]
+                    *              0             0             1 
+   425 install[m424]
                     *              0             0             1 
 
 Integer feasibility conditions:

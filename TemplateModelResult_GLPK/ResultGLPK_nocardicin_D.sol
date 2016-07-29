@@ -82,8 +82,8 @@ Objective:  number_of_installed_atoms = 35 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              1             0             1 
-     2 install[m1]  *              0             0             1 
+     1 install[m0]  *              0             0             1 
+     2 install[m1]  *              1             0             1 
      3 install[m2]  *              0             0             1 
      4 install[m3]  *              0             0             1 
      5 install[m4]  *              0             0             1 

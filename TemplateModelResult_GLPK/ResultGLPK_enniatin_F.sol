@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_enniatin_F
 Rows:       49
-Columns:    869 (869 integer, 869 binary)
-Non-zeros:  7715
+Columns:    880 (880 integer, 880 binary)
+Non-zeros:  7940
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 48 (MAXimum)
 
@@ -108,8 +108,8 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
-     2 install[m1]  *              1             0             1 
+     1 install[m0]  *              1             0             1 
+     2 install[m1]  *              0             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
@@ -1349,7 +1349,7 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
    670 install[m669]
                     *              0             0             1 
    671 install[m670]
-                    *              1             0             1 
+                    *              0             0             1 
    672 install[m671]
                     *              0             0             1 
    673 install[m672]
@@ -1357,7 +1357,7 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
    674 install[m673]
                     *              0             0             1 
    675 install[m674]
-                    *              0             0             1 
+                    *              1             0             1 
    676 install[m675]
                     *              0             0             1 
    677 install[m676]
@@ -1403,7 +1403,7 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
    697 install[m696]
                     *              0             0             1 
    698 install[m697]
-                    *              1             0             1 
+                    *              0             0             1 
    699 install[m698]
                     *              0             0             1 
    700 install[m699]
@@ -1411,7 +1411,7 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
    701 install[m700]
                     *              0             0             1 
    702 install[m701]
-                    *              0             0             1 
+                    *              1             0             1 
    703 install[m702]
                     *              0             0             1 
    704 install[m703]
@@ -1745,6 +1745,28 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
    868 install[m867]
                     *              0             0             1 
    869 install[m868]
+                    *              0             0             1 
+   870 install[m869]
+                    *              0             0             1 
+   871 install[m870]
+                    *              0             0             1 
+   872 install[m871]
+                    *              0             0             1 
+   873 install[m872]
+                    *              0             0             1 
+   874 install[m873]
+                    *              0             0             1 
+   875 install[m874]
+                    *              0             0             1 
+   876 install[m875]
+                    *              0             0             1 
+   877 install[m876]
+                    *              0             0             1 
+   878 install[m877]
+                    *              0             0             1 
+   879 install[m878]
+                    *              0             0             1 
+   880 install[m879]
                     *              0             0             1 
 
 Integer feasibility conditions:

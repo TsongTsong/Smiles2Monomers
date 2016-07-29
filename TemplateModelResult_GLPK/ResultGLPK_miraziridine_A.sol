@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_miraziridine_A
 Rows:       48
-Columns:    24 (24 integer, 24 binary)
-Non-zeros:  179
+Columns:    21 (21 integer, 21 binary)
+Non-zeros:  167
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 47 (MAXimum)
 
@@ -106,11 +106,11 @@ Objective:  number_of_installed_atoms = 47 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              0             0             1 
      7 install[m6]  *              0             0             1 
      8 install[m7]  *              0             0             1 
@@ -123,13 +123,10 @@ Objective:  number_of_installed_atoms = 47 (MAXimum)
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
-    18 install[m17] *              0             0             1 
+    18 install[m17] *              1             0             1 
     19 install[m18] *              0             0             1 
     20 install[m19] *              0             0             1 
-    21 install[m20] *              1             0             1 
-    22 install[m21] *              0             0             1 
-    23 install[m22] *              0             0             1 
-    24 install[m23] *              0             0             1 
+    21 install[m20] *              0             0             1 
 
 Integer feasibility conditions:
 

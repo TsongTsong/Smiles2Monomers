@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_destruxin_E
 Rows:       43
-Columns:    51 (51 integer, 51 binary)
-Non-zeros:  311
+Columns:    44 (44 integer, 44 binary)
+Non-zeros:  286
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 42 (MAXimum)
 
@@ -98,10 +98,10 @@ Objective:  number_of_installed_atoms = 42 (MAXimum)
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
-     3 install[m2]  *              1             0             1 
-     4 install[m3]  *              0             0             1 
+     3 install[m2]  *              0             0             1 
+     4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
-     6 install[m5]  *              1             0             1 
+     6 install[m5]  *              0             0             1 
      7 install[m6]  *              0             0             1 
      8 install[m7]  *              0             0             1 
      9 install[m8]  *              0             0             1 
@@ -113,9 +113,9 @@ Objective:  number_of_installed_atoms = 42 (MAXimum)
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
-    18 install[m17] *              0             0             1 
+    18 install[m17] *              1             0             1 
     19 install[m18] *              0             0             1 
-    20 install[m19] *              1             0             1 
+    20 install[m19] *              0             0             1 
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
     23 install[m22] *              0             0             1 
@@ -137,16 +137,9 @@ Objective:  number_of_installed_atoms = 42 (MAXimum)
     39 install[m38] *              0             0             1 
     40 install[m39] *              0             0             1 
     41 install[m40] *              0             0             1 
-    42 install[m41] *              0             0             1 
+    42 install[m41] *              1             0             1 
     43 install[m42] *              0             0             1 
     44 install[m43] *              0             0             1 
-    45 install[m44] *              0             0             1 
-    46 install[m45] *              0             0             1 
-    47 install[m46] *              1             0             1 
-    48 install[m47] *              0             0             1 
-    49 install[m48] *              0             0             1 
-    50 install[m49] *              0             0             1 
-    51 install[m50] *              0             0             1 
 
 Integer feasibility conditions:
 

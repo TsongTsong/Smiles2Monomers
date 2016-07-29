@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_tuberactinomycin_A
 Rows:       50
-Columns:    82 (82 integer, 82 binary)
-Non-zeros:  582
+Columns:    76 (76 integer, 76 binary)
+Non-zeros:  561
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 49 (MAXimum)
 
@@ -140,15 +140,15 @@ Objective:  number_of_installed_atoms = 49 (MAXimum)
     28 install[m27] *              0             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
-    31 install[m30] *              0             0             1 
-    32 install[m31] *              0             0             1 
+    31 install[m30] *              1             0             1 
+    32 install[m31] *              1             0             1 
     33 install[m32] *              0             0             1 
     34 install[m33] *              0             0             1 
     35 install[m34] *              0             0             1 
     36 install[m35] *              0             0             1 
     37 install[m36] *              0             0             1 
-    38 install[m37] *              1             0             1 
-    39 install[m38] *              1             0             1 
+    38 install[m37] *              0             0             1 
+    39 install[m38] *              0             0             1 
     40 install[m39] *              0             0             1 
     41 install[m40] *              0             0             1 
     42 install[m41] *              0             0             1 
@@ -178,20 +178,14 @@ Objective:  number_of_installed_atoms = 49 (MAXimum)
     66 install[m65] *              0             0             1 
     67 install[m66] *              0             0             1 
     68 install[m67] *              0             0             1 
-    69 install[m68] *              0             0             1 
+    69 install[m68] *              1             0             1 
     70 install[m69] *              0             0             1 
     71 install[m70] *              0             0             1 
     72 install[m71] *              0             0             1 
     73 install[m72] *              0             0             1 
     74 install[m73] *              0             0             1 
     75 install[m74] *              0             0             1 
-    76 install[m75] *              1             0             1 
-    77 install[m76] *              0             0             1 
-    78 install[m77] *              0             0             1 
-    79 install[m78] *              0             0             1 
-    80 install[m79] *              0             0             1 
-    81 install[m80] *              0             0             1 
-    82 install[m81] *              0             0             1 
+    76 install[m75] *              0             0             1 
 
 Integer feasibility conditions:
 

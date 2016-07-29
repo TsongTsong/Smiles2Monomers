@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_discodermin_A
 Rows:       121
-Columns:    27 (27 integer, 27 binary)
-Non-zeros:  220
+Columns:    26 (26 integer, 26 binary)
+Non-zeros:  216
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 120 (MAXimum)
 
@@ -254,7 +254,7 @@ Objective:  number_of_installed_atoms = 120 (MAXimum)
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
-     3 install[m2]  *              0             0             1 
+     3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
@@ -262,13 +262,13 @@ Objective:  number_of_installed_atoms = 120 (MAXimum)
      8 install[m7]  *              0             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              1             0             1 
-    11 install[m10] *              0             0             1 
+    11 install[m10] *              1             0             1 
     12 install[m11] *              1             0             1 
-    13 install[m12] *              1             0             1 
-    14 install[m13] *              0             0             1 
+    13 install[m12] *              0             0             1 
+    14 install[m13] *              1             0             1 
     15 install[m14] *              1             0             1 
-    16 install[m15] *              1             0             1 
-    17 install[m16] *              1             0             1 
+    16 install[m15] *              0             0             1 
+    17 install[m16] *              0             0             1 
     18 install[m17] *              1             0             1 
     19 install[m18] *              1             0             1 
     20 install[m19] *              0             0             1 
@@ -278,7 +278,6 @@ Objective:  number_of_installed_atoms = 120 (MAXimum)
     24 install[m23] *              0             0             1 
     25 install[m24] *              0             0             1 
     26 install[m25] *              0             0             1 
-    27 install[m26] *              0             0             1 
 
 Integer feasibility conditions:
 

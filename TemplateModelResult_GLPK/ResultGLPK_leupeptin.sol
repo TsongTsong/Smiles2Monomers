@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_leupeptin
 Rows:       31
-Columns:    5 (5 integer, 5 binary)
-Non-zeros:  46
+Columns:    4 (4 integer, 4 binary)
+Non-zeros:  42
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 30 (MAXimum)
 
@@ -74,9 +74,8 @@ Objective:  number_of_installed_atoms = 30 (MAXimum)
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              0             0             1 
-     3 install[m2]  *              0             0             1 
+     3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
 
 Integer feasibility conditions:
 

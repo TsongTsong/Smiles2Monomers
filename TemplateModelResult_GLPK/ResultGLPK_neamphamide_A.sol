@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_neamphamide_A
 Rows:       120
-Columns:    131 (131 integer, 131 binary)
-Non-zeros:  1025
+Columns:    125 (125 integer, 125 binary)
+Non-zeros:  1020
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 119 (MAXimum)
 
@@ -254,16 +254,16 @@ Objective:  number_of_installed_atoms = 119 (MAXimum)
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              0             0             1 
+     7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              1             0             1 
-    10 install[m9]  *              0             0             1 
-    11 install[m10] *              0             0             1 
+    10 install[m9]  *              1             0             1 
+    11 install[m10] *              1             0             1 
     12 install[m11] *              1             0             1 
-    13 install[m12] *              1             0             1 
-    14 install[m13] *              1             0             1 
+    13 install[m12] *              0             0             1 
+    14 install[m13] *              0             0             1 
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
@@ -379,7 +379,7 @@ Objective:  number_of_installed_atoms = 119 (MAXimum)
    114 install[m113]
                     *              0             0             1 
    115 install[m114]
-                    *              0             0             1 
+                    *              1             0             1 
    116 install[m115]
                     *              0             0             1 
    117 install[m116]
@@ -393,24 +393,12 @@ Objective:  number_of_installed_atoms = 119 (MAXimum)
    121 install[m120]
                     *              0             0             1 
    122 install[m121]
-                    *              1             0             1 
+                    *              0             0             1 
    123 install[m122]
                     *              0             0             1 
    124 install[m123]
                     *              0             0             1 
    125 install[m124]
-                    *              0             0             1 
-   126 install[m125]
-                    *              0             0             1 
-   127 install[m126]
-                    *              0             0             1 
-   128 install[m127]
-                    *              0             0             1 
-   129 install[m128]
-                    *              0             0             1 
-   130 install[m129]
-                    *              0             0             1 
-   131 install[m130]
                     *              0             0             1 
 
 Integer feasibility conditions:

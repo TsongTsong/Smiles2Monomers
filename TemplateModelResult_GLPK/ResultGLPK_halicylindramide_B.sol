@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_halicylindramide_B
 Rows:       123
-Columns:    62 (62 integer, 62 binary)
-Non-zeros:  437
+Columns:    57 (57 integer, 57 binary)
+Non-zeros:  420
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 122 (MAXimum)
 
@@ -260,19 +260,19 @@ Objective:  number_of_installed_atoms = 122 (MAXimum)
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              0             0             1 
+     5 install[m4]  *              1             0             1 
      6 install[m5]  *              0             0             1 
-     7 install[m6]  *              1             0             1 
+     7 install[m6]  *              0             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              1             0             1 
-    11 install[m10] *              0             0             1 
+    11 install[m10] *              1             0             1 
     12 install[m11] *              1             0             1 
-    13 install[m12] *              0             0             1 
+    13 install[m12] *              1             0             1 
     14 install[m13] *              1             0             1 
     15 install[m14] *              0             0             1 
-    16 install[m15] *              1             0             1 
-    17 install[m16] *              1             0             1 
+    16 install[m15] *              0             0             1 
+    17 install[m16] *              0             0             1 
     18 install[m17] *              1             0             1 
     19 install[m18] *              1             0             1 
     20 install[m19] *              0             0             1 
@@ -310,14 +310,9 @@ Objective:  number_of_installed_atoms = 122 (MAXimum)
     52 install[m51] *              0             0             1 
     53 install[m52] *              0             0             1 
     54 install[m53] *              0             0             1 
-    55 install[m54] *              0             0             1 
+    55 install[m54] *              1             0             1 
     56 install[m55] *              0             0             1 
     57 install[m56] *              0             0             1 
-    58 install[m57] *              0             0             1 
-    59 install[m58] *              0             0             1 
-    60 install[m59] *              0             0             1 
-    61 install[m60] *              1             0             1 
-    62 install[m61] *              0             0             1 
 
 Integer feasibility conditions:
 

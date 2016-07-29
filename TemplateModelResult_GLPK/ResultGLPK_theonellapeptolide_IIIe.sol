@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_theonellapeptolide_IIIe
 Rows:       100
-Columns:    88 (88 integer, 88 binary)
-Non-zeros:  616
+Columns:    82 (82 integer, 82 binary)
+Non-zeros:  592
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 99 (MAXimum)
 
@@ -217,10 +217,10 @@ Objective:  number_of_installed_atoms = 99 (MAXimum)
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
-     8 install[m7]  *              1             0             1 
+     8 install[m7]  *              0             0             1 
      9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
-    11 install[m10] *              0             0             1 
+    11 install[m10] *              1             0             1 
     12 install[m11] *              1             0             1 
     13 install[m12] *              1             0             1 
     14 install[m13] *              0             0             1 
@@ -291,13 +291,7 @@ Objective:  number_of_installed_atoms = 99 (MAXimum)
     79 install[m78] *              0             0             1 
     80 install[m79] *              0             0             1 
     81 install[m80] *              0             0             1 
-    82 install[m81] *              0             0             1 
-    83 install[m82] *              0             0             1 
-    84 install[m83] *              0             0             1 
-    85 install[m84] *              0             0             1 
-    86 install[m85] *              0             0             1 
-    87 install[m86] *              0             0             1 
-    88 install[m87] *              1             0             1 
+    82 install[m81] *              1             0             1 
 
 Integer feasibility conditions:
 

@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_antiamoebin_I
 Rows:       120
-Columns:    20 (20 integer, 20 binary)
-Non-zeros:  169
+Columns:    19 (19 integer, 19 binary)
+Non-zeros:  165
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 119 (MAXimum)
 
@@ -251,12 +251,12 @@ Objective:  number_of_installed_atoms = 119 (MAXimum)
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
-     2 install[m1]  *              0             0             1 
+     2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              0             0             1 
-     7 install[m6]  *              0             0             1 
+     7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
@@ -264,12 +264,11 @@ Objective:  number_of_installed_atoms = 119 (MAXimum)
     12 install[m11] *              1             0             1 
     13 install[m12] *              1             0             1 
     14 install[m13] *              1             0             1 
-    15 install[m14] *              1             0             1 
-    16 install[m15] *              0             0             1 
+    15 install[m14] *              0             0             1 
+    16 install[m15] *              1             0             1 
     17 install[m16] *              1             0             1 
     18 install[m17] *              1             0             1 
     19 install[m18] *              1             0             1 
-    20 install[m19] *              1             0             1 
 
 Integer feasibility conditions:
 

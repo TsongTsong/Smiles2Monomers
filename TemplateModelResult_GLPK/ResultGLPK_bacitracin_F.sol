@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_bacitracin_F
 Rows:       101
-Columns:    46 (46 integer, 46 binary)
-Non-zeros:  339
+Columns:    42 (42 integer, 42 binary)
+Non-zeros:  323
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 100 (MAXimum)
 
@@ -218,14 +218,14 @@ Objective:  number_of_installed_atoms = 100 (MAXimum)
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              0             0             1 
+     7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
-    11 install[m10] *              1             0             1 
-    12 install[m11] *              0             0             1 
+    11 install[m10] *              0             0             1 
+    12 install[m11] *              1             0             1 
     13 install[m12] *              0             0             1 
-    14 install[m13] *              1             0             1 
+    14 install[m13] *              0             0             1 
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
@@ -254,10 +254,6 @@ Objective:  number_of_installed_atoms = 100 (MAXimum)
     40 install[m39] *              0             0             1 
     41 install[m40] *              0             0             1 
     42 install[m41] *              0             0             1 
-    43 install[m42] *              0             0             1 
-    44 install[m43] *              0             0             1 
-    45 install[m44] *              0             0             1 
-    46 install[m45] *              0             0             1 
 
 Integer feasibility conditions:
 

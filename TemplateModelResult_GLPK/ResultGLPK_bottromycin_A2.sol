@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_bottromycin_A2
 Rows:       59
-Columns:    81 (81 integer, 81 binary)
-Non-zeros:  602
+Columns:    78 (78 integer, 78 binary)
+Non-zeros:  598
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 52 (MAXimum)
 
@@ -206,9 +206,6 @@ Objective:  number_of_installed_atoms = 52 (MAXimum)
     76 install[m75] *              0             0             1 
     77 install[m76] *              0             0             1 
     78 install[m77] *              0             0             1 
-    79 install[m78] *              0             0             1 
-    80 install[m79] *              0             0             1 
-    81 install[m80] *              0             0             1 
 
 Integer feasibility conditions:
 

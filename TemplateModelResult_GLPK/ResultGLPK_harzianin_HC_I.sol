@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_harzianin_HC_I
 Rows:       100
-Columns:    20 (20 integer, 20 binary)
-Non-zeros:  159
+Columns:    19 (19 integer, 19 binary)
+Non-zeros:  155
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 99 (MAXimum)
 
@@ -210,7 +210,7 @@ Objective:  number_of_installed_atoms = 99 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
@@ -219,17 +219,16 @@ Objective:  number_of_installed_atoms = 99 (MAXimum)
      7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              1             0             1 
-    10 install[m9]  *              1             0             1 
+    10 install[m9]  *              0             0             1 
     11 install[m10] *              0             0             1 
-    12 install[m11] *              0             0             1 
+    12 install[m11] *              1             0             1 
     13 install[m12] *              1             0             1 
-    14 install[m13] *              1             0             1 
+    14 install[m13] *              0             0             1 
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
-    17 install[m16] *              0             0             1 
+    17 install[m16] *              1             0             1 
     18 install[m17] *              1             0             1 
     19 install[m18] *              1             0             1 
-    20 install[m19] *              1             0             1 
 
 Integer feasibility conditions:
 

@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_syringomycin_E
 Rows:       86
-Columns:    93 (93 integer, 93 binary)
-Non-zeros:  666
+Columns:    89 (89 integer, 89 binary)
+Non-zeros:  660
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 85 (MAXimum)
 
@@ -186,10 +186,10 @@ Objective:  number_of_installed_atoms = 85 (MAXimum)
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              0             0             1 
+     5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
-     8 install[m7]  *              1             0             1 
+     8 install[m7]  *              0             0             1 
      9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
     11 install[m10] *              0             0             1 
@@ -253,14 +253,14 @@ Objective:  number_of_installed_atoms = 85 (MAXimum)
     69 install[m68] *              0             0             1 
     70 install[m69] *              0             0             1 
     71 install[m70] *              0             0             1 
-    72 install[m71] *              0             0             1 
+    72 install[m71] *              1             0             1 
     73 install[m72] *              0             0             1 
     74 install[m73] *              0             0             1 
     75 install[m74] *              0             0             1 
     76 install[m75] *              0             0             1 
     77 install[m76] *              0             0             1 
     78 install[m77] *              0             0             1 
-    79 install[m78] *              1             0             1 
+    79 install[m78] *              0             0             1 
     80 install[m79] *              0             0             1 
     81 install[m80] *              0             0             1 
     82 install[m81] *              0             0             1 
@@ -271,10 +271,6 @@ Objective:  number_of_installed_atoms = 85 (MAXimum)
     87 install[m86] *              0             0             1 
     88 install[m87] *              0             0             1 
     89 install[m88] *              0             0             1 
-    90 install[m89] *              0             0             1 
-    91 install[m90] *              0             0             1 
-    92 install[m91] *              0             0             1 
-    93 install[m92] *              0             0             1 
 
 Integer feasibility conditions:
 

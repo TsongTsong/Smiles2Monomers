@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_pseudobactin
 Rows:       71
-Columns:    77 (77 integer, 77 binary)
-Non-zeros:  528
+Columns:    70 (70 integer, 70 binary)
+Non-zeros:  503
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 69 (MAXimum)
 
@@ -159,7 +159,7 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
      5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
-     8 install[m7]  *              0             0             1 
+     8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              0             0             1 
     11 install[m10] *              0             0             1 
@@ -167,8 +167,8 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     13 install[m12] *              0             0             1 
     14 install[m13] *              0             0             1 
     15 install[m14] *              0             0             1 
-    16 install[m15] *              1             0             1 
-    17 install[m16] *              1             0             1 
+    16 install[m15] *              0             0             1 
+    17 install[m16] *              0             0             1 
     18 install[m17] *              0             0             1 
     19 install[m18] *              0             0             1 
     20 install[m19] *              0             0             1 
@@ -206,14 +206,14 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     52 install[m51] *              0             0             1 
     53 install[m52] *              0             0             1 
     54 install[m53] *              0             0             1 
-    55 install[m54] *              0             0             1 
+    55 install[m54] *              1             0             1 
     56 install[m55] *              0             0             1 
     57 install[m56] *              0             0             1 
     58 install[m57] *              0             0             1 
     59 install[m58] *              0             0             1 
     60 install[m59] *              0             0             1 
     61 install[m60] *              0             0             1 
-    62 install[m61] *              1             0             1 
+    62 install[m61] *              0             0             1 
     63 install[m62] *              0             0             1 
     64 install[m63] *              0             0             1 
     65 install[m64] *              0             0             1 
@@ -222,13 +222,6 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     68 install[m67] *              0             0             1 
     69 install[m68] *              0             0             1 
     70 install[m69] *              0             0             1 
-    71 install[m70] *              0             0             1 
-    72 install[m71] *              0             0             1 
-    73 install[m72] *              0             0             1 
-    74 install[m73] *              0             0             1 
-    75 install[m74] *              0             0             1 
-    76 install[m75] *              0             0             1 
-    77 install[m76] *              0             0             1 
 
 Integer feasibility conditions:
 

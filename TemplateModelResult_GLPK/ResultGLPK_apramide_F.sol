@@ -1,9 +1,9 @@
 Problem:    ModelGLPK_apramide_F
 Rows:       72
-Columns:    65 (65 integer, 65 binary)
-Non-zeros:  512
+Columns:    23 (23 integer, 23 binary)
+Non-zeros:  185
 Status:     INTEGER OPTIMAL
-Objective:  number_of_installed_atoms = 69 (MAXimum)
+Objective:  number_of_installed_atoms = 71 (MAXimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -134,9 +134,9 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     63 Atom_Owner[a62]
                                    1                           1 
     64 Atom_Owner[a63]
-                                   0                           1 
+                                   1                           1 
     65 Atom_Owner[a64]
-                                   0                           1 
+                                   1                           1 
     66 Atom_Owner[a65]
                                    1                           1 
     67 Atom_Owner[a66]
@@ -150,24 +150,24 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     71 Atom_Owner[a70]
                                    1                           1 
     72 number_of_installed_atoms
-                                  69                             
+                                  71                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
-     2 install[m1]  *              1             0             1 
+     2 install[m1]  *              0             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
-     6 install[m5]  *              0             0             1 
+     6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
-     8 install[m7]  *              0             0             1 
+     8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              0             0             1 
     11 install[m10] *              0             0             1 
     12 install[m11] *              0             0             1 
     13 install[m12] *              0             0             1 
-    14 install[m13] *              0             0             1 
+    14 install[m13] *              1             0             1 
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
@@ -177,48 +177,6 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
     23 install[m22] *              0             0             1 
-    24 install[m23] *              0             0             1 
-    25 install[m24] *              0             0             1 
-    26 install[m25] *              1             0             1 
-    27 install[m26] *              0             0             1 
-    28 install[m27] *              0             0             1 
-    29 install[m28] *              0             0             1 
-    30 install[m29] *              0             0             1 
-    31 install[m30] *              0             0             1 
-    32 install[m31] *              0             0             1 
-    33 install[m32] *              0             0             1 
-    34 install[m33] *              0             0             1 
-    35 install[m34] *              0             0             1 
-    36 install[m35] *              0             0             1 
-    37 install[m36] *              0             0             1 
-    38 install[m37] *              0             0             1 
-    39 install[m38] *              0             0             1 
-    40 install[m39] *              0             0             1 
-    41 install[m40] *              0             0             1 
-    42 install[m41] *              0             0             1 
-    43 install[m42] *              0             0             1 
-    44 install[m43] *              0             0             1 
-    45 install[m44] *              0             0             1 
-    46 install[m45] *              0             0             1 
-    47 install[m46] *              0             0             1 
-    48 install[m47] *              0             0             1 
-    49 install[m48] *              0             0             1 
-    50 install[m49] *              0             0             1 
-    51 install[m50] *              0             0             1 
-    52 install[m51] *              1             0             1 
-    53 install[m52] *              0             0             1 
-    54 install[m53] *              0             0             1 
-    55 install[m54] *              0             0             1 
-    56 install[m55] *              0             0             1 
-    57 install[m56] *              0             0             1 
-    58 install[m57] *              0             0             1 
-    59 install[m58] *              0             0             1 
-    60 install[m59] *              0             0             1 
-    61 install[m60] *              0             0             1 
-    62 install[m61] *              0             0             1 
-    63 install[m62] *              0             0             1 
-    64 install[m63] *              0             0             1 
-    65 install[m64] *              0             0             1 
 
 Integer feasibility conditions:
 

@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_viomycin
 Rows:       49
-Columns:    57 (57 integer, 57 binary)
-Non-zeros:  414
+Columns:    53 (53 integer, 53 binary)
+Non-zeros:  398
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 48 (MAXimum)
 
@@ -156,15 +156,11 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
     46 install[m45] *              0             0             1 
     47 install[m46] *              0             0             1 
     48 install[m47] *              0             0             1 
-    49 install[m48] *              0             0             1 
+    49 install[m48] *              1             0             1 
     50 install[m49] *              0             0             1 
     51 install[m50] *              0             0             1 
     52 install[m51] *              0             0             1 
-    53 install[m52] *              1             0             1 
-    54 install[m53] *              0             0             1 
-    55 install[m54] *              0             0             1 
-    56 install[m55] *              0             0             1 
-    57 install[m56] *              0             0             1 
+    53 install[m52] *              0             0             1 
 
 Integer feasibility conditions:
 

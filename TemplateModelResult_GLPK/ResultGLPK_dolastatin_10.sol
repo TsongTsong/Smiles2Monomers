@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_dolastatin_10
 Rows:       56
-Columns:    30 (30 integer, 30 binary)
-Non-zeros:  228
+Columns:    105 (105 integer, 105 binary)
+Non-zeros:  833
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 54 (MAXimum)
 
@@ -125,9 +125,9 @@ Objective:  number_of_installed_atoms = 54 (MAXimum)
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
-     4 install[m3]  *              0             0             1 
+     4 install[m3]  *              1             0             1 
      5 install[m4]  *              0             0             1 
-     6 install[m5]  *              1             0             1 
+     6 install[m5]  *              0             0             1 
      7 install[m6]  *              1             0             1 
      8 install[m7]  *              0             0             1 
      9 install[m8]  *              0             0             1 
@@ -152,6 +152,86 @@ Objective:  number_of_installed_atoms = 54 (MAXimum)
     28 install[m27] *              0             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
+    31 install[m30] *              0             0             1 
+    32 install[m31] *              0             0             1 
+    33 install[m32] *              0             0             1 
+    34 install[m33] *              0             0             1 
+    35 install[m34] *              0             0             1 
+    36 install[m35] *              0             0             1 
+    37 install[m36] *              0             0             1 
+    38 install[m37] *              0             0             1 
+    39 install[m38] *              0             0             1 
+    40 install[m39] *              0             0             1 
+    41 install[m40] *              0             0             1 
+    42 install[m41] *              0             0             1 
+    43 install[m42] *              0             0             1 
+    44 install[m43] *              0             0             1 
+    45 install[m44] *              0             0             1 
+    46 install[m45] *              0             0             1 
+    47 install[m46] *              0             0             1 
+    48 install[m47] *              0             0             1 
+    49 install[m48] *              0             0             1 
+    50 install[m49] *              0             0             1 
+    51 install[m50] *              0             0             1 
+    52 install[m51] *              0             0             1 
+    53 install[m52] *              0             0             1 
+    54 install[m53] *              0             0             1 
+    55 install[m54] *              0             0             1 
+    56 install[m55] *              0             0             1 
+    57 install[m56] *              0             0             1 
+    58 install[m57] *              0             0             1 
+    59 install[m58] *              0             0             1 
+    60 install[m59] *              0             0             1 
+    61 install[m60] *              0             0             1 
+    62 install[m61] *              0             0             1 
+    63 install[m62] *              0             0             1 
+    64 install[m63] *              0             0             1 
+    65 install[m64] *              0             0             1 
+    66 install[m65] *              0             0             1 
+    67 install[m66] *              0             0             1 
+    68 install[m67] *              0             0             1 
+    69 install[m68] *              0             0             1 
+    70 install[m69] *              0             0             1 
+    71 install[m70] *              0             0             1 
+    72 install[m71] *              0             0             1 
+    73 install[m72] *              0             0             1 
+    74 install[m73] *              0             0             1 
+    75 install[m74] *              0             0             1 
+    76 install[m75] *              0             0             1 
+    77 install[m76] *              0             0             1 
+    78 install[m77] *              0             0             1 
+    79 install[m78] *              0             0             1 
+    80 install[m79] *              0             0             1 
+    81 install[m80] *              0             0             1 
+    82 install[m81] *              0             0             1 
+    83 install[m82] *              0             0             1 
+    84 install[m83] *              0             0             1 
+    85 install[m84] *              0             0             1 
+    86 install[m85] *              0             0             1 
+    87 install[m86] *              0             0             1 
+    88 install[m87] *              0             0             1 
+    89 install[m88] *              0             0             1 
+    90 install[m89] *              0             0             1 
+    91 install[m90] *              0             0             1 
+    92 install[m91] *              0             0             1 
+    93 install[m92] *              0             0             1 
+    94 install[m93] *              0             0             1 
+    95 install[m94] *              0             0             1 
+    96 install[m95] *              0             0             1 
+    97 install[m96] *              0             0             1 
+    98 install[m97] *              0             0             1 
+    99 install[m98] *              0             0             1 
+   100 install[m99] *              0             0             1 
+   101 install[m100]
+                    *              0             0             1 
+   102 install[m101]
+                    *              0             0             1 
+   103 install[m102]
+                    *              0             0             1 
+   104 install[m103]
+                    *              0             0             1 
+   105 install[m104]
+                    *              0             0             1 
 
 Integer feasibility conditions:
 

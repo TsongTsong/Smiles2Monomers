@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_theonellamide_A
 Rows:       122
-Columns:    210 (210 integer, 210 binary)
-Non-zeros:  1422
+Columns:    194 (194 integer, 194 binary)
+Non-zeros:  1387
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 121 (MAXimum)
 
@@ -254,19 +254,19 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              0             0             1 
+     7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              1             0             1 
     11 install[m10] *              1             0             1 
     12 install[m11] *              1             0             1 
-    13 install[m12] *              1             0             1 
+    13 install[m12] *              0             0             1 
     14 install[m13] *              0             0             1 
     15 install[m14] *              0             0             1 
     16 install[m15] *              0             0             1 
@@ -281,7 +281,7 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
     25 install[m24] *              0             0             1 
     26 install[m25] *              0             0             1 
     27 install[m26] *              0             0             1 
-    28 install[m27] *              0             0             1 
+    28 install[m27] *              1             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
     31 install[m30] *              0             0             1 
@@ -305,7 +305,7 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
     49 install[m48] *              0             0             1 
     50 install[m49] *              0             0             1 
     51 install[m50] *              0             0             1 
-    52 install[m51] *              1             0             1 
+    52 install[m51] *              0             0             1 
     53 install[m52] *              0             0             1 
     54 install[m53] *              0             0             1 
     55 install[m54] *              0             0             1 
@@ -427,7 +427,7 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
    136 install[m135]
                     *              0             0             1 
    137 install[m136]
-                    *              0             0             1 
+                    *              1             0             1 
    138 install[m137]
                     *              0             0             1 
    139 install[m138]
@@ -473,7 +473,7 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
    159 install[m158]
                     *              0             0             1 
    160 install[m159]
-                    *              1             0             1 
+                    *              0             0             1 
    161 install[m160]
                     *              0             0             1 
    162 install[m161]
@@ -501,7 +501,7 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
    173 install[m172]
                     *              0             0             1 
    174 install[m173]
-                    *              0             0             1 
+                    *              1             0             1 
    175 install[m174]
                     *              0             0             1 
    176 install[m175]
@@ -541,38 +541,6 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
    193 install[m192]
                     *              0             0             1 
    194 install[m193]
-                    *              0             0             1 
-   195 install[m194]
-                    *              0             0             1 
-   196 install[m195]
-                    *              0             0             1 
-   197 install[m196]
-                    *              1             0             1 
-   198 install[m197]
-                    *              0             0             1 
-   199 install[m198]
-                    *              0             0             1 
-   200 install[m199]
-                    *              0             0             1 
-   201 install[m200]
-                    *              0             0             1 
-   202 install[m201]
-                    *              0             0             1 
-   203 install[m202]
-                    *              0             0             1 
-   204 install[m203]
-                    *              0             0             1 
-   205 install[m204]
-                    *              0             0             1 
-   206 install[m205]
-                    *              0             0             1 
-   207 install[m206]
-                    *              0             0             1 
-   208 install[m207]
-                    *              0             0             1 
-   209 install[m208]
-                    *              0             0             1 
-   210 install[m209]
                     *              0             0             1 
 
 Integer feasibility conditions:

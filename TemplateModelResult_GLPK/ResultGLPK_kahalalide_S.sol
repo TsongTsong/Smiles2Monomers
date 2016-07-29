@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_kahalalide_S
 Rows:       110
-Columns:    53 (53 integer, 53 binary)
-Non-zeros:  373
+Columns:    47 (47 integer, 47 binary)
+Non-zeros:  349
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 108 (MAXimum)
 
@@ -232,7 +232,7 @@ Objective:  number_of_installed_atoms = 108 (MAXimum)
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
-     3 install[m2]  *              0             0             1 
+     3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
@@ -241,22 +241,22 @@ Objective:  number_of_installed_atoms = 108 (MAXimum)
      9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
     11 install[m10] *              1             0             1 
-    12 install[m11] *              1             0             1 
+    12 install[m11] *              0             0             1 
     13 install[m12] *              0             0             1 
-    14 install[m13] *              1             0             1 
+    14 install[m13] *              0             0             1 
     15 install[m14] *              1             0             1 
     16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
     18 install[m17] *              0             0             1 
-    19 install[m18] *              0             0             1 
+    19 install[m18] *              1             0             1 
     20 install[m19] *              0             0             1 
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
     23 install[m22] *              0             0             1 
     24 install[m23] *              0             0             1 
-    25 install[m24] *              0             0             1 
+    25 install[m24] *              1             0             1 
     26 install[m25] *              0             0             1 
-    27 install[m26] *              1             0             1 
+    27 install[m26] *              0             0             1 
     28 install[m27] *              0             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
@@ -277,12 +277,6 @@ Objective:  number_of_installed_atoms = 108 (MAXimum)
     45 install[m44] *              0             0             1 
     46 install[m45] *              0             0             1 
     47 install[m46] *              0             0             1 
-    48 install[m47] *              0             0             1 
-    49 install[m48] *              0             0             1 
-    50 install[m49] *              0             0             1 
-    51 install[m50] *              0             0             1 
-    52 install[m51] *              0             0             1 
-    53 install[m52] *              0             0             1 
 
 Integer feasibility conditions:
 

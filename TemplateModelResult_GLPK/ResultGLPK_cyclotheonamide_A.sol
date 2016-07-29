@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_cyclotheonamide_A
 Rows:       54
-Columns:    61 (61 integer, 61 binary)
-Non-zeros:  489
+Columns:    57 (57 integer, 57 binary)
+Non-zeros:  473
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 53 (MAXimum)
 
@@ -118,13 +118,13 @@ Objective:  number_of_installed_atoms = 53 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              0             0             1 
      3 install[m2]  *              1             0             1 
-     4 install[m3]  *              1             0             1 
-     5 install[m4]  *              0             0             1 
+     4 install[m3]  *              0             0             1 
+     5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              1             0             1 
+     7 install[m6]  *              0             0             1 
      8 install[m7]  *              0             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              0             0             1 
@@ -140,11 +140,11 @@ Objective:  number_of_installed_atoms = 53 (MAXimum)
     20 install[m19] *              0             0             1 
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
-    23 install[m22] *              0             0             1 
+    23 install[m22] *              1             0             1 
     24 install[m23] *              0             0             1 
     25 install[m24] *              0             0             1 
     26 install[m25] *              0             0             1 
-    27 install[m26] *              1             0             1 
+    27 install[m26] *              0             0             1 
     28 install[m27] *              0             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
@@ -175,10 +175,6 @@ Objective:  number_of_installed_atoms = 53 (MAXimum)
     55 install[m54] *              0             0             1 
     56 install[m55] *              0             0             1 
     57 install[m56] *              0             0             1 
-    58 install[m57] *              0             0             1 
-    59 install[m58] *              0             0             1 
-    60 install[m59] *              0             0             1 
-    61 install[m60] *              0             0             1 
 
 Integer feasibility conditions:
 

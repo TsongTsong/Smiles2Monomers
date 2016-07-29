@@ -138,10 +138,10 @@ Objective:  number_of_installed_atoms = 62 (MAXimum)
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
-     3 install[m2]  *              1             0             1 
-     4 install[m3]  *              0             0             1 
-     5 install[m4]  *              1             0             1 
-     6 install[m5]  *              0             0             1 
+     3 install[m2]  *              0             0             1 
+     4 install[m3]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
+     6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
      8 install[m7]  *              0             0             1 
      9 install[m8]  *              0             0             1 

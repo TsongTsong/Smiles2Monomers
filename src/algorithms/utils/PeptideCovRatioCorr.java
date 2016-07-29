@@ -10,6 +10,8 @@ public class PeptideCovRatioCorr {
 	private String covCorrectness_TM;
 	private String covRatio_MIP;
 	private String covCorrectness_MIP;
+	private String covRatio_MIPTM;
+	private String covCorrectness_MIPTM;
 
 	public String getId() {
 		return id;
@@ -59,6 +61,22 @@ public class PeptideCovRatioCorr {
 		this.covCorrectness_MIP = covCorrectness_MIP;
 	}
 
+	public String getCovRatio_MIPTM() {
+		return covRatio_MIPTM;
+	}
+
+	public void setCovRatio_MIPTM(String covRatio_MIPTM) {
+		this.covRatio_MIPTM = covRatio_MIPTM;
+	}
+
+	public String getCovCorrectness_MIPTM() {
+		return covCorrectness_MIPTM;
+	}
+
+	public void setCovCorrectness_MIPTM(String covCorrectness_MIPTM) {
+		this.covCorrectness_MIPTM = covCorrectness_MIPTM;
+	}
+
 	public PeptideCovRatioCorr clone(){
 		PeptideCovRatioCorr pcc = new PeptideCovRatioCorr();
 		
@@ -68,6 +86,8 @@ public class PeptideCovRatioCorr {
 		pcc.setCovCorrectness_TM(this.covCorrectness_TM);
 		pcc.setCovRatio_MIP(this.covRatio_MIP);
 		pcc.setCovCorrectness_MIP(this.covCorrectness_MIP);
+		pcc.setCovRatio_MIPTM(this.covRatio_MIPTM);
+		pcc.setCovCorrectness_MIPTM(this.covCorrectness_MIPTM);
 		
 		return pcc;
 		

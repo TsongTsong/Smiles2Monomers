@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_moiramide_B
 Rows:       34
-Columns:    49 (49 integer, 49 binary)
-Non-zeros:  335
+Columns:    47 (47 integer, 47 binary)
+Non-zeros:  333
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 33 (MAXimum)
 
@@ -108,11 +108,11 @@ Objective:  number_of_installed_atoms = 33 (MAXimum)
     28 install[m27] *              0             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
-    31 install[m30] *              0             0             1 
+    31 install[m30] *              1             0             1 
     32 install[m31] *              0             0             1 
     33 install[m32] *              0             0             1 
     34 install[m33] *              0             0             1 
-    35 install[m34] *              1             0             1 
+    35 install[m34] *              0             0             1 
     36 install[m35] *              0             0             1 
     37 install[m36] *              0             0             1 
     38 install[m37] *              0             0             1 
@@ -125,8 +125,6 @@ Objective:  number_of_installed_atoms = 33 (MAXimum)
     45 install[m44] *              0             0             1 
     46 install[m45] *              0             0             1 
     47 install[m46] *              0             0             1 
-    48 install[m47] *              0             0             1 
-    49 install[m48] *              0             0             1 
 
 Integer feasibility conditions:
 

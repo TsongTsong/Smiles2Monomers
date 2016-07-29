@@ -23,6 +23,7 @@ import algorithms.utils.PeptideCovRatioCorr;
 import algorithms.utils.PeptideExecutionTimes;
 import coverageCalculator.Calculator;
 import coverageCalculator.CalculatorMIP;
+import coverageCalculator.CalculatorMIP_TM;
 import coverageCalculator.CalculatorTM;
 import coverageCalculator.ProcessCoverageGain;
 import db.FamilyDB;
@@ -118,6 +119,8 @@ public class MonomericSpliting {
 		
 		int count = 0;
 		for(ArrayList<Coverage> cs: this.polsCoveragesList.values()){
+			this.bubbleSort(cs);
+			
 			for(Coverage c : cs){
 				covs[count]=c;
 				
@@ -130,6 +133,10 @@ public class MonomericSpliting {
 					pepCovRatioCorr.setId(String.valueOf(count));
 					pepCovRatioCorr.setCovRatio_MIP(String.valueOf(c.getCoverageRatio()));
 					pepCovRatioCorr.setCovCorrectness_MIP(String.valueOf(c.getCorrectness(this.families)));
+				}else if(this.calculator instanceof CalculatorMIP_TM){
+					pepCovRatioCorr.setId(String.valueOf(count));
+					pepCovRatioCorr.setCovRatio_MIPTM(String.valueOf(c.getCoverageRatio()));
+					pepCovRatioCorr.setCovCorrectness_MIPTM(String.valueOf(c.getCorrectness(this.families)));
 				}
 				
 				pepCovRatioCorrArray[count] = pepCovRatioCorr.clone();
@@ -371,4 +378,17 @@ public class MonomericSpliting {
 			pepCoveragesList.retainAll(exemple);
 		}
 	}
+	
+	private ArrayList<Coverage> bubbleSort(ArrayList<Coverage> covs){
+        for(int i=0;i<covs.size()-1;i++){   
+               for(int j=i+1;j<covs.size();j++){   
+                   if (covs.get(i).getCoverageRatio()>covs.get(j).getCoverageRatio()){   
+                       Coverage temp=covs.get(i);   
+                       covs.set(i, covs.get(j)); 
+                       covs.set(j, temp);
+                   }   
+               }  
+       }  
+       return covs;  
+	} 
 }

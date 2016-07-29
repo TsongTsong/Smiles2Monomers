@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_theonellamide_F
 Rows:       110
-Columns:    142 (142 integer, 142 binary)
-Non-zeros:  983
+Columns:    132 (132 integer, 132 binary)
+Non-zeros:  956
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 109 (MAXimum)
 
@@ -231,17 +231,17 @@ Objective:  number_of_installed_atoms = 109 (MAXimum)
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
-     2 install[m1]  *              0             0             1 
+     2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
-    10 install[m9]  *              0             0             1 
+    10 install[m9]  *              1             0             1 
     11 install[m10] *              1             0             1 
-    12 install[m11] *              1             0             1 
+    12 install[m11] *              0             0             1 
     13 install[m12] *              1             0             1 
     14 install[m13] *              0             0             1 
     15 install[m14] *              0             0             1 
@@ -317,7 +317,7 @@ Objective:  number_of_installed_atoms = 109 (MAXimum)
     85 install[m84] *              0             0             1 
     86 install[m85] *              0             0             1 
     87 install[m86] *              0             0             1 
-    88 install[m87] *              0             0             1 
+    88 install[m87] *              1             0             1 
     89 install[m88] *              0             0             1 
     90 install[m89] *              0             0             1 
     91 install[m90] *              0             0             1 
@@ -333,7 +333,7 @@ Objective:  number_of_installed_atoms = 109 (MAXimum)
    101 install[m100]
                     *              0             0             1 
    102 install[m101]
-                    *              1             0             1 
+                    *              0             0             1 
    103 install[m102]
                     *              0             0             1 
    104 install[m103]
@@ -365,7 +365,7 @@ Objective:  number_of_installed_atoms = 109 (MAXimum)
    117 install[m116]
                     *              0             0             1 
    118 install[m117]
-                    *              0             0             1 
+                    *              1             0             1 
    119 install[m118]
                     *              0             0             1 
    120 install[m119]
@@ -393,26 +393,6 @@ Objective:  number_of_installed_atoms = 109 (MAXimum)
    131 install[m130]
                     *              0             0             1 
    132 install[m131]
-                    *              1             0             1 
-   133 install[m132]
-                    *              0             0             1 
-   134 install[m133]
-                    *              0             0             1 
-   135 install[m134]
-                    *              0             0             1 
-   136 install[m135]
-                    *              0             0             1 
-   137 install[m136]
-                    *              0             0             1 
-   138 install[m137]
-                    *              0             0             1 
-   139 install[m138]
-                    *              0             0             1 
-   140 install[m139]
-                    *              0             0             1 
-   141 install[m140]
-                    *              0             0             1 
-   142 install[m141]
                     *              0             0             1 
 
 Integer feasibility conditions:

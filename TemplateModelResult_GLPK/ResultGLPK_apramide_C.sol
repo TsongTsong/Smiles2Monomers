@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_apramide_C
 Rows:       70
-Columns:    25 (25 integer, 25 binary)
-Non-zeros:  191
+Columns:    23 (23 integer, 23 binary)
+Non-zeros:  183
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 69 (MAXimum)
 
@@ -151,21 +151,21 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              1             0             1 
-     2 install[m1]  *              1             0             1 
+     2 install[m1]  *              0             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              0             0             1 
+     7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              0             0             1 
     11 install[m10] *              0             0             1 
     12 install[m11] *              0             0             1 
     13 install[m12] *              0             0             1 
-    14 install[m13] *              0             0             1 
+    14 install[m13] *              1             0             1 
     15 install[m14] *              0             0             1 
-    16 install[m15] *              1             0             1 
+    16 install[m15] *              0             0             1 
     17 install[m16] *              0             0             1 
     18 install[m17] *              0             0             1 
     19 install[m18] *              0             0             1 
@@ -173,8 +173,6 @@ Objective:  number_of_installed_atoms = 69 (MAXimum)
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
     23 install[m22] *              0             0             1 
-    24 install[m23] *              0             0             1 
-    25 install[m24] *              0             0             1 
 
 Integer feasibility conditions:
 

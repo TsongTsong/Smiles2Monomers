@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_coelichelin
 Rows:       40
-Columns:    82 (82 integer, 82 binary)
-Non-zeros:  631
+Columns:    76 (76 integer, 76 binary)
+Non-zeros:  607
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 39 (MAXimum)
 
@@ -152,13 +152,13 @@ Objective:  number_of_installed_atoms = 39 (MAXimum)
     60 install[m59] *              0             0             1 
     61 install[m60] *              0             0             1 
     62 install[m61] *              0             0             1 
-    63 install[m62] *              0             0             1 
+    63 install[m62] *              1             0             1 
     64 install[m63] *              0             0             1 
     65 install[m64] *              0             0             1 
     66 install[m65] *              0             0             1 
     67 install[m66] *              0             0             1 
     68 install[m67] *              0             0             1 
-    69 install[m68] *              1             0             1 
+    69 install[m68] *              0             0             1 
     70 install[m69] *              0             0             1 
     71 install[m70] *              0             0             1 
     72 install[m71] *              0             0             1 
@@ -166,12 +166,6 @@ Objective:  number_of_installed_atoms = 39 (MAXimum)
     74 install[m73] *              0             0             1 
     75 install[m74] *              0             0             1 
     76 install[m75] *              0             0             1 
-    77 install[m76] *              0             0             1 
-    78 install[m77] *              0             0             1 
-    79 install[m78] *              0             0             1 
-    80 install[m79] *              0             0             1 
-    81 install[m80] *              0             0             1 
-    82 install[m81] *              0             0             1 
 
 Integer feasibility conditions:
 

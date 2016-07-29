@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_tuberactinomycin_N
 Rows:       49
-Columns:    36 (36 integer, 36 binary)
-Non-zeros:  245
+Columns:    33 (33 integer, 33 binary)
+Non-zeros:  236
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 48 (MAXimum)
 
@@ -122,12 +122,12 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
     12 install[m11] *              0             0             1 
     13 install[m12] *              0             0             1 
     14 install[m13] *              0             0             1 
-    15 install[m14] *              0             0             1 
-    16 install[m15] *              0             0             1 
+    15 install[m14] *              1             0             1 
+    16 install[m15] *              1             0             1 
     17 install[m16] *              0             0             1 
     18 install[m17] *              0             0             1 
-    19 install[m18] *              1             0             1 
-    20 install[m19] *              1             0             1 
+    19 install[m18] *              0             0             1 
+    20 install[m19] *              0             0             1 
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
     23 install[m22] *              0             0             1 
@@ -141,9 +141,6 @@ Objective:  number_of_installed_atoms = 48 (MAXimum)
     31 install[m30] *              0             0             1 
     32 install[m31] *              0             0             1 
     33 install[m32] *              0             0             1 
-    34 install[m33] *              0             0             1 
-    35 install[m34] *              0             0             1 
-    36 install[m35] *              0             0             1 
 
 Integer feasibility conditions:
 

@@ -23,7 +23,9 @@ public class PeptidesCovRatioCorrJsonLoader extends AbstractJsonLoader<PeptidesC
 		obj.put("MIP_Ratio", pcrc.getCovRatio_MIP());
 		obj.put("MIP_Correctness", pcrc.getCovCorrectness_MIP());		
 		obj.put("TM_Ratio", pcrc.getCovRatio_TM());	
-		obj.put("TM_Correctness", pcrc.getCovCorrectness_TM());				
+		obj.put("TM_Correctness", pcrc.getCovCorrectness_TM());		
+		obj.put("MIPTM_Ratio", pcrc.getCovRatio_MIPTM());
+		obj.put("MIPTM_Correctness", pcrc.getCovCorrectness_MIPTM());
 	
 		array.add(obj);
 		return array;
@@ -37,7 +39,9 @@ public class PeptidesCovRatioCorrJsonLoader extends AbstractJsonLoader<PeptidesC
 		pcrc.setCovRatio_TM((String) obj.get("TM_Ratio"));
 		pcrc.setCovCorrectness_TM((String) obj.get("TM_Correctness"));	
 		pcrc.setCovRatio_MIP((String) obj.get("MIP_Ratio"));
-		pcrc.setCovCorrectness_MIP((String) obj.get("MIP_Correctness"));	
+		pcrc.setCovCorrectness_MIP((String) obj.get("MIP_Correctness"));
+		pcrc.setCovRatio_MIPTM((String) obj.get("MIPTM_Ratio"));
+		pcrc.setCovCorrectness_MIPTM((String) obj.get("MIPTM_Correctness"));
 		
 		return pcrc;
 	}

@@ -41,6 +41,7 @@ public class ProcessPolymers {
 		String timesFileName="results/peptidesExecutionTimes.json";
 		String covRatioCorr_TM_FileName="results/pepsCovRatioCorr_TM.json";
 		String covRatioCorr_MIP_FileName="results/pepsCovRatioCorr_MIP.json";
+		String covRatioCorr_MIPTM_FileName="results/pepsCovRatioCorr_MIPTM.json";
 		
 		String outfile = "results/coverages.json";
 		String outfolderName = "results/";
@@ -96,9 +97,6 @@ public class ProcessPolymers {
 				case "-strict":
 					lightMatch = false;
 					continue loop;
-				case "-v":
-					verbose = true;
-					continue loop;
 				case "-html":
 					html = true;
 					continue loop;
@@ -136,7 +134,7 @@ public class ProcessPolymers {
 		
 		// Merge coverage's ratio and correctness from TM and from MIP
 		if(merge){
-			RatioCorrMerger.merge(covRatioCorr_TM_FileName, covRatioCorr_MIP_FileName);
+			RatioCorrMerger.merge(covRatioCorr_TM_FileName, covRatioCorr_MIP_FileName, covRatioCorr_MIPTM_FileName);
 			return;
 		}		
 		
@@ -205,7 +203,7 @@ public class ProcessPolymers {
 		cjl.saveFile(covs, outfile);
 		
 		// Images and Statistics generation
-		if (html || stats || merge || zip) {
+		if (html || stats || zip) {
 			File imgsFolder = new File(imgsFoldername);
 			if (!imgsFolder.exists())
 				imgsFolder.mkdir();
@@ -223,16 +221,18 @@ public class ProcessPolymers {
 			}
 			
 			if(stats) {
-				//PeptidesExecutionTimesJsonLoader petjl = new PeptidesExecutionTimesJsonLoader();
-				//petjl.saveFile(MonomericSpliting.pepsExecutionTimes, timesFileName);
+				PeptidesExecutionTimesJsonLoader petjl = new PeptidesExecutionTimesJsonLoader();
+				petjl.saveFile(MonomericSpliting.pepsExecutionTimes, timesFileName);
 				
-				PeptidesCovRatioCorrJsonLoader pcrcjl = new PeptidesCovRatioCorrJsonLoader();
-				
+				PeptidesCovRatioCorrJsonLoader pcrcjl = new PeptidesCovRatioCorrJsonLoader();				
 				if(cal instanceof CalculatorTM){
 					pcrcjl.saveFile(MonomericSpliting.pepCovRatioCorrArray, covRatioCorr_TM_FileName);
 
 				}else if(cal instanceof CalculatorMIP){
-					pcrcjl.saveFile(MonomericSpliting.pepCovRatioCorrArray, covRatioCorr_MIP_FileName);			
+					pcrcjl.saveFile(MonomericSpliting.pepCovRatioCorrArray, covRatioCorr_MIP_FileName);		
+					
+				}else if(cal instanceof CalculatorMIP_TM){
+					pcrcjl.saveFile(MonomericSpliting.pepCovRatioCorrArray, covRatioCorr_MIPTM_FileName);			
 				}				
 			}
 			

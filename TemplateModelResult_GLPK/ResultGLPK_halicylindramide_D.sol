@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_halicylindramide_D
 Rows:       115
-Columns:    26 (26 integer, 26 binary)
-Non-zeros:  212
+Columns:    25 (25 integer, 25 binary)
+Non-zeros:  208
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 114 (MAXimum)
 
@@ -246,16 +246,16 @@ Objective:  number_of_installed_atoms = 114 (MAXimum)
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              0             0             1 
-     8 install[m7]  *              1             0             1 
-     9 install[m8]  *              0             0             1 
+     7 install[m6]  *              1             0             1 
+     8 install[m7]  *              0             0             1 
+     9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
-    11 install[m10] *              0             0             1 
+    11 install[m10] *              1             0             1 
     12 install[m11] *              1             0             1 
     13 install[m12] *              1             0             1 
     14 install[m13] *              0             0             1 
-    15 install[m14] *              1             0             1 
-    16 install[m15] *              1             0             1 
+    15 install[m14] *              0             0             1 
+    16 install[m15] *              0             0             1 
     17 install[m16] *              1             0             1 
     18 install[m17] *              1             0             1 
     19 install[m18] *              0             0             1 
@@ -265,7 +265,6 @@ Objective:  number_of_installed_atoms = 114 (MAXimum)
     23 install[m22] *              0             0             1 
     24 install[m23] *              0             0             1 
     25 install[m24] *              0             0             1 
-    26 install[m25] *              0             0             1 
 
 Integer feasibility conditions:
 

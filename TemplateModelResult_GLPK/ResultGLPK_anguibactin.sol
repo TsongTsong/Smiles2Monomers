@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_anguibactin
 Rows:       25
-Columns:    38 (38 integer, 38 binary)
-Non-zeros:  251
+Columns:    33 (33 integer, 33 binary)
+Non-zeros:  231
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 24 (MAXimum)
 
@@ -83,21 +83,16 @@ Objective:  number_of_installed_atoms = 24 (MAXimum)
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
     23 install[m22] *              0             0             1 
-    24 install[m23] *              1             0             1 
+    24 install[m23] *              0             0             1 
     25 install[m24] *              0             0             1 
     26 install[m25] *              0             0             1 
     27 install[m26] *              0             0             1 
     28 install[m27] *              0             0             1 
     29 install[m28] *              0             0             1 
     30 install[m29] *              0             0             1 
-    31 install[m30] *              0             0             1 
-    32 install[m31] *              0             0             1 
+    31 install[m30] *              1             0             1 
+    32 install[m31] *              1             0             1 
     33 install[m32] *              0             0             1 
-    34 install[m33] *              0             0             1 
-    35 install[m34] *              0             0             1 
-    36 install[m35] *              0             0             1 
-    37 install[m36] *              1             0             1 
-    38 install[m37] *              0             0             1 
 
 Integer feasibility conditions:
 

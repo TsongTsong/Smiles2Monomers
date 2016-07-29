@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_dehydrodidemnin_B
 Rows:       80
-Columns:    12 (12 integer, 12 binary)
-Non-zeros:  114
+Columns:    11 (11 integer, 11 binary)
+Non-zeros:  110
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 79 (MAXimum)
 
@@ -170,18 +170,17 @@ Objective:  number_of_installed_atoms = 79 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              1             0             1 
+     7 install[m6]  *              0             0             1 
      8 install[m7]  *              0             0             1 
-     9 install[m8]  *              0             0             1 
+     9 install[m8]  *              1             0             1 
     10 install[m9]  *              1             0             1 
     11 install[m10] *              1             0             1 
-    12 install[m11] *              1             0             1 
 
 Integer feasibility conditions:
 

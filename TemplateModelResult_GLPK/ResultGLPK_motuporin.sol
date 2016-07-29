@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_motuporin
 Rows:       56
-Columns:    248 (248 integer, 248 binary)
-Non-zeros:  2139
+Columns:    240 (240 integer, 240 binary)
+Non-zeros:  2117
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 55 (MAXimum)
 
@@ -124,9 +124,9 @@ Objective:  number_of_installed_atoms = 55 (MAXimum)
 ------ ------------    ------------- ------------- -------------
      1 install[m0]  *              0             0             1 
      2 install[m1]  *              1             0             1 
-     3 install[m2]  *              0             0             1 
+     3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
-     5 install[m4]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              0             0             1 
      7 install[m6]  *              0             0             1 
      8 install[m7]  *              0             0             1 
@@ -265,7 +265,7 @@ Objective:  number_of_installed_atoms = 55 (MAXimum)
    121 install[m120]
                     *              0             0             1 
    122 install[m121]
-                    *              0             0             1 
+                    *              1             0             1 
    123 install[m122]
                     *              0             0             1 
    124 install[m123]
@@ -287,7 +287,7 @@ Objective:  number_of_installed_atoms = 55 (MAXimum)
    132 install[m131]
                     *              0             0             1 
    133 install[m132]
-                    *              1             0             1 
+                    *              0             0             1 
    134 install[m133]
                     *              0             0             1 
    135 install[m134]
@@ -403,7 +403,7 @@ Objective:  number_of_installed_atoms = 55 (MAXimum)
    190 install[m189]
                     *              0             0             1 
    191 install[m190]
-                    *              0             0             1 
+                    *              1             0             1 
    192 install[m191]
                     *              0             0             1 
    193 install[m192]
@@ -425,7 +425,7 @@ Objective:  number_of_installed_atoms = 55 (MAXimum)
    201 install[m200]
                     *              0             0             1 
    202 install[m201]
-                    *              1             0             1 
+                    *              0             0             1 
    203 install[m202]
                     *              0             0             1 
    204 install[m203]
@@ -501,22 +501,6 @@ Objective:  number_of_installed_atoms = 55 (MAXimum)
    239 install[m238]
                     *              0             0             1 
    240 install[m239]
-                    *              0             0             1 
-   241 install[m240]
-                    *              0             0             1 
-   242 install[m241]
-                    *              0             0             1 
-   243 install[m242]
-                    *              0             0             1 
-   244 install[m243]
-                    *              0             0             1 
-   245 install[m244]
-                    *              0             0             1 
-   246 install[m245]
-                    *              0             0             1 
-   247 install[m246]
-                    *              0             0             1 
-   248 install[m247]
                     *              0             0             1 
 
 Integer feasibility conditions:

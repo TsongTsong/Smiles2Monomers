@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_trichotoxin_A
 Rows:       122
-Columns:    23 (23 integer, 23 binary)
-Non-zeros:  177
+Columns:    22 (22 integer, 22 binary)
+Non-zeros:  173
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 121 (MAXimum)
 
@@ -254,11 +254,11 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
-     3 install[m2]  *              1             0             1 
+     3 install[m2]  *              0             0             1 
      4 install[m3]  *              0             0             1 
-     5 install[m4]  *              0             0             1 
+     5 install[m4]  *              1             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
@@ -270,13 +270,12 @@ Objective:  number_of_installed_atoms = 121 (MAXimum)
     14 install[m13] *              1             0             1 
     15 install[m14] *              1             0             1 
     16 install[m15] *              1             0             1 
-    17 install[m16] *              1             0             1 
+    17 install[m16] *              0             0             1 
     18 install[m17] *              0             0             1 
-    19 install[m18] *              0             0             1 
+    19 install[m18] *              1             0             1 
     20 install[m19] *              1             0             1 
     21 install[m20] *              1             0             1 
     22 install[m21] *              1             0             1 
-    23 install[m22] *              1             0             1 
 
 Integer feasibility conditions:
 

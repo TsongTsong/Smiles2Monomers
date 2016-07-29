@@ -1,6 +1,6 @@
 Problem:    ModelGLPK_allomalformin
 Rows:       36
-Columns:    43 (43 integer, 43 binary)
+Columns:    41 (41 integer, 41 binary)
 Non-zeros:  305
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 35 (MAXimum)
@@ -94,11 +94,11 @@ Objective:  number_of_installed_atoms = 35 (MAXimum)
     10 install[m9]  *              0             0             1 
     11 install[m10] *              0             0             1 
     12 install[m11] *              0             0             1 
-    13 install[m12] *              0             0             1 
-    14 install[m13] *              0             0             1 
+    13 install[m12] *              1             0             1 
+    14 install[m13] *              1             0             1 
     15 install[m14] *              0             0             1 
-    16 install[m15] *              1             0             1 
-    17 install[m16] *              1             0             1 
+    16 install[m15] *              0             0             1 
+    17 install[m16] *              0             0             1 
     18 install[m17] *              0             0             1 
     19 install[m18] *              0             0             1 
     20 install[m19] *              0             0             1 
@@ -123,8 +123,6 @@ Objective:  number_of_installed_atoms = 35 (MAXimum)
     39 install[m38] *              0             0             1 
     40 install[m39] *              0             0             1 
     41 install[m40] *              0             0             1 
-    42 install[m41] *              0             0             1 
-    43 install[m42] *              0             0             1 
 
 Integer feasibility conditions:
 

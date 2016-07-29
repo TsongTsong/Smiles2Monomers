@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_callipeltin_A
 Rows:       107
-Columns:    119 (119 integer, 119 binary)
-Non-zeros:  942
+Columns:    113 (113 integer, 113 binary)
+Non-zeros:  934
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 106 (MAXimum)
 
@@ -227,8 +227,8 @@ Objective:  number_of_installed_atoms = 106 (MAXimum)
      1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
-     4 install[m3]  *              0             0             1 
-     5 install[m4]  *              1             0             1 
+     4 install[m3]  *              1             0             1 
+     5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
      7 install[m6]  *              1             0             1 
      8 install[m7]  *              1             0             1 
@@ -333,7 +333,7 @@ Objective:  number_of_installed_atoms = 106 (MAXimum)
    104 install[m103]
                     *              0             0             1 
    105 install[m104]
-                    *              0             0             1 
+                    *              1             0             1 
    106 install[m105]
                     *              0             0             1 
    107 install[m106]
@@ -345,22 +345,10 @@ Objective:  number_of_installed_atoms = 106 (MAXimum)
    110 install[m109]
                     *              0             0             1 
    111 install[m110]
-                    *              1             0             1 
+                    *              0             0             1 
    112 install[m111]
                     *              0             0             1 
    113 install[m112]
-                    *              0             0             1 
-   114 install[m113]
-                    *              0             0             1 
-   115 install[m114]
-                    *              0             0             1 
-   116 install[m115]
-                    *              0             0             1 
-   117 install[m116]
-                    *              0             0             1 
-   118 install[m117]
-                    *              0             0             1 
-   119 install[m118]
                     *              0             0             1 
 
 Integer feasibility conditions:

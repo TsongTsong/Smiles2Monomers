@@ -1,7 +1,7 @@
 Problem:    ModelGLPK_kempopeptin_A
 Rows:       72
-Columns:    138 (138 integer, 138 binary)
-Non-zeros:  1149
+Columns:    130 (130 integer, 130 binary)
+Non-zeros:  1117
 Status:     INTEGER OPTIMAL
 Objective:  number_of_installed_atoms = 71 (MAXimum)
 
@@ -154,13 +154,13 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 install[m0]  *              0             0             1 
+     1 install[m0]  *              1             0             1 
      2 install[m1]  *              1             0             1 
      3 install[m2]  *              1             0             1 
      4 install[m3]  *              1             0             1 
      5 install[m4]  *              0             0             1 
      6 install[m5]  *              1             0             1 
-     7 install[m6]  *              1             0             1 
+     7 install[m6]  *              0             0             1 
      8 install[m7]  *              1             0             1 
      9 install[m8]  *              0             0             1 
     10 install[m9]  *              0             0             1 
@@ -176,8 +176,8 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     20 install[m19] *              0             0             1 
     21 install[m20] *              0             0             1 
     22 install[m21] *              0             0             1 
-    23 install[m22] *              0             0             1 
-    24 install[m23] *              1             0             1 
+    23 install[m22] *              1             0             1 
+    24 install[m23] *              0             0             1 
     25 install[m24] *              0             0             1 
     26 install[m25] *              0             0             1 
     27 install[m26] *              0             0             1 
@@ -244,7 +244,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     88 install[m87] *              0             0             1 
     89 install[m88] *              0             0             1 
     90 install[m89] *              0             0             1 
-    91 install[m90] *              0             0             1 
+    91 install[m90] *              1             0             1 
     92 install[m91] *              0             0             1 
     93 install[m92] *              0             0             1 
     94 install[m93] *              0             0             1 
@@ -252,7 +252,7 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
     96 install[m95] *              0             0             1 
     97 install[m96] *              0             0             1 
     98 install[m97] *              0             0             1 
-    99 install[m98] *              1             0             1 
+    99 install[m98] *              0             0             1 
    100 install[m99] *              0             0             1 
    101 install[m100]
                     *              0             0             1 
@@ -313,22 +313,6 @@ Objective:  number_of_installed_atoms = 71 (MAXimum)
    129 install[m128]
                     *              0             0             1 
    130 install[m129]
-                    *              0             0             1 
-   131 install[m130]
-                    *              0             0             1 
-   132 install[m131]
-                    *              0             0             1 
-   133 install[m132]
-                    *              0             0             1 
-   134 install[m133]
-                    *              0             0             1 
-   135 install[m134]
-                    *              0             0             1 
-   136 install[m135]
-                    *              0             0             1 
-   137 install[m136]
-                    *              0             0             1 
-   138 install[m137]
                     *              0             0             1 
 
 Integer feasibility conditions:
